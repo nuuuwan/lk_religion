@@ -19,7 +19,7 @@ def shares(data):
 
 def triangle(value):
     if value > 0:
-        return '<span style="color:green">▲</span> '
+        return '🟩 '
     if value < 0:
-        return '<span style="color:red">▼</span> '
+        return '🟥 '
     return ''
