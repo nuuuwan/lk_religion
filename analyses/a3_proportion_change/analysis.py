@@ -66,7 +66,7 @@ def run():
     with open(ANALYSIS_DIR / 'proportion_change_analysis.json', 'w') as f:
         json.dump({'by_district': district_rows}, f, indent=2)
 
-    _write_chart(district_rows)
+    _write_chart(district_rows, district_map_gdf)
 
     print('\n  By District:')
     print(
