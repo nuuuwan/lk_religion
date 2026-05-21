@@ -61,7 +61,7 @@ def run():
     print('  ' + '-' * 62)
     for row in district_rows:
         print(
-            f"  {row['district']:<16} {row['religion']:<16} {row['proportion_2012']:>8.1%} {row['proportion_2024']:>8.1%} {row['change']:>+10.1%}"
+            f"  {row['district']:<16} {row['religion']:<16} {row['proportion_2012']:>8.1%} {row['proportion_2024']:>8.1%} {row['change'] * 100:>+9.1f}pp"
         )
 
     return _write_readme(_readme_section(district_rows))
@@ -82,12 +82,12 @@ def _readme_section(district_rows):
         '',
         '### By District',
         '',
-        '| District | Religion | Share 2012 | Share 2024 | Change |',
+        '| District | Religion | Share 2012 | Share 2024 | Change (pp) |',
         '|---|---|---:|---:|---:|',
     ]
     for row in district_rows:
         lines.append(
-            f"| {row['district']} | {row['religion']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['change']:+.1%}{triangle(row['change'])} |"
+            f"| {row['district']} | {row['religion']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['change'] * 100:+.1f}pp{triangle(row['change'])} |"
         )
 
     return '\n'.join(lines)

@@ -173,6 +173,9 @@ def _readme_section(
     national_growth,
     region_names,
 ):
+    def region_label(name, code):
+        return f'{name} `{code}`'
+
     lines = [
         '## A4. DSD Boundary Changes',
         '',
@@ -194,7 +197,7 @@ def _readme_section(
             n2024 = dist_count_2024.get(district, 0)
             delta = n2024 - n2012
             lines.append(
-                f"| {region_names.name_for(district)} | {n2012} | {n2024} | {delta:+d}{triangle(delta)} |"
+                f"| {region_label(region_names.name_for(district), district)} | {n2012} | {n2024} | {delta:+d}{triangle(delta)} |"
             )
         lines.append('')
 
@@ -202,8 +205,8 @@ def _readme_section(
         lines += [
             '**New, Altered, and Removed DSDs:**',
             '',
-            '| Status | Code | DSD | District | Pop 2012 | Pop 2024 | Pop Change |',
-            '|---|---|---|---|---:|---:|---:|',
+            '| Status | DSD | District | Pop 2012 | Pop 2024 | Pop Change |',
+            '|---|---|---|---:|---:|---:|',
         ]
         for row in sorted(
             flagged,
@@ -225,8 +228,12 @@ def _readme_section(
                 if pop_change_val is not None
                 else '—'
             )
+            dsd_label = region_label(row['dsd'], row['dsd_code'])
+            district_label = region_label(
+                row['district'], row['dsd_code'][:5]
+            )
             lines.append(
-                f"| {row['status']} | {row['dsd_code']} | {row['dsd']} | {row['district']} | {pop_2012} | {pop_2024} | {pop_change} |"
+                f"| {row['status']} | {dsd_label} | {district_label} | {pop_2012} | {pop_2024} | {pop_change} |"
             )
 
     return '\n'.join(lines)
