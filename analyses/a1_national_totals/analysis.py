@@ -136,12 +136,14 @@ def _readme_section(rows):
 
 def _write_chart(rows):
     labels = [row['religion'] for row in rows]
-    values = [row['2024'] for row in rows]
+    values = [row['change'] for row in rows]
+    colors = ['#4e79a7' if v >= 0 else '#e15759' for v in values]
 
     fig, ax = plt.subplots(figsize=(8, 4.8))
-    ax.bar(labels, values, color='#4e79a7')
-    ax.set_title('National population by religion (2024)')
-    ax.set_ylabel('Population')
+    ax.bar(labels, values, color=colors)
+    ax.set_title('Population change by religion (2012–2024)')
+    ax.set_ylabel('Population change')
+    ax.axhline(0, color='black', linewidth=0.8)
     ax.tick_params(axis='x', rotation=30)
     fig.tight_layout()
     fig.savefig(CHART_PATH, dpi=150)
