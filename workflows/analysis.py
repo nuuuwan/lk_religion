@@ -1,5 +1,5 @@
-import re
 from pathlib import Path
+import re
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 README_PATH = ROOT_DIR / 'README.md'
