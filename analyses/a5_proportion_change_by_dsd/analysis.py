@@ -73,7 +73,7 @@ def run():
                 'change': round(change, 6),
             }
         )
-    dsd_rows.sort(key=lambda row: abs(row['change']), reverse=True)
+    dsd_rows.sort(key=lambda row: row['change'], reverse=True)
 
     with open(
         ANALYSIS_DIR / 'proportion_change_by_dsd_analysis.json', 'w'
