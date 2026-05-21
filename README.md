@@ -2,6 +2,15 @@
 
 Analyses of Sri Lanka's religious demographics, comparing the **2012 Census** and **2024 Census**.
 
+Each analysis now lives in its own folder under [`analyses/`](analyses/), together with its own README, workflow script, and related data files. The sections below are copied from those child READMEs.
+
+- [`analyses/a1_national_totals/`](analyses/a1_national_totals/)
+- [`analyses/a2_by_district/`](analyses/a2_by_district/)
+- [`analyses/a3_proportion_change/`](analyses/a3_proportion_change/)
+- [`analyses/a4_by_dsd/`](analyses/a4_by_dsd/)
+
+---
+
 ## A1. National Population by Religion
 
 | Religion | 2012 | 2024 | Change | Annual Growth | % of Population |
@@ -163,7 +172,6 @@ Analyses of Sri Lanka's religious demographics, comparing the **2012 Census** an
 
 ***Puttalam** saw the steepest decline at **-11.21%/yr**.*
 
-
 ---
 
 ## A3. Largest Change in Religious Proportion
@@ -308,4 +316,4 @@ Districts where the number of DSDs changed between censuses are listed below. Wi
 
 ---
 
-*Data from the 2012 and 2024 Sri Lanka Census, accessed via [lanka_data](https://pypi.org/project/lanka-data/). Raw data and derived tables are in [`data/`](data/).*
+*Data from the 2012 and 2024 Sri Lanka Census, accessed via [lanka_data](https://pypi.org/project/lanka-data/). Raw data and derived tables live in the corresponding directories under [`analyses/`](analyses/).*

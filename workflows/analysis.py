@@ -30,6 +30,7 @@ readme_content = (
     '- [`analyses/a2_by_district/`](analyses/a2_by_district/)\n'
     '- [`analyses/a3_proportion_change/`](analyses/a3_proportion_change/)\n'
     '- [`analyses/a4_by_dsd/`](analyses/a4_by_dsd/)\n\n'
+    '---\n\n'
     + '\n\n---\n\n'.join(sections)
     + '\n\n---\n\n'
     '*Data from the 2012 and 2024 Sri Lanka Census, accessed via '
