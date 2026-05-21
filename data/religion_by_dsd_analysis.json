@@ -1,0 +1,2882 @@
+{
+  "flagged": [
+    {
+      "status": "Altered",
+      "dsd_code": "LK-2303",
+      "dsd": "Kothmale East",
+      "district": "Nuwara Eliya",
+      "total_2012": 101180,
+      "total_2024": 61742,
+      "pop_change_pct": -38.98
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-2304",
+      "dsd": "Kothmale West",
+      "district": "Nuwara Eliya",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-2306",
+      "dsd": "Hanguranketa",
+      "district": "Nuwara Eliya",
+      "total_2012": 88528,
+      "total_2024": 58931,
+      "pop_change_pct": -33.43
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-2307",
+      "dsd": "Mathurata",
+      "district": "Nuwara Eliya",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-2309",
+      "dsd": "Walapane",
+      "district": "Nuwara Eliya",
+      "total_2012": 104119,
+      "total_2024": 65287,
+      "pop_change_pct": -37.3
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-2310",
+      "dsd": "Nildandahinna",
+      "district": "Nuwara Eliya",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-2312",
+      "dsd": "Nuwara Eliya",
+      "district": "Nuwara Eliya",
+      "total_2012": 212094,
+      "total_2024": 88332,
+      "pop_change_pct": -58.35
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-2313",
+      "dsd": "Thalawakele",
+      "district": "Nuwara Eliya",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-2315",
+      "dsd": "Ambagamuwa Korale",
+      "district": "Nuwara Eliya",
+      "total_2012": 205723,
+      "total_2024": 42538,
+      "pop_change_pct": -79.32
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-2316",
+      "dsd": "Norwood",
+      "district": "Nuwara Eliya",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-3127",
+      "dsd": "Baddegama",
+      "district": "Galle",
+      "total_2012": 75008,
+      "total_2024": 50956,
+      "pop_change_pct": -32.07
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-3128",
+      "dsd": "Wanduramba",
+      "district": "Galle",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-3136",
+      "dsd": "Hikkaduwa",
+      "district": "Galle",
+      "total_2012": 101909,
+      "total_2024": 26216,
+      "pop_change_pct": -74.28
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-3137",
+      "dsd": "Rathgama",
+      "district": "Galle",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-3138",
+      "dsd": "Madampagama",
+      "district": "Galle",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Removed",
+      "dsd_code": "LK-5109",
+      "dsd": "Koralai Pattu",
+      "district": "Batticaloa",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Removed",
+      "dsd_code": "LK-5112",
+      "dsd": "LK-5112",
+      "district": "Batticaloa",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-5115",
+      "dsd": "Eravur Pattu",
+      "district": "Batticaloa",
+      "total_2012": 24643,
+      "total_2024": 94237,
+      "pop_change_pct": 282.41
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-5139",
+      "dsd": "Eravur Town",
+      "district": "Batticaloa",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-5221",
+      "dsd": "Kalmunai",
+      "district": "Ampara",
+      "total_2012": 29800,
+      "total_2024": 52798,
+      "pop_change_pct": 77.17
+    },
+    {
+      "status": "Removed",
+      "dsd_code": "LK-5224",
+      "dsd": "LK-5224",
+      "district": "Ampara",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-5233",
+      "dsd": "Addalaichenai",
+      "district": "Ampara",
+      "total_2012": 41968,
+      "total_2024": 53214,
+      "pop_change_pct": 26.8
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-5234",
+      "dsd": "Irakkamam",
+      "district": "Ampara",
+      "total_2012": 14383,
+      "total_2024": 17671,
+      "pop_change_pct": 22.86
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-5248",
+      "dsd": "Pottuvil",
+      "district": "Ampara",
+      "total_2012": 34809,
+      "total_2024": 42908,
+      "pop_change_pct": 23.27
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-9103",
+      "dsd": "Eheliyagoda",
+      "district": "Ratnapura",
+      "total_2012": 88022,
+      "total_2024": 74071,
+      "pop_change_pct": -15.85
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-9106",
+      "dsd": "Kuruvita",
+      "district": "Ratnapura",
+      "total_2012": 75104,
+      "total_2024": 97966,
+      "pop_change_pct": 30.44
+    },
+    {
+      "status": "Altered",
+      "dsd_code": "LK-9118",
+      "dsd": "Balangoda",
+      "district": "Ratnapura",
+      "total_2012": 81563,
+      "total_2024": 74893,
+      "pop_change_pct": -8.18
+    },
+    {
+      "status": "New",
+      "dsd_code": "LK-9119",
+      "dsd": "Kalthota",
+      "district": "Ratnapura",
+      "total_2012": null,
+      "total_2024": null,
+      "pop_change_pct": null
+    }
+  ],
+  "all_dsds": [
+    {
+      "dsd_code": "LK-5104",
+      "dsd": "Koralai Pattu Central",
+      "district": "Batticaloa",
+      "total_2012": 25687,
+      "total_2024": 28762,
+      "distributional_change": 1.937248
+    },
+    {
+      "dsd_code": "LK-5221",
+      "dsd": "Kalmunai",
+      "district": "Ampara",
+      "total_2012": 29800,
+      "total_2024": 52798,
+      "distributional_change": 1.834236
+    },
+    {
+      "dsd_code": "LK-5115",
+      "dsd": "Eravur Pattu",
+      "district": "Batticaloa",
+      "total_2012": 24643,
+      "total_2024": 94237,
+      "distributional_change": 1.282171
+    },
+    {
+      "dsd_code": "LK-2315",
+      "dsd": "Ambagamuwa Korale",
+      "district": "Nuwara Eliya",
+      "total_2012": 205723,
+      "total_2024": 42538,
+      "distributional_change": 1.110108
+    },
+    {
+      "dsd_code": "LK-4215",
+      "dsd": "Musali",
+      "district": "Mannar",
+      "total_2012": 8119,
+      "total_2024": 18143,
+      "distributional_change": 0.302871
+    },
+    {
+      "dsd_code": "LK-2312",
+      "dsd": "Nuwara Eliya",
+      "district": "Nuwara Eliya",
+      "total_2012": 212094,
+      "total_2024": 88332,
+      "distributional_change": 0.302345
+    },
+    {
+      "dsd_code": "LK-2303",
+      "dsd": "Kothmale East",
+      "district": "Nuwara Eliya",
+      "total_2012": 101180,
+      "total_2024": 61742,
+      "distributional_change": 0.276188
+    },
+    {
+      "dsd_code": "LK-4312",
+      "dsd": "Vengalacheddikulam",
+      "district": "Vavuniya",
+      "total_2012": 29886,
+      "total_2024": 25770,
+      "distributional_change": 0.250497
+    },
+    {
+      "dsd_code": "LK-1130",
+      "dsd": "Dehiwala",
+      "district": "Colombo",
+      "total_2012": 88962,
+      "total_2024": 93815,
+      "distributional_change": 0.221187
+    },
+    {
+      "dsd_code": "LK-2309",
+      "dsd": "Walapane",
+      "district": "Nuwara Eliya",
+      "total_2012": 104119,
+      "total_2024": 65287,
+      "distributional_change": 0.209614
+    },
+    {
+      "dsd_code": "LK-4203",
+      "dsd": "Mannar Town",
+      "district": "Mannar",
+      "total_2012": 51078,
+      "total_2024": 57772,
+      "distributional_change": 0.175956
+    },
+    {
+      "dsd_code": "LK-1106",
+      "dsd": "Kolonnawa",
+      "district": "Colombo",
+      "total_2012": 191687,
+      "total_2024": 214070,
+      "distributional_change": 0.16666
+    },
+    {
+      "dsd_code": "LK-4142",
+      "dsd": "Delft",
+      "district": "Jaffna",
+      "total_2012": 3824,
+      "total_2024": 3158,
+      "distributional_change": 0.136423
+    },
+    {
+      "dsd_code": "LK-1131",
+      "dsd": "Ratmalana",
+      "district": "Colombo",
+      "total_2012": 95506,
+      "total_2024": 88063,
+      "distributional_change": 0.133627
+    },
+    {
+      "dsd_code": "LK-4409",
+      "dsd": "Puthukkudiyiruppu",
+      "district": "Mullaitivu",
+      "total_2012": 23824,
+      "total_2024": 39532,
+      "distributional_change": 0.126437
+    },
+    {
+      "dsd_code": "LK-4209",
+      "dsd": "Madhu",
+      "district": "Mannar",
+      "total_2012": 7711,
+      "total_2024": 9493,
+      "distributional_change": 0.126311
+    },
+    {
+      "dsd_code": "LK-5127",
+      "dsd": "Manmunai Pattu",
+      "district": "Batticaloa",
+      "total_2012": 30694,
+      "total_2024": 36533,
+      "distributional_change": 0.124882
+    },
+    {
+      "dsd_code": "LK-1218",
+      "dsd": "Wattala",
+      "district": "Gampaha",
+      "total_2012": 175525,
+      "total_2024": 182505,
+      "distributional_change": 0.100539
+    },
+    {
+      "dsd_code": "LK-4133",
+      "dsd": "Nallur",
+      "district": "Jaffna",
+      "total_2012": 68142,
+      "total_2024": 72884,
+      "distributional_change": 0.096712
+    },
+    {
+      "dsd_code": "LK-4139",
+      "dsd": "Islands South (Velanai)",
+      "district": "Jaffna",
+      "total_2012": 16742,
+      "total_2024": 16600,
+      "distributional_change": 0.092291
+    },
+    {
+      "dsd_code": "LK-4303",
+      "dsd": "Vavuniya North",
+      "district": "Vavuniya",
+      "total_2012": 11523,
+      "total_2024": 14709,
+      "distributional_change": 0.088677
+    },
+    {
+      "dsd_code": "LK-9118",
+      "dsd": "Balangoda",
+      "district": "Ratnapura",
+      "total_2012": 81563,
+      "total_2024": 74893,
+      "distributional_change": 0.087924
+    },
+    {
+      "dsd_code": "LK-4206",
+      "dsd": "Manthai West",
+      "district": "Mannar",
+      "total_2012": 14771,
+      "total_2024": 18674,
+      "distributional_change": 0.083407
+    },
+    {
+      "dsd_code": "LK-4503",
+      "dsd": "Pachchilaipalli",
+      "district": "Kilinochchi",
+      "total_2012": 8530,
+      "total_2024": 13045,
+      "distributional_change": 0.078199
+    },
+    {
+      "dsd_code": "LK-6218",
+      "dsd": "Mundel",
+      "district": "Puttalam",
+      "total_2012": 61638,
+      "total_2024": 72570,
+      "distributional_change": 0.076224
+    },
+    {
+      "dsd_code": "LK-5330",
+      "dsd": "Seruvila",
+      "district": "Trincomalee",
+      "total_2012": 13632,
+      "total_2024": 16007,
+      "distributional_change": 0.075142
+    },
+    {
+      "dsd_code": "LK-3139",
+      "dsd": "Galle 4 Gravets",
+      "district": "Galle",
+      "total_2012": 101749,
+      "total_2024": 108321,
+      "distributional_change": 0.074468
+    },
+    {
+      "dsd_code": "LK-5318",
+      "dsd": "Thambalagamuwa",
+      "district": "Trincomalee",
+      "total_2012": 28527,
+      "total_2024": 33636,
+      "distributional_change": 0.073702
+    },
+    {
+      "dsd_code": "LK-1236",
+      "dsd": "Kelaniya",
+      "district": "Gampaha",
+      "total_2012": 137339,
+      "total_2024": 133755,
+      "distributional_change": 0.07247
+    },
+    {
+      "dsd_code": "LK-1324",
+      "dsd": "Beruwala",
+      "district": "Kalutara",
+      "total_2012": 164969,
+      "total_2024": 180820,
+      "distributional_change": 0.072146
+    },
+    {
+      "dsd_code": "LK-4415",
+      "dsd": "Maritimepattu",
+      "district": "Mullaitivu",
+      "total_2012": 28928,
+      "total_2024": 36813,
+      "distributional_change": 0.069987
+    },
+    {
+      "dsd_code": "LK-1103",
+      "dsd": "Colombo",
+      "district": "Colombo",
+      "total_2012": 323223,
+      "total_2024": 292089,
+      "distributional_change": 0.069133
+    },
+    {
+      "dsd_code": "LK-4212",
+      "dsd": "Nanaddan",
+      "district": "Mannar",
+      "total_2012": 17891,
+      "total_2024": 19674,
+      "distributional_change": 0.068154
+    },
+    {
+      "dsd_code": "LK-4309",
+      "dsd": "Vavuniya",
+      "district": "Vavuniya",
+      "total_2012": 117533,
+      "total_2024": 116991,
+      "distributional_change": 0.066966
+    },
+    {
+      "dsd_code": "LK-4136",
+      "dsd": "Jaffna",
+      "district": "Jaffna",
+      "total_2012": 50491,
+      "total_2024": 48543,
+      "distributional_change": 0.066501
+    },
+    {
+      "dsd_code": "LK-7209",
+      "dsd": "Lankapura",
+      "district": "Polonnaruwa",
+      "total_2012": 36452,
+      "total_2024": 39673,
+      "distributional_change": 0.065711
+    },
+    {
+      "dsd_code": "LK-4512",
+      "dsd": "Poonakary",
+      "district": "Kilinochchi",
+      "total_2012": 20302,
+      "total_2024": 24113,
+      "distributional_change": 0.065622
+    },
+    {
+      "dsd_code": "LK-1206",
+      "dsd": "Katana",
+      "district": "Gampaha",
+      "total_2012": 235291,
+      "total_2024": 241219,
+      "distributional_change": 0.06434
+    },
+    {
+      "dsd_code": "LK-1203",
+      "dsd": "Negombo",
+      "district": "Gampaha",
+      "total_2012": 142136,
+      "total_2024": 137952,
+      "distributional_change": 0.063984
+    },
+    {
+      "dsd_code": "LK-5312",
+      "dsd": "Morawewa",
+      "district": "Trincomalee",
+      "total_2012": 7968,
+      "total_2024": 9193,
+      "distributional_change": 0.063777
+    },
+    {
+      "dsd_code": "LK-5306",
+      "dsd": "Kuchchaweli",
+      "district": "Trincomalee",
+      "total_2012": 33218,
+      "total_2024": 39873,
+      "distributional_change": 0.063382
+    },
+    {
+      "dsd_code": "LK-8139",
+      "dsd": "Haputale",
+      "district": "Badulla",
+      "total_2012": 49798,
+      "total_2024": 48280,
+      "distributional_change": 0.062197
+    },
+    {
+      "dsd_code": "LK-2109",
+      "dsd": "Akurana",
+      "district": "Kandy",
+      "total_2012": 63397,
+      "total_2024": 71010,
+      "distributional_change": 0.060456
+    },
+    {
+      "dsd_code": "LK-7121",
+      "dsd": "Kahatagasdigiliya",
+      "district": "Anuradhapura",
+      "total_2012": 40339,
+      "total_2024": 44903,
+      "distributional_change": 0.059794
+    },
+    {
+      "dsd_code": "LK-6215",
+      "dsd": "Puttalam",
+      "district": "Puttalam",
+      "total_2012": 82443,
+      "total_2024": 94777,
+      "distributional_change": 0.059624
+    },
+    {
+      "dsd_code": "LK-1127",
+      "dsd": "Thimbirigasyaya",
+      "district": "Colombo",
+      "total_2012": 237748,
+      "total_2024": 217118,
+      "distributional_change": 0.059084
+    },
+    {
+      "dsd_code": "LK-5110",
+      "dsd": "Koralai Pattu South",
+      "district": "Batticaloa",
+      "total_2012": 26143,
+      "total_2024": 28302,
+      "distributional_change": 0.05861
+    },
+    {
+      "dsd_code": "LK-4412",
+      "dsd": "Oddusuddan",
+      "district": "Mullaitivu",
+      "total_2012": 15721,
+      "total_2024": 18149,
+      "distributional_change": 0.05847
+    },
+    {
+      "dsd_code": "LK-6169",
+      "dsd": "Kuliyapitiya East",
+      "district": "Kurunegala",
+      "total_2012": 54062,
+      "total_2024": 61223,
+      "distributional_change": 0.058355
+    },
+    {
+      "dsd_code": "LK-8142",
+      "dsd": "Haldummulla",
+      "district": "Badulla",
+      "total_2012": 37558,
+      "total_2024": 38778,
+      "distributional_change": 0.057618
+    },
+    {
+      "dsd_code": "LK-7124",
+      "dsd": "Horowpathana",
+      "district": "Anuradhapura",
+      "total_2012": 36990,
+      "total_2024": 41261,
+      "distributional_change": 0.057426
+    },
+    {
+      "dsd_code": "LK-9206",
+      "dsd": "Mawanella",
+      "district": "Kegalle",
+      "total_2012": 111727,
+      "total_2024": 126026,
+      "distributional_change": 0.057115
+    },
+    {
+      "dsd_code": "LK-7210",
+      "dsd": "Welikanda",
+      "district": "Polonnaruwa",
+      "total_2012": 33770,
+      "total_2024": 38196,
+      "distributional_change": 0.056969
+    },
+    {
+      "dsd_code": "LK-1303",
+      "dsd": "Panadura",
+      "district": "Kalutara",
+      "total_2012": 182285,
+      "total_2024": 187475,
+      "distributional_change": 0.056791
+    },
+    {
+      "dsd_code": "LK-4127",
+      "dsd": "Vadamaradchi North (Point Pedro)",
+      "district": "Jaffna",
+      "total_2012": 47565,
+      "total_2024": 43369,
+      "distributional_change": 0.054934
+    },
+    {
+      "dsd_code": "LK-4403",
+      "dsd": "Thunukkai",
+      "district": "Mullaitivu",
+      "total_2012": 9699,
+      "total_2024": 10410,
+      "distributional_change": 0.053969
+    },
+    {
+      "dsd_code": "LK-4103",
+      "dsd": "Islands North (Kayts)",
+      "district": "Jaffna",
+      "total_2012": 9876,
+      "total_2024": 9931,
+      "distributional_change": 0.053611
+    },
+    {
+      "dsd_code": "LK-2151",
+      "dsd": "Udapalatha",
+      "district": "Kandy",
+      "total_2012": 91716,
+      "total_2024": 103181,
+      "distributional_change": 0.053305
+    },
+    {
+      "dsd_code": "LK-3206",
+      "dsd": "Kotapola",
+      "district": "Matara",
+      "total_2012": 63255,
+      "total_2024": 61002,
+      "distributional_change": 0.052857
+    },
+    {
+      "dsd_code": "LK-6233",
+      "dsd": "Chilaw",
+      "district": "Puttalam",
+      "total_2012": 62515,
+      "total_2024": 63639,
+      "distributional_change": 0.05253
+    },
+    {
+      "dsd_code": "LK-3221",
+      "dsd": "Welipitiya",
+      "district": "Matara",
+      "total_2012": 52098,
+      "total_2024": 55960,
+      "distributional_change": 0.051672
+    },
+    {
+      "dsd_code": "LK-6139",
+      "dsd": "Kobeigane",
+      "district": "Kurunegala",
+      "total_2012": 35975,
+      "total_2024": 40669,
+      "distributional_change": 0.0511
+    },
+    {
+      "dsd_code": "LK-6242",
+      "dsd": "Nattandiya",
+      "district": "Puttalam",
+      "total_2012": 62145,
+      "total_2024": 65500,
+      "distributional_change": 0.050366
+    },
+    {
+      "dsd_code": "LK-5103",
+      "dsd": "Koralai Pattu North",
+      "district": "Batticaloa",
+      "total_2012": 21537,
+      "total_2024": 25475,
+      "distributional_change": 0.049329
+    },
+    {
+      "dsd_code": "LK-6227",
+      "dsd": "Pallama",
+      "district": "Puttalam",
+      "total_2012": 24441,
+      "total_2024": 27938,
+      "distributional_change": 0.049322
+    },
+    {
+      "dsd_code": "LK-9133",
+      "dsd": "Kalawana",
+      "district": "Ratnapura",
+      "total_2012": 51307,
+      "total_2024": 50753,
+      "distributional_change": 0.048819
+    },
+    {
+      "dsd_code": "LK-7118",
+      "dsd": "Rambewa",
+      "district": "Anuradhapura",
+      "total_2012": 36782,
+      "total_2024": 39861,
+      "distributional_change": 0.048341
+    },
+    {
+      "dsd_code": "LK-5118",
+      "dsd": "Manmunai North",
+      "district": "Batticaloa",
+      "total_2012": 86227,
+      "total_2024": 95107,
+      "distributional_change": 0.047861
+    },
+    {
+      "dsd_code": "LK-5227",
+      "dsd": "Karaitivu",
+      "district": "Ampara",
+      "total_2012": 16839,
+      "total_2024": 19493,
+      "distributional_change": 0.047253
+    },
+    {
+      "dsd_code": "LK-2112",
+      "dsd": "Pathadumbara",
+      "district": "Kandy",
+      "total_2012": 88725,
+      "total_2024": 93476,
+      "distributional_change": 0.047175
+    },
+    {
+      "dsd_code": "LK-8109",
+      "dsd": "Meegahakiula",
+      "district": "Badulla",
+      "total_2012": 19719,
+      "total_2024": 22683,
+      "distributional_change": 0.046951
+    },
+    {
+      "dsd_code": "LK-6209",
+      "dsd": "Karuwalagaswewa",
+      "district": "Puttalam",
+      "total_2012": 23440,
+      "total_2024": 26225,
+      "distributional_change": 0.046645
+    },
+    {
+      "dsd_code": "LK-6248",
+      "dsd": "Dankotuwa",
+      "district": "Puttalam",
+      "total_2012": 62399,
+      "total_2024": 62873,
+      "distributional_change": 0.045695
+    },
+    {
+      "dsd_code": "LK-5216",
+      "dsd": "Navithanveli",
+      "district": "Ampara",
+      "total_2012": 18727,
+      "total_2024": 21856,
+      "distributional_change": 0.045334
+    },
+    {
+      "dsd_code": "LK-4112",
+      "dsd": "Valikamam North (Thllippalai)",
+      "district": "Jaffna",
+      "total_2012": 29518,
+      "total_2024": 44914,
+      "distributional_change": 0.045282
+    },
+    {
+      "dsd_code": "LK-8119",
+      "dsd": "Lunugala",
+      "district": "Badulla",
+      "total_2012": 31381,
+      "total_2024": 31881,
+      "distributional_change": 0.043507
+    },
+    {
+      "dsd_code": "LK-5248",
+      "dsd": "Pottuvil",
+      "district": "Ampara",
+      "total_2012": 34809,
+      "total_2024": 42908,
+      "distributional_change": 0.043179
+    },
+    {
+      "dsd_code": "LK-1227",
+      "dsd": "Attanagalla",
+      "district": "Gampaha",
+      "total_2012": 179565,
+      "total_2024": 197725,
+      "distributional_change": 0.041844
+    },
+    {
+      "dsd_code": "LK-4509",
+      "dsd": "Karachchi",
+      "district": "Kilinochchi",
+      "total_2012": 61484,
+      "total_2024": 74631,
+      "distributional_change": 0.041831
+    },
+    {
+      "dsd_code": "LK-6175",
+      "dsd": "Udubaddawa",
+      "district": "Kurunegala",
+      "total_2012": 52231,
+      "total_2024": 54466,
+      "distributional_change": 0.041285
+    },
+    {
+      "dsd_code": "LK-6145",
+      "dsd": "Panduwasnuwara West",
+      "district": "Kurunegala",
+      "total_2012": 66122,
+      "total_2024": 71186,
+      "distributional_change": 0.041106
+    },
+    {
+      "dsd_code": "LK-5315",
+      "dsd": "Town & Gravets",
+      "district": "Trincomalee",
+      "total_2012": 97487,
+      "total_2024": 100270,
+      "distributional_change": 0.041089
+    },
+    {
+      "dsd_code": "LK-1109",
+      "dsd": "Kaduwela",
+      "district": "Colombo",
+      "total_2012": 252041,
+      "total_2024": 277918,
+      "distributional_change": 0.039801
+    },
+    {
+      "dsd_code": "LK-2233",
+      "dsd": "Ukuwela",
+      "district": "Matale",
+      "total_2012": 68027,
+      "total_2024": 72313,
+      "distributional_change": 0.038818
+    },
+    {
+      "dsd_code": "LK-6239",
+      "dsd": "Mahawewa",
+      "district": "Puttalam",
+      "total_2012": 51078,
+      "total_2024": 48833,
+      "distributional_change": 0.038683
+    },
+    {
+      "dsd_code": "LK-8130",
+      "dsd": "Welimada",
+      "district": "Badulla",
+      "total_2012": 100808,
+      "total_2024": 105510,
+      "distributional_change": 0.038192
+    },
+    {
+      "dsd_code": "LK-2139",
+      "dsd": "Udunuwara",
+      "district": "Kandy",
+      "total_2012": 110905,
+      "total_2024": 121018,
+      "distributional_change": 0.03778
+    },
+    {
+      "dsd_code": "LK-4406",
+      "dsd": "Manthai East",
+      "district": "Mullaitivu",
+      "total_2012": 7117,
+      "total_2024": 7650,
+      "distributional_change": 0.037733
+    },
+    {
+      "dsd_code": "LK-1124",
+      "dsd": "Sri Jayawardanapura Kotte",
+      "district": "Colombo",
+      "total_2012": 107883,
+      "total_2024": 96189,
+      "distributional_change": 0.037441
+    },
+    {
+      "dsd_code": "LK-8118",
+      "dsd": "Passara",
+      "district": "Badulla",
+      "total_2012": 48807,
+      "total_2024": 49636,
+      "distributional_change": 0.03689
+    },
+    {
+      "dsd_code": "LK-3203",
+      "dsd": "Pitabaddara",
+      "district": "Matara",
+      "total_2012": 51186,
+      "total_2024": 48867,
+      "distributional_change": 0.036074
+    },
+    {
+      "dsd_code": "LK-6157",
+      "dsd": "Mallawapitiya",
+      "district": "Kurunegala",
+      "total_2012": 52634,
+      "total_2024": 59491,
+      "distributional_change": 0.035724
+    },
+    {
+      "dsd_code": "LK-6163",
+      "dsd": "Rideegama",
+      "district": "Kurunegala",
+      "total_2012": 88714,
+      "total_2024": 95960,
+      "distributional_change": 0.035386
+    },
+    {
+      "dsd_code": "LK-2127",
+      "dsd": "Kundasale",
+      "district": "Kandy",
+      "total_2012": 127070,
+      "total_2024": 144383,
+      "distributional_change": 0.034994
+    },
+    {
+      "dsd_code": "LK-1115",
+      "dsd": "Seethawaka",
+      "district": "Colombo",
+      "total_2012": 113807,
+      "total_2024": 122128,
+      "distributional_change": 0.034731
+    },
+    {
+      "dsd_code": "LK-5327",
+      "dsd": "Muthur",
+      "district": "Trincomalee",
+      "total_2012": 56621,
+      "total_2024": 71881,
+      "distributional_change": 0.034003
+    },
+    {
+      "dsd_code": "LK-6236",
+      "dsd": "Madampe",
+      "district": "Puttalam",
+      "total_2012": 47920,
+      "total_2024": 48994,
+      "distributional_change": 0.033986
+    },
+    {
+      "dsd_code": "LK-4306",
+      "dsd": "Vavuniya South",
+      "district": "Vavuniya",
+      "total_2012": 13118,
+      "total_2024": 14842,
+      "distributional_change": 0.033909
+    },
+    {
+      "dsd_code": "LK-9106",
+      "dsd": "Kuruvita",
+      "district": "Ratnapura",
+      "total_2012": 75104,
+      "total_2024": 97966,
+      "distributional_change": 0.033907
+    },
+    {
+      "dsd_code": "LK-2154",
+      "dsd": "Ganga Ihala Korale",
+      "district": "Kandy",
+      "total_2012": 55254,
+      "total_2024": 59145,
+      "distributional_change": 0.033706
+    },
+    {
+      "dsd_code": "LK-1239",
+      "dsd": "Biyagama",
+      "district": "Gampaha",
+      "total_2012": 186585,
+      "total_2024": 207155,
+      "distributional_change": 0.032719
+    },
+    {
+      "dsd_code": "LK-8136",
+      "dsd": "Ella",
+      "district": "Badulla",
+      "total_2012": 45181,
+      "total_2024": 49439,
+      "distributional_change": 0.032617
+    },
+    {
+      "dsd_code": "LK-2130",
+      "dsd": "Gangawata Korale",
+      "district": "Kandy",
+      "total_2012": 158561,
+      "total_2024": 153329,
+      "distributional_change": 0.032343
+    },
+    {
+      "dsd_code": "LK-8209",
+      "dsd": "Medagama",
+      "district": "Monaragala",
+      "total_2012": 35881,
+      "total_2024": 44614,
+      "distributional_change": 0.032328
+    },
+    {
+      "dsd_code": "LK-6203",
+      "dsd": "Kalpitiya",
+      "district": "Puttalam",
+      "total_2012": 86405,
+      "total_2024": 96995,
+      "distributional_change": 0.030864
+    },
+    {
+      "dsd_code": "LK-6154",
+      "dsd": "Kurunegala",
+      "district": "Kurunegala",
+      "total_2012": 80755,
+      "total_2024": 88999,
+      "distributional_change": 0.030791
+    },
+    {
+      "dsd_code": "LK-3118",
+      "dsd": "Thawalama",
+      "district": "Galle",
+      "total_2012": 32609,
+      "total_2024": 30989,
+      "distributional_change": 0.030061
+    },
+    {
+      "dsd_code": "LK-2224",
+      "dsd": "Laggala",
+      "district": "Matale",
+      "total_2012": 12110,
+      "total_2024": 16300,
+      "distributional_change": 0.029859
+    },
+    {
+      "dsd_code": "LK-5136",
+      "dsd": "Manmunai South & Eruvil Pattu",
+      "district": "Batticaloa",
+      "total_2012": 60807,
+      "total_2024": 62920,
+      "distributional_change": 0.02918
+    },
+    {
+      "dsd_code": "LK-1121",
+      "dsd": "Maharagama",
+      "district": "Colombo",
+      "total_2012": 196423,
+      "total_2024": 196500,
+      "distributional_change": 0.029008
+    },
+    {
+      "dsd_code": "LK-9130",
+      "dsd": "Ayagama",
+      "district": "Ratnapura",
+      "total_2012": 30894,
+      "total_2024": 29944,
+      "distributional_change": 0.028973
+    },
+    {
+      "dsd_code": "LK-2115",
+      "dsd": "Panvila",
+      "district": "Kandy",
+      "total_2012": 26294,
+      "total_2024": 25650,
+      "distributional_change": 0.028853
+    },
+    {
+      "dsd_code": "LK-5321",
+      "dsd": "Kantale",
+      "district": "Trincomalee",
+      "total_2012": 46802,
+      "total_2024": 50840,
+      "distributional_change": 0.028731
+    },
+    {
+      "dsd_code": "LK-8215",
+      "dsd": "Monaragala",
+      "district": "Monaragala",
+      "total_2012": 49520,
+      "total_2024": 56951,
+      "distributional_change": 0.028396
+    },
+    {
+      "dsd_code": "LK-2157",
+      "dsd": "Pasbagekorale",
+      "district": "Kandy",
+      "total_2012": 59917,
+      "total_2024": 65553,
+      "distributional_change": 0.027837
+    },
+    {
+      "dsd_code": "LK-6142",
+      "dsd": "Bingiriya",
+      "district": "Kurunegala",
+      "total_2012": 62349,
+      "total_2024": 66724,
+      "distributional_change": 0.02777
+    },
+    {
+      "dsd_code": "LK-5324",
+      "dsd": "Kinniya",
+      "district": "Trincomalee",
+      "total_2012": 64613,
+      "total_2024": 86504,
+      "distributional_change": 0.027566
+    },
+    {
+      "dsd_code": "LK-3239",
+      "dsd": "Weligama",
+      "district": "Matara",
+      "total_2012": 72843,
+      "total_2024": 76136,
+      "distributional_change": 0.027028
+    },
+    {
+      "dsd_code": "LK-6178",
+      "dsd": "Pannala",
+      "district": "Kurunegala",
+      "total_2012": 124225,
+      "total_2024": 135845,
+      "distributional_change": 0.02684
+    },
+    {
+      "dsd_code": "LK-2106",
+      "dsd": "Poojapitiya",
+      "district": "Kandy",
+      "total_2012": 57914,
+      "total_2024": 60316,
+      "distributional_change": 0.02487
+    },
+    {
+      "dsd_code": "LK-1224",
+      "dsd": "Gampaha",
+      "district": "Gampaha",
+      "total_2012": 197667,
+      "total_2024": 205610,
+      "distributional_change": 0.024857
+    },
+    {
+      "dsd_code": "LK-5234",
+      "dsd": "Irakkamam",
+      "district": "Ampara",
+      "total_2012": 14383,
+      "total_2024": 17671,
+      "distributional_change": 0.024823
+    },
+    {
+      "dsd_code": "LK-7160",
+      "dsd": "Ipalogama",
+      "district": "Anuradhapura",
+      "total_2012": 38862,
+      "total_2024": 41961,
+      "distributional_change": 0.024709
+    },
+    {
+      "dsd_code": "LK-6160",
+      "dsd": "Mawathagama",
+      "district": "Kurunegala",
+      "total_2012": 64074,
+      "total_2024": 70867,
+      "distributional_change": 0.024606
+    },
+    {
+      "dsd_code": "LK-7130",
+      "dsd": "Mihinthale",
+      "district": "Anuradhapura",
+      "total_2012": 35293,
+      "total_2024": 44107,
+      "distributional_change": 0.024463
+    },
+    {
+      "dsd_code": "LK-1233",
+      "dsd": "Mahara",
+      "district": "Gampaha",
+      "total_2012": 207782,
+      "total_2024": 223060,
+      "distributional_change": 0.024462
+    },
+    {
+      "dsd_code": "LK-9218",
+      "dsd": "Warakapola",
+      "district": "Kegalle",
+      "total_2012": 113056,
+      "total_2024": 117967,
+      "distributional_change": 0.024206
+    },
+    {
+      "dsd_code": "LK-7133",
+      "dsd": "Nuwaragam Palatha East",
+      "district": "Anuradhapura",
+      "total_2012": 69737,
+      "total_2024": 76138,
+      "distributional_change": 0.024169
+    },
+    {
+      "dsd_code": "LK-7215",
+      "dsd": "Thamankaduwa",
+      "district": "Polonnaruwa",
+      "total_2012": 82426,
+      "total_2024": 92056,
+      "distributional_change": 0.023611
+    },
+    {
+      "dsd_code": "LK-8124",
+      "dsd": "Hali-Ela",
+      "district": "Badulla",
+      "total_2012": 90571,
+      "total_2024": 94226,
+      "distributional_change": 0.023382
+    },
+    {
+      "dsd_code": "LK-6151",
+      "dsd": "Maspotha",
+      "district": "Kurunegala",
+      "total_2012": 34262,
+      "total_2024": 41873,
+      "distributional_change": 0.023203
+    },
+    {
+      "dsd_code": "LK-9115",
+      "dsd": "Imbulpe",
+      "district": "Ratnapura",
+      "total_2012": 59477,
+      "total_2024": 64555,
+      "distributional_change": 0.02279
+    },
+    {
+      "dsd_code": "LK-9136",
+      "dsd": "Nivithigala",
+      "district": "Ratnapura",
+      "total_2012": 60130,
+      "total_2024": 59442,
+      "distributional_change": 0.022728
+    },
+    {
+      "dsd_code": "LK-4130",
+      "dsd": "Thenmaradchi (Chavakachcheri)",
+      "district": "Jaffna",
+      "total_2012": 64704,
+      "total_2024": 67782,
+      "distributional_change": 0.022705
+    },
+    {
+      "dsd_code": "LK-3306",
+      "dsd": "Lunugamwehera",
+      "district": "Hambantota",
+      "total_2012": 31559,
+      "total_2024": 36923,
+      "distributional_change": 0.022384
+    },
+    {
+      "dsd_code": "LK-2306",
+      "dsd": "Hanguranketa",
+      "district": "Nuwara Eliya",
+      "total_2012": 88528,
+      "total_2024": 58931,
+      "distributional_change": 0.022368
+    },
+    {
+      "dsd_code": "LK-1133",
+      "dsd": "Moratuwa",
+      "district": "Colombo",
+      "total_2012": 168280,
+      "total_2024": 160199,
+      "distributional_change": 0.02222
+    },
+    {
+      "dsd_code": "LK-5239",
+      "dsd": "Alayadivembu",
+      "district": "Ampara",
+      "total_2012": 22458,
+      "total_2024": 24838,
+      "distributional_change": 0.022093
+    },
+    {
+      "dsd_code": "LK-1312",
+      "dsd": "Bulathsinhala",
+      "district": "Kalutara",
+      "total_2012": 64600,
+      "total_2024": 65550,
+      "distributional_change": 0.021885
+    },
+    {
+      "dsd_code": "LK-8227",
+      "dsd": "Katharagama",
+      "district": "Monaragala",
+      "total_2012": 18220,
+      "total_2024": 18158,
+      "distributional_change": 0.021369
+    },
+    {
+      "dsd_code": "LK-2203",
+      "dsd": "Galewela",
+      "district": "Matale",
+      "total_2012": 70042,
+      "total_2024": 78639,
+      "distributional_change": 0.021145
+    },
+    {
+      "dsd_code": "LK-1336",
+      "dsd": "Palindanuwara",
+      "district": "Kalutara",
+      "total_2012": 50801,
+      "total_2024": 51171,
+      "distributional_change": 0.020919
+    },
+    {
+      "dsd_code": "LK-9230",
+      "dsd": "Dehiowita",
+      "district": "Kegalle",
+      "total_2012": 81315,
+      "total_2024": 84967,
+      "distributional_change": 0.020859
+    },
+    {
+      "dsd_code": "LK-2103",
+      "dsd": "Tumpane",
+      "district": "Kandy",
+      "total_2012": 37642,
+      "total_2024": 38776,
+      "distributional_change": 0.020765
+    },
+    {
+      "dsd_code": "LK-8133",
+      "dsd": "Bandarawela",
+      "district": "Badulla",
+      "total_2012": 65502,
+      "total_2024": 65488,
+      "distributional_change": 0.020561
+    },
+    {
+      "dsd_code": "LK-9221",
+      "dsd": "Ruwanwella",
+      "district": "Kegalle",
+      "total_2012": 63913,
+      "total_2024": 65797,
+      "distributional_change": 0.020286
+    },
+    {
+      "dsd_code": "LK-7166",
+      "dsd": "Palagala",
+      "district": "Anuradhapura",
+      "total_2012": 34002,
+      "total_2024": 38469,
+      "distributional_change": 0.02024
+    },
+    {
+      "dsd_code": "LK-1306",
+      "dsd": "Bandaragama",
+      "district": "Kalutara",
+      "total_2012": 109236,
+      "total_2024": 124133,
+      "distributional_change": 0.02021
+    },
+    {
+      "dsd_code": "LK-9112",
+      "dsd": "Ratnapura",
+      "district": "Ratnapura",
+      "total_2012": 120212,
+      "total_2024": 121166,
+      "distributional_change": 0.020118
+    },
+    {
+      "dsd_code": "LK-6130",
+      "dsd": "Ibbagamuwa",
+      "district": "Kurunegala",
+      "total_2012": 84961,
+      "total_2024": 94167,
+      "distributional_change": 0.020076
+    },
+    {
+      "dsd_code": "LK-8127",
+      "dsd": "Uvaparanagama",
+      "district": "Badulla",
+      "total_2012": 77998,
+      "total_2024": 82069,
+      "distributional_change": 0.019542
+    },
+    {
+      "dsd_code": "LK-2124",
+      "dsd": "Medadumbara",
+      "district": "Kandy",
+      "total_2012": 61034,
+      "total_2024": 64539,
+      "distributional_change": 0.019511
+    },
+    {
+      "dsd_code": "LK-4109",
+      "dsd": "Valikamam South West (Sandilipay)",
+      "district": "Jaffna",
+      "total_2012": 52269,
+      "total_2024": 52121,
+      "distributional_change": 0.019237
+    },
+    {
+      "dsd_code": "LK-6245",
+      "dsd": "Wennappuwa",
+      "district": "Puttalam",
+      "total_2012": 68111,
+      "total_2024": 64768,
+      "distributional_change": 0.019172
+    },
+    {
+      "dsd_code": "LK-8121",
+      "dsd": "Badulla",
+      "district": "Badulla",
+      "total_2012": 75042,
+      "total_2024": 83033,
+      "distributional_change": 0.019041
+    },
+    {
+      "dsd_code": "LK-6230",
+      "dsd": "Arachchikattuwa",
+      "district": "Puttalam",
+      "total_2012": 40999,
+      "total_2024": 42749,
+      "distributional_change": 0.019003
+    },
+    {
+      "dsd_code": "LK-9127",
+      "dsd": "Elapatha",
+      "district": "Ratnapura",
+      "total_2012": 37853,
+      "total_2024": 38429,
+      "distributional_change": 0.018948
+    },
+    {
+      "dsd_code": "LK-1321",
+      "dsd": "Kalutara",
+      "district": "Kalutara",
+      "total_2012": 159697,
+      "total_2024": 166624,
+      "distributional_change": 0.018853
+    },
+    {
+      "dsd_code": "LK-5130",
+      "dsd": "Manmunai South West",
+      "district": "Batticaloa",
+      "total_2012": 24726,
+      "total_2024": 26676,
+      "distributional_change": 0.018768
+    },
+    {
+      "dsd_code": "LK-2209",
+      "dsd": "Naula",
+      "district": "Matale",
+      "total_2012": 30884,
+      "total_2024": 30718,
+      "distributional_change": 0.018655
+    },
+    {
+      "dsd_code": "LK-9121",
+      "dsd": "Opanayake",
+      "district": "Ratnapura",
+      "total_2012": 26587,
+      "total_2024": 27244,
+      "distributional_change": 0.018493
+    },
+    {
+      "dsd_code": "LK-7154",
+      "dsd": "Kekirawa",
+      "district": "Anuradhapura",
+      "total_2012": 59241,
+      "total_2024": 65317,
+      "distributional_change": 0.018286
+    },
+    {
+      "dsd_code": "LK-3136",
+      "dsd": "Hikkaduwa",
+      "district": "Galle",
+      "total_2012": 101909,
+      "total_2024": 26216,
+      "distributional_change": 0.018049
+    },
+    {
+      "dsd_code": "LK-6118",
+      "dsd": "Rasnayakapura",
+      "district": "Kurunegala",
+      "total_2012": 21893,
+      "total_2024": 24912,
+      "distributional_change": 0.018036
+    },
+    {
+      "dsd_code": "LK-4506",
+      "dsd": "Kandavalai",
+      "district": "Kilinochchi",
+      "total_2012": 23194,
+      "total_2024": 24921,
+      "distributional_change": 0.017926
+    },
+    {
+      "dsd_code": "LK-6221",
+      "dsd": "Mahakumbukkadawala",
+      "district": "Puttalam",
+      "total_2012": 18633,
+      "total_2024": 21867,
+      "distributional_change": 0.017651
+    },
+    {
+      "dsd_code": "LK-8218",
+      "dsd": "Badalkumbura",
+      "district": "Monaragala",
+      "total_2012": 40103,
+      "total_2024": 46595,
+      "distributional_change": 0.017499
+    },
+    {
+      "dsd_code": "LK-9227",
+      "dsd": "Yatiyantota",
+      "district": "Kegalle",
+      "total_2012": 61096,
+      "total_2024": 62255,
+      "distributional_change": 0.017488
+    },
+    {
+      "dsd_code": "LK-5215",
+      "dsd": "Ampara",
+      "district": "Ampara",
+      "total_2012": 43829,
+      "total_2024": 47868,
+      "distributional_change": 0.017423
+    },
+    {
+      "dsd_code": "LK-6133",
+      "dsd": "Ganewatta",
+      "district": "Kurunegala",
+      "total_2012": 40137,
+      "total_2024": 43431,
+      "distributional_change": 0.017171
+    },
+    {
+      "dsd_code": "LK-6187",
+      "dsd": "Polgahawela",
+      "district": "Kurunegala",
+      "total_2012": 65156,
+      "total_2024": 67465,
+      "distributional_change": 0.017015
+    },
+    {
+      "dsd_code": "LK-4115",
+      "dsd": "Valikamam South (Uduvil)",
+      "district": "Jaffna",
+      "total_2012": 53016,
+      "total_2024": 50540,
+      "distributional_change": 0.016641
+    },
+    {
+      "dsd_code": "LK-1327",
+      "dsd": "Dodangoda",
+      "district": "Kalutara",
+      "total_2012": 63960,
+      "total_2024": 67089,
+      "distributional_change": 0.016363
+    },
+    {
+      "dsd_code": "LK-4418",
+      "dsd": "Welioya",
+      "district": "Mullaitivu",
+      "total_2012": 6904,
+      "total_2024": 10065,
+      "distributional_change": 0.016308
+    },
+    {
+      "dsd_code": "LK-9103",
+      "dsd": "Eheliyagoda",
+      "district": "Ratnapura",
+      "total_2012": 88022,
+      "total_2024": 74071,
+      "distributional_change": 0.016211
+    },
+    {
+      "dsd_code": "LK-3209",
+      "dsd": "Pasgoda",
+      "district": "Matara",
+      "total_2012": 59160,
+      "total_2024": 61171,
+      "distributional_change": 0.016066
+    },
+    {
+      "dsd_code": "LK-3215",
+      "dsd": "Athuraliya",
+      "district": "Matara",
+      "total_2012": 32304,
+      "total_2024": 32811,
+      "distributional_change": 0.015931
+    },
+    {
+      "dsd_code": "LK-1136",
+      "dsd": "Kesbewa",
+      "district": "Colombo",
+      "total_2012": 245232,
+      "total_2024": 263541,
+      "distributional_change": 0.015848
+    },
+    {
+      "dsd_code": "LK-7136",
+      "dsd": "Nachchaduwa",
+      "district": "Anuradhapura",
+      "total_2012": 25377,
+      "total_2024": 28266,
+      "distributional_change": 0.015786
+    },
+    {
+      "dsd_code": "LK-1310",
+      "dsd": "Ingiriya",
+      "district": "Kalutara",
+      "total_2012": 53896,
+      "total_2024": 58361,
+      "distributional_change": 0.015747
+    },
+    {
+      "dsd_code": "LK-9203",
+      "dsd": "Rambukkana",
+      "district": "Kegalle",
+      "total_2012": 82769,
+      "total_2024": 87055,
+      "distributional_change": 0.015592
+    },
+    {
+      "dsd_code": "LK-6103",
+      "dsd": "Giribawa",
+      "district": "Kurunegala",
+      "total_2012": 31412,
+      "total_2024": 34929,
+      "distributional_change": 0.015547
+    },
+    {
+      "dsd_code": "LK-7203",
+      "dsd": "Higurakgoda",
+      "district": "Polonnaruwa",
+      "total_2012": 64289,
+      "total_2024": 70651,
+      "distributional_change": 0.015527
+    },
+    {
+      "dsd_code": "LK-2212",
+      "dsd": "Pallepola",
+      "district": "Matale",
+      "total_2012": 29565,
+      "total_2024": 31629,
+      "distributional_change": 0.015524
+    },
+    {
+      "dsd_code": "LK-6172",
+      "dsd": "Kuliyapitiya West",
+      "district": "Kurunegala",
+      "total_2012": 77316,
+      "total_2024": 82587,
+      "distributional_change": 0.015492
+    },
+    {
+      "dsd_code": "LK-2218",
+      "dsd": "Matale",
+      "district": "Matale",
+      "total_2012": 74864,
+      "total_2024": 80376,
+      "distributional_change": 0.015441
+    },
+    {
+      "dsd_code": "LK-5333",
+      "dsd": "Verugal",
+      "district": "Trincomalee",
+      "total_2012": 11409,
+      "total_2024": 14062,
+      "distributional_change": 0.015065
+    },
+    {
+      "dsd_code": "LK-5121",
+      "dsd": "Manmunai West",
+      "district": "Batticaloa",
+      "total_2012": 28489,
+      "total_2024": 32831,
+      "distributional_change": 0.015048
+    },
+    {
+      "dsd_code": "LK-8112",
+      "dsd": "Kandeketiya",
+      "district": "Badulla",
+      "total_2012": 23075,
+      "total_2024": 26913,
+      "distributional_change": 0.015037
+    },
+    {
+      "dsd_code": "LK-3145",
+      "dsd": "Akmeemana",
+      "district": "Galle",
+      "total_2012": 77776,
+      "total_2024": 86136,
+      "distributional_change": 0.014906
+    },
+    {
+      "dsd_code": "LK-2136",
+      "dsd": "Yatinuwara",
+      "district": "Kandy",
+      "total_2012": 106027,
+      "total_2024": 112642,
+      "distributional_change": 0.014704
+    },
+    {
+      "dsd_code": "LK-9233",
+      "dsd": "Deraniyagala",
+      "district": "Kegalle",
+      "total_2012": 45869,
+      "total_2024": 44005,
+      "distributional_change": 0.014635
+    },
+    {
+      "dsd_code": "LK-6224",
+      "dsd": "Anamaduwa",
+      "district": "Puttalam",
+      "total_2012": 38286,
+      "total_2024": 43526,
+      "distributional_change": 0.014384
+    },
+    {
+      "dsd_code": "LK-2142",
+      "dsd": "Doluwa",
+      "district": "Kandy",
+      "total_2012": 49842,
+      "total_2024": 52784,
+      "distributional_change": 0.014368
+    },
+    {
+      "dsd_code": "LK-4118",
+      "dsd": "Valikamam East (Kopay)",
+      "district": "Jaffna",
+      "total_2012": 73225,
+      "total_2024": 75979,
+      "distributional_change": 0.014182
+    },
+    {
+      "dsd_code": "LK-9151",
+      "dsd": "Kolonna",
+      "district": "Ratnapura",
+      "total_2012": 45954,
+      "total_2024": 50068,
+      "distributional_change": 0.014059
+    },
+    {
+      "dsd_code": "LK-7115",
+      "dsd": "Nuwaragam Palatha Central",
+      "district": "Anuradhapura",
+      "total_2012": 61223,
+      "total_2024": 71529,
+      "distributional_change": 0.013936
+    },
+    {
+      "dsd_code": "LK-5203",
+      "dsd": "Dehiattakandiya",
+      "district": "Ampara",
+      "total_2012": 60178,
+      "total_2024": 67274,
+      "distributional_change": 0.01388
+    },
+    {
+      "dsd_code": "LK-3148",
+      "dsd": "Yakkalamulla",
+      "district": "Galle",
+      "total_2012": 45946,
+      "total_2024": 46687,
+      "distributional_change": 0.013728
+    },
+    {
+      "dsd_code": "LK-7106",
+      "dsd": "Kebithigollewa",
+      "district": "Anuradhapura",
+      "total_2012": 22325,
+      "total_2024": 26432,
+      "distributional_change": 0.013365
+    },
+    {
+      "dsd_code": "LK-6212",
+      "dsd": "Nawagattegama",
+      "district": "Puttalam",
+      "total_2012": 14483,
+      "total_2024": 17571,
+      "distributional_change": 0.013361
+    },
+    {
+      "dsd_code": "LK-3127",
+      "dsd": "Baddegama",
+      "district": "Galle",
+      "total_2012": 75008,
+      "total_2024": 50956,
+      "distributional_change": 0.013267
+    },
+    {
+      "dsd_code": "LK-3312",
+      "dsd": "Hambantota",
+      "district": "Hambantota",
+      "total_2012": 57264,
+      "total_2024": 67207,
+      "distributional_change": 0.013095
+    },
+    {
+      "dsd_code": "LK-4104",
+      "dsd": "Karainagar",
+      "district": "Jaffna",
+      "total_2012": 9576,
+      "total_2024": 9131,
+      "distributional_change": 0.012998
+    },
+    {
+      "dsd_code": "LK-1221",
+      "dsd": "Ja Ela",
+      "district": "Gampaha",
+      "total_2012": 201521,
+      "total_2024": 204806,
+      "distributional_change": 0.012921
+    },
+    {
+      "dsd_code": "LK-5233",
+      "dsd": "Addalaichenai",
+      "district": "Ampara",
+      "total_2012": 41968,
+      "total_2024": 53214,
+      "distributional_change": 0.012912
+    },
+    {
+      "dsd_code": "LK-8115",
+      "dsd": "Soranathota",
+      "district": "Badulla",
+      "total_2012": 22571,
+      "total_2024": 24407,
+      "distributional_change": 0.012796
+    },
+    {
+      "dsd_code": "LK-7109",
+      "dsd": "Medawachchiya",
+      "district": "Anuradhapura",
+      "total_2012": 46906,
+      "total_2024": 52496,
+      "distributional_change": 0.012682
+    },
+    {
+      "dsd_code": "LK-1230",
+      "dsd": "Dompe",
+      "district": "Gampaha",
+      "total_2012": 154005,
+      "total_2024": 169877,
+      "distributional_change": 0.012453
+    },
+    {
+      "dsd_code": "LK-2215",
+      "dsd": "Yatawatta",
+      "district": "Matale",
+      "total_2012": 30242,
+      "total_2024": 32415,
+      "distributional_change": 0.012196
+    },
+    {
+      "dsd_code": "LK-9212",
+      "dsd": "Kegalle",
+      "district": "Kegalle",
+      "total_2012": 90854,
+      "total_2024": 94314,
+      "distributional_change": 0.01218
+    },
+    {
+      "dsd_code": "LK-3309",
+      "dsd": "Thissamaharama",
+      "district": "Hambantota",
+      "total_2012": 68606,
+      "total_2024": 74175,
+      "distributional_change": 0.011913
+    },
+    {
+      "dsd_code": "LK-3218",
+      "dsd": "Akuressa",
+      "district": "Matara",
+      "total_2012": 52912,
+      "total_2024": 53638,
+      "distributional_change": 0.011858
+    },
+    {
+      "dsd_code": "LK-7151",
+      "dsd": "Thirappane",
+      "district": "Anuradhapura",
+      "total_2012": 27044,
+      "total_2024": 31121,
+      "distributional_change": 0.011639
+    },
+    {
+      "dsd_code": "LK-6206",
+      "dsd": "Vanathavilluwa",
+      "district": "Puttalam",
+      "total_2012": 17460,
+      "total_2024": 19991,
+      "distributional_change": 0.011632
+    },
+    {
+      "dsd_code": "LK-1215",
+      "dsd": "Minuwangoda",
+      "district": "Gampaha",
+      "total_2012": 178331,
+      "total_2024": 198774,
+      "distributional_change": 0.011566
+    },
+    {
+      "dsd_code": "LK-9139",
+      "dsd": "Kahawattha",
+      "district": "Ratnapura",
+      "total_2012": 43298,
+      "total_2024": 43708,
+      "distributional_change": 0.011373
+    },
+    {
+      "dsd_code": "LK-2148",
+      "dsd": "Deltota",
+      "district": "Kandy",
+      "total_2012": 30345,
+      "total_2024": 31904,
+      "distributional_change": 0.011308
+    },
+    {
+      "dsd_code": "LK-6124",
+      "dsd": "Maho",
+      "district": "Kurunegala",
+      "total_2012": 57485,
+      "total_2024": 64122,
+      "distributional_change": 0.011131
+    },
+    {
+      "dsd_code": "LK-1112",
+      "dsd": "Homagama",
+      "district": "Colombo",
+      "total_2012": 237905,
+      "total_2024": 280771,
+      "distributional_change": 0.01112
+    },
+    {
+      "dsd_code": "LK-1330",
+      "dsd": "Matugama",
+      "district": "Kalutara",
+      "total_2012": 81286,
+      "total_2024": 86065,
+      "distributional_change": 0.01108
+    },
+    {
+      "dsd_code": "LK-7127",
+      "dsd": "Galenbidunuwewa",
+      "district": "Anuradhapura",
+      "total_2012": 46992,
+      "total_2024": 51952,
+      "distributional_change": 0.010796
+    },
+    {
+      "dsd_code": "LK-7139",
+      "dsd": "Nochchiyagama",
+      "district": "Anuradhapura",
+      "total_2012": 49886,
+      "total_2024": 55471,
+      "distributional_change": 0.010791
+    },
+    {
+      "dsd_code": "LK-9224",
+      "dsd": "Bulathkohipitiya",
+      "district": "Kegalle",
+      "total_2012": 47095,
+      "total_2024": 45237,
+      "distributional_change": 0.010777
+    },
+    {
+      "dsd_code": "LK-2230",
+      "dsd": "Rattota",
+      "district": "Matale",
+      "total_2012": 51354,
+      "total_2024": 53650,
+      "distributional_change": 0.010756
+    },
+    {
+      "dsd_code": "LK-2134",
+      "dsd": "Hatharaliyadda",
+      "district": "Kandy",
+      "total_2012": 29986,
+      "total_2024": 31141,
+      "distributional_change": 0.010568
+    },
+    {
+      "dsd_code": "LK-3248",
+      "dsd": "Dikwella",
+      "district": "Matara",
+      "total_2012": 54672,
+      "total_2024": 56468,
+      "distributional_change": 0.010101
+    },
+    {
+      "dsd_code": "LK-5218",
+      "dsd": "Sammanthurai",
+      "district": "Ampara",
+      "total_2012": 60465,
+      "total_2024": 72794,
+      "distributional_change": 0.010084
+    },
+    {
+      "dsd_code": "LK-2133",
+      "dsd": "Harispattuwa",
+      "district": "Kandy",
+      "total_2012": 88177,
+      "total_2024": 94021,
+      "distributional_change": 0.009962
+    },
+    {
+      "dsd_code": "LK-6106",
+      "dsd": "Galgamuwa",
+      "district": "Kurunegala",
+      "total_2012": 55078,
+      "total_2024": 61759,
+      "distributional_change": 0.0099
+    },
+    {
+      "dsd_code": "LK-1212",
+      "dsd": "Mirigama",
+      "district": "Gampaha",
+      "total_2012": 164580,
+      "total_2024": 176747,
+      "distributional_change": 0.009821
+    },
+    {
+      "dsd_code": "LK-6149",
+      "dsd": "Bamunakotuwa",
+      "district": "Kurunegala",
+      "total_2012": 36217,
+      "total_2024": 39442,
+      "distributional_change": 0.00969
+    },
+    {
+      "dsd_code": "LK-6112",
+      "dsd": "Ambanpola",
+      "district": "Kurunegala",
+      "total_2012": 22878,
+      "total_2024": 25515,
+      "distributional_change": 0.009603
+    },
+    {
+      "dsd_code": "LK-5230",
+      "dsd": "Nintavur",
+      "district": "Ampara",
+      "total_2012": 26361,
+      "total_2024": 30671,
+      "distributional_change": 0.009572
+    },
+    {
+      "dsd_code": "LK-9209",
+      "dsd": "Aranayake",
+      "district": "Kegalle",
+      "total_2012": 68464,
+      "total_2024": 69075,
+      "distributional_change": 0.00957
+    },
+    {
+      "dsd_code": "LK-5133",
+      "dsd": "Porativu Pattu",
+      "district": "Batticaloa",
+      "total_2012": 36222,
+      "total_2024": 38627,
+      "distributional_change": 0.009411
+    },
+    {
+      "dsd_code": "LK-1209",
+      "dsd": "Divulapitiya",
+      "district": "Gampaha",
+      "total_2012": 144506,
+      "total_2024": 156957,
+      "distributional_change": 0.009407
+    },
+    {
+      "dsd_code": "LK-9142",
+      "dsd": "Godakawela",
+      "district": "Ratnapura",
+      "total_2012": 76469,
+      "total_2024": 78541,
+      "distributional_change": 0.009405
+    },
+    {
+      "dsd_code": "LK-3124",
+      "dsd": "Nagoda",
+      "district": "Galle",
+      "total_2012": 53829,
+      "total_2024": 52031,
+      "distributional_change": 0.009383
+    },
+    {
+      "dsd_code": "LK-7157",
+      "dsd": "Palugaswewa",
+      "district": "Anuradhapura",
+      "total_2012": 15582,
+      "total_2024": 18138,
+      "distributional_change": 0.009292
+    },
+    {
+      "dsd_code": "LK-5251",
+      "dsd": "Lahugala",
+      "district": "Ampara",
+      "total_2012": 8914,
+      "total_2024": 10416,
+      "distributional_change": 0.008755
+    },
+    {
+      "dsd_code": "LK-4121",
+      "dsd": "Vadamaradchchi South-West (Karaveddy)",
+      "district": "Jaffna",
+      "total_2012": 45730,
+      "total_2024": 41102,
+      "distributional_change": 0.008602
+    },
+    {
+      "dsd_code": "LK-2206",
+      "dsd": "Dambulla",
+      "district": "Matale",
+      "total_2012": 72306,
+      "total_2024": 81239,
+      "distributional_change": 0.00854
+    },
+    {
+      "dsd_code": "LK-8221",
+      "dsd": "Wellawaya",
+      "district": "Monaragala",
+      "total_2012": 60060,
+      "total_2024": 73280,
+      "distributional_change": 0.008504
+    },
+    {
+      "dsd_code": "LK-1339",
+      "dsd": "Walallawita",
+      "district": "Kalutara",
+      "total_2012": 54628,
+      "total_2024": 55333,
+      "distributional_change": 0.008458
+    },
+    {
+      "dsd_code": "LK-9124",
+      "dsd": "Pelmadulla",
+      "district": "Ratnapura",
+      "total_2012": 89469,
+      "total_2024": 93818,
+      "distributional_change": 0.007954
+    },
+    {
+      "dsd_code": "LK-6181",
+      "dsd": "Narammala",
+      "district": "Kurunegala",
+      "total_2012": 56279,
+      "total_2024": 59806,
+      "distributional_change": 0.007905
+    },
+    {
+      "dsd_code": "LK-7148",
+      "dsd": "Thalawa",
+      "district": "Anuradhapura",
+      "total_2012": 57793,
+      "total_2024": 61216,
+      "distributional_change": 0.007799
+    },
+    {
+      "dsd_code": "LK-6148",
+      "dsd": "Panduwasnuwara East",
+      "district": "Kurunegala",
+      "total_2012": 30006,
+      "total_2024": 31790,
+      "distributional_change": 0.007793
+    },
+    {
+      "dsd_code": "LK-7103",
+      "dsd": "Padaviya",
+      "district": "Anuradhapura",
+      "total_2012": 22998,
+      "total_2024": 24493,
+      "distributional_change": 0.007726
+    },
+    {
+      "dsd_code": "LK-4106",
+      "dsd": "Valikamam West (Chankanai)",
+      "district": "Jaffna",
+      "total_2012": 46438,
+      "total_2024": 45160,
+      "distributional_change": 0.007589
+    },
+    {
+      "dsd_code": "LK-2221",
+      "dsd": "Ambanganga",
+      "district": "Matale",
+      "total_2012": 15643,
+      "total_2024": 15876,
+      "distributional_change": 0.007456
+    },
+    {
+      "dsd_code": "LK-5209",
+      "dsd": "Mahaoya",
+      "district": "Ampara",
+      "total_2012": 20828,
+      "total_2024": 23715,
+      "distributional_change": 0.007173
+    },
+    {
+      "dsd_code": "LK-3121",
+      "dsd": "Neluwa",
+      "district": "Galle",
+      "total_2012": 28640,
+      "total_2024": 27746,
+      "distributional_change": 0.007094
+    },
+    {
+      "dsd_code": "LK-7206",
+      "dsd": "Medirigiriya",
+      "district": "Polonnaruwa",
+      "total_2012": 65575,
+      "total_2024": 72482,
+      "distributional_change": 0.006993
+    },
+    {
+      "dsd_code": "LK-3130",
+      "dsd": "Welivitiya-Divitura",
+      "district": "Galle",
+      "total_2012": 29347,
+      "total_2024": 29356,
+      "distributional_change": 0.006878
+    },
+    {
+      "dsd_code": "LK-5106",
+      "dsd": "Koralai Pattu West",
+      "district": "Batticaloa",
+      "total_2012": 22182,
+      "total_2024": 24583,
+      "distributional_change": 0.006873
+    },
+    {
+      "dsd_code": "LK-2145",
+      "dsd": "Pathahewaheta",
+      "district": "Kandy",
+      "total_2012": 58188,
+      "total_2024": 60639,
+      "distributional_change": 0.006863
+    },
+    {
+      "dsd_code": "LK-6136",
+      "dsd": "Wariyapola",
+      "district": "Kurunegala",
+      "total_2012": 61425,
+      "total_2024": 66488,
+      "distributional_change": 0.006857
+    },
+    {
+      "dsd_code": "LK-8224",
+      "dsd": "Buttala",
+      "district": "Monaragala",
+      "total_2012": 53084,
+      "total_2024": 60606,
+      "distributional_change": 0.006748
+    },
+    {
+      "dsd_code": "LK-2118",
+      "dsd": "Ududumbara",
+      "district": "Kandy",
+      "total_2012": 22505,
+      "total_2024": 23046,
+      "distributional_change": 0.006311
+    },
+    {
+      "dsd_code": "LK-5245",
+      "dsd": "Tirukkovil",
+      "district": "Ampara",
+      "total_2012": 25277,
+      "total_2024": 29252,
+      "distributional_change": 0.006202
+    },
+    {
+      "dsd_code": "LK-3333",
+      "dsd": "Tangalle",
+      "district": "Hambantota",
+      "total_2012": 72507,
+      "total_2024": 79543,
+      "distributional_change": 0.006148
+    },
+    {
+      "dsd_code": "LK-7163",
+      "dsd": "Galnewa",
+      "district": "Anuradhapura",
+      "total_2012": 34756,
+      "total_2024": 39458,
+      "distributional_change": 0.006007
+    },
+    {
+      "dsd_code": "LK-4124",
+      "dsd": "Vadamaradchchi East",
+      "district": "Jaffna",
+      "total_2012": 12766,
+      "total_2024": 13537,
+      "distributional_change": 0.005928
+    },
+    {
+      "dsd_code": "LK-3112",
+      "dsd": "Elpitiya",
+      "district": "Galle",
+      "total_2012": 64726,
+      "total_2024": 66671,
+      "distributional_change": 0.005843
+    },
+    {
+      "dsd_code": "LK-1333",
+      "dsd": "Agalawatta",
+      "district": "Kalutara",
+      "total_2012": 36669,
+      "total_2024": 36589,
+      "distributional_change": 0.005841
+    },
+    {
+      "dsd_code": "LK-9109",
+      "dsd": "Kiriella",
+      "district": "Ratnapura",
+      "total_2012": 35972,
+      "total_2024": 33631,
+      "distributional_change": 0.005838
+    },
+    {
+      "dsd_code": "LK-5206",
+      "dsd": "Padiyathalawa",
+      "district": "Ampara",
+      "total_2012": 18290,
+      "total_2024": 20834,
+      "distributional_change": 0.005824
+    },
+    {
+      "dsd_code": "LK-3321",
+      "dsd": "Weeraketiya",
+      "district": "Hambantota",
+      "total_2012": 41565,
+      "total_2024": 48241,
+      "distributional_change": 0.005819
+    },
+    {
+      "dsd_code": "LK-6121",
+      "dsd": "Nikaweratiya",
+      "district": "Kurunegala",
+      "total_2012": 40452,
+      "total_2024": 43402,
+      "distributional_change": 0.005786
+    },
+    {
+      "dsd_code": "LK-3134",
+      "dsd": "Gonapinuwala",
+      "district": "Galle",
+      "total_2012": 21755,
+      "total_2024": 23271,
+      "distributional_change": 0.005784
+    },
+    {
+      "dsd_code": "LK-6166",
+      "dsd": "Weerabugedara",
+      "district": "Kurunegala",
+      "total_2012": 34339,
+      "total_2024": 36590,
+      "distributional_change": 0.005759
+    },
+    {
+      "dsd_code": "LK-7145",
+      "dsd": "Thambuththegama",
+      "district": "Anuradhapura",
+      "total_2012": 42437,
+      "total_2024": 47061,
+      "distributional_change": 0.005643
+    },
+    {
+      "dsd_code": "LK-5236",
+      "dsd": "Akkaraipattu",
+      "district": "Ampara",
+      "total_2012": 39166,
+      "total_2024": 44979,
+      "distributional_change": 0.005634
+    },
+    {
+      "dsd_code": "LK-3227",
+      "dsd": "Kaburupitiya",
+      "district": "Matara",
+      "total_2012": 40969,
+      "total_2024": 42816,
+      "distributional_change": 0.005505
+    },
+    {
+      "dsd_code": "LK-8103",
+      "dsd": "Mahiyanganaya",
+      "district": "Badulla",
+      "total_2012": 75776,
+      "total_2024": 89082,
+      "distributional_change": 0.005496
+    },
+    {
+      "dsd_code": "LK-3224",
+      "dsd": "Malimbada",
+      "district": "Matara",
+      "total_2012": 34856,
+      "total_2024": 36128,
+      "distributional_change": 0.005461
+    },
+    {
+      "dsd_code": "LK-7218",
+      "dsd": "Elahera",
+      "district": "Polonnaruwa",
+      "total_2012": 43915,
+      "total_2024": 48565,
+      "distributional_change": 0.00529
+    },
+    {
+      "dsd_code": "LK-5303",
+      "dsd": "Padavi Sri Pura",
+      "district": "Trincomalee",
+      "total_2012": 11882,
+      "total_2024": 12081,
+      "distributional_change": 0.005283
+    },
+    {
+      "dsd_code": "LK-3109",
+      "dsd": "Karandeniya",
+      "district": "Galle",
+      "total_2012": 62498,
+      "total_2024": 63862,
+      "distributional_change": 0.005257
+    },
+    {
+      "dsd_code": "LK-3151",
+      "dsd": "Imaduwa",
+      "district": "Galle",
+      "total_2012": 44880,
+      "total_2024": 48204,
+      "distributional_change": 0.005091
+    },
+    {
+      "dsd_code": "LK-7212",
+      "dsd": "Dimbulagala",
+      "district": "Polonnaruwa",
+      "total_2012": 79661,
+      "total_2024": 85907,
+      "distributional_change": 0.005012
+    },
+    {
+      "dsd_code": "LK-9215",
+      "dsd": "Galigamuwa",
+      "district": "Kegalle",
+      "total_2012": 74490,
+      "total_2024": 73778,
+      "distributional_change": 0.004994
+    },
+    {
+      "dsd_code": "LK-7112",
+      "dsd": "Mahawilachchiya",
+      "district": "Anuradhapura",
+      "total_2012": 22467,
+      "total_2024": 24194,
+      "distributional_change": 0.004991
+    },
+    {
+      "dsd_code": "LK-3245",
+      "dsd": "Devinuwara",
+      "district": "Matara",
+      "total_2012": 48253,
+      "total_2024": 49274,
+      "distributional_change": 0.00486
+    },
+    {
+      "dsd_code": "LK-6127",
+      "dsd": "Polpitigama",
+      "district": "Kurunegala",
+      "total_2012": 76139,
+      "total_2024": 86411,
+      "distributional_change": 0.004858
+    },
+    {
+      "dsd_code": "LK-1118",
+      "dsd": "Padukka",
+      "district": "Colombo",
+      "total_2012": 65267,
+      "total_2024": 73014,
+      "distributional_change": 0.004816
+    },
+    {
+      "dsd_code": "LK-3103",
+      "dsd": "Bentota",
+      "district": "Galle",
+      "total_2012": 49975,
+      "total_2024": 49650,
+      "distributional_change": 0.004778
+    },
+    {
+      "dsd_code": "LK-7142",
+      "dsd": "Rajanganaya",
+      "district": "Anuradhapura",
+      "total_2012": 33543,
+      "total_2024": 36236,
+      "distributional_change": 0.004491
+    },
+    {
+      "dsd_code": "LK-9145",
+      "dsd": "Weligepola",
+      "district": "Ratnapura",
+      "total_2012": 30983,
+      "total_2024": 34168,
+      "distributional_change": 0.004412
+    },
+    {
+      "dsd_code": "LK-5242",
+      "dsd": "Damana",
+      "district": "Ampara",
+      "total_2012": 38692,
+      "total_2024": 40325,
+      "distributional_change": 0.004182
+    },
+    {
+      "dsd_code": "LK-5309",
+      "dsd": "Gomarankadawala",
+      "district": "Trincomalee",
+      "total_2012": 7382,
+      "total_2024": 8398,
+      "distributional_change": 0.004083
+    },
+    {
+      "dsd_code": "LK-3142",
+      "dsd": "Bope-Poddala",
+      "district": "Galle",
+      "total_2012": 50331,
+      "total_2024": 57890,
+      "distributional_change": 0.003924
+    },
+    {
+      "dsd_code": "LK-3315",
+      "dsd": "Ambalantota",
+      "district": "Hambantota",
+      "total_2012": 72943,
+      "total_2024": 80506,
+      "distributional_change": 0.003707
+    },
+    {
+      "dsd_code": "LK-8206",
+      "dsd": "Madulla",
+      "district": "Monaragala",
+      "total_2012": 31238,
+      "total_2024": 36446,
+      "distributional_change": 0.003522
+    },
+    {
+      "dsd_code": "LK-2121",
+      "dsd": "Minipe",
+      "district": "Kandy",
+      "total_2012": 51883,
+      "total_2024": 55342,
+      "distributional_change": 0.003438
+    },
+    {
+      "dsd_code": "LK-3115",
+      "dsd": "Niyagama",
+      "district": "Galle",
+      "total_2012": 35574,
+      "total_2024": 35751,
+      "distributional_change": 0.003277
+    },
+    {
+      "dsd_code": "LK-1309",
+      "dsd": "Horana",
+      "district": "Kalutara",
+      "total_2012": 113364,
+      "total_2024": 133685,
+      "distributional_change": 0.003268
+    },
+    {
+      "dsd_code": "LK-3212",
+      "dsd": "Mulatiyana",
+      "district": "Matara",
+      "total_2012": 50261,
+      "total_2024": 51832,
+      "distributional_change": 0.003177
+    },
+    {
+      "dsd_code": "LK-1318",
+      "dsd": "Millaniya",
+      "district": "Kalutara",
+      "total_2012": 52176,
+      "total_2024": 56166,
+      "distributional_change": 0.003065
+    },
+    {
+      "dsd_code": "LK-3106",
+      "dsd": "Balapitiya",
+      "district": "Galle",
+      "total_2012": 67432,
+      "total_2024": 68150,
+      "distributional_change": 0.003065
+    },
+    {
+      "dsd_code": "LK-8106",
+      "dsd": "Rideemaliyadda",
+      "district": "Badulla",
+      "total_2012": 51618,
+      "total_2024": 60882,
+      "distributional_change": 0.00279
+    },
+    {
+      "dsd_code": "LK-3236",
+      "dsd": "Thihagoda",
+      "district": "Matara",
+      "total_2012": 33535,
+      "total_2024": 34306,
+      "distributional_change": 0.002673
+    },
+    {
+      "dsd_code": "LK-9148",
+      "dsd": "Embilipitiya",
+      "district": "Ratnapura",
+      "total_2012": 134713,
+      "total_2024": 160008,
+      "distributional_change": 0.002646
+    },
+    {
+      "dsd_code": "LK-1315",
+      "dsd": "Madurawala",
+      "district": "Kalutara",
+      "total_2012": 34381,
+      "total_2024": 36723,
+      "distributional_change": 0.002634
+    },
+    {
+      "dsd_code": "LK-6109",
+      "dsd": "Ehetuwewa",
+      "district": "Kurunegala",
+      "total_2012": 25781,
+      "total_2024": 28317,
+      "distributional_change": 0.002575
+    },
+    {
+      "dsd_code": "LK-3303",
+      "dsd": "Sooriyawewa",
+      "district": "Hambantota",
+      "total_2012": 43102,
+      "total_2024": 52709,
+      "distributional_change": 0.002394
+    },
+    {
+      "dsd_code": "LK-3154",
+      "dsd": "Habaraduwa",
+      "district": "Galle",
+      "total_2012": 62389,
+      "total_2024": 63302,
+      "distributional_change": 0.002394
+    },
+    {
+      "dsd_code": "LK-3233",
+      "dsd": "Kirinda Puhulwella",
+      "district": "Matara",
+      "total_2012": 20291,
+      "total_2024": 20627,
+      "distributional_change": 0.002254
+    },
+    {
+      "dsd_code": "LK-8203",
+      "dsd": "Bibile",
+      "district": "Monaragala",
+      "total_2012": 40329,
+      "total_2024": 47266,
+      "distributional_change": 0.002252
+    },
+    {
+      "dsd_code": "LK-5124",
+      "dsd": "Kattankudy",
+      "district": "Batticaloa",
+      "total_2012": 40356,
+      "total_2024": 44794,
+      "distributional_change": 0.002242
+    },
+    {
+      "dsd_code": "LK-3242",
+      "dsd": "Matara Four Gravets",
+      "district": "Matara",
+      "total_2012": 115805,
+      "total_2024": 123868,
+      "distributional_change": 0.002235
+    },
+    {
+      "dsd_code": "LK-3230",
+      "dsd": "Hakmana",
+      "district": "Matara",
+      "total_2012": 31648,
+      "total_2024": 32985,
+      "distributional_change": 0.002181
+    },
+    {
+      "dsd_code": "LK-3330",
+      "dsd": "Beliatta",
+      "district": "Hambantota",
+      "total_2012": 55992,
+      "total_2024": 58675,
+      "distributional_change": 0.00214
+    },
+    {
+      "dsd_code": "LK-6115",
+      "dsd": "Kotawehera",
+      "district": "Kurunegala",
+      "total_2012": 21263,
+      "total_2024": 24031,
+      "distributional_change": 0.002136
+    },
+    {
+      "dsd_code": "LK-3318",
+      "dsd": "Angunakolapelessa",
+      "district": "Hambantota",
+      "total_2012": 48301,
+      "total_2024": 53409,
+      "distributional_change": 0.001982
+    },
+    {
+      "dsd_code": "LK-2227",
+      "dsd": "Wilgamuwa",
+      "district": "Matale",
+      "total_2012": 29494,
+      "total_2024": 33715,
+      "distributional_change": 0.00189
+    },
+    {
+      "dsd_code": "LK-6184",
+      "dsd": "Alawwa",
+      "district": "Kurunegala",
+      "total_2012": 63667,
+      "total_2024": 65689,
+      "distributional_change": 0.001789
+    },
+    {
+      "dsd_code": "LK-8212",
+      "dsd": "Siyambalanduwa",
+      "district": "Monaragala",
+      "total_2012": 54040,
+      "total_2024": 63055,
+      "distributional_change": 0.001644
+    },
+    {
+      "dsd_code": "LK-5225",
+      "dsd": "Sainthamaruthu",
+      "district": "Ampara",
+      "total_2012": 25461,
+      "total_2024": 29873,
+      "distributional_change": 0.001622
+    },
+    {
+      "dsd_code": "LK-8230",
+      "dsd": "Thanamalwila",
+      "district": "Monaragala",
+      "total_2012": 26683,
+      "total_2024": 31238,
+      "distributional_change": 0.001445
+    },
+    {
+      "dsd_code": "LK-8233",
+      "dsd": "Sevanagala",
+      "district": "Monaragala",
+      "total_2012": 41900,
+      "total_2024": 49376,
+      "distributional_change": 0.001421
+    },
+    {
+      "dsd_code": "LK-3324",
+      "dsd": "Katuwana",
+      "district": "Hambantota",
+      "total_2012": 46772,
+      "total_2024": 52169,
+      "distributional_change": 0.001383
+    },
+    {
+      "dsd_code": "LK-5212",
+      "dsd": "Uhana",
+      "district": "Ampara",
+      "total_2012": 58325,
+      "total_2024": 62216,
+      "distributional_change": 0.001254
+    },
+    {
+      "dsd_code": "LK-3325",
+      "dsd": "Walasmulla",
+      "district": "Hambantota",
+      "total_2012": 42274,
+      "total_2024": 47869,
+      "distributional_change": 0.00125
+    },
+    {
+      "dsd_code": "LK-3133",
+      "dsd": "Ambalangoda",
+      "district": "Galle",
+      "total_2012": 56961,
+      "total_2024": 59617,
+      "distributional_change": 0.00098
+    },
+    {
+      "dsd_code": "LK-3327",
+      "dsd": "Okewela",
+      "district": "Hambantota",
+      "total_2012": 19018,
+      "total_2024": 19992,
+      "distributional_change": 0.000977
+    }
+  ]
+}

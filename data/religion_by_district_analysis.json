@@ -71,6 +71,14 @@
       "2024": 787303,
       "change": 20980,
       "annual_growth_rate": 0.002253
+    },
+    {
+      "district_code": null,
+      "district": "Other (<5% or <1,000)",
+      "2012": 4053404,
+      "2024": 4394568,
+      "change": 341164,
+      "annual_growth_rate": 0.006757
     }
   ],
   "Hindu": [
@@ -121,6 +129,14 @@
       "2024": 489521,
       "change": 6266,
       "annual_growth_rate": 0.001074
+    },
+    {
+      "district_code": null,
+      "district": "Other (<5% or <1,000)",
+      "2012": 898187,
+      "2024": 984459,
+      "change": 86272,
+      "annual_growth_rate": 0.007672
     }
   ],
   "Islam": [
@@ -195,6 +211,14 @@
       "2024": 298422,
       "change": 24355,
       "annual_growth_rate": 0.00712
+    },
+    {
+      "district_code": null,
+      "district": "Other (<5% or <1,000)",
+      "2012": 424879,
+      "2024": 514992,
+      "change": 90113,
+      "annual_growth_rate": 0.016158
     }
   ],
   "RomanCatholic": [
@@ -229,6 +253,14 @@
       "2024": 139882,
       "change": -22378,
       "annual_growth_rate": -0.012291
+    },
+    {
+      "district_code": null,
+      "district": "Other (<5% or <1,000)",
+      "2012": 333783,
+      "2024": 324003,
+      "change": -9780,
+      "annual_growth_rate": -0.002475
     }
   ],
   "OtherChristian": [
@@ -271,33 +303,17 @@
       "2024": 55624,
       "change": -11323,
       "annual_growth_rate": -0.015322
+    },
+    {
+      "district_code": null,
+      "district": "Other (<5% or <1,000)",
+      "2012": 119041,
+      "2024": 117962,
+      "change": -1079,
+      "annual_growth_rate": -0.000758
     }
   ],
   "Other": [
-    {
-      "district_code": "LK-21",
-      "district": "Kandy",
-      "2012": 165,
-      "2024": 227,
-      "change": 62,
-      "annual_growth_rate": 0.02694
-    },
-    {
-      "district_code": "LK-12",
-      "district": "Gampaha",
-      "2012": 869,
-      "2024": 985,
-      "change": 116,
-      "annual_growth_rate": 0.010496
-    },
-    {
-      "district_code": "LK-13",
-      "district": "Kalutara",
-      "2012": 212,
-      "2024": 145,
-      "change": -67,
-      "annual_growth_rate": -0.031159
-    },
     {
       "district_code": "LK-11",
       "district": "Colombo",
@@ -315,12 +331,12 @@
       "annual_growth_rate": -0.112095
     },
     {
-      "district_code": "LK-33",
-      "district": "Hambantota",
-      "2012": 302,
-      "2024": 70,
-      "change": -232,
-      "annual_growth_rate": -0.114699
+      "district_code": null,
+      "district": "Other (<5% or <1,000)",
+      "2012": 2963,
+      "2024": 2473,
+      "change": -490,
+      "annual_growth_rate": -0.014951
     }
   ]
 }

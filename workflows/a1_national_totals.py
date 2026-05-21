@@ -31,7 +31,11 @@ def run():
     totals_2012 = religion_2012
     totals_2024 = religion_2024
 
-    total_2024 = totals_2024["TotalPopulation"] if "TotalPopulation" in totals_2024 else sum(totals_2024[r] for r in RELIGIONS)
+    total_2024 = (
+        totals_2024["TotalPopulation"]
+        if "TotalPopulation" in totals_2024
+        else sum(totals_2024[r] for r in RELIGIONS)
+    )
 
     rows = []
     for r in RELIGIONS:
