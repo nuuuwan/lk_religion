@@ -2,9 +2,17 @@ import json
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-from lanka_data import Db
 
-from analyses.proportion_change_common import RELIGION_COLORS, triangle
+try:
+    from lanka_data import Db
+except ImportError:
+    Db = None
+
+from analyses.proportion_change_common import (
+    RELIGION_COLORS,
+    shares,
+    triangle,
+)
 
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
@@ -24,8 +32,8 @@ YEARS = 2024 - 2012
 def run():
     print('=== 1) National totals by religion ===')
 
-    religion_2012 = Db('/LK/Religion/2012')
-    religion_2024 = Db('/LK/Religion/2024')
+    religion_2012 = _load_religion_data(2012)
+    religion_2024 = _load_religion_data(2024)
 
     with open(ANALYSIS_DIR / 'religion_2012.json', 'w') as f:
         json.dump(religion_2012, f, indent=2)
@@ -35,17 +43,16 @@ def run():
     totals_2012 = religion_2012
     totals_2024 = religion_2024
 
-    total_2024 = (
-        totals_2024['TotalPopulation']
-        if 'TotalPopulation' in totals_2024
-        else sum(totals_2024[r] for r in RELIGIONS)
-    )
+    shares_2012 = shares(totals_2012)
+    shares_2024 = shares(totals_2024)
 
     rows = []
     for religion in RELIGIONS:
         v2012 = totals_2012[religion]
         v2024 = totals_2024[religion]
         change = v2024 - v2012
+        proportion_2012 = shares_2012[religion]
+        proportion_2024 = shares_2024[religion]
         annual_growth = (
             (v2024 / v2012) ** (1 / YEARS) - 1 if v2012 > 0 else None
         )
@@ -60,7 +67,11 @@ def run():
                     if annual_growth is not None
                     else None
                 ),
-                'proportion_2024': round(v2024 / total_2024, 6),
+                'proportion_2012': round(proportion_2012, 6),
+                'proportion_2024': round(proportion_2024, 6),
+                'proportion_change': round(
+                    proportion_2024 - proportion_2012, 6
+                ),
             }
         )
 
@@ -72,9 +83,9 @@ def run():
     _write_chart(rows)
 
     print(
-        f"{'Religion':<20} {'2012':>12} {'2024':>12} {'Change':>12} {'Ann. Growth':>12} {'% of Pop':>10}"
+        f"{'Religion':<20} {'2012':>12} {'2024':>12} {'Change':>12} {'Ann. Growth':>12} {'Share 2012':>12} {'Share 2024':>12} {'Δ Share':>10}"
     )
-    print('-' * 82)
+    print('-' * 108)
     for row in rows:
         annual_growth = (
             f"{row['annual_growth_rate']:+.2%}"
@@ -82,7 +93,7 @@ def run():
             else '   N/A'
         )
         print(
-            f"{row['religion']:<20} {row['2012']:>12,} {row['2024']:>12,} {row['change']:>+12,} {annual_growth:>12} {row['proportion_2024']:>9.1%}"
+            f"{row['religion']:<20} {row['2012']:>12,} {row['2024']:>12,} {row['change']:>+12,} {annual_growth:>12} {row['proportion_2012']:>11.1%} {row['proportion_2024']:>11.1%} {_format_percentage_point_change(row['proportion_change']):>10}"
         )
 
     return _write_readme(_readme_section(rows))
@@ -91,6 +102,24 @@ def run():
 def _write_readme(content):
     README_PATH.write_text(content + '\n')
     return content
+
+
+def _load_religion_data(year):
+    if Db is not None:
+        return Db(f'/LK/Religion/{year}')
+    return json.loads((ANALYSIS_DIR / f'religion_{year}.json').read_text())
+
+
+def _normalized_percentage_point_change(value):
+    rounded_pp = round(value * 100, 1)
+    if rounded_pp == 0:
+        return 0.0
+    return rounded_pp / 100
+
+
+def _format_percentage_point_change(value):
+    normalized_value = _normalized_percentage_point_change(value)
+    return f'{normalized_value * 100:+.1f} pp' if normalized_value else '0.0 pp'
 
 
 def _readme_section(rows):
@@ -109,8 +138,8 @@ def _readme_section(rows):
         '',
         '![A1 representative chart](chart.png)',
         '',
-        '| Religion | 2012 | 2024 | Change | Annual Growth | % of Population |',
-        '|---|---:|---:|---:|---:|---:|',
+        '| Religion | 2012 | 2024 | Change | Annual Growth | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) |',
+        '|---|---:|---:|---:|---:|---:|---:|---:|',
     ]
     for row in rows:
         annual_growth = (
@@ -118,11 +147,14 @@ def _readme_section(rows):
             if row['annual_growth_rate'] is not None
             else 'N/A'
         )
+        proportion_change = _normalized_percentage_point_change(
+            row['proportion_change']
+        )
         lines.append(
-            f"| {row['religion']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {annual_growth}{triangle(row['annual_growth_rate'] or 0)} | {row['proportion_2024']:.1%} |"
+            f"| {row['religion']} | {row['2012']:,} | {row['2024']:,} | {triangle(row['change'])}{row['change']:+,} | {triangle(row['annual_growth_rate'] or 0)}{annual_growth} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {triangle(proportion_change)}{_format_percentage_point_change(row['proportion_change'])} |"
         )
     lines.append(
-        f"| **Total** | **{total_2012:,}** | **{total_2024:,}** | **{total_change:+,}{triangle(total_change)}** | **{total_growth:+.2%}{triangle(total_growth)}** |"
+        f"| **Total** | **{total_2012:,}** | **{total_2024:,}** | **{triangle(total_change)}{total_change:+,}** | **{triangle(total_growth)}{total_growth:+.2%}** | **100.0%** | **100.0%** | **0.0 pp** |"
     )
     lines += [
         '',

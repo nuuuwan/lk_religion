@@ -35,6 +35,7 @@ RELIGION_LABELS = {
     'OtherChristian': 'Other Christian',
     'Other': 'Other',
 }
+LOW_POPULATION_THRESHOLD = 1000
 
 
 def run():
@@ -123,7 +124,7 @@ def _readme_section(results):
         '',
         '![A2 district change maps](chart.png)',
         '',
-        'District-level **% change in population** for each religion between 2012 and 2024. Districts are shaded from **red (decline)** to **green (growth)**.',
+        f'District-level **% change in population** for each religion between 2012 and 2024. Districts are shaded from **red (decline)** to **green (growth)**. Districts with religion population **< {LOW_POPULATION_THRESHOLD:,} (2024)** are shown in **grey**.',
         '',
     ]
 
@@ -153,7 +154,7 @@ def _readme_section(results):
                 else ''
             )
             lines.append(
-                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {pct_change}{triangle(row['pct_change'] or 0)} | {proportion_national} |"
+                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {triangle(row['change'])}{row['change']:+,} | {triangle(row['pct_change'] or 0)}{pct_change} | {proportion_national} |"
             )
 
         highlights = []
@@ -230,11 +231,16 @@ def _write_chart(results, district_map_gdf):
 
     for ax, religion in zip(axes.flat, RELIGIONS):
         map_data = pd.DataFrame(results[religion])[
-            ['district_code', 'pct_change']
+            ['district_code', '2012', '2024', 'pct_change']
         ]
         plot_gdf = district_map_gdf.merge(map_data, on='district_code', how='left')
+        plot_gdf['is_low_population'] = plot_gdf['2024'].fillna(0) < LOW_POPULATION_THRESHOLD
+        plot_gdf['plot_pct_change'] = plot_gdf['pct_change'].where(
+            ~plot_gdf['is_low_population'],
+            other=pd.NA,
+        )
         plot_gdf.plot(
-            column='pct_change',
+            column='plot_pct_change',
             cmap=cmap,
             norm=norm,
             linewidth=0.6,
@@ -242,7 +248,29 @@ def _write_chart(results, district_map_gdf):
             ax=ax,
             missing_kwds={'color': '#f0f0f0'},
         )
+        low_population_gdf = plot_gdf[plot_gdf['is_low_population']]
+        if not low_population_gdf.empty:
+            low_population_gdf.plot(
+                color='#bdbdbd',
+                linewidth=0.6,
+                edgecolor='white',
+                ax=ax,
+            )
         plot_gdf.boundary.plot(ax=ax, color='#666666', linewidth=0.35)
+        label_points = plot_gdf.representative_point()
+        for _, row in plot_gdf.iterrows():
+            point = label_points.loc[row.name]
+            pct_change = row['pct_change']
+            label = f'{pct_change:+.0%}' if pd.notna(pct_change) else 'N/A'
+            ax.text(
+                point.x,
+                point.y,
+                label,
+                ha='center',
+                va='center',
+                fontsize=6.5,
+                color='#1a1a1a',
+            )
         ax.set_title(RELIGION_LABELS[religion], fontsize=13, pad=10)
         ax.set_axis_off()
 
@@ -254,10 +282,19 @@ def _write_chart(results, district_map_gdf):
     )
     colorbar.ax.yaxis.set_major_formatter(PercentFormatter(1.0))
     colorbar.set_label('% change in population (2012→2024)')
+    fig.text(
+        0.5,
+        0.02,
+        f'Grey districts: religion population < {LOW_POPULATION_THRESHOLD:,} in 2024',
+        ha='center',
+        va='center',
+        fontsize=10,
+        color='#444444',
+    )
     fig.suptitle(
         'Sri Lanka district-level religion population change, 2012→2024',
         fontsize=16,
-        y=0.98,
+        y=1.02,
     )
     fig.savefig(CHART_PATH, dpi=150, bbox_inches='tight')
     plt.close(fig)

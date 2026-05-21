@@ -197,7 +197,7 @@ def _readme_section(
             n2024 = dist_count_2024.get(district, 0)
             delta = n2024 - n2012
             lines.append(
-                f"| {region_label(region_names.name_for(district), district)} | {n2012} | {n2024} | {delta:+d}{triangle(delta)} |"
+                f"| {region_label(region_names.name_for(district), district)} | {n2012} | {n2024} | {triangle(delta)}{delta:+d} |"
             )
         lines.append('')
 

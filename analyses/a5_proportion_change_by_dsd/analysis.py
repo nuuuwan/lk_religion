@@ -16,6 +16,7 @@ A4_ANALYSIS_PATH = (
 TOP_DSD = 50
 MIN_ABSOLUTE = 1000
 MIN_NATIONAL_SHARE = 0.01  # 1% of that religion's national count
+MIN_CHANGE_ABS = 0.01
 
 
 def run():
@@ -59,6 +60,8 @@ def run():
             ),
         )
         change = shares_2024[max_religion] - shares_2012[max_religion]
+        if abs(change) <= MIN_CHANGE_ABS:
+            continue
         dsd_rows.append(
             {
                 'dsd_code': code,
@@ -100,7 +103,7 @@ def _readme_section(dsd_rows):
     lines = [
         '## A5. Largest Change in Religious Proportion by DSD',
         '',
-        'For each DSD, the religion whose share of the local population changed most between 2012 and 2024.',
+        f'For each DSD, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > {MIN_CHANGE_ABS:.0%}.',
         '',
         f'*Altered, new, and removed DSDs excluded. Religions with <{MIN_NATIONAL_SHARE:.0%} of national count or <{MIN_ABSOLUTE:,} people in the DSD are excluded.*',
     ]
@@ -122,7 +125,7 @@ def _readme_section(dsd_rows):
         )
         for row in religion_rows:
             lines.append(
-                f"| {row['dsd']} | {row['district']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['change'] * 100:+.1f}pp{triangle(row['change'])} |"
+                f"| {row['dsd']} | {row['district']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {triangle(row['change'])}{row['change'] * 100:+.1f}pp |"
             )
 
     return '\n'.join(lines)
