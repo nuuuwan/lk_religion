@@ -30,7 +30,7 @@ def _shares(data):
 
 
 def run():
-    print("=== 3) DSD-level boundary and distributional change ===")
+    print("=== 4) DSD-level boundary and distributional change ===")
 
     db2012 = Db("/LK:DSDs/Religion/2012")
     db2024 = Db("/LK:DSDs/Religion/2024")
@@ -162,7 +162,7 @@ def _readme_section(
     rn,
 ):
     lines = [
-        "## A3. DSD Boundary Changes",
+        "## A4. DSD Boundary Changes",
         "",
         "Districts where the number of DSDs changed between censuses are listed below. "
         "Within those districts, DSDs whose population growth deviates from the national rate "
@@ -192,7 +192,7 @@ def _readme_section(
             "|---|---|---|---|---:|---:|---:|",
         ]
         for row in sorted(
-            flagged, key=lambda r: (r["status"], r["district"], r["dsd"])
+            flagged, key=lambda r: (r["district"], {"Removed": 0, "Altered": 1, "New": 2}.get(r["status"], 3), r["dsd"])
         ):
             pop_2012 = (
                 f"{row['total_2012']:,}"

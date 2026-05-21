@@ -28,7 +28,7 @@ def _shares(data):
 
 
 def run():
-    print("=== 4) Largest change in religious proportion ===")
+    print("=== 3) Largest change in religious proportion ===")
 
     db_dist_2012 = Db("/LK:Districts/Religion/2012")
     db_dist_2024 = Db("/LK:Districts/Religion/2024")
@@ -128,7 +128,7 @@ def run():
 
 def _readme_section(district_rows, dsd_rows):
     lines = [
-        "## A4. Largest Change in Religious Proportion",
+        "## A3. Largest Change in Religious Proportion",
         "",
         "For each district and DSD, the religion whose share of the local population "
         "changed most between 2012 and 2024.",

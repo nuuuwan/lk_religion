@@ -2655,19 +2655,19 @@
       "distributional_change": 0.003177
     },
     {
-      "dsd_code": "LK-1318",
-      "dsd": "Millaniya",
-      "district": "Kalutara",
-      "total_2012": 52176,
-      "total_2024": 56166,
-      "distributional_change": 0.003065
-    },
-    {
       "dsd_code": "LK-3106",
       "dsd": "Balapitiya",
       "district": "Galle",
       "total_2012": 67432,
       "total_2024": 68150,
+      "distributional_change": 0.003065
+    },
+    {
+      "dsd_code": "LK-1318",
+      "dsd": "Millaniya",
+      "district": "Kalutara",
+      "total_2012": 52176,
+      "total_2024": 56166,
       "distributional_change": 0.003065
     },
     {
@@ -2711,19 +2711,19 @@
       "distributional_change": 0.002575
     },
     {
-      "dsd_code": "LK-3154",
-      "dsd": "Habaraduwa",
-      "district": "Galle",
-      "total_2012": 62389,
-      "total_2024": 63302,
-      "distributional_change": 0.002394
-    },
-    {
       "dsd_code": "LK-3303",
       "dsd": "Sooriyawewa",
       "district": "Hambantota",
       "total_2012": 43102,
       "total_2024": 52709,
+      "distributional_change": 0.002394
+    },
+    {
+      "dsd_code": "LK-3154",
+      "dsd": "Habaraduwa",
+      "district": "Galle",
+      "total_2012": 62389,
+      "total_2024": 63302,
       "distributional_change": 0.002394
     },
     {
