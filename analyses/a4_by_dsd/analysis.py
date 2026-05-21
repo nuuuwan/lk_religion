@@ -197,7 +197,7 @@ def _readme_section(
             n2024 = dist_count_2024.get(district, 0)
             delta = n2024 - n2012
             lines.append(
-                f"| {region_label(region_names.name_for(district), district)} | {n2012} | {n2024} | {triangle(delta)}{delta:+d} |"
+                f"| {region_label(region_names.name_for(district), district)} | {n2012} | {n2024} | {delta:+d}{triangle(delta)} |"
             )
         lines.append('')
 
@@ -224,7 +224,7 @@ def _readme_section(
             )
             pop_change_val = row['pop_change_pct']
             pop_change = (
-                f"{triangle(pop_change_val)}{pop_change_val:+.1f}%"
+                f"{pop_change_val:+.1f}%{triangle(pop_change_val)}"
                 if pop_change_val is not None
                 else '—'
             )
