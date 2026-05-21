@@ -1,5 +1,7 @@
 ## A2. Religion by District: Key Trends
 
+![A2 representative chart](chart.png)
+
 ### Buddhist
 
 | District | 2012 | 2024 | Change | Annual Growth | % of Natl |

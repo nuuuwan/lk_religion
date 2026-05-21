@@ -13,6 +13,8 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ## A1. National Population by Religion
 
+![A1 representative chart](chart.png)
+
 | Religion | 2012 | 2024 | Change | Annual Growth | % of Population |
 |---|---:|---:|---:|---:|---:|
 | Buddhist | 14,271,183 | 15,199,093 | +927,910 | +0.53% | 69.8% |
@@ -33,6 +35,8 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 ---
 
 ## A2. Religion by District: Key Trends
+
+![A2 representative chart](chart.png)
 
 ### Buddhist
 
@@ -176,6 +180,8 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ## A3. Largest Change in Religious Proportion
 
+![A3 representative chart](chart.png)
+
 For each district and DSD, the religion whose share of the local population changed most between 2012 and 2024.
 
 ### By District
@@ -268,6 +274,8 @@ For each district and DSD, the religion whose share of the local population chan
 ---
 
 ## A4. DSD Boundary Changes
+
+![A4 representative chart](chart.png)
 
 Districts where the number of DSDs changed between censuses are listed below. Within those districts, DSDs whose population growth deviates from the national rate (+6.99% over 2012–2024) by more than 2× are flagged as **Altered** — their apparent demographic shifts likely reflect re-demarcation rather than genuine change.
 

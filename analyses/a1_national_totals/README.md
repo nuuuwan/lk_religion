@@ -1,5 +1,7 @@
 ## A1. National Population by Religion
 
+![A1 representative chart](chart.png)
+
 | Religion | 2012 | 2024 | Change | Annual Growth | % of Population |
 |---|---:|---:|---:|---:|---:|
 | Buddhist | 14,271,183 | 15,199,093 | +927,910 | +0.53% | 69.8% |
