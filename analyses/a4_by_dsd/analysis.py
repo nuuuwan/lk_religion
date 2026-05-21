@@ -5,6 +5,8 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 from lanka_data import Db, RegionNames
 
+from analyses.proportion_change_common import triangle
+
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
 CHART_PATH = ANALYSIS_DIR / 'chart.png'
@@ -190,8 +192,9 @@ def _readme_section(
         for district in sorted(boundary_districts):
             n2012 = dist_count_2012.get(district, 0)
             n2024 = dist_count_2024.get(district, 0)
+            delta = n2024 - n2012
             lines.append(
-                f"| {region_names.name_for(district)} | {n2012} | {n2024} | {n2024 - n2012:+d} |"
+                f"| {region_names.name_for(district)} | {n2012} | {n2024} | {triangle(delta)}{delta:+d} |"
             )
         lines.append('')
 
@@ -216,9 +219,10 @@ def _readme_section(
             pop_2024 = (
                 f"{row['total_2024']:,}" if row['total_2024'] is not None else '—'
             )
+            pop_change_val = row['pop_change_pct']
             pop_change = (
-                f"{row['pop_change_pct']:+.1f}%"
-                if row['pop_change_pct'] is not None
+                f"{triangle(pop_change_val)}{pop_change_val:+.1f}%"
+                if pop_change_val is not None
                 else '—'
             )
             lines.append(
