@@ -14,7 +14,7 @@ RELIGIONS = [
     "Other",
 ]
 YEARS = 2024 - 2012
-SIGNIFICANT_THRESHOLD = 0.05  # 5% of national total
+SIGNIFICANT_THRESHOLD = 0.01  # 1% of national total
 MIN_ABSOLUTE = 1000  # minimum absolute count
 
 
@@ -46,7 +46,10 @@ def run():
         for code in db2012:
             v2012 = db2012[code].get(religion, 0)
             v2024 = db2024[code].get(religion, 0)
-            if max(v2012, v2024) < threshold or max(v2012, v2024) < MIN_ABSOLUTE:
+            if (
+                max(v2012, v2024) < threshold
+                or max(v2012, v2024) < MIN_ABSOLUTE
+            ):
                 other_2012 += v2012
                 other_2024 += v2024
                 continue
@@ -66,15 +69,12 @@ def run():
                         if annual_growth is not None
                         else None
                     ),
+                    "proportion_national": round(v2024 / national2024[religion], 6) if national2024[religion] > 0 else 0,
                 }
             )
 
         rows.sort(
-            key=lambda r: (
-                r["annual_growth_rate"]
-                if r["annual_growth_rate"] is not None
-                else 0
-            ),
+            key=lambda r: r["proportion_national"],
             reverse=True,
         )
 
@@ -85,30 +85,37 @@ def run():
                 if other_2012 > 0
                 else None
             )
-            rows.append({
-                "district_code": None,
-                "district": "Other (<5% or <1,000)",
-                "2012": other_2012,
-                "2024": other_2024,
-                "change": other_change,
-                "annual_growth_rate": round(other_growth, 6) if other_growth is not None else None,
-            })
+            rows.append(
+                {
+                    "district_code": None,
+                    "district": "Other (<1% or <1,000)",
+                    "2012": other_2012,
+                    "2024": other_2024,
+                    "change": other_change,
+                    "annual_growth_rate": (
+                        round(other_growth, 6)
+                        if other_growth is not None
+                        else None
+                    ),
+                }
+            )
 
         results[religion] = rows
 
-        print(f"\n  {religion} (threshold ≥ {threshold:,.0f})")
+        print(f"\n  {religion} (threshold ≥ {threshold:,.0f} and ≥ {MIN_ABSOLUTE:,})")
         print(
-            f"  {'District':<16} {'2012':>10} {'2024':>10} {'Change':>10} {'Ann. Growth':>12}"
+            f"  {'District':<16} {'2012':>10} {'2024':>10} {'Change':>10} {'Ann. Growth':>12} {'% of Natl':>10}"
         )
-        print("  " + "-" * 60)
+        print("  " + "-" * 72)
         for row in rows:
             ag = (
                 f"{row['annual_growth_rate']:+.2%}"
                 if row["annual_growth_rate"] is not None
                 else "N/A"
             )
+            pn = f"{row['proportion_national']:.1%}" if row.get("proportion_national") is not None else ""
             print(
-                f"  {row['district']:<16} {row['2012']:>10,} {row['2024']:>10,} {row['change']:>+10,} {ag:>12}"
+                f"  {row['district']:<16} {row['2012']:>10,} {row['2024']:>10,} {row['change']:>+10,} {ag:>12} {pn:>10}"
             )
 
     with open(
@@ -139,8 +146,8 @@ def _readme_section(results):
         lines += [
             f"### {religion}",
             "",
-            f"| District | 2012 | 2024 | Change | Annual Growth |",
-            f"|---|---:|---:|---:|---:|",
+            f"| District | 2012 | 2024 | Change | Annual Growth | % of Natl |",
+            f"|---|---:|---:|---:|---:|---:|",
         ]
         for row in significant_rows:
             ag = (
@@ -148,8 +155,9 @@ def _readme_section(results):
                 if row["annual_growth_rate"] is not None
                 else "N/A"
             )
+            pn = f"{row['proportion_national']:.1%}" if row.get("proportion_national") is not None else ""
             lines.append(
-                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,} | {ag} |"
+                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,} | {ag} | {pn} |"
             )
         if other_row:
             ag = (
@@ -158,7 +166,7 @@ def _readme_section(results):
                 else "N/A"
             )
             lines.append(
-                f"| *{other_row['district']}* | *{other_row['2012']:,}* | *{other_row['2024']:,}* | *{other_row['change']:+,}* | *{ag}* |"
+                f"| *{other_row['district']}* | *{other_row['2012']:,}* | *{other_row['2024']:,}* | *{other_row['change']:+,}* | *{ag}* | |"
             )
 
         highlights = []

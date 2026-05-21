@@ -1,0 +1,881 @@
+{
+  "by_district": [
+    {
+      "district_code": "LK-42",
+      "district": "Mannar",
+      "religion": "Islam",
+      "proportion_2012": 0.165833,
+      "proportion_2024": 0.273789,
+      "change": 0.107956
+    },
+    {
+      "district_code": "LK-53",
+      "district": "Trincomalee",
+      "religion": "Islam",
+      "proportion_2012": 0.420028,
+      "proportion_2024": 0.46452,
+      "change": 0.044492
+    },
+    {
+      "district_code": "LK-43",
+      "district": "Vavuniya",
+      "religion": "Islam",
+      "proportion_2012": 0.06958,
+      "proportion_2024": 0.103156,
+      "change": 0.033576
+    },
+    {
+      "district_code": "LK-44",
+      "district": "Mullaitivu",
+      "religion": "Hindu",
+      "proportion_2012": 0.752519,
+      "proportion_2024": 0.723689,
+      "change": -0.02883
+    },
+    {
+      "district_code": "LK-52",
+      "district": "Ampara",
+      "religion": "Islam",
+      "proportion_2012": 0.434226,
+      "proportion_2024": 0.456511,
+      "change": 0.022286
+    },
+    {
+      "district_code": "LK-62",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.315087,
+      "proportion_2024": 0.294297,
+      "change": -0.02079
+    },
+    {
+      "district_code": "LK-51",
+      "district": "Batticaloa",
+      "religion": "Islam",
+      "proportion_2012": 0.254602,
+      "proportion_2024": 0.271,
+      "change": 0.016398
+    },
+    {
+      "district_code": "LK-12",
+      "district": "Gampaha",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.194981,
+      "proportion_2024": 0.181554,
+      "change": -0.013427
+    },
+    {
+      "district_code": "LK-45",
+      "district": "Kilinochchi",
+      "religion": "Hindu",
+      "proportion_2012": 0.819188,
+      "proportion_2024": 0.80651,
+      "change": -0.012678
+    },
+    {
+      "district_code": "LK-13",
+      "district": "Kalutara",
+      "religion": "Islam",
+      "proportion_2012": 0.093749,
+      "proportion_2024": 0.10586,
+      "change": 0.012111
+    },
+    {
+      "district_code": "LK-11",
+      "district": "Colombo",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.06982,
+      "proportion_2024": 0.058887,
+      "change": -0.010933
+    },
+    {
+      "district_code": "LK-92",
+      "district": "Kegalle",
+      "religion": "Islam",
+      "proportion_2012": 0.072758,
+      "proportion_2024": 0.083421,
+      "change": 0.010663
+    },
+    {
+      "district_code": "LK-21",
+      "district": "Kandy",
+      "religion": "Islam",
+      "proportion_2012": 0.143288,
+      "proportion_2024": 0.153224,
+      "change": 0.009936
+    },
+    {
+      "district_code": "LK-23",
+      "district": "Nuwara Eliya",
+      "religion": "Hindu",
+      "proportion_2012": 0.510316,
+      "proportion_2024": 0.520166,
+      "change": 0.00985
+    },
+    {
+      "district_code": "LK-61",
+      "district": "Kurunegala",
+      "religion": "Islam",
+      "proportion_2012": 0.072844,
+      "proportion_2024": 0.081044,
+      "change": 0.0082
+    },
+    {
+      "district_code": "LK-72",
+      "district": "Polonnaruwa",
+      "religion": "Islam",
+      "proportion_2012": 0.075021,
+      "proportion_2024": 0.082893,
+      "change": 0.007872
+    },
+    {
+      "district_code": "LK-91",
+      "district": "Ratnapura",
+      "religion": "Buddhist",
+      "proportion_2012": 0.867149,
+      "proportion_2024": 0.872762,
+      "change": 0.005613
+    },
+    {
+      "district_code": "LK-31",
+      "district": "Galle",
+      "religion": "Islam",
+      "proportion_2012": 0.036928,
+      "proportion_2024": 0.041953,
+      "change": 0.005025
+    },
+    {
+      "district_code": "LK-22",
+      "district": "Matale",
+      "religion": "Islam",
+      "proportion_2012": 0.094281,
+      "proportion_2024": 0.099121,
+      "change": 0.00484
+    },
+    {
+      "district_code": "LK-41",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.827659,
+      "proportion_2024": 0.823069,
+      "change": -0.00459
+    },
+    {
+      "district_code": "LK-81",
+      "district": "Badulla",
+      "religion": "Buddhist",
+      "proportion_2012": 0.725773,
+      "proportion_2024": 0.730234,
+      "change": 0.004461
+    },
+    {
+      "district_code": "LK-71",
+      "district": "Anuradhapura",
+      "religion": "Islam",
+      "proportion_2012": 0.083076,
+      "proportion_2024": 0.087471,
+      "change": 0.004395
+    },
+    {
+      "district_code": "LK-32",
+      "district": "Matara",
+      "religion": "Islam",
+      "proportion_2012": 0.031465,
+      "proportion_2024": 0.035635,
+      "change": 0.00417
+    },
+    {
+      "district_code": "LK-82",
+      "district": "Monaragala",
+      "religion": "Hindu",
+      "proportion_2012": 0.026597,
+      "proportion_2024": 0.028382,
+      "change": 0.001785
+    },
+    {
+      "district_code": "LK-33",
+      "district": "Hambantota",
+      "religion": "Islam",
+      "proportion_2012": 0.025344,
+      "proportion_2024": 0.02673,
+      "change": 0.001386
+    }
+  ],
+  "by_dsd": [
+    {
+      "dsd_code": "LK-5104",
+      "dsd": "Koralai Pattu Central",
+      "district": "Batticaloa",
+      "religion": "Islam",
+      "proportion_2012": 0.971892,
+      "proportion_2024": 0.003268,
+      "change": -0.968624
+    },
+    {
+      "dsd_code": "LK-1106",
+      "dsd": "Kolonnawa",
+      "district": "Colombo",
+      "religion": "Islam",
+      "proportion_2012": 0.230527,
+      "proportion_2024": 0.313449,
+      "change": 0.082922
+    },
+    {
+      "dsd_code": "LK-1130",
+      "dsd": "Dehiwala",
+      "district": "Colombo",
+      "religion": "Islam",
+      "proportion_2012": 0.22604,
+      "proportion_2024": 0.304194,
+      "change": 0.078154
+    },
+    {
+      "dsd_code": "LK-4409",
+      "dsd": "Puthukkudiyiruppu",
+      "district": "Mullaitivu",
+      "religion": "Hindu",
+      "proportion_2012": 0.848262,
+      "proportion_2024": 0.786021,
+      "change": -0.062241
+    },
+    {
+      "dsd_code": "LK-4133",
+      "dsd": "Nallur",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.90354,
+      "proportion_2024": 0.858748,
+      "change": -0.044792
+    },
+    {
+      "dsd_code": "LK-4203",
+      "dsd": "Mannar Town",
+      "district": "Mannar",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.547594,
+      "proportion_2024": 0.506231,
+      "change": -0.041362
+    },
+    {
+      "dsd_code": "LK-1218",
+      "dsd": "Wattala",
+      "district": "Gampaha",
+      "religion": "Hindu",
+      "proportion_2012": 0.129793,
+      "proportion_2024": 0.16879,
+      "change": 0.038996
+    },
+    {
+      "dsd_code": "LK-3139",
+      "dsd": "Galle 4 Gravets",
+      "district": "Galle",
+      "religion": "Islam",
+      "proportion_2012": 0.323001,
+      "proportion_2024": 0.360235,
+      "change": 0.037234
+    },
+    {
+      "dsd_code": "LK-1324",
+      "dsd": "Beruwala",
+      "district": "Kalutara",
+      "religion": "Islam",
+      "proportion_2012": 0.346902,
+      "proportion_2024": 0.382375,
+      "change": 0.035473
+    },
+    {
+      "dsd_code": "LK-6218",
+      "dsd": "Mundel",
+      "district": "Puttalam",
+      "religion": "Islam",
+      "proportion_2012": 0.385639,
+      "proportion_2024": 0.418685,
+      "change": 0.033047
+    },
+    {
+      "dsd_code": "LK-2109",
+      "dsd": "Akurana",
+      "district": "Kandy",
+      "religion": "Islam",
+      "proportion_2012": 0.648564,
+      "proportion_2024": 0.678792,
+      "change": 0.030228
+    },
+    {
+      "dsd_code": "LK-1203",
+      "dsd": "Negombo",
+      "district": "Gampaha",
+      "religion": "Islam",
+      "proportion_2012": 0.143342,
+      "proportion_2024": 0.172437,
+      "change": 0.029095
+    },
+    {
+      "dsd_code": "LK-9206",
+      "dsd": "Mawanella",
+      "district": "Kegalle",
+      "religion": "Islam",
+      "proportion_2012": 0.304385,
+      "proportion_2024": 0.332733,
+      "change": 0.028348
+    },
+    {
+      "dsd_code": "LK-1303",
+      "dsd": "Panadura",
+      "district": "Kalutara",
+      "religion": "Islam",
+      "proportion_2012": 0.144312,
+      "proportion_2024": 0.172322,
+      "change": 0.028009
+    },
+    {
+      "dsd_code": "LK-4127",
+      "dsd": "Vadamaradchi North (Point Pedro)",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.838558,
+      "proportion_2024": 0.864027,
+      "change": 0.02547
+    },
+    {
+      "dsd_code": "LK-4309",
+      "dsd": "Vavuniya",
+      "district": "Vavuniya",
+      "religion": "Hindu",
+      "proportion_2012": 0.783048,
+      "proportion_2024": 0.758033,
+      "change": -0.025015
+    },
+    {
+      "dsd_code": "LK-6242",
+      "dsd": "Nattandiya",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.405922,
+      "proportion_2024": 0.38171,
+      "change": -0.024212
+    },
+    {
+      "dsd_code": "LK-6215",
+      "dsd": "Puttalam",
+      "district": "Puttalam",
+      "religion": "Islam",
+      "proportion_2012": 0.642068,
+      "proportion_2024": 0.665784,
+      "change": 0.023716
+    },
+    {
+      "dsd_code": "LK-4136",
+      "dsd": "Jaffna",
+      "district": "Jaffna",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.528807,
+      "proportion_2024": 0.505655,
+      "change": -0.023152
+    },
+    {
+      "dsd_code": "LK-1236",
+      "dsd": "Kelaniya",
+      "district": "Gampaha",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.097991,
+      "proportion_2024": 0.077313,
+      "change": -0.020678
+    },
+    {
+      "dsd_code": "LK-4212",
+      "dsd": "Nanaddan",
+      "district": "Mannar",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.683528,
+      "proportion_2024": 0.663617,
+      "change": -0.019911
+    },
+    {
+      "dsd_code": "LK-6248",
+      "dsd": "Dankotuwa",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.298434,
+      "proportion_2024": 0.278959,
+      "change": -0.019475
+    },
+    {
+      "dsd_code": "LK-1227",
+      "dsd": "Attanagalla",
+      "district": "Gampaha",
+      "religion": "Islam",
+      "proportion_2012": 0.124206,
+      "proportion_2024": 0.143664,
+      "change": 0.019458
+    },
+    {
+      "dsd_code": "LK-1206",
+      "dsd": "Katana",
+      "district": "Gampaha",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.32039,
+      "proportion_2024": 0.339579,
+      "change": 0.019189
+    },
+    {
+      "dsd_code": "LK-1127",
+      "dsd": "Thimbirigasyaya",
+      "district": "Colombo",
+      "religion": "Hindu",
+      "proportion_2012": 0.224898,
+      "proportion_2024": 0.243932,
+      "change": 0.019034
+    },
+    {
+      "dsd_code": "LK-2139",
+      "dsd": "Udunuwara",
+      "district": "Kandy",
+      "religion": "Islam",
+      "proportion_2012": 0.245129,
+      "proportion_2024": 0.264019,
+      "change": 0.01889
+    },
+    {
+      "dsd_code": "LK-1103",
+      "dsd": "Colombo",
+      "district": "Colombo",
+      "religion": "Hindu",
+      "proportion_2012": 0.227007,
+      "proportion_2024": 0.245853,
+      "change": 0.018846
+    },
+    {
+      "dsd_code": "LK-1109",
+      "dsd": "Kaduwela",
+      "district": "Colombo",
+      "religion": "Buddhist",
+      "proportion_2012": 0.904373,
+      "proportion_2024": 0.923107,
+      "change": 0.018734
+    },
+    {
+      "dsd_code": "LK-2151",
+      "dsd": "Udapalatha",
+      "district": "Kandy",
+      "religion": "Islam",
+      "proportion_2012": 0.226613,
+      "proportion_2024": 0.244289,
+      "change": 0.017677
+    },
+    {
+      "dsd_code": "LK-4509",
+      "dsd": "Karachchi",
+      "district": "Kilinochchi",
+      "religion": "Hindu",
+      "proportion_2012": 0.830883,
+      "proportion_2024": 0.813697,
+      "change": -0.017186
+    },
+    {
+      "dsd_code": "LK-5306",
+      "dsd": "Kuchchaweli",
+      "district": "Trincomalee",
+      "religion": "Islam",
+      "proportion_2012": 0.641459,
+      "proportion_2024": 0.658064,
+      "change": 0.016605
+    },
+    {
+      "dsd_code": "LK-5118",
+      "dsd": "Manmunai North",
+      "district": "Batticaloa",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.189732,
+      "proportion_2024": 0.174225,
+      "change": -0.015507
+    },
+    {
+      "dsd_code": "LK-5327",
+      "dsd": "Muthur",
+      "district": "Trincomalee",
+      "religion": "Islam",
+      "proportion_2012": 0.619699,
+      "proportion_2024": 0.635189,
+      "change": 0.015489
+    },
+    {
+      "dsd_code": "LK-5136",
+      "dsd": "Manmunai South & Eruvil Pattu",
+      "district": "Batticaloa",
+      "religion": "Hindu",
+      "proportion_2012": 0.939086,
+      "proportion_2024": 0.953544,
+      "change": 0.014458
+    },
+    {
+      "dsd_code": "LK-5103",
+      "dsd": "Koralai Pattu North",
+      "district": "Batticaloa",
+      "religion": "OtherChristian",
+      "proportion_2012": 0.120583,
+      "proportion_2024": 0.13472,
+      "change": 0.014137
+    },
+    {
+      "dsd_code": "LK-6239",
+      "dsd": "Mahawewa",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.517561,
+      "proportion_2024": 0.503799,
+      "change": -0.013763
+    },
+    {
+      "dsd_code": "LK-5324",
+      "dsd": "Kinniya",
+      "district": "Trincomalee",
+      "religion": "Islam",
+      "proportion_2012": 0.957702,
+      "proportion_2024": 0.971423,
+      "change": 0.013721
+    },
+    {
+      "dsd_code": "LK-6203",
+      "dsd": "Kalpitiya",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.322667,
+      "proportion_2024": 0.336358,
+      "change": 0.013691
+    },
+    {
+      "dsd_code": "LK-6233",
+      "dsd": "Chilaw",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.456594,
+      "proportion_2024": 0.443879,
+      "change": -0.012716
+    },
+    {
+      "dsd_code": "LK-1224",
+      "dsd": "Gampaha",
+      "district": "Gampaha",
+      "religion": "Buddhist",
+      "proportion_2012": 0.87569,
+      "proportion_2024": 0.888118,
+      "change": 0.012428
+    },
+    {
+      "dsd_code": "LK-1121",
+      "dsd": "Maharagama",
+      "district": "Colombo",
+      "religion": "Buddhist",
+      "proportion_2012": 0.919602,
+      "proportion_2024": 0.931771,
+      "change": 0.012169
+    },
+    {
+      "dsd_code": "LK-1124",
+      "dsd": "Sri Jayawardanapura Kotte",
+      "district": "Colombo",
+      "religion": "OtherChristian",
+      "proportion_2012": 0.046856,
+      "proportion_2024": 0.035129,
+      "change": -0.011728
+    },
+    {
+      "dsd_code": "LK-1233",
+      "dsd": "Mahara",
+      "district": "Gampaha",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.08751,
+      "proportion_2024": 0.075805,
+      "change": -0.011705
+    },
+    {
+      "dsd_code": "LK-4130",
+      "dsd": "Thenmaradchi (Chavakachcheri)",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.926511,
+      "proportion_2024": 0.916718,
+      "change": -0.009793
+    },
+    {
+      "dsd_code": "LK-4109",
+      "dsd": "Valikamam South West (Sandilipay)",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.751459,
+      "proportion_2024": 0.760768,
+      "change": 0.009309
+    },
+    {
+      "dsd_code": "LK-4112",
+      "dsd": "Valikamam North (Thllippalai)",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.857951,
+      "proportion_2024": 0.848711,
+      "change": -0.00924
+    },
+    {
+      "dsd_code": "LK-5315",
+      "dsd": "Town & Gravets",
+      "district": "Trincomalee",
+      "religion": "Hindu",
+      "proportion_2012": 0.49024,
+      "proportion_2024": 0.48152,
+      "change": -0.00872
+    },
+    {
+      "dsd_code": "LK-6245",
+      "dsd": "Wennappuwa",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.784396,
+      "proportion_2024": 0.776016,
+      "change": -0.00838
+    },
+    {
+      "dsd_code": "LK-8124",
+      "dsd": "Hali-Ela",
+      "district": "Badulla",
+      "religion": "Hindu",
+      "proportion_2012": 0.289596,
+      "proportion_2024": 0.297487,
+      "change": 0.007891
+    },
+    {
+      "dsd_code": "LK-5121",
+      "dsd": "Manmunai West",
+      "district": "Batticaloa",
+      "religion": "Hindu",
+      "proportion_2012": 0.971603,
+      "proportion_2024": 0.978861,
+      "change": 0.007258
+    },
+    {
+      "dsd_code": "LK-1133",
+      "dsd": "Moratuwa",
+      "district": "Colombo",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.197997,
+      "proportion_2024": 0.191443,
+      "change": -0.006554
+    },
+    {
+      "dsd_code": "LK-4115",
+      "dsd": "Valikamam South (Uduvil)",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.88379,
+      "proportion_2024": 0.889474,
+      "change": 0.005684
+    },
+    {
+      "dsd_code": "LK-1131",
+      "dsd": "Ratmalana",
+      "district": "Colombo",
+      "religion": "OtherChristian",
+      "proportion_2012": 0.050751,
+      "proportion_2024": 0.045558,
+      "change": -0.005192
+    },
+    {
+      "dsd_code": "LK-1230",
+      "dsd": "Dompe",
+      "district": "Gampaha",
+      "religion": "Buddhist",
+      "proportion_2012": 0.945333,
+      "proportion_2024": 0.950458,
+      "change": 0.005125
+    },
+    {
+      "dsd_code": "LK-2130",
+      "dsd": "Gangawata Korale",
+      "district": "Kandy",
+      "religion": "OtherChristian",
+      "proportion_2012": 0.021014,
+      "proportion_2024": 0.016005,
+      "change": -0.005009
+    },
+    {
+      "dsd_code": "LK-1209",
+      "dsd": "Divulapitiya",
+      "district": "Gampaha",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.134216,
+      "proportion_2024": 0.129723,
+      "change": -0.004492
+    },
+    {
+      "dsd_code": "LK-4118",
+      "dsd": "Valikamam East (Kopay)",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.909266,
+      "proportion_2024": 0.904868,
+      "change": -0.004398
+    },
+    {
+      "dsd_code": "LK-1215",
+      "dsd": "Minuwangoda",
+      "district": "Gampaha",
+      "religion": "Buddhist",
+      "proportion_2012": 0.884529,
+      "proportion_2024": 0.888909,
+      "change": 0.00438
+    },
+    {
+      "dsd_code": "LK-5230",
+      "dsd": "Nintavur",
+      "district": "Ampara",
+      "religion": "Islam",
+      "proportion_2012": 0.961344,
+      "proportion_2024": 0.965537,
+      "change": 0.004193
+    },
+    {
+      "dsd_code": "LK-1221",
+      "dsd": "Ja Ela",
+      "district": "Gampaha",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.49382,
+      "proportion_2024": 0.489659,
+      "change": -0.004161
+    },
+    {
+      "dsd_code": "LK-4121",
+      "dsd": "Vadamaradchchi South-West (Karaveddy)",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.959326,
+      "proportion_2024": 0.963432,
+      "change": 0.004106
+    },
+    {
+      "dsd_code": "LK-1239",
+      "dsd": "Biyagama",
+      "district": "Gampaha",
+      "religion": "Buddhist",
+      "proportion_2012": 0.864828,
+      "proportion_2024": 0.860848,
+      "change": -0.00398
+    },
+    {
+      "dsd_code": "LK-5106",
+      "dsd": "Koralai Pattu West",
+      "district": "Batticaloa",
+      "religion": "Islam",
+      "proportion_2012": 0.995221,
+      "proportion_2024": 0.998658,
+      "change": 0.003436
+    },
+    {
+      "dsd_code": "LK-1136",
+      "dsd": "Kesbewa",
+      "district": "Colombo",
+      "religion": "Buddhist",
+      "proportion_2012": 0.930295,
+      "proportion_2024": 0.933521,
+      "change": 0.003226
+    },
+    {
+      "dsd_code": "LK-1112",
+      "dsd": "Homagama",
+      "district": "Colombo",
+      "religion": "Buddhist",
+      "proportion_2012": 0.96185,
+      "proportion_2024": 0.964925,
+      "change": 0.003075
+    },
+    {
+      "dsd_code": "LK-5133",
+      "dsd": "Porativu Pattu",
+      "district": "Batticaloa",
+      "religion": "Hindu",
+      "proportion_2012": 0.974684,
+      "proportion_2024": 0.976778,
+      "change": 0.002094
+    },
+    {
+      "dsd_code": "LK-1212",
+      "dsd": "Mirigama",
+      "district": "Gampaha",
+      "religion": "Buddhist",
+      "proportion_2012": 0.935138,
+      "proportion_2024": 0.933051,
+      "change": -0.002087
+    },
+    {
+      "dsd_code": "LK-6230",
+      "dsd": "Arachchikattuwa",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.338886,
+      "proportion_2024": 0.337856,
+      "change": -0.00103
+    },
+    {
+      "dsd_code": "LK-9148",
+      "dsd": "Embilipitiya",
+      "district": "Ratnapura",
+      "religion": "Buddhist",
+      "proportion_2012": 0.995012,
+      "proportion_2024": 0.996038,
+      "change": 0.001026
+    },
+    {
+      "dsd_code": "LK-5124",
+      "dsd": "Kattankudy",
+      "district": "Batticaloa",
+      "religion": "Islam",
+      "proportion_2012": 0.997472,
+      "proportion_2024": 0.99846,
+      "change": 0.000987
+    },
+    {
+      "dsd_code": "LK-5218",
+      "dsd": "Sammanthurai",
+      "district": "Ampara",
+      "religion": "Islam",
+      "proportion_2012": 0.86579,
+      "proportion_2024": 0.866775,
+      "change": 0.000985
+    },
+    {
+      "dsd_code": "LK-5236",
+      "dsd": "Akkaraipattu",
+      "district": "Ampara",
+      "religion": "Islam",
+      "proportion_2012": 0.993694,
+      "proportion_2024": 0.994664,
+      "change": 0.000971
+    },
+    {
+      "dsd_code": "LK-4106",
+      "dsd": "Valikamam West (Chankanai)",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.938692,
+      "proportion_2024": 0.937733,
+      "change": -0.00096
+    },
+    {
+      "dsd_code": "LK-5225",
+      "dsd": "Sainthamaruthu",
+      "district": "Ampara",
+      "religion": "Islam",
+      "proportion_2012": 0.997683,
+      "proportion_2024": 0.998494,
+      "change": 0.000811
+    },
+    {
+      "dsd_code": "LK-5245",
+      "dsd": "Tirukkovil",
+      "district": "Ampara",
+      "religion": "Hindu",
+      "proportion_2012": 0.947581,
+      "proportion_2024": 0.947798,
+      "change": 0.000218
+    }
+  ]
+}

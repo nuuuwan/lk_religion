@@ -6,7 +6,14 @@ from lanka_data import Db, RegionNames
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
-RELIGIONS = ["Buddhist", "Hindu", "Islam", "RomanCatholic", "OtherChristian", "Other"]
+RELIGIONS = [
+    "Buddhist",
+    "Hindu",
+    "Islam",
+    "RomanCatholic",
+    "OtherChristian",
+    "Other",
+]
 YEARS = 2024 - 2012
 # A DSD in a boundary-affected district is flagged "altered" if its population
 # growth deviates from the national growth by more than this multiplier.
@@ -14,7 +21,9 @@ BOUNDARY_POP_CHANGE_FACTOR = 2.0
 
 
 def _shares(data):
-    total = data.get("TotalPopulation") or sum(data.get(r, 0) for r in RELIGIONS)
+    total = data.get("TotalPopulation") or sum(
+        data.get(r, 0) for r in RELIGIONS
+    )
     if total == 0:
         return {r: 0.0 for r in RELIGIONS}
     return {r: data.get(r, 0) / total for r in RELIGIONS}
@@ -37,7 +46,8 @@ def run():
     dist_count_2012 = Counter(k[:5] for k in db2012)
     dist_count_2024 = Counter(k[:5] for k in db2024)
     boundary_districts = {
-        d for d in set(dist_count_2012) | set(dist_count_2024)
+        d
+        for d in set(dist_count_2012) | set(dist_count_2024)
         if dist_count_2012.get(d, 0) != dist_count_2024.get(d, 0)
     }
 
@@ -54,15 +64,17 @@ def run():
         removed_dsd = code not in keys_2024
 
         if new_dsd or removed_dsd:
-            flagged.append({
-                "status": "New" if new_dsd else "Removed",
-                "dsd_code": code,
-                "dsd": rn.name_for(code),
-                "district": rn.name_for(district_code),
-                "total_2012": None,
-                "total_2024": None,
-                "pop_change_pct": None,
-            })
+            flagged.append(
+                {
+                    "status": "New" if new_dsd else "Removed",
+                    "dsd_code": code,
+                    "dsd": rn.name_for(code),
+                    "district": rn.name_for(district_code),
+                    "total_2012": db2012[code].get("TotalPopulation", 0) if removed_dsd else None,
+                    "total_2024": db2024[code].get("TotalPopulation", 0) if new_dsd else None,
+                    "pop_change_pct": None,
+                }
+            )
             continue
 
         if in_boundary_district:
@@ -71,16 +83,20 @@ def run():
             if pop_2012 > 0:
                 dsd_growth = pop_2024 / pop_2012 - 1
                 deviation = abs(dsd_growth - national_growth)
-                if deviation > BOUNDARY_POP_CHANGE_FACTOR * abs(national_growth):
-                    flagged.append({
-                        "status": "Altered",
-                        "dsd_code": code,
-                        "dsd": rn.name_for(code),
-                        "district": rn.name_for(district_code),
-                        "total_2012": pop_2012,
-                        "total_2024": pop_2024,
-                        "pop_change_pct": round(dsd_growth * 100, 2),
-                    })
+                if deviation > BOUNDARY_POP_CHANGE_FACTOR * abs(
+                    national_growth
+                ):
+                    flagged.append(
+                        {
+                            "status": "Altered",
+                            "dsd_code": code,
+                            "dsd": rn.name_for(code),
+                            "district": rn.name_for(district_code),
+                            "total_2012": pop_2012,
+                            "total_2024": pop_2024,
+                            "pop_change_pct": round(dsd_growth * 100, 2),
+                        }
+                    )
 
     # All normal (non-new/removed) DSDs: compute distributional change
     normal_rows = []
@@ -88,31 +104,55 @@ def run():
         s2012 = _shares(db2012[code])
         s2024 = _shares(db2024[code])
         dist_change = sum(abs(s2024[r] - s2012[r]) for r in RELIGIONS)
-        normal_rows.append({
-            "dsd_code": code,
-            "dsd": rn.name_for(code),
-            "district": rn.name_for(code[:5]),
-            "total_2012": db2012[code].get("TotalPopulation", 0),
-            "total_2024": db2024[code].get("TotalPopulation", 0),
-            "distributional_change": round(dist_change, 6),
-        })
+        normal_rows.append(
+            {
+                "dsd_code": code,
+                "dsd": rn.name_for(code),
+                "district": rn.name_for(code[:5]),
+                "total_2012": db2012[code].get("TotalPopulation", 0),
+                "total_2024": db2024[code].get("TotalPopulation", 0),
+                "distributional_change": round(dist_change, 6),
+            }
+        )
     normal_rows.sort(key=lambda r: r["distributional_change"], reverse=True)
 
     os.makedirs(DATA_DIR, exist_ok=True)
-    with open(os.path.join(DATA_DIR, "religion_by_dsd_analysis.json"), "w") as f:
+    with open(
+        os.path.join(DATA_DIR, "religion_by_dsd_analysis.json"), "w"
+    ) as f:
         json.dump({"flagged": flagged, "all_dsds": normal_rows}, f, indent=2)
 
     print(f"\n  National population growth 2012→2024: {national_growth:+.2%}")
     print(f"  Boundary-affected districts: {sorted(boundary_districts)}")
     print(f"\n  Flagged DSDs (new / altered / removed): {len(flagged)}")
     for row in flagged:
-        pc = f"  pop change {row['pop_change_pct']:+.1f}%" if row["pop_change_pct"] is not None else ""
-        print(f"  [{row['status']:8s}] {row['dsd_code']} — {row['dsd']} ({row['district']}){pc}")
+        pc = (
+            f"  pop change {row['pop_change_pct']:+.1f}%"
+            if row["pop_change_pct"] is not None
+            else ""
+        )
+        print(
+            f"  [{row['status']:8s}] {row['dsd_code']} — {row['dsd']} ({row['district']}){pc}"
+        )
 
-    return _readme_section(flagged, dist_count_2012, dist_count_2024, boundary_districts, national_growth, rn)
+    return _readme_section(
+        flagged,
+        dist_count_2012,
+        dist_count_2024,
+        boundary_districts,
+        national_growth,
+        rn,
+    )
 
 
-def _readme_section(flagged, dist_count_2012, dist_count_2024, boundary_districts, national_growth, rn):
+def _readme_section(
+    flagged,
+    dist_count_2012,
+    dist_count_2024,
+    boundary_districts,
+    national_growth,
+    rn,
+):
     lines = [
         "## A3. DSD Boundary Changes",
         "",
@@ -131,7 +171,9 @@ def _readme_section(flagged, dist_count_2012, dist_count_2024, boundary_district
         for d in sorted(boundary_districts):
             n2012 = dist_count_2012.get(d, 0)
             n2024 = dist_count_2024.get(d, 0)
-            lines.append(f"| {rn.name_for(d)} | {n2012} | {n2024} | {n2024 - n2012:+d} |")
+            lines.append(
+                f"| {rn.name_for(d)} | {n2012} | {n2024} | {n2024 - n2012:+d} |"
+            )
         lines.append("")
 
     if flagged:
@@ -141,14 +183,27 @@ def _readme_section(flagged, dist_count_2012, dist_count_2024, boundary_district
             "| Status | Code | DSD | District | Pop 2012 | Pop 2024 | Pop Change |",
             "|---|---|---|---|---:|---:|---:|",
         ]
-        for row in sorted(flagged, key=lambda r: (r["status"], r["district"], r["dsd"])):
-            pop_2012 = f"{row['total_2012']:,}" if row["total_2012"] is not None else "—"
-            pop_2024 = f"{row['total_2024']:,}" if row["total_2024"] is not None else "—"
-            pop_chg = f"{row['pop_change_pct']:+.1f}%" if row["pop_change_pct"] is not None else "—"
+        for row in sorted(
+            flagged, key=lambda r: (r["status"], r["district"], r["dsd"])
+        ):
+            pop_2012 = (
+                f"{row['total_2012']:,}"
+                if row["total_2012"] is not None
+                else "—"
+            )
+            pop_2024 = (
+                f"{row['total_2024']:,}"
+                if row["total_2024"] is not None
+                else "—"
+            )
+            pop_chg = (
+                f"{row['pop_change_pct']:+.1f}%"
+                if row["pop_change_pct"] is not None
+                else "—"
+            )
             lines.append(
                 f"| {row['status']} | {row['dsd_code']} | {row['dsd']} | {row['district']} "
                 f"| {pop_2012} | {pop_2024} | {pop_chg} |"
             )
 
     return "\n".join(lines)
-

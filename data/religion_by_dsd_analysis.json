@@ -15,7 +15,7 @@
       "dsd": "Kothmale West",
       "district": "Nuwara Eliya",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 41955,
       "pop_change_pct": null
     },
     {
@@ -33,7 +33,7 @@
       "dsd": "Mathurata",
       "district": "Nuwara Eliya",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 33175,
       "pop_change_pct": null
     },
     {
@@ -51,7 +51,7 @@
       "dsd": "Nildandahinna",
       "district": "Nuwara Eliya",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 42422,
       "pop_change_pct": null
     },
     {
@@ -69,7 +69,7 @@
       "dsd": "Thalawakele",
       "district": "Nuwara Eliya",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 129531,
       "pop_change_pct": null
     },
     {
@@ -87,7 +87,7 @@
       "dsd": "Norwood",
       "district": "Nuwara Eliya",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 161367,
       "pop_change_pct": null
     },
     {
@@ -105,7 +105,7 @@
       "dsd": "Wanduramba",
       "district": "Galle",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 27702,
       "pop_change_pct": null
     },
     {
@@ -123,7 +123,7 @@
       "dsd": "Rathgama",
       "district": "Galle",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 41456,
       "pop_change_pct": null
     },
     {
@@ -132,7 +132,7 @@
       "dsd": "Madampagama",
       "district": "Galle",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 33408,
       "pop_change_pct": null
     },
     {
@@ -140,7 +140,7 @@
       "dsd_code": "LK-5109",
       "dsd": "Koralai Pattu",
       "district": "Batticaloa",
-      "total_2012": null,
+      "total_2012": 23376,
       "total_2024": null,
       "pop_change_pct": null
     },
@@ -149,7 +149,7 @@
       "dsd_code": "LK-5112",
       "dsd": "LK-5112",
       "district": "Batticaloa",
-      "total_2012": null,
+      "total_2012": 75478,
       "total_2024": null,
       "pop_change_pct": null
     },
@@ -168,7 +168,7 @@
       "dsd": "Eravur Town",
       "district": "Batticaloa",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 26468,
       "pop_change_pct": null
     },
     {
@@ -185,7 +185,7 @@
       "dsd_code": "LK-5224",
       "dsd": "LK-5224",
       "district": "Ampara",
-      "total_2012": null,
+      "total_2012": 44632,
       "total_2024": null,
       "pop_change_pct": null
     },
@@ -249,7 +249,7 @@
       "dsd": "Kalthota",
       "district": "Ratnapura",
       "total_2012": null,
-      "total_2024": null,
+      "total_2024": 13018,
       "pop_change_pct": null
     }
   ],
@@ -2711,19 +2711,19 @@
       "distributional_change": 0.002575
     },
     {
-      "dsd_code": "LK-3303",
-      "dsd": "Sooriyawewa",
-      "district": "Hambantota",
-      "total_2012": 43102,
-      "total_2024": 52709,
-      "distributional_change": 0.002394
-    },
-    {
       "dsd_code": "LK-3154",
       "dsd": "Habaraduwa",
       "district": "Galle",
       "total_2012": 62389,
       "total_2024": 63302,
+      "distributional_change": 0.002394
+    },
+    {
+      "dsd_code": "LK-3303",
+      "dsd": "Sooriyawewa",
+      "district": "Hambantota",
+      "total_2012": 43102,
+      "total_2024": 52709,
       "distributional_change": 0.002394
     },
     {

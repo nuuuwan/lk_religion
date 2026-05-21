@@ -6,6 +6,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import a1_national_totals
 import a2_by_district
 import a3_by_dsd
+import a4_proportion_change
 
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "README.md")
 
@@ -14,6 +15,7 @@ sections = [
     a1_national_totals.run(),
     a2_by_district.run(),
     a3_by_dsd.run(),
+    a4_proportion_change.run(),
 ]
 
 # --- Write README ---
