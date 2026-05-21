@@ -145,7 +145,7 @@ def _readme_section(results):
         '',
         '![A2 district change maps](chart.png)',
         '',
-        f'District labels show the religion share of each district population in **2012 → 2024**. Districts are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Districts with religion population **< {LOW_POPULATION_THRESHOLD:,} (2024)** are shown in **grey**.',
+        f'District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Districts with religion population **< {LOW_POPULATION_THRESHOLD:,} (2024)** are shown in **grey**.',
         '',
     ]
 
@@ -286,12 +286,11 @@ def _write_chart(results, district_map_gdf):
         label_points = plot_gdf.representative_point()
         for _, row in plot_gdf.iterrows():
             point = label_points.loc[row.name]
-            proportion_2012 = row['proportion_2012']
-            proportion_2024 = row['proportion_2024']
+            proportion_change = row['proportion_change']
             label = (
-                f'{_format_share(proportion_2012)}→{_format_share(proportion_2024)}'
-                if pd.notna(proportion_2012) and pd.notna(proportion_2024)
-                else 'N/A'
+                f"{row['district']}\n{_format_pp(proportion_change)} pp"
+                if pd.notna(proportion_change)
+                else f"{row['district']}\nN/A"
             )
             ax.text(
                 point.x,
@@ -299,8 +298,15 @@ def _write_chart(results, district_map_gdf):
                 label,
                 ha='center',
                 va='center',
-                fontsize=6.5,
+                fontsize=5.8,
                 color='#1a1a1a',
+                linespacing=1.1,
+                bbox={
+                    'boxstyle': 'round,pad=0.2',
+                    'facecolor': 'white',
+                    'edgecolor': 'none',
+                    'alpha': 1.0,
+                },
             )
         ax.set_title(RELIGION_LABELS[religion], fontsize=13, pad=10)
         ax.set_axis_off()
@@ -327,5 +333,5 @@ def _write_chart(results, district_map_gdf):
         fontsize=16,
         y=1.02,
     )
-    fig.savefig(CHART_PATH, dpi=150, bbox_inches='tight')
+    fig.savefig(CHART_PATH, dpi=300, bbox_inches='tight')
     plt.close(fig)
