@@ -84,7 +84,7 @@ def run():
     print('  ' + '-' * 82)
     for row in dsd_rows[:TOP_DSD]:
         print(
-            f"  {row['dsd']:<22} {row['district']:<14} {row['religion']:<16} {row['proportion_2012']:>8.1%} {row['proportion_2024']:>8.1%} {row['change']:>+10.1%}"
+            f"  {row['dsd']:<22} {row['district']:<14} {row['religion']:<16} {row['proportion_2012']:>8.1%} {row['proportion_2024']:>8.1%} {row['change'] * 100:>+9.1f}pp"
         )
 
     return _write_readme(_readme_section(dsd_rows))
@@ -116,13 +116,13 @@ def _readme_section(dsd_rows):
                 '',
                 f'### {religion}',
                 '',
-                '| DSD | District | Share 2012 | Share 2024 | Change |',
+                '| DSD | District | Share 2012 | Share 2024 | Change (pp) |',
                 '|---|---|---:|---:|---:|',
             ]
         )
         for row in religion_rows:
             lines.append(
-                f"| {row['dsd']} | {row['district']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {triangle(row['change'])}{row['change']:+.1%} |"
+                f"| {row['dsd']} | {row['district']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {triangle(row['change'])}{row['change'] * 100:+.1f}pp |"
             )
 
     return '\n'.join(lines)
