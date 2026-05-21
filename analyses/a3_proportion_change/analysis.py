@@ -4,7 +4,13 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 from lanka_data import Db, RegionNames
 
-from analyses.proportion_change_common import RELIGIONS, shares, triangle
+from analyses.proportion_change_common import (
+    NEGATIVE_COLOR,
+    POSITIVE_COLOR,
+    RELIGIONS,
+    shares,
+    triangle,
+)
 
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
@@ -94,7 +100,7 @@ def _write_chart(district_rows):
     top_rows = district_rows[:15]
     labels = [row['district'] for row in top_rows]
     values = [row['change'] * 100 for row in top_rows]
-    colors = ['#e15759' if value < 0 else '#76b7b2' for value in values]
+    colors = [NEGATIVE_COLOR if value < 0 else POSITIVE_COLOR for value in values]
 
     fig, ax = plt.subplots(figsize=(8, 5.6))
     if labels:
