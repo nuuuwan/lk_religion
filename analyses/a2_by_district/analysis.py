@@ -4,6 +4,8 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 from lanka_data import Db, RegionNames
 
+from analyses.proportion_change_common import RELIGION_COLORS
+
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
 CHART_PATH = ANALYSIS_DIR / 'chart.png'
@@ -236,6 +238,7 @@ def _readme_section(results):
 def _write_chart(results):
     labels = []
     values = []
+    colors = []
 
     for religion, rows in results.items():
         significant_rows = [row for row in rows if row['district_code'] is not None]
@@ -246,10 +249,11 @@ def _write_chart(results):
         )
         labels.append(religion)
         values.append(top_row.get('proportion_national', 0) * 100)
+        colors.append(RELIGION_COLORS.get(religion, 'grey'))
 
     fig, ax = plt.subplots(figsize=(8, 4.8))
     if labels:
-        ax.bar(labels, values, color='#59a14f')
+        ax.bar(labels, values, color=colors)
         ax.set_ylabel('% of national religion population')
         ax.set_title('Top district share by religion (2024)')
         ax.tick_params(axis='x', rotation=30)

@@ -7,6 +7,18 @@ RELIGIONS = [
     'Other',
 ]
 
+RELIGION_COLORS = {
+    'Buddhist': 'yellow',
+    'Hindu': 'orange',
+    'Islam': 'teal',
+    'RomanCatholic': 'blue',
+    'OtherChristian': 'purple',
+    'Other': 'grey',
+}
+
+POSITIVE_COLOR = 'green'
+NEGATIVE_COLOR = 'red'
+
 
 def shares(data):
     total = data.get('TotalPopulation') or sum(
