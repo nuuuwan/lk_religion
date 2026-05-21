@@ -6,46 +6,46 @@ For each DSD, the religion whose share of the local population changed most betw
 
 | DSD | District | Religion | Share 2012 | Share 2024 | Change |
 |---|---|---|---:|---:|---:|
-| Koralai Pattu Central | Batticaloa | Islam | 97.2% | 0.3% | -96.9% |
-| Kolonnawa | Colombo | Islam | 23.1% | 31.3% | +8.3% |
-| Dehiwala | Colombo | Islam | 22.6% | 30.4% | +7.8% |
-| Puthukkudiyiruppu | Mullaitivu | Hindu | 84.8% | 78.6% | -6.2% |
-| Nallur | Jaffna | Hindu | 90.4% | 85.9% | -4.5% |
-| Mannar Town | Mannar | RomanCatholic | 54.8% | 50.6% | -4.1% |
-| Wattala | Gampaha | Hindu | 13.0% | 16.9% | +3.9% |
-| Galle 4 Gravets | Galle | Islam | 32.3% | 36.0% | +3.7% |
-| Beruwala | Kalutara | Islam | 34.7% | 38.2% | +3.5% |
-| Mundel | Puttalam | Islam | 38.6% | 41.9% | +3.3% |
-| Akurana | Kandy | Islam | 64.9% | 67.9% | +3.0% |
-| Negombo | Gampaha | Islam | 14.3% | 17.2% | +2.9% |
-| Mawanella | Kegalle | Islam | 30.4% | 33.3% | +2.8% |
-| Panadura | Kalutara | Islam | 14.4% | 17.2% | +2.8% |
-| Vadamaradchi North (Point Pedro) | Jaffna | Hindu | 83.9% | 86.4% | +2.5% |
-| Vavuniya | Vavuniya | Hindu | 78.3% | 75.8% | -2.5% |
-| Nattandiya | Puttalam | RomanCatholic | 40.6% | 38.2% | -2.4% |
-| Puttalam | Puttalam | Islam | 64.2% | 66.6% | +2.4% |
-| Jaffna | Jaffna | RomanCatholic | 52.9% | 50.6% | -2.3% |
-| Kelaniya | Gampaha | RomanCatholic | 9.8% | 7.7% | -2.1% |
-| Nanaddan | Mannar | RomanCatholic | 68.4% | 66.4% | -2.0% |
-| Dankotuwa | Puttalam | RomanCatholic | 29.8% | 27.9% | -1.9% |
-| Attanagalla | Gampaha | Islam | 12.4% | 14.4% | +1.9% |
-| Katana | Gampaha | RomanCatholic | 32.0% | 34.0% | +1.9% |
-| Thimbirigasyaya | Colombo | Hindu | 22.5% | 24.4% | +1.9% |
-| Udunuwara | Kandy | Islam | 24.5% | 26.4% | +1.9% |
-| Colombo | Colombo | Hindu | 22.7% | 24.6% | +1.9% |
-| Kaduwela | Colombo | Buddhist | 90.4% | 92.3% | +1.9% |
-| Udapalatha | Kandy | Islam | 22.7% | 24.4% | +1.8% |
-| Karachchi | Kilinochchi | Hindu | 83.1% | 81.4% | -1.7% |
-| Kuchchaweli | Trincomalee | Islam | 64.1% | 65.8% | +1.7% |
-| Manmunai North | Batticaloa | RomanCatholic | 19.0% | 17.4% | -1.6% |
-| Muthur | Trincomalee | Islam | 62.0% | 63.5% | +1.5% |
-| Manmunai South & Eruvil Pattu | Batticaloa | Hindu | 93.9% | 95.4% | +1.4% |
-| Koralai Pattu North | Batticaloa | OtherChristian | 12.1% | 13.5% | +1.4% |
-| Mahawewa | Puttalam | RomanCatholic | 51.8% | 50.4% | -1.4% |
-| Kinniya | Trincomalee | Islam | 95.8% | 97.1% | +1.4% |
-| Kalpitiya | Puttalam | RomanCatholic | 32.3% | 33.6% | +1.4% |
-| Chilaw | Puttalam | RomanCatholic | 45.7% | 44.4% | -1.3% |
-| Gampaha | Gampaha | Buddhist | 87.6% | 88.8% | +1.2% |
-| Maharagama | Colombo | Buddhist | 92.0% | 93.2% | +1.2% |
-| Sri Jayawardanapura Kotte | Colombo | OtherChristian | 4.7% | 3.5% | -1.2% |
-| Mahara | Gampaha | RomanCatholic | 8.8% | 7.6% | -1.2% |
+| Koralai Pattu Central | Batticaloa | Islam | 97.2% | 0.3% | <span style="color:red">▼</span> -96.9% |
+| Kolonnawa | Colombo | Islam | 23.1% | 31.3% | <span style="color:green">▲</span> +8.3% |
+| Dehiwala | Colombo | Islam | 22.6% | 30.4% | <span style="color:green">▲</span> +7.8% |
+| Puthukkudiyiruppu | Mullaitivu | Hindu | 84.8% | 78.6% | <span style="color:red">▼</span> -6.2% |
+| Nallur | Jaffna | Hindu | 90.4% | 85.9% | <span style="color:red">▼</span> -4.5% |
+| Mannar Town | Mannar | RomanCatholic | 54.8% | 50.6% | <span style="color:red">▼</span> -4.1% |
+| Wattala | Gampaha | Hindu | 13.0% | 16.9% | <span style="color:green">▲</span> +3.9% |
+| Galle 4 Gravets | Galle | Islam | 32.3% | 36.0% | <span style="color:green">▲</span> +3.7% |
+| Beruwala | Kalutara | Islam | 34.7% | 38.2% | <span style="color:green">▲</span> +3.5% |
+| Mundel | Puttalam | Islam | 38.6% | 41.9% | <span style="color:green">▲</span> +3.3% |
+| Akurana | Kandy | Islam | 64.9% | 67.9% | <span style="color:green">▲</span> +3.0% |
+| Negombo | Gampaha | Islam | 14.3% | 17.2% | <span style="color:green">▲</span> +2.9% |
+| Mawanella | Kegalle | Islam | 30.4% | 33.3% | <span style="color:green">▲</span> +2.8% |
+| Panadura | Kalutara | Islam | 14.4% | 17.2% | <span style="color:green">▲</span> +2.8% |
+| Vadamaradchi North (Point Pedro) | Jaffna | Hindu | 83.9% | 86.4% | <span style="color:green">▲</span> +2.5% |
+| Vavuniya | Vavuniya | Hindu | 78.3% | 75.8% | <span style="color:red">▼</span> -2.5% |
+| Nattandiya | Puttalam | RomanCatholic | 40.6% | 38.2% | <span style="color:red">▼</span> -2.4% |
+| Puttalam | Puttalam | Islam | 64.2% | 66.6% | <span style="color:green">▲</span> +2.4% |
+| Jaffna | Jaffna | RomanCatholic | 52.9% | 50.6% | <span style="color:red">▼</span> -2.3% |
+| Kelaniya | Gampaha | RomanCatholic | 9.8% | 7.7% | <span style="color:red">▼</span> -2.1% |
+| Nanaddan | Mannar | RomanCatholic | 68.4% | 66.4% | <span style="color:red">▼</span> -2.0% |
+| Dankotuwa | Puttalam | RomanCatholic | 29.8% | 27.9% | <span style="color:red">▼</span> -1.9% |
+| Attanagalla | Gampaha | Islam | 12.4% | 14.4% | <span style="color:green">▲</span> +1.9% |
+| Katana | Gampaha | RomanCatholic | 32.0% | 34.0% | <span style="color:green">▲</span> +1.9% |
+| Thimbirigasyaya | Colombo | Hindu | 22.5% | 24.4% | <span style="color:green">▲</span> +1.9% |
+| Udunuwara | Kandy | Islam | 24.5% | 26.4% | <span style="color:green">▲</span> +1.9% |
+| Colombo | Colombo | Hindu | 22.7% | 24.6% | <span style="color:green">▲</span> +1.9% |
+| Kaduwela | Colombo | Buddhist | 90.4% | 92.3% | <span style="color:green">▲</span> +1.9% |
+| Udapalatha | Kandy | Islam | 22.7% | 24.4% | <span style="color:green">▲</span> +1.8% |
+| Karachchi | Kilinochchi | Hindu | 83.1% | 81.4% | <span style="color:red">▼</span> -1.7% |
+| Kuchchaweli | Trincomalee | Islam | 64.1% | 65.8% | <span style="color:green">▲</span> +1.7% |
+| Manmunai North | Batticaloa | RomanCatholic | 19.0% | 17.4% | <span style="color:red">▼</span> -1.6% |
+| Muthur | Trincomalee | Islam | 62.0% | 63.5% | <span style="color:green">▲</span> +1.5% |
+| Manmunai South & Eruvil Pattu | Batticaloa | Hindu | 93.9% | 95.4% | <span style="color:green">▲</span> +1.4% |
+| Koralai Pattu North | Batticaloa | OtherChristian | 12.1% | 13.5% | <span style="color:green">▲</span> +1.4% |
+| Mahawewa | Puttalam | RomanCatholic | 51.8% | 50.4% | <span style="color:red">▼</span> -1.4% |
+| Kinniya | Trincomalee | Islam | 95.8% | 97.1% | <span style="color:green">▲</span> +1.4% |
+| Kalpitiya | Puttalam | RomanCatholic | 32.3% | 33.6% | <span style="color:green">▲</span> +1.4% |
+| Chilaw | Puttalam | RomanCatholic | 45.7% | 44.4% | <span style="color:red">▼</span> -1.3% |
+| Gampaha | Gampaha | Buddhist | 87.6% | 88.8% | <span style="color:green">▲</span> +1.2% |
+| Maharagama | Colombo | Buddhist | 92.0% | 93.2% | <span style="color:green">▲</span> +1.2% |
+| Sri Jayawardanapura Kotte | Colombo | OtherChristian | 4.7% | 3.5% | <span style="color:red">▼</span> -1.2% |
+| Mahara | Gampaha | RomanCatholic | 8.8% | 7.6% | <span style="color:red">▼</span> -1.2% |
