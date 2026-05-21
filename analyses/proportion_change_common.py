@@ -31,7 +31,7 @@ def shares(data):
 
 def triangle(value):
     if value > 0:
-        return '🟩 '
+        return ' 🟩'
     if value < 0:
-        return '🟥 '
+        return ' 🟥'
     return ''

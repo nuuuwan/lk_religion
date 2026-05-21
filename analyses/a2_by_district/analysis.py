@@ -188,7 +188,7 @@ def _readme_section(results):
                 else ''
             )
             lines.append(
-                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {triangle(row['change'])}{row['change']:+,} | {triangle(row['annual_growth_rate'] or 0)}{annual_growth} | {proportion_national} |"
+                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {annual_growth}{triangle(row['annual_growth_rate'] or 0)} | {proportion_national} |"
             )
         if other_row:
             annual_growth = (
@@ -197,7 +197,7 @@ def _readme_section(results):
                 else 'N/A'
             )
             lines.append(
-                f"| *{other_row['district']}* | *{other_row['2012']:,}* | *{other_row['2024']:,}* | *{triangle(other_row['change'])}{other_row['change']:+,}* | *{triangle(other_row['annual_growth_rate'] or 0)}{annual_growth}* | |"
+                f"| *{other_row['district']}* | *{other_row['2012']:,}* | *{other_row['2024']:,}* | *{other_row['change']:+,}{triangle(other_row['change'])}* | *{annual_growth}{triangle(other_row['annual_growth_rate'] or 0)}* | |"
             )
 
         highlights = []
