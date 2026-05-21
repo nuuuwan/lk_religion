@@ -4,7 +4,6 @@
 
 For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%.
 
-
 ### Hindu
 
 | District | Share 2012 | Share 2024 | Change (pp) |
