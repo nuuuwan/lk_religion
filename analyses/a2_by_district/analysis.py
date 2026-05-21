@@ -1,10 +1,12 @@
 import json
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 from lanka_data import Db, RegionNames
 
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
+CHART_PATH = ANALYSIS_DIR / 'chart.png'
 
 RELIGIONS = [
     'Buddhist',
@@ -74,7 +76,12 @@ def run():
             )
 
         rows.sort(
-            key=lambda row: row['proportion_national'],
+            key=lambda row: (
+                row['annual_growth_rate'] is not None,
+                row['annual_growth_rate']
+                if row['annual_growth_rate'] is not None
+                else float('-inf'),
+            ),
             reverse=True,
         )
 
@@ -127,6 +134,8 @@ def run():
     with open(ANALYSIS_DIR / 'religion_by_district_analysis.json', 'w') as f:
         json.dump(results, f, indent=2)
 
+    _write_chart(results)
+
     return _write_readme(_readme_section(results))
 
 
@@ -136,7 +145,12 @@ def _write_readme(content):
 
 
 def _readme_section(results):
-    lines = ['## A2. Religion by District: Key Trends', '']
+    lines = [
+        '## A2. Religion by District: Key Trends',
+        '',
+        '![A2 representative chart](chart.png)',
+        '',
+    ]
 
     for religion, rows in results.items():
         if not rows:
@@ -217,3 +231,31 @@ def _readme_section(results):
         lines.append('')
 
     return '\n'.join(lines).rstrip()
+
+
+def _write_chart(results):
+    labels = []
+    values = []
+
+    for religion, rows in results.items():
+        significant_rows = [row for row in rows if row['district_code'] is not None]
+        if not significant_rows:
+            continue
+        top_row = max(
+            significant_rows, key=lambda row: row.get('proportion_national', 0)
+        )
+        labels.append(religion)
+        values.append(top_row.get('proportion_national', 0) * 100)
+
+    fig, ax = plt.subplots(figsize=(8, 4.8))
+    if labels:
+        ax.bar(labels, values, color='#59a14f')
+        ax.set_ylabel('% of national religion population')
+        ax.set_title('Top district share by religion (2024)')
+        ax.tick_params(axis='x', rotation=30)
+    else:
+        ax.text(0.5, 0.5, 'No chartable data', ha='center', va='center')
+        ax.set_axis_off()
+    fig.tight_layout()
+    fig.savefig(CHART_PATH, dpi=150)
+    plt.close(fig)

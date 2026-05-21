@@ -1,5 +1,7 @@
 ## A3. Largest Change in Religious Proportion
 
+![A3 representative chart](chart.png)
+
 For each district, the religion whose share of the local population changed most between 2012 and 2024.
 
 ### By District

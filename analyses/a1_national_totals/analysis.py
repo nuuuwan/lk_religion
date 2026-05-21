@@ -1,10 +1,12 @@
 import json
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 from lanka_data import Db
 
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
+CHART_PATH = ANALYSIS_DIR / 'chart.png'
 
 RELIGIONS = [
     'Buddhist',
@@ -65,6 +67,8 @@ def run():
     with open(ANALYSIS_DIR / 'national_totals_by_religion.json', 'w') as f:
         json.dump(rows, f, indent=2)
 
+    _write_chart(rows)
+
     print(
         f"{'Religion':<20} {'2012':>12} {'2024':>12} {'Change':>12} {'Ann. Growth':>12} {'% of Pop':>10}"
     )
@@ -101,6 +105,8 @@ def _readme_section(rows):
     lines = [
         '## A1. National Population by Religion',
         '',
+        '![A1 representative chart](chart.png)',
+        '',
         '| Religion | 2012 | 2024 | Change | Annual Growth | % of Population |',
         '|---|---:|---:|---:|---:|---:|',
     ]
@@ -126,3 +132,17 @@ def _readme_section(rows):
         '- **Roman Catholic** and **Other Christian** communities show slight declines over the period.',
     ]
     return '\n'.join(lines)
+
+
+def _write_chart(rows):
+    labels = [row['religion'] for row in rows]
+    values = [row['2024'] for row in rows]
+
+    fig, ax = plt.subplots(figsize=(8, 4.8))
+    ax.bar(labels, values, color='#4e79a7')
+    ax.set_title('National population by religion (2024)')
+    ax.set_ylabel('Population')
+    ax.tick_params(axis='x', rotation=30)
+    fig.tight_layout()
+    fig.savefig(CHART_PATH, dpi=150)
+    plt.close(fig)

@@ -2,10 +2,12 @@ import json
 from collections import Counter
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 from lanka_data import Db, RegionNames
 
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
+CHART_PATH = ANALYSIS_DIR / 'chart.png'
 
 RELIGIONS = [
     'Buddhist',
@@ -129,6 +131,8 @@ def run():
     with open(ANALYSIS_DIR / 'religion_by_dsd_analysis.json', 'w') as f:
         json.dump({'flagged': flagged, 'all_dsds': normal_rows}, f, indent=2)
 
+    _write_chart(flagged)
+
     print(f'\n  National population growth 2012→2024: {national_growth:+.2%}')
     print(f'  Boundary-affected districts: {sorted(boundary_districts)}')
     print(f'\n  Flagged DSDs (new / altered / removed): {len(flagged)}')
@@ -169,6 +173,8 @@ def _readme_section(
 ):
     lines = [
         '## A4. DSD Boundary Changes',
+        '',
+        '![A4 representative chart](chart.png)',
         '',
         'Districts where the number of DSDs changed between censuses are listed below. Within those districts, DSDs whose population growth deviates from the national rate '
         f'({national_growth:+.2%} over 2012–2024) by more than '
@@ -220,3 +226,18 @@ def _readme_section(
             )
 
     return '\n'.join(lines)
+
+
+def _write_chart(flagged):
+    counts = Counter(row['status'] for row in flagged)
+    labels = ['Removed', 'Altered', 'New']
+    values = [counts.get(label, 0) for label in labels]
+    colors = ['#f28e2b', '#4e79a7', '#59a14f']
+
+    fig, ax = plt.subplots(figsize=(7, 4.2))
+    ax.bar(labels, values, color=colors)
+    ax.set_title('Flagged DSD status counts')
+    ax.set_ylabel('Count')
+    fig.tight_layout()
+    fig.savefig(CHART_PATH, dpi=150)
+    plt.close(fig)

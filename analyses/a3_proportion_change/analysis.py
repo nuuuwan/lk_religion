@@ -1,12 +1,14 @@
 import json
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 from lanka_data import Db, RegionNames
 
 from analyses.proportion_change_common import RELIGIONS, shares
 
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
+CHART_PATH = ANALYSIS_DIR / 'chart.png'
 
 
 def run():
@@ -44,6 +46,8 @@ def run():
     with open(ANALYSIS_DIR / 'proportion_change_analysis.json', 'w') as f:
         json.dump({'by_district': district_rows}, f, indent=2)
 
+    _write_chart(district_rows)
+
     print('\n  By District:')
     print(
         f"  {'District':<16} {'Religion':<16} {'2012':>8} {'2024':>8} {'Change':>10}"
@@ -66,6 +70,8 @@ def _readme_section(district_rows):
     lines = [
         '## A3. Largest Change in Religious Proportion',
         '',
+        '![A3 representative chart](chart.png)',
+        '',
         'For each district, the religion whose share of the local population changed most between 2012 and 2024.',
         '',
         '### By District',
@@ -79,3 +85,23 @@ def _readme_section(district_rows):
         )
 
     return '\n'.join(lines)
+
+
+def _write_chart(district_rows):
+    top_rows = district_rows[:15]
+    labels = [row['district'] for row in top_rows]
+    values = [row['change'] * 100 for row in top_rows]
+    colors = ['#e15759' if value < 0 else '#76b7b2' for value in values]
+
+    fig, ax = plt.subplots(figsize=(8, 5.6))
+    if labels:
+        ax.barh(labels, values, color=colors)
+        ax.set_title('Largest district-level religion share changes (pp)')
+        ax.set_xlabel('Change in percentage points')
+        ax.invert_yaxis()
+    else:
+        ax.text(0.5, 0.5, 'No chartable data', ha='center', va='center')
+        ax.set_axis_off()
+    fig.tight_layout()
+    fig.savefig(CHART_PATH, dpi=150)
+    plt.close(fig)
