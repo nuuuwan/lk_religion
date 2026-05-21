@@ -4,6 +4,8 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 from lanka_data import Db
 
+from analyses.proportion_change_common import triangle
+
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
 CHART_PATH = ANALYSIS_DIR / 'chart.png'
@@ -117,10 +119,10 @@ def _readme_section(rows):
             else 'N/A'
         )
         lines.append(
-            f"| {row['religion']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,} | {annual_growth} | {row['proportion_2024']:.1%} |"
+            f"| {row['religion']} | {row['2012']:,} | {row['2024']:,} | {triangle(row['change'])}{row['change']:+,} | {triangle(row['annual_growth_rate'] or 0)}{annual_growth} | {row['proportion_2024']:.1%} |"
         )
     lines.append(
-        f"| **Total** | **{total_2012:,}** | **{total_2024:,}** | **{total_change:+,}** | **{total_growth:+.2%}** |"
+        f"| **Total** | **{total_2012:,}** | **{total_2024:,}** | **{triangle(total_change)}{total_change:+,}** | **{triangle(total_growth)}{total_growth:+.2%}** |"
     )
     lines += [
         '',
