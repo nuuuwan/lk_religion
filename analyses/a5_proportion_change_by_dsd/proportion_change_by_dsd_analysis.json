@@ -1,15 +1,6 @@
 {
   "by_dsd": [
     {
-      "dsd_code": "LK-5104",
-      "dsd": "Koralai Pattu Central",
-      "district": "Batticaloa",
-      "religion": "Islam",
-      "proportion_2012": 0.971892,
-      "proportion_2024": 0.003268,
-      "change": -0.968624
-    },
-    {
       "dsd_code": "LK-1106",
       "dsd": "Kolonnawa",
       "district": "Colombo",
@@ -26,33 +17,6 @@
       "proportion_2012": 0.22604,
       "proportion_2024": 0.304194,
       "change": 0.078154
-    },
-    {
-      "dsd_code": "LK-4409",
-      "dsd": "Puthukkudiyiruppu",
-      "district": "Mullaitivu",
-      "religion": "Hindu",
-      "proportion_2012": 0.848262,
-      "proportion_2024": 0.786021,
-      "change": -0.062241
-    },
-    {
-      "dsd_code": "LK-4133",
-      "dsd": "Nallur",
-      "district": "Jaffna",
-      "religion": "Hindu",
-      "proportion_2012": 0.90354,
-      "proportion_2024": 0.858748,
-      "change": -0.044792
-    },
-    {
-      "dsd_code": "LK-4203",
-      "dsd": "Mannar Town",
-      "district": "Mannar",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.547594,
-      "proportion_2024": 0.506231,
-      "change": -0.041362
     },
     {
       "dsd_code": "LK-1218",
@@ -136,24 +100,6 @@
       "change": 0.02547
     },
     {
-      "dsd_code": "LK-4309",
-      "dsd": "Vavuniya",
-      "district": "Vavuniya",
-      "religion": "Hindu",
-      "proportion_2012": 0.783048,
-      "proportion_2024": 0.758033,
-      "change": -0.025015
-    },
-    {
-      "dsd_code": "LK-6242",
-      "dsd": "Nattandiya",
-      "district": "Puttalam",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.405922,
-      "proportion_2024": 0.38171,
-      "change": -0.024212
-    },
-    {
       "dsd_code": "LK-6215",
       "dsd": "Puttalam",
       "district": "Puttalam",
@@ -161,42 +107,6 @@
       "proportion_2012": 0.642068,
       "proportion_2024": 0.665784,
       "change": 0.023716
-    },
-    {
-      "dsd_code": "LK-4136",
-      "dsd": "Jaffna",
-      "district": "Jaffna",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.528807,
-      "proportion_2024": 0.505655,
-      "change": -0.023152
-    },
-    {
-      "dsd_code": "LK-1236",
-      "dsd": "Kelaniya",
-      "district": "Gampaha",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.097991,
-      "proportion_2024": 0.077313,
-      "change": -0.020678
-    },
-    {
-      "dsd_code": "LK-4212",
-      "dsd": "Nanaddan",
-      "district": "Mannar",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.683528,
-      "proportion_2024": 0.663617,
-      "change": -0.019911
-    },
-    {
-      "dsd_code": "LK-6248",
-      "dsd": "Dankotuwa",
-      "district": "Puttalam",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.298434,
-      "proportion_2024": 0.278959,
-      "change": -0.019475
     },
     {
       "dsd_code": "LK-1227",
@@ -262,15 +172,6 @@
       "change": 0.017677
     },
     {
-      "dsd_code": "LK-4509",
-      "dsd": "Karachchi",
-      "district": "Kilinochchi",
-      "religion": "Hindu",
-      "proportion_2012": 0.830883,
-      "proportion_2024": 0.813697,
-      "change": -0.017186
-    },
-    {
       "dsd_code": "LK-5306",
       "dsd": "Kuchchaweli",
       "district": "Trincomalee",
@@ -278,15 +179,6 @@
       "proportion_2012": 0.641459,
       "proportion_2024": 0.658064,
       "change": 0.016605
-    },
-    {
-      "dsd_code": "LK-5118",
-      "dsd": "Manmunai North",
-      "district": "Batticaloa",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.189732,
-      "proportion_2024": 0.174225,
-      "change": -0.015507
     },
     {
       "dsd_code": "LK-5327",
@@ -316,15 +208,6 @@
       "change": 0.014137
     },
     {
-      "dsd_code": "LK-6239",
-      "dsd": "Mahawewa",
-      "district": "Puttalam",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.517561,
-      "proportion_2024": 0.503799,
-      "change": -0.013763
-    },
-    {
       "dsd_code": "LK-5324",
       "dsd": "Kinniya",
       "district": "Trincomalee",
@@ -341,15 +224,6 @@
       "proportion_2012": 0.322667,
       "proportion_2024": 0.336358,
       "change": 0.013691
-    },
-    {
-      "dsd_code": "LK-6233",
-      "dsd": "Chilaw",
-      "district": "Puttalam",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.456594,
-      "proportion_2024": 0.443879,
-      "change": -0.012716
     },
     {
       "dsd_code": "LK-1224",
@@ -370,6 +244,15 @@
       "change": 0.012169
     },
     {
+      "dsd_code": "LK-1233",
+      "dsd": "Mahara",
+      "district": "Gampaha",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.08751,
+      "proportion_2024": 0.075805,
+      "change": -0.011705
+    },
+    {
       "dsd_code": "LK-1124",
       "dsd": "Sri Jayawardanapura Kotte",
       "district": "Colombo",
@@ -379,13 +262,130 @@
       "change": -0.011728
     },
     {
-      "dsd_code": "LK-1233",
-      "dsd": "Mahara",
+      "dsd_code": "LK-6233",
+      "dsd": "Chilaw",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.456594,
+      "proportion_2024": 0.443879,
+      "change": -0.012716
+    },
+    {
+      "dsd_code": "LK-6239",
+      "dsd": "Mahawewa",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.517561,
+      "proportion_2024": 0.503799,
+      "change": -0.013763
+    },
+    {
+      "dsd_code": "LK-5118",
+      "dsd": "Manmunai North",
+      "district": "Batticaloa",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.189732,
+      "proportion_2024": 0.174225,
+      "change": -0.015507
+    },
+    {
+      "dsd_code": "LK-4509",
+      "dsd": "Karachchi",
+      "district": "Kilinochchi",
+      "religion": "Hindu",
+      "proportion_2012": 0.830883,
+      "proportion_2024": 0.813697,
+      "change": -0.017186
+    },
+    {
+      "dsd_code": "LK-6248",
+      "dsd": "Dankotuwa",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.298434,
+      "proportion_2024": 0.278959,
+      "change": -0.019475
+    },
+    {
+      "dsd_code": "LK-4212",
+      "dsd": "Nanaddan",
+      "district": "Mannar",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.683528,
+      "proportion_2024": 0.663617,
+      "change": -0.019911
+    },
+    {
+      "dsd_code": "LK-1236",
+      "dsd": "Kelaniya",
       "district": "Gampaha",
       "religion": "RomanCatholic",
-      "proportion_2012": 0.08751,
-      "proportion_2024": 0.075805,
-      "change": -0.011705
+      "proportion_2012": 0.097991,
+      "proportion_2024": 0.077313,
+      "change": -0.020678
+    },
+    {
+      "dsd_code": "LK-4136",
+      "dsd": "Jaffna",
+      "district": "Jaffna",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.528807,
+      "proportion_2024": 0.505655,
+      "change": -0.023152
+    },
+    {
+      "dsd_code": "LK-6242",
+      "dsd": "Nattandiya",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.405922,
+      "proportion_2024": 0.38171,
+      "change": -0.024212
+    },
+    {
+      "dsd_code": "LK-4309",
+      "dsd": "Vavuniya",
+      "district": "Vavuniya",
+      "religion": "Hindu",
+      "proportion_2012": 0.783048,
+      "proportion_2024": 0.758033,
+      "change": -0.025015
+    },
+    {
+      "dsd_code": "LK-4203",
+      "dsd": "Mannar Town",
+      "district": "Mannar",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.547594,
+      "proportion_2024": 0.506231,
+      "change": -0.041362
+    },
+    {
+      "dsd_code": "LK-4133",
+      "dsd": "Nallur",
+      "district": "Jaffna",
+      "religion": "Hindu",
+      "proportion_2012": 0.90354,
+      "proportion_2024": 0.858748,
+      "change": -0.044792
+    },
+    {
+      "dsd_code": "LK-4409",
+      "dsd": "Puthukkudiyiruppu",
+      "district": "Mullaitivu",
+      "religion": "Hindu",
+      "proportion_2012": 0.848262,
+      "proportion_2024": 0.786021,
+      "change": -0.062241
+    },
+    {
+      "dsd_code": "LK-5104",
+      "dsd": "Koralai Pattu Central",
+      "district": "Batticaloa",
+      "religion": "Islam",
+      "proportion_2012": 0.971892,
+      "proportion_2024": 0.003268,
+      "change": -0.968624
     }
   ]
 }

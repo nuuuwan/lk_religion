@@ -10,7 +10,7 @@ from matplotlib.cm import ScalarMappable
 from matplotlib.colors import TwoSlopeNorm
 from matplotlib.ticker import PercentFormatter
 
-from analyses.proportion_change_common import triangle
+from analyses.proportion_change_common import shares, triangle
 
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
@@ -38,6 +38,24 @@ RELIGION_LABELS = {
 LOW_POPULATION_THRESHOLD = 1000
 
 
+def _format_share(value):
+    return f'{value:.1%}'
+
+
+def _rounded_pp(value):
+    rounded = round(value * 100, 1)
+    if rounded == -0.0:
+        rounded = 0.0
+    return rounded
+
+
+def _format_pp(value):
+    rounded = _rounded_pp(value)
+    if rounded == 0:
+        return '0.0'
+    return f'{rounded:+.1f}'
+
+
 def run():
     print('=== 2) By-district religion change maps ===')
 
@@ -53,10 +71,15 @@ def run():
     for religion in RELIGIONS:
         rows = []
         for code in district_codes:
+            district2012 = db2012.get(code, {})
+            district2024 = db2024.get(code, {})
             v2012 = db2012.get(code, {}).get(religion, 0)
             v2024 = db2024.get(code, {}).get(religion, 0)
             change = v2024 - v2012
             pct_change = change / v2012 if v2012 else None
+            share_2012 = shares(district2012)[religion]
+            share_2024 = shares(district2024)[religion]
+            share_change = share_2024 - share_2012
             annual_growth = (
                 (v2024 / v2012) ** (1 / YEARS) - 1 if v2012 > 0 else None
             )
@@ -68,6 +91,9 @@ def run():
                     '2024': v2024,
                     'change': change,
                     'pct_change': round(pct_change, 6) if pct_change is not None else None,
+                    'proportion_2012': round(share_2012, 6),
+                    'proportion_2024': round(share_2024, 6),
+                    'proportion_change': round(share_change, 6),
                     'annual_growth_rate': (
                         round(annual_growth, 6)
                         if annual_growth is not None
@@ -81,28 +107,23 @@ def run():
                 }
             )
 
-        rows.sort(key=lambda row: row['pct_change'], reverse=True)
+        rows.sort(key=lambda row: row['proportion_change'], reverse=True)
 
         results[religion] = rows
 
         print(f'\n  {RELIGION_LABELS[religion]}')
         print(
-            f"  {'District':<16} {'2012':>10} {'2024':>10} {'Change':>10} {'% Change':>10} {'% of Natl':>10}"
+            f"  {'District':<16} {'% Natl':>8} {'2012':>10} {'2024':>10} {'Change':>10} {'% Pop 12':>9} {'% Pop 24':>9} {'Δpp':>7}"
         )
-        print('  ' + '-' * 72)
+        print('  ' + '-' * 96)
         for row in rows:
-            pct_change = (
-                f"{row['pct_change']:+.1%}"
-                if row['pct_change'] is not None
-                else 'N/A'
-            )
             proportion_national = (
                 f"{row['proportion_national']:.1%}"
                 if row.get('proportion_national') is not None
                 else ''
             )
             print(
-                f"  {row['district']:<16} {row['2012']:>10,} {row['2024']:>10,} {row['change']:>+10,} {pct_change:>10} {proportion_national:>10}"
+                f"  {row['district']:<16} {proportion_national:>8} {row['2012']:>10,} {row['2024']:>10,} {row['change']:>+10,} {_format_share(row['proportion_2012']):>8} {_format_share(row['proportion_2024']):>8} {_format_pp(row['proportion_change']):>7}"
             )
 
     with open(ANALYSIS_DIR / 'religion_by_district_analysis.json', 'w') as f:
@@ -124,7 +145,7 @@ def _readme_section(results):
         '',
         '![A2 district change maps](chart.png)',
         '',
-        f'District-level **% change in population** for each religion between 2012 and 2024. Districts are shaded from **red (decline)** to **green (growth)**. Districts with religion population **< {LOW_POPULATION_THRESHOLD:,} (2024)** are shown in **grey**.',
+        f'District labels show the religion share of each district population in **2012 → 2024**. Districts are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Districts with religion population **< {LOW_POPULATION_THRESHOLD:,} (2024)** are shown in **grey**.',
         '',
     ]
 
@@ -132,43 +153,41 @@ def _readme_section(results):
         if not rows:
             continue
 
-        fastest_growing = max(rows, key=lambda row: row['pct_change'])
-        fastest_declining = min(rows, key=lambda row: row['pct_change'])
+        fastest_growing = max(rows, key=lambda row: row['proportion_change'])
+        fastest_declining = min(rows, key=lambda row: row['proportion_change'])
         largest_absolute = max(rows, key=lambda row: row['change'])
 
         lines += [
             f"### {RELIGION_LABELS[religion]}",
             '',
-            '| District | 2012 | 2024 | Change | % Change | % of Natl |',
-            '|---|---:|---:|---:|---:|---:|',
+            '| District | % Nationally | 2012 | 2024 | Change | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) |',
+            '|---|---:|---:|---:|---:|---:|---:|---:|',
         ]
         for row in rows:
-            pct_change = (
-                f"{row['pct_change']:+.1%}"
-                if row['pct_change'] is not None
-                else 'N/A'
-            )
             proportion_national = (
                 f"{row['proportion_national']:.1%}"
                 if row.get('proportion_national') is not None
                 else ''
             )
             lines.append(
-                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {pct_change}{triangle(row['pct_change'] or 0)} | {proportion_national} |"
+                f"| {row['district']} | {proportion_national} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {_format_share(row['proportion_2012'])} | {_format_share(row['proportion_2024'])} | {_format_pp(row['proportion_change'])}{triangle(_rounded_pp(row['proportion_change']))} pp |"
             )
 
         highlights = []
-        if fastest_growing['pct_change'] and fastest_growing['pct_change'] > 0:
+        if fastest_growing['proportion_change'] and fastest_growing['proportion_change'] > 0:
             highlights.append(
-                f"**{fastest_growing['district']}** grew fastest at **{fastest_growing['pct_change']:+.1%}**."
+                f"**{fastest_growing['district']}** gained the most share at **{_format_pp(fastest_growing['proportion_change'])}pp**."
             )
-        if fastest_declining['pct_change'] and fastest_declining['pct_change'] < 0:
+        if (
+            fastest_declining['proportion_change']
+            and fastest_declining['proportion_change'] < 0
+        ):
             highlights.append(
-                f"**{fastest_declining['district']}** saw the steepest decline at **{fastest_declining['pct_change']:+.1%}**."
+                f"**{fastest_declining['district']}** saw the steepest share decline at **{_format_pp(fastest_declining['proportion_change'])}pp**."
             )
         elif fastest_declining != fastest_growing:
             highlights.append(
-                f"**{fastest_declining['district']}** had the slowest growth at **{fastest_declining['pct_change']:+.1%}**."
+                f"**{fastest_declining['district']}** had the smallest share gain at **{_format_pp(fastest_declining['proportion_change'])}pp**."
             )
         if largest_absolute != fastest_growing and largest_absolute['change'] > 0:
             highlights.append(
@@ -219,10 +238,10 @@ def _load_district_data():
 
 def _write_chart(results, district_map_gdf):
     max_abs_change = max(
-        abs(row['pct_change'])
+        abs(row['proportion_change'])
         for rows in results.values()
         for row in rows
-        if row['pct_change'] is not None
+        if row['proportion_change'] is not None
     )
     norm = TwoSlopeNorm(vmin=-max_abs_change, vcenter=0, vmax=max_abs_change)
     cmap = plt.get_cmap('RdYlGn')
@@ -231,16 +250,23 @@ def _write_chart(results, district_map_gdf):
 
     for ax, religion in zip(axes.flat, RELIGIONS):
         map_data = pd.DataFrame(results[religion])[
-            ['district_code', '2012', '2024', 'pct_change']
+            [
+                'district_code',
+                '2012',
+                '2024',
+                'proportion_2012',
+                'proportion_2024',
+                'proportion_change',
+            ]
         ]
         plot_gdf = district_map_gdf.merge(map_data, on='district_code', how='left')
         plot_gdf['is_low_population'] = plot_gdf['2024'].fillna(0) < LOW_POPULATION_THRESHOLD
-        plot_gdf['plot_pct_change'] = plot_gdf['pct_change'].where(
+        plot_gdf['plot_proportion_change'] = plot_gdf['proportion_change'].where(
             ~plot_gdf['is_low_population'],
             other=pd.NA,
         )
         plot_gdf.plot(
-            column='plot_pct_change',
+            column='plot_proportion_change',
             cmap=cmap,
             norm=norm,
             linewidth=0.6,
@@ -260,8 +286,13 @@ def _write_chart(results, district_map_gdf):
         label_points = plot_gdf.representative_point()
         for _, row in plot_gdf.iterrows():
             point = label_points.loc[row.name]
-            pct_change = row['pct_change']
-            label = f'{pct_change:+.0%}' if pd.notna(pct_change) else 'N/A'
+            proportion_2012 = row['proportion_2012']
+            proportion_2024 = row['proportion_2024']
+            label = (
+                f'{_format_share(proportion_2012)}→{_format_share(proportion_2024)}'
+                if pd.notna(proportion_2012) and pd.notna(proportion_2024)
+                else 'N/A'
+            )
             ax.text(
                 point.x,
                 point.y,
@@ -281,7 +312,7 @@ def _write_chart(results, district_map_gdf):
         pad=0.02,
     )
     colorbar.ax.yaxis.set_major_formatter(PercentFormatter(1.0))
-    colorbar.set_label('% change in population (2012→2024)')
+    colorbar.set_label('Change in % of population (pp, 2012→2024)')
     fig.text(
         0.5,
         0.02,
@@ -292,7 +323,7 @@ def _write_chart(results, district_map_gdf):
         color='#444444',
     )
     fig.suptitle(
-        'Sri Lanka district-level religion population change, 2012→2024',
+        'Sri Lanka district-level religion share change, 2012→2024',
         fontsize=16,
         y=1.02,
     )

@@ -25,28 +25,12 @@
       "change": 0.033576
     },
     {
-      "district_code": "LK-44",
-      "district": "Mullaitivu",
-      "religion": "Hindu",
-      "proportion_2012": 0.752519,
-      "proportion_2024": 0.723689,
-      "change": -0.02883
-    },
-    {
       "district_code": "LK-52",
       "district": "Ampara",
       "religion": "Islam",
       "proportion_2012": 0.434226,
       "proportion_2024": 0.456511,
       "change": 0.022286
-    },
-    {
-      "district_code": "LK-62",
-      "district": "Puttalam",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.315087,
-      "proportion_2024": 0.294297,
-      "change": -0.02079
     },
     {
       "district_code": "LK-51",
@@ -57,28 +41,20 @@
       "change": 0.016398
     },
     {
-      "district_code": "LK-12",
-      "district": "Gampaha",
-      "religion": "RomanCatholic",
-      "proportion_2012": 0.194981,
-      "proportion_2024": 0.181554,
-      "change": -0.013427
-    },
-    {
-      "district_code": "LK-45",
-      "district": "Kilinochchi",
-      "religion": "Hindu",
-      "proportion_2012": 0.819188,
-      "proportion_2024": 0.80651,
-      "change": -0.012678
-    },
-    {
       "district_code": "LK-13",
       "district": "Kalutara",
       "religion": "Islam",
       "proportion_2012": 0.093749,
       "proportion_2024": 0.10586,
       "change": 0.012111
+    },
+    {
+      "district_code": "LK-92",
+      "district": "Kegalle",
+      "religion": "Islam",
+      "proportion_2012": 0.072758,
+      "proportion_2024": 0.083421,
+      "change": 0.010663
     },
     {
       "district_code": "LK-11",
@@ -89,12 +65,36 @@
       "change": -0.010933
     },
     {
-      "district_code": "LK-92",
-      "district": "Kegalle",
-      "religion": "Islam",
-      "proportion_2012": 0.072758,
-      "proportion_2024": 0.083421,
-      "change": 0.010663
+      "district_code": "LK-45",
+      "district": "Kilinochchi",
+      "religion": "Hindu",
+      "proportion_2012": 0.819188,
+      "proportion_2024": 0.80651,
+      "change": -0.012678
+    },
+    {
+      "district_code": "LK-12",
+      "district": "Gampaha",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.194981,
+      "proportion_2024": 0.181554,
+      "change": -0.013427
+    },
+    {
+      "district_code": "LK-62",
+      "district": "Puttalam",
+      "religion": "RomanCatholic",
+      "proportion_2012": 0.315087,
+      "proportion_2024": 0.294297,
+      "change": -0.02079
+    },
+    {
+      "district_code": "LK-44",
+      "district": "Mullaitivu",
+      "religion": "Hindu",
+      "proportion_2012": 0.752519,
+      "proportion_2024": 0.723689,
+      "change": -0.02883
     }
   ]
 }

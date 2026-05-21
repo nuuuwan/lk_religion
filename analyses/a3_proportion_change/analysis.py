@@ -61,22 +61,28 @@ def run():
                 'change': round(change, 6),
             }
         )
-    district_rows.sort(key=lambda row: abs(row['change']), reverse=True)
+    district_rows.sort(key=lambda row: row['change'], reverse=True)
 
     with open(ANALYSIS_DIR / 'proportion_change_analysis.json', 'w') as f:
         json.dump({'by_district': district_rows}, f, indent=2)
 
     _write_chart(district_rows, district_map_gdf)
 
-    print('\n  By District:')
-    print(
-        f"  {'District':<16} {'Religion':<16} {'2012':>8} {'2024':>8} {'Change':>10}"
-    )
-    print('  ' + '-' * 62)
-    for row in district_rows:
+    for religion in RELIGIONS:
+        religion_rows = [
+            row for row in district_rows if row['religion'] == religion
+        ]
+        if not religion_rows:
+            continue
+        print(f'\n  {religion}:')
         print(
-            f"  {row['district']:<16} {row['religion']:<16} {row['proportion_2012']:>8.1%} {row['proportion_2024']:>8.1%} {row['change'] * 100:>+9.1f}pp"
+            f"  {'District':<16} {'2012':>8} {'2024':>8} {'Change':>10}"
         )
+        print('  ' + '-' * 48)
+        for row in religion_rows:
+            print(
+                f"  {row['district']:<16} {row['proportion_2012']:>8.1%} {row['proportion_2024']:>8.1%} {row['change'] * 100:>+9.1f}pp"
+            )
 
     return _write_readme(_readme_section(district_rows))
 
@@ -93,16 +99,26 @@ def _readme_section(district_rows):
         '![A3 increase/decrease maps](chart.png)',
         '',
         f'For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > {MIN_CHANGE_ABS:.0%}. Largest increases and largest decreases are shown on separate maps.',
-        '',
-        '### By District',
-        '',
-        '| District | Religion | Share 2012 | Share 2024 | Change (pp) |',
-        '|---|---|---:|---:|---:|',
     ]
-    for row in district_rows:
-        lines.append(
-            f"| {row['district']} | {row['religion']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['change'] * 100:+.1f}pp{triangle(row['change'])} |"
+    for religion in RELIGIONS:
+        religion_rows = [
+            row for row in district_rows if row['religion'] == religion
+        ]
+        if not religion_rows:
+            continue
+        lines.extend(
+            [
+                '',
+                f'### {religion}',
+                '',
+                '| District | Share 2012 | Share 2024 | Change (pp) |',
+                '|---|---:|---:|---:|',
+            ]
         )
+        for row in religion_rows:
+            lines.append(
+                f"| {row['district']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['change'] * 100:+.1f}pp{triangle(row['change'])} |"
+            )
 
     return '\n'.join(lines)
 
