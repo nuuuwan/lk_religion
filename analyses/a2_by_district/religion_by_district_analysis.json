@@ -1,11 +1,42 @@
 {
   "Buddhist": [
     {
+      "district_code": "LK-41",
+      "district": "Jaffna",
+      "2012": 2168,
+      "2024": 2788,
+      "change": 620,
+      "pct_change": 0.285978,
+      "annual_growth_rate": 0.021181,
+      "proportion_national": 0.000183
+    },
+    {
+      "district_code": "LK-44",
+      "district": "Mullaitivu",
+      "2012": 8140,
+      "2024": 10293,
+      "change": 2153,
+      "pct_change": 0.264496,
+      "annual_growth_rate": 0.019749,
+      "proportion_national": 0.000677
+    },
+    {
+      "district_code": "LK-45",
+      "district": "Kilinochchi",
+      "2012": 1275,
+      "2024": 1533,
+      "change": 258,
+      "pct_change": 0.202353,
+      "annual_growth_rate": 0.015475,
+      "proportion_national": 0.000101
+    },
+    {
       "district_code": "LK-82",
       "district": "Monaragala",
       "2012": 426762,
       "2024": 498436,
       "change": 71674,
+      "pct_change": 0.167948,
       "annual_growth_rate": 0.013021,
       "proportion_national": 0.032794
     },
@@ -15,6 +46,7 @@
       "2012": 580344,
       "2024": 649736,
       "change": 69392,
+      "pct_change": 0.11957,
       "annual_growth_rate": 0.009457,
       "proportion_national": 0.042748
     },
@@ -24,6 +56,7 @@
       "2012": 775366,
       "2024": 862807,
       "change": 87441,
+      "pct_change": 0.112774,
       "annual_growth_rate": 0.008944,
       "proportion_national": 0.056767
     },
@@ -33,6 +66,7 @@
       "2012": 251427,
       "2024": 276176,
       "change": 24749,
+      "pct_change": 0.098434,
       "annual_growth_rate": 0.007854,
       "proportion_national": 0.018171
     },
@@ -42,6 +76,7 @@
       "2012": 364229,
       "2024": 399488,
       "change": 35259,
+      "pct_change": 0.096804,
       "annual_growth_rate": 0.00773,
       "proportion_national": 0.026284
     },
@@ -51,8 +86,19 @@
       "2012": 329705,
       "2024": 361148,
       "change": 31443,
+      "pct_change": 0.095367,
       "annual_growth_rate": 0.00762,
       "proportion_national": 0.023761
+    },
+    {
+      "district_code": "LK-43",
+      "district": "Vavuniya",
+      "2012": 16799,
+      "2024": 18292,
+      "change": 1493,
+      "pct_change": 0.088874,
+      "annual_growth_rate": 0.007121,
+      "proportion_national": 0.001203
     },
     {
       "district_code": "LK-61",
@@ -60,6 +106,7 @@
       "2012": 1430958,
       "2024": 1557554,
       "change": 126596,
+      "pct_change": 0.088469,
       "annual_growth_rate": 0.007089,
       "proportion_national": 0.102477
     },
@@ -69,6 +116,7 @@
       "2012": 385151,
       "2024": 418608,
       "change": 33457,
+      "pct_change": 0.086867,
       "annual_growth_rate": 0.006966,
       "proportion_national": 0.027542
     },
@@ -78,8 +126,19 @@
       "2012": 591799,
       "2024": 636988,
       "change": 45189,
+      "pct_change": 0.076359,
       "annual_growth_rate": 0.006151,
       "proportion_national": 0.04191
+    },
+    {
+      "district_code": "LK-53",
+      "district": "Trincomalee",
+      "2012": 99344,
+      "2024": 106919,
+      "change": 7575,
+      "pct_change": 0.07625,
+      "annual_growth_rate": 0.006142,
+      "proportion_national": 0.007035
     },
     {
       "district_code": "LK-12",
@@ -87,6 +146,7 @@
       "2012": 1642767,
       "2024": 1744475,
       "change": 101708,
+      "pct_change": 0.061913,
       "annual_growth_rate": 0.005019,
       "proportion_national": 0.114775
     },
@@ -96,6 +156,7 @@
       "2012": 1018909,
       "2024": 1080638,
       "change": 61729,
+      "pct_change": 0.060583,
       "annual_growth_rate": 0.004914,
       "proportion_national": 0.071099
     },
@@ -105,6 +166,7 @@
       "2012": 943464,
       "2024": 999682,
       "change": 56218,
+      "pct_change": 0.059587,
       "annual_growth_rate": 0.004835,
       "proportion_national": 0.065772
     },
@@ -114,6 +176,7 @@
       "2012": 1009220,
       "2024": 1063511,
       "change": 54291,
+      "pct_change": 0.053795,
       "annual_growth_rate": 0.004376,
       "proportion_national": 0.069972
     },
@@ -123,6 +186,7 @@
       "2012": 1632125,
       "2024": 1682524,
       "change": 50399,
+      "pct_change": 0.030879,
       "annual_growth_rate": 0.002538,
       "proportion_national": 0.110699
     },
@@ -132,6 +196,7 @@
       "2012": 998647,
       "2024": 1026031,
       "change": 27384,
+      "pct_change": 0.027421,
       "annual_growth_rate": 0.002257,
       "proportion_national": 0.067506
     },
@@ -141,6 +206,7 @@
       "2012": 766323,
       "2024": 787303,
       "change": 20980,
+      "pct_change": 0.027377,
       "annual_growth_rate": 0.002253,
       "proportion_national": 0.051799
     },
@@ -150,6 +216,7 @@
       "2012": 709917,
       "2024": 728929,
       "change": 19012,
+      "pct_change": 0.026781,
       "annual_growth_rate": 0.002205,
       "proportion_national": 0.047959
     },
@@ -159,16 +226,29 @@
       "2012": 278254,
       "2024": 278828,
       "change": 574,
+      "pct_change": 0.002063,
       "annual_growth_rate": 0.000172,
       "proportion_national": 0.018345
     },
     {
-      "district_code": null,
-      "district": "Other (<1% or <1,000)",
-      "2012": 135816,
-      "2024": 146231,
-      "change": 10415,
-      "annual_growth_rate": 0.006176
+      "district_code": "LK-51",
+      "district": "Batticaloa",
+      "2012": 6281,
+      "2024": 6024,
+      "change": -257,
+      "pct_change": -0.040917,
+      "annual_growth_rate": -0.003475,
+      "proportion_national": 0.000396
+    },
+    {
+      "district_code": "LK-42",
+      "district": "Mannar",
+      "2012": 1809,
+      "2024": 382,
+      "change": -1427,
+      "pct_change": -0.788834,
+      "annual_growth_rate": -0.121547,
+      "proportion_national": 2.5e-05
     }
   ],
   "Hindu": [
@@ -178,6 +258,7 @@
       "2012": 52973,
       "2024": 69429,
       "change": 16456,
+      "pct_change": 0.310649,
       "annual_growth_rate": 0.0228,
       "proportion_national": 0.025387
     },
@@ -187,8 +268,29 @@
       "2012": 69377,
       "2024": 88738,
       "change": 19361,
+      "pct_change": 0.279069,
       "annual_growth_rate": 0.020723,
       "proportion_national": 0.032447
+    },
+    {
+      "district_code": "LK-82",
+      "district": "Monaragala",
+      "2012": 11997,
+      "2024": 14974,
+      "change": 2977,
+      "pct_change": 0.248145,
+      "annual_growth_rate": 0.018643,
+      "proportion_national": 0.005475
+    },
+    {
+      "district_code": "LK-61",
+      "district": "Kurunegala",
+      "2012": 14716,
+      "2024": 17487,
+      "change": 2771,
+      "pct_change": 0.188298,
+      "annual_growth_rate": 0.014481,
+      "proportion_national": 0.006394
     },
     {
       "district_code": "LK-45",
@@ -196,8 +298,29 @@
       "2012": 92986,
       "2024": 110258,
       "change": 17272,
+      "pct_change": 0.185748,
       "annual_growth_rate": 0.014299,
       "proportion_national": 0.040316
+    },
+    {
+      "district_code": "LK-71",
+      "district": "Anuradhapura",
+      "2012": 3231,
+      "2024": 3755,
+      "change": 524,
+      "pct_change": 0.162179,
+      "annual_growth_rate": 0.012603,
+      "proportion_national": 0.001373
+    },
+    {
+      "district_code": "LK-33",
+      "district": "Hambantota",
+      "2012": 1222,
+      "2024": 1401,
+      "change": 179,
+      "pct_change": 0.146481,
+      "annual_growth_rate": 0.011457,
+      "proportion_national": 0.000512
     },
     {
       "district_code": "LK-52",
@@ -205,6 +328,7 @@
       "2012": 102829,
       "2024": 114586,
       "change": 11757,
+      "pct_change": 0.114335,
       "annual_growth_rate": 0.009062,
       "proportion_national": 0.041899
     },
@@ -214,6 +338,7 @@
       "2012": 338882,
       "2024": 374836,
       "change": 35954,
+      "pct_change": 0.106096,
       "annual_growth_rate": 0.008438,
       "proportion_national": 0.13706
     },
@@ -223,8 +348,19 @@
       "2012": 98442,
       "2024": 108050,
       "change": 9608,
+      "pct_change": 0.097601,
       "annual_growth_rate": 0.007791,
       "proportion_national": 0.039509
+    },
+    {
+      "district_code": "LK-42",
+      "district": "Mannar",
+      "2012": 24027,
+      "2024": 26214,
+      "change": 2187,
+      "pct_change": 0.091023,
+      "annual_growth_rate": 0.007286,
+      "proportion_national": 0.009585
     },
     {
       "district_code": "LK-21",
@@ -232,6 +368,7 @@
       "2012": 133744,
       "2024": 144618,
       "change": 10874,
+      "pct_change": 0.081305,
       "annual_growth_rate": 0.006535,
       "proportion_national": 0.05288
     },
@@ -241,6 +378,7 @@
       "2012": 39541,
       "2024": 42528,
       "change": 2987,
+      "pct_change": 0.075542,
       "annual_growth_rate": 0.006087,
       "proportion_national": 0.01555
     },
@@ -250,6 +388,7 @@
       "2012": 43432,
       "2024": 46181,
       "change": 2749,
+      "pct_change": 0.063294,
       "annual_growth_rate": 0.005127,
       "proportion_national": 0.016886
     },
@@ -259,6 +398,7 @@
       "2012": 186303,
       "2024": 197759,
       "change": 11456,
+      "pct_change": 0.061491,
       "annual_growth_rate": 0.004985,
       "proportion_national": 0.072311
     },
@@ -268,8 +408,19 @@
       "2012": 157608,
       "2024": 166380,
       "change": 8772,
+      "pct_change": 0.055657,
       "annual_growth_rate": 0.004524,
       "proportion_national": 0.060837
+    },
+    {
+      "district_code": "LK-72",
+      "district": "Polonnaruwa",
+      "2012": 6886,
+      "2024": 7215,
+      "change": 329,
+      "pct_change": 0.047778,
+      "annual_growth_rate": 0.003897,
+      "proportion_national": 0.002638
     },
     {
       "district_code": "LK-23",
@@ -277,6 +428,7 @@
       "2012": 363163,
       "2024": 377266,
       "change": 14103,
+      "pct_change": 0.038834,
       "annual_growth_rate": 0.00318,
       "proportion_national": 0.137948
     },
@@ -286,6 +438,7 @@
       "2012": 54350,
       "2024": 56199,
       "change": 1849,
+      "pct_change": 0.03402,
       "annual_growth_rate": 0.002792,
       "proportion_national": 0.020549
     },
@@ -295,6 +448,7 @@
       "2012": 101962,
       "2024": 103883,
       "change": 1921,
+      "pct_change": 0.01884,
       "annual_growth_rate": 0.001557,
       "proportion_national": 0.037985
     },
@@ -304,8 +458,19 @@
       "2012": 483255,
       "2024": 489521,
       "change": 6266,
+      "pct_change": 0.012966,
       "annual_growth_rate": 0.001074,
       "proportion_national": 0.178994
+    },
+    {
+      "district_code": "LK-31",
+      "district": "Galle",
+      "2012": 15584,
+      "2024": 15600,
+      "change": 16,
+      "pct_change": 0.001027,
+      "annual_growth_rate": 8.6e-05,
+      "proportion_national": 0.005704
     },
     {
       "district_code": "LK-62",
@@ -313,6 +478,7 @@
       "2012": 28811,
       "2024": 28832,
       "change": 21,
+      "pct_change": 0.000729,
       "annual_growth_rate": 6.1e-05,
       "proportion_national": 0.010542
     },
@@ -322,16 +488,19 @@
       "2012": 119400,
       "2024": 114504,
       "change": -4896,
+      "pct_change": -0.041005,
       "annual_growth_rate": -0.003483,
       "proportion_national": 0.041869
     },
     {
-      "district_code": null,
-      "district": "Other (<1% or <1,000)",
-      "2012": 94084,
-      "2024": 101271,
-      "change": 7187,
-      "annual_growth_rate": 0.006153
+      "district_code": "LK-32",
+      "district": "Matara",
+      "2012": 16421,
+      "2024": 14625,
+      "change": -1796,
+      "pct_change": -0.109372,
+      "annual_growth_rate": -0.009606,
+      "proportion_national": 0.005348
     }
   ],
   "Islam": [
@@ -341,8 +510,49 @@
       "2012": 16512,
       "2024": 33883,
       "change": 17371,
+      "pct_change": 1.052023,
       "annual_growth_rate": 0.061733,
       "proportion_national": 0.014496
+    },
+    {
+      "district_code": "LK-45",
+      "district": "Kilinochchi",
+      "2012": 700,
+      "2024": 1394,
+      "change": 694,
+      "pct_change": 0.991429,
+      "annual_growth_rate": 0.059084,
+      "proportion_national": 0.000596
+    },
+    {
+      "district_code": "LK-41",
+      "district": "Jaffna",
+      "2012": 2363,
+      "2024": 4352,
+      "change": 1989,
+      "pct_change": 0.841727,
+      "annual_growth_rate": 0.052209,
+      "proportion_national": 0.001862
+    },
+    {
+      "district_code": "LK-44",
+      "district": "Mullaitivu",
+      "2012": 1880,
+      "2024": 3279,
+      "change": 1399,
+      "pct_change": 0.744149,
+      "annual_growth_rate": 0.047447,
+      "proportion_national": 0.001403
+    },
+    {
+      "district_code": "LK-43",
+      "district": "Vavuniya",
+      "2012": 11972,
+      "2024": 17775,
+      "change": 5803,
+      "pct_change": 0.484714,
+      "annual_growth_rate": 0.033484,
+      "proportion_national": 0.007605
     },
     {
       "district_code": "LK-53",
@@ -350,8 +560,19 @@
       "2012": 159418,
       "2024": 205664,
       "change": 46246,
+      "pct_change": 0.290093,
       "annual_growth_rate": 0.021453,
       "proportion_national": 0.087989
+    },
+    {
+      "district_code": "LK-82",
+      "district": "Monaragala",
+      "2012": 9809,
+      "2024": 12262,
+      "change": 2453,
+      "pct_change": 0.250076,
+      "annual_growth_rate": 0.018774,
+      "proportion_national": 0.005246
     },
     {
       "district_code": "LK-72",
@@ -359,6 +580,7 @@
       "2012": 30465,
       "2024": 37097,
       "change": 6632,
+      "pct_change": 0.217692,
       "annual_growth_rate": 0.016549,
       "proportion_national": 0.015871
     },
@@ -368,6 +590,7 @@
       "2012": 117810,
       "2024": 143299,
       "change": 25489,
+      "pct_change": 0.216357,
       "annual_growth_rate": 0.016456,
       "proportion_national": 0.061308
     },
@@ -377,6 +600,7 @@
       "2012": 114556,
       "2024": 138230,
       "change": 23674,
+      "pct_change": 0.206659,
       "annual_growth_rate": 0.015778,
       "proportion_national": 0.059139
     },
@@ -386,6 +610,7 @@
       "2012": 281987,
       "2024": 339896,
       "change": 57909,
+      "pct_change": 0.205361,
       "annual_growth_rate": 0.015687,
       "proportion_national": 0.145418
     },
@@ -395,6 +620,7 @@
       "2012": 134065,
       "2024": 161494,
       "change": 27429,
+      "pct_change": 0.204595,
       "annual_growth_rate": 0.015633,
       "proportion_national": 0.069092
     },
@@ -404,6 +630,7 @@
       "2012": 112746,
       "2024": 134422,
       "change": 21676,
+      "pct_change": 0.192255,
       "annual_growth_rate": 0.014762,
       "proportion_national": 0.05751
     },
@@ -413,8 +640,19 @@
       "2012": 61164,
       "2024": 72616,
       "change": 11452,
+      "pct_change": 0.187234,
       "annual_growth_rate": 0.014405,
       "proportion_national": 0.031067
+    },
+    {
+      "district_code": "LK-33",
+      "district": "Hambantota",
+      "2012": 15204,
+      "2024": 17947,
+      "change": 2743,
+      "pct_change": 0.180413,
+      "annual_growth_rate": 0.013918,
+      "proportion_national": 0.007678
     },
     {
       "district_code": "LK-62",
@@ -422,6 +660,7 @@
       "2012": 150404,
       "2024": 176963,
       "change": 26559,
+      "pct_change": 0.176584,
       "annual_growth_rate": 0.013644,
       "proportion_national": 0.07571
     },
@@ -431,6 +670,7 @@
       "2012": 71493,
       "2024": 83979,
       "change": 12486,
+      "pct_change": 0.174646,
       "annual_growth_rate": 0.013504,
       "proportion_national": 0.035929
     },
@@ -440,6 +680,7 @@
       "2012": 39267,
       "2024": 46038,
       "change": 6771,
+      "pct_change": 0.172435,
       "annual_growth_rate": 0.013345,
       "proportion_national": 0.019696
     },
@@ -449,6 +690,7 @@
       "2012": 25614,
       "2024": 29858,
       "change": 4244,
+      "pct_change": 0.165691,
       "annual_growth_rate": 0.012858,
       "proportion_national": 0.012774
     },
@@ -458,6 +700,7 @@
       "2012": 45682,
       "2024": 52224,
       "change": 6542,
+      "pct_change": 0.143207,
       "annual_growth_rate": 0.011216,
       "proportion_national": 0.022343
     },
@@ -467,6 +710,7 @@
       "2012": 197076,
       "2024": 223997,
       "change": 26921,
+      "pct_change": 0.136602,
       "annual_growth_rate": 0.010727,
       "proportion_national": 0.095833
     },
@@ -476,6 +720,7 @@
       "2012": 47192,
       "2024": 53563,
       "change": 6371,
+      "pct_change": 0.135002,
       "annual_growth_rate": 0.010609,
       "proportion_national": 0.022916
     },
@@ -485,6 +730,7 @@
       "2012": 24446,
       "2024": 26796,
       "change": 2350,
+      "pct_change": 0.09613,
       "annual_growth_rate": 0.007678,
       "proportion_national": 0.011464
     },
@@ -494,16 +740,19 @@
       "2012": 274067,
       "2024": 298422,
       "change": 24355,
+      "pct_change": 0.088865,
       "annual_growth_rate": 0.00712,
       "proportion_national": 0.127674
     },
     {
-      "district_code": null,
-      "district": "Other (<1% or <1,000)",
-      "2012": 63044,
-      "2024": 78938,
-      "change": 15894,
-      "annual_growth_rate": 0.018912
+      "district_code": "LK-23",
+      "district": "Nuwara Eliya",
+      "2012": 21116,
+      "2024": 21929,
+      "change": 813,
+      "pct_change": 0.038502,
+      "annual_growth_rate": 0.003153,
+      "proportion_national": 0.009382
     }
   ],
   "RomanCatholic": [
@@ -513,6 +762,7 @@
       "2012": 9063,
       "2024": 13982,
       "change": 4919,
+      "pct_change": 0.542756,
       "annual_growth_rate": 0.036792,
       "proportion_national": 0.01142
     },
@@ -522,6 +772,7 @@
       "2012": 12063,
       "2024": 14446,
       "change": 2383,
+      "pct_change": 0.197546,
       "annual_growth_rate": 0.015136,
       "proportion_national": 0.011799
     },
@@ -531,6 +782,7 @@
       "2012": 52415,
       "2024": 57713,
       "change": 5298,
+      "pct_change": 0.101078,
       "annual_growth_rate": 0.008056,
       "proportion_national": 0.047138
     },
@@ -540,6 +792,7 @@
       "2012": 24454,
       "2024": 25803,
       "change": 1349,
+      "pct_change": 0.055165,
       "annual_growth_rate": 0.004485,
       "proportion_national": 0.021075
     },
@@ -549,8 +802,19 @@
       "2012": 75474,
       "2024": 77197,
       "change": 1723,
+      "pct_change": 0.022829,
       "annual_growth_rate": 0.001883,
       "proportion_national": 0.063052
+    },
+    {
+      "district_code": "LK-32",
+      "district": "Matara",
+      "2012": 2432,
+      "2024": 2445,
+      "change": 13,
+      "pct_change": 0.005345,
+      "annual_growth_rate": 0.000444,
+      "proportion_national": 0.001997
     },
     {
       "district_code": "LK-62",
@@ -558,6 +822,7 @@
       "2012": 240221,
       "2024": 240975,
       "change": 754,
+      "pct_change": 0.003139,
       "annual_growth_rate": 0.000261,
       "proportion_national": 0.196819
     },
@@ -567,8 +832,19 @@
       "2012": 14493,
       "2024": 14353,
       "change": -140,
+      "pct_change": -0.00966,
       "annual_growth_rate": -0.000809,
       "proportion_national": 0.011723
+    },
+    {
+      "district_code": "LK-22",
+      "district": "Matale",
+      "2012": 7899,
+      "2024": 7797,
+      "change": -102,
+      "pct_change": -0.012913,
+      "annual_growth_rate": -0.001083,
+      "proportion_national": 0.006368
     },
     {
       "district_code": "LK-12",
@@ -576,8 +852,29 @@
       "2012": 449398,
       "2024": 442291,
       "change": -7107,
+      "pct_change": -0.015814,
       "annual_growth_rate": -0.001328,
       "proportion_national": 0.361246
+    },
+    {
+      "district_code": "LK-52",
+      "district": "Ampara",
+      "2012": 7588,
+      "2024": 7351,
+      "change": -237,
+      "pct_change": -0.031234,
+      "annual_growth_rate": -0.002641,
+      "proportion_national": 0.006004
+    },
+    {
+      "district_code": "LK-31",
+      "district": "Galle",
+      "2012": 4415,
+      "2024": 4207,
+      "change": -208,
+      "pct_change": -0.047112,
+      "annual_growth_rate": -0.004013,
+      "proportion_national": 0.003436
     },
     {
       "district_code": "LK-23",
@@ -585,6 +882,7 @@
       "2012": 33476,
       "2024": 31705,
       "change": -1771,
+      "pct_change": -0.052904,
       "annual_growth_rate": -0.004519,
       "proportion_national": 0.025895
     },
@@ -594,6 +892,7 @@
       "2012": 43707,
       "2024": 40273,
       "change": -3434,
+      "pct_change": -0.078569,
       "annual_growth_rate": -0.006796,
       "proportion_national": 0.032893
     },
@@ -603,8 +902,19 @@
       "2012": 39774,
       "2024": 36510,
       "change": -3264,
+      "pct_change": -0.082064,
       "annual_growth_rate": -0.00711,
       "proportion_national": 0.02982
+    },
+    {
+      "district_code": "LK-33",
+      "district": "Hambantota",
+      "2012": 1139,
+      "2024": 1017,
+      "change": -122,
+      "pct_change": -0.107112,
+      "annual_growth_rate": -0.009397,
+      "proportion_national": 0.000831
     },
     {
       "district_code": "LK-11",
@@ -612,8 +922,19 @@
       "2012": 162260,
       "2024": 139882,
       "change": -22378,
+      "pct_change": -0.137914,
       "annual_growth_rate": -0.012291,
       "proportion_national": 0.11425
+    },
+    {
+      "district_code": "LK-71",
+      "district": "Anuradhapura",
+      "2012": 6747,
+      "2024": 5760,
+      "change": -987,
+      "pct_change": -0.146287,
+      "annual_growth_rate": -0.013094,
+      "proportion_national": 0.004705
     },
     {
       "district_code": "LK-43",
@@ -621,6 +942,7 @@
       "2012": 15305,
       "2024": 12785,
       "change": -2520,
+      "pct_change": -0.164652,
       "annual_growth_rate": -0.01488,
       "proportion_national": 0.010442
     },
@@ -630,16 +952,59 @@
       "2012": 22379,
       "2024": 18623,
       "change": -3756,
+      "pct_change": -0.167836,
       "annual_growth_rate": -0.015194,
       "proportion_national": 0.015211
     },
     {
-      "district_code": null,
-      "district": "Other (<1% or <1,000)",
-      "2012": 66654,
-      "2024": 57810,
-      "change": -8844,
-      "annual_growth_rate": -0.011793
+      "district_code": "LK-92",
+      "district": "Kegalle",
+      "2012": 8777,
+      "2024": 7292,
+      "change": -1485,
+      "pct_change": -0.169192,
+      "annual_growth_rate": -0.015328,
+      "proportion_national": 0.005956
+    },
+    {
+      "district_code": "LK-72",
+      "district": "Polonnaruwa",
+      "2012": 3192,
+      "2024": 2560,
+      "change": -632,
+      "pct_change": -0.197995,
+      "annual_growth_rate": -0.018219,
+      "proportion_national": 0.002091
+    },
+    {
+      "district_code": "LK-81",
+      "district": "Badulla",
+      "2012": 12020,
+      "2024": 9593,
+      "change": -2427,
+      "pct_change": -0.201913,
+      "annual_growth_rate": -0.018619,
+      "proportion_national": 0.007835
+    },
+    {
+      "district_code": "LK-91",
+      "district": "Ratnapura",
+      "2012": 10844,
+      "2024": 8607,
+      "change": -2237,
+      "pct_change": -0.206289,
+      "annual_growth_rate": -0.019069,
+      "proportion_national": 0.00703
+    },
+    {
+      "district_code": "LK-82",
+      "district": "Monaragala",
+      "2012": 1601,
+      "2024": 1181,
+      "change": -420,
+      "pct_change": -0.262336,
+      "annual_growth_rate": -0.025037,
+      "proportion_national": 0.000965
     }
   ],
   "OtherChristian": [
@@ -649,6 +1014,7 @@
       "2012": 3664,
       "2024": 6315,
       "change": 2651,
+      "pct_change": 0.723526,
       "annual_growth_rate": 0.046409,
       "proportion_national": 0.022379
     },
@@ -658,6 +1024,7 @@
       "2012": 6436,
       "2024": 9074,
       "change": 2638,
+      "pct_change": 0.409882,
       "annual_growth_rate": 0.029039,
       "proportion_national": 0.032156
     },
@@ -667,6 +1034,7 @@
       "2012": 22833,
       "2024": 27728,
       "change": 4895,
+      "pct_change": 0.214383,
       "annual_growth_rate": 0.016318,
       "proportion_national": 0.098262
     },
@@ -676,6 +1044,7 @@
       "2012": 5541,
       "2024": 6486,
       "change": 945,
+      "pct_change": 0.170547,
       "annual_growth_rate": 0.013209,
       "proportion_national": 0.022985
     },
@@ -685,6 +1054,7 @@
       "2012": 4790,
       "2024": 5560,
       "change": 770,
+      "pct_change": 0.160752,
       "annual_growth_rate": 0.0125,
       "proportion_national": 0.019703
     },
@@ -694,6 +1064,7 @@
       "2012": 3208,
       "2024": 3619,
       "change": 411,
+      "pct_change": 0.128117,
       "annual_growth_rate": 0.010096,
       "proportion_national": 0.012825
     },
@@ -703,6 +1074,7 @@
       "2012": 8498,
       "2024": 8895,
       "change": 397,
+      "pct_change": 0.046717,
       "annual_growth_rate": 0.003812,
       "proportion_national": 0.031522
     },
@@ -712,6 +1084,7 @@
       "2012": 20511,
       "2024": 20857,
       "change": 346,
+      "pct_change": 0.016869,
       "annual_growth_rate": 0.001395,
       "proportion_national": 0.073913
     },
@@ -721,6 +1094,7 @@
       "2012": 5315,
       "2024": 5377,
       "change": 62,
+      "pct_change": 0.011665,
       "annual_growth_rate": 0.000967,
       "proportion_national": 0.019055
     },
@@ -730,6 +1104,7 @@
       "2012": 3660,
       "2024": 3656,
       "change": -4,
+      "pct_change": -0.001093,
       "annual_growth_rate": -9.1e-05,
       "proportion_national": 0.012956
     },
@@ -739,6 +1114,7 @@
       "2012": 15508,
       "2024": 15474,
       "change": -34,
+      "pct_change": -0.002192,
       "annual_growth_rate": -0.000183,
       "proportion_national": 0.054836
     },
@@ -748,6 +1124,7 @@
       "2012": 7774,
       "2024": 7714,
       "change": -60,
+      "pct_change": -0.007718,
       "annual_growth_rate": -0.000645,
       "proportion_national": 0.027337
     },
@@ -757,6 +1134,7 @@
       "2012": 46080,
       "2024": 44540,
       "change": -1540,
+      "pct_change": -0.03342,
       "annual_growth_rate": -0.002829,
       "proportion_national": 0.15784
     },
@@ -766,6 +1144,7 @@
       "2012": 9926,
       "2024": 9413,
       "change": -513,
+      "pct_change": -0.051682,
       "annual_growth_rate": -0.004412,
       "proportion_national": 0.033358
     },
@@ -775,6 +1154,7 @@
       "2012": 7212,
       "2024": 6394,
       "change": -818,
+      "pct_change": -0.113422,
       "annual_growth_rate": -0.009982,
       "proportion_national": 0.022659
     },
@@ -784,6 +1164,7 @@
       "2012": 12093,
       "2024": 10619,
       "change": -1474,
+      "pct_change": -0.121889,
       "annual_growth_rate": -0.010773,
       "proportion_national": 0.037631
     },
@@ -793,8 +1174,19 @@
       "2012": 6615,
       "2024": 5729,
       "change": -886,
+      "pct_change": -0.133938,
       "annual_growth_rate": -0.011912,
       "proportion_national": 0.020302
+    },
+    {
+      "district_code": "LK-22",
+      "district": "Matale",
+      "2012": 2342,
+      "2024": 2026,
+      "change": -316,
+      "pct_change": -0.134927,
+      "annual_growth_rate": -0.012006,
+      "proportion_national": 0.00718
     },
     {
       "district_code": "LK-13",
@@ -802,6 +1194,7 @@
       "2012": 8956,
       "2024": 7733,
       "change": -1223,
+      "pct_change": -0.136556,
       "annual_growth_rate": -0.012161,
       "proportion_national": 0.027404
     },
@@ -811,8 +1204,19 @@
       "2012": 12798,
       "2024": 10919,
       "change": -1879,
+      "pct_change": -0.14682,
       "annual_growth_rate": -0.013145,
       "proportion_national": 0.038694
+    },
+    {
+      "district_code": "LK-72",
+      "district": "Polonnaruwa",
+      "2012": 1276,
+      "2024": 1086,
+      "change": -190,
+      "pct_change": -0.148903,
+      "annual_growth_rate": -0.013346,
+      "proportion_national": 0.003849
     },
     {
       "district_code": "LK-92",
@@ -820,6 +1224,7 @@
       "2012": 6386,
       "2024": 5387,
       "change": -999,
+      "pct_change": -0.156436,
       "annual_growth_rate": -0.014077,
       "proportion_national": 0.01909
     },
@@ -829,27 +1234,231 @@
       "2012": 66947,
       "2024": 55624,
       "change": -11323,
+      "pct_change": -0.169134,
       "annual_growth_rate": -0.015322,
       "proportion_national": 0.197119
     },
     {
-      "district_code": null,
-      "district": "Other (<1% or <1,000)",
-      "2012": 6169,
-      "2024": 5072,
-      "change": -1097,
-      "annual_growth_rate": -0.016184
+      "district_code": "LK-82",
+      "district": "Monaragala",
+      "2012": 859,
+      "2024": 713,
+      "change": -146,
+      "pct_change": -0.169965,
+      "annual_growth_rate": -0.015404,
+      "proportion_national": 0.002527
+    },
+    {
+      "district_code": "LK-33",
+      "district": "Hambantota",
+      "2012": 1692,
+      "2024": 1247,
+      "change": -445,
+      "pct_change": -0.263002,
+      "annual_growth_rate": -0.02511,
+      "proportion_national": 0.004419
     }
   ],
   "Other": [
+    {
+      "district_code": "LK-72",
+      "district": "Polonnaruwa",
+      "2012": 40,
+      "2024": 84,
+      "change": 44,
+      "pct_change": 1.1,
+      "annual_growth_rate": 0.063779,
+      "proportion_national": 0.021234
+    },
+    {
+      "district_code": "LK-52",
+      "district": "Ampara",
+      "2012": 30,
+      "2024": 56,
+      "change": 26,
+      "pct_change": 0.866667,
+      "annual_growth_rate": 0.053389,
+      "proportion_national": 0.014156
+    },
+    {
+      "district_code": "LK-71",
+      "district": "Anuradhapura",
+      "2012": 78,
+      "2024": 123,
+      "change": 45,
+      "pct_change": 0.576923,
+      "annual_growth_rate": 0.038686,
+      "proportion_national": 0.031092
+    },
+    {
+      "district_code": "LK-21",
+      "district": "Kandy",
+      "2012": 165,
+      "2024": 227,
+      "change": 62,
+      "pct_change": 0.375758,
+      "annual_growth_rate": 0.02694,
+      "proportion_national": 0.057381
+    },
+    {
+      "district_code": "LK-22",
+      "district": "Matale",
+      "2012": 25,
+      "2024": 34,
+      "change": 9,
+      "pct_change": 0.36,
+      "annual_growth_rate": 0.025955,
+      "proportion_national": 0.008595
+    },
+    {
+      "district_code": "LK-12",
+      "district": "Gampaha",
+      "2012": 869,
+      "2024": 985,
+      "change": 116,
+      "pct_change": 0.133487,
+      "annual_growth_rate": 0.010496,
+      "proportion_national": 0.248989
+    },
+    {
+      "district_code": "LK-31",
+      "district": "Galle",
+      "2012": 106,
+      "2024": 119,
+      "change": 13,
+      "pct_change": 0.122642,
+      "annual_growth_rate": 0.009687,
+      "proportion_national": 0.030081
+    },
+    {
+      "district_code": "LK-92",
+      "district": "Kegalle",
+      "2012": 54,
+      "2024": 53,
+      "change": -1,
+      "pct_change": -0.018519,
+      "annual_growth_rate": -0.001556,
+      "proportion_national": 0.013397
+    },
+    {
+      "district_code": "LK-32",
+      "district": "Matara",
+      "2012": 50,
+      "2024": 39,
+      "change": -11,
+      "pct_change": -0.22,
+      "annual_growth_rate": -0.020492,
+      "proportion_national": 0.009858
+    },
+    {
+      "district_code": "LK-91",
+      "district": "Ratnapura",
+      "2012": 79,
+      "2024": 61,
+      "change": -18,
+      "pct_change": -0.227848,
+      "annual_growth_rate": -0.021317,
+      "proportion_national": 0.01542
+    },
+    {
+      "district_code": "LK-61",
+      "district": "Kurunegala",
+      "2012": 170,
+      "2024": 130,
+      "change": -40,
+      "pct_change": -0.235294,
+      "annual_growth_rate": -0.022107,
+      "proportion_national": 0.032861
+    },
+    {
+      "district_code": "LK-43",
+      "district": "Vavuniya",
+      "2012": 86,
+      "2024": 61,
+      "change": -25,
+      "pct_change": -0.290698,
+      "annual_growth_rate": -0.028217,
+      "proportion_national": 0.01542
+    },
+    {
+      "district_code": "LK-13",
+      "district": "Kalutara",
+      "2012": 212,
+      "2024": 145,
+      "change": -67,
+      "pct_change": -0.316038,
+      "annual_growth_rate": -0.031159,
+      "proportion_national": 0.036653
+    },
+    {
+      "district_code": "LK-53",
+      "district": "Trincomalee",
+      "2012": 70,
+      "2024": 45,
+      "change": -25,
+      "pct_change": -0.357143,
+      "annual_growth_rate": -0.03615,
+      "proportion_national": 0.011375
+    },
+    {
+      "district_code": "LK-51",
+      "district": "Batticaloa",
+      "2012": 52,
+      "2024": 33,
+      "change": -19,
+      "pct_change": -0.365385,
+      "annual_growth_rate": -0.037186,
+      "proportion_national": 0.008342
+    },
+    {
+      "district_code": "LK-82",
+      "district": "Monaragala",
+      "2012": 30,
+      "2024": 19,
+      "change": -11,
+      "pct_change": -0.366667,
+      "annual_growth_rate": -0.037348,
+      "proportion_national": 0.004803
+    },
+    {
+      "district_code": "LK-23",
+      "district": "Nuwara Eliya",
+      "2012": 127,
+      "2024": 78,
+      "change": -49,
+      "pct_change": -0.385827,
+      "annual_growth_rate": -0.039809,
+      "proportion_national": 0.019717
+    },
     {
       "district_code": "LK-11",
       "district": "Colombo",
       "2012": 2262,
       "2024": 1204,
       "change": -1058,
+      "pct_change": -0.467728,
       "annual_growth_rate": -0.051193,
       "proportion_national": 0.304348
+    },
+    {
+      "district_code": "LK-41",
+      "district": "Jaffna",
+      "2012": 111,
+      "2024": 36,
+      "change": -75,
+      "pct_change": -0.675676,
+      "annual_growth_rate": -0.089566,
+      "proportion_national": 0.0091
+    },
+    {
+      "district_code": "LK-81",
+      "district": "Badulla",
+      "2012": 171,
+      "2024": 54,
+      "change": -117,
+      "pct_change": -0.684211,
+      "annual_growth_rate": -0.091587,
+      "proportion_national": 0.01365
     },
     {
       "district_code": "LK-62",
@@ -857,16 +1466,49 @@
       "2012": 1162,
       "2024": 279,
       "change": -883,
+      "pct_change": -0.759897,
       "annual_growth_rate": -0.112095,
       "proportion_national": 0.070526
     },
     {
-      "district_code": null,
-      "district": "Other (<1% or <1,000)",
-      "2012": 2963,
-      "2024": 2473,
-      "change": -490,
-      "annual_growth_rate": -0.014951
+      "district_code": "LK-42",
+      "district": "Mannar",
+      "2012": 17,
+      "2024": 4,
+      "change": -13,
+      "pct_change": -0.764706,
+      "annual_growth_rate": -0.113591,
+      "proportion_national": 0.001011
+    },
+    {
+      "district_code": "LK-33",
+      "district": "Hambantota",
+      "2012": 302,
+      "2024": 70,
+      "change": -232,
+      "pct_change": -0.768212,
+      "annual_growth_rate": -0.114699,
+      "proportion_national": 0.017695
+    },
+    {
+      "district_code": "LK-44",
+      "district": "Mullaitivu",
+      "2012": 69,
+      "2024": 12,
+      "change": -57,
+      "pct_change": -0.826087,
+      "annual_growth_rate": -0.135641,
+      "proportion_national": 0.003033
+    },
+    {
+      "district_code": "LK-45",
+      "district": "Kilinochchi",
+      "2012": 50,
+      "2024": 5,
+      "change": -45,
+      "pct_change": -0.9,
+      "annual_growth_rate": -0.174596,
+      "proportion_national": 0.001264
     }
   ]
 }

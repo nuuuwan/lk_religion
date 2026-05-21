@@ -14,7 +14,7 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ## A1. National Population by Religion
 
-![A1 representative chart](chart.png)
+![A1 representative chart](analyses/a1_national_totals/chart.png)
 
 | Religion | 2012 | 2024 | Change | Annual Growth | % of Population |
 |---|---:|---:|---:|---:|---:|
@@ -37,151 +37,207 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ## A2. Religion by District: Key Trends
 
-![A2 representative chart](chart.png)
+![A2 district change maps](analyses/a2_by_district/chart.png)
+
+District-level **% change in population** for each religion between 2012 and 2024. Districts are shaded from **red (decline)** to **green (growth)**.
 
 ### Buddhist
 
-| District | 2012 | 2024 | Change | Annual Growth | % of Natl |
+| District | 2012 | 2024 | Change | % Change | % of Natl |
 |---|---:|---:|---:|---:|---:|
-| Monaragala | 426,762 | 498,436 | +71,674 | +1.30% | 3.3% |
-| Hambantota | 580,344 | 649,736 | +69,392 | +0.95% | 4.3% |
-| Anuradhapura | 775,366 | 862,807 | +87,441 | +0.89% | 5.7% |
-| Ampara | 251,427 | 276,176 | +24,749 | +0.79% | 1.8% |
-| Polonnaruwa | 364,229 | 399,488 | +35,259 | +0.77% | 2.6% |
-| Puttalam | 329,705 | 361,148 | +31,443 | +0.76% | 2.4% |
-| Kurunegala | 1,430,958 | 1,557,554 | +126,596 | +0.71% | 10.2% |
-| Matale | 385,151 | 418,608 | +33,457 | +0.70% | 2.8% |
-| Badulla | 591,799 | 636,988 | +45,189 | +0.62% | 4.2% |
-| Gampaha | 1,642,767 | 1,744,475 | +101,708 | +0.50% | 11.5% |
-| Kalutara | 1,018,909 | 1,080,638 | +61,729 | +0.49% | 7.1% |
-| Ratnapura | 943,464 | 999,682 | +56,218 | +0.48% | 6.6% |
-| Kandy | 1,009,220 | 1,063,511 | +54,291 | +0.44% | 7.0% |
-| Colombo | 1,632,125 | 1,682,524 | +50,399 | +0.25% | 11.1% |
-| Galle | 998,647 | 1,026,031 | +27,384 | +0.23% | 6.8% |
-| Matara | 766,323 | 787,303 | +20,980 | +0.23% | 5.2% |
-| Kegalle | 709,917 | 728,929 | +19,012 | +0.22% | 4.8% |
-| Nuwara Eliya | 278,254 | 278,828 | +574 | +0.02% | 1.8% |
-| *Other (<1% or <1,000)* | *135,816* | *146,231* | *+10,415* | *+0.62%* | |
+| Jaffna | 2,168 | 2,788 | +620 | +28.6% | 0.0% |
+| Mullaitivu | 8,140 | 10,293 | +2,153 | +26.4% | 0.1% |
+| Kilinochchi | 1,275 | 1,533 | +258 | +20.2% | 0.0% |
+| Monaragala | 426,762 | 498,436 | +71,674 | +16.8% | 3.3% |
+| Hambantota | 580,344 | 649,736 | +69,392 | +12.0% | 4.3% |
+| Anuradhapura | 775,366 | 862,807 | +87,441 | +11.3% | 5.7% |
+| Ampara | 251,427 | 276,176 | +24,749 | +9.8% | 1.8% |
+| Polonnaruwa | 364,229 | 399,488 | +35,259 | +9.7% | 2.6% |
+| Puttalam | 329,705 | 361,148 | +31,443 | +9.5% | 2.4% |
+| Vavuniya | 16,799 | 18,292 | +1,493 | +8.9% | 0.1% |
+| Kurunegala | 1,430,958 | 1,557,554 | +126,596 | +8.8% | 10.2% |
+| Matale | 385,151 | 418,608 | +33,457 | +8.7% | 2.8% |
+| Badulla | 591,799 | 636,988 | +45,189 | +7.6% | 4.2% |
+| Trincomalee | 99,344 | 106,919 | +7,575 | +7.6% | 0.7% |
+| Gampaha | 1,642,767 | 1,744,475 | +101,708 | +6.2% | 11.5% |
+| Kalutara | 1,018,909 | 1,080,638 | +61,729 | +6.1% | 7.1% |
+| Ratnapura | 943,464 | 999,682 | +56,218 | +6.0% | 6.6% |
+| Kandy | 1,009,220 | 1,063,511 | +54,291 | +5.4% | 7.0% |
+| Colombo | 1,632,125 | 1,682,524 | +50,399 | +3.1% | 11.1% |
+| Galle | 998,647 | 1,026,031 | +27,384 | +2.7% | 6.8% |
+| Matara | 766,323 | 787,303 | +20,980 | +2.7% | 5.2% |
+| Kegalle | 709,917 | 728,929 | +19,012 | +2.7% | 4.8% |
+| Nuwara Eliya | 278,254 | 278,828 | +574 | +0.2% | 1.8% |
+| Batticaloa | 6,281 | 6,024 | -257 | -4.1% | 0.0% |
+| Mannar | 1,809 | 382 | -1,427 | -78.9% | 0.0% |
 
-***Monaragala** grew fastest at **+1.30%/yr**. **Nuwara Eliya** had the slowest growth at **+0.02%/yr**. **Kurunegala** had the largest absolute increase (**+126,596**).*
+***Jaffna** grew fastest at **+28.6%**. **Mannar** saw the steepest decline at **-78.9%**. **Kurunegala** had the largest absolute increase (**+126,596**).*
 
 ### Hindu
 
-| District | 2012 | 2024 | Change | Annual Growth | % of Natl |
+| District | 2012 | 2024 | Change | % Change | % of Natl |
 |---|---:|---:|---:|---:|---:|
-| Gampaha | 52,973 | 69,429 | +16,456 | +2.28% | 2.5% |
-| Mullaitivu | 69,377 | 88,738 | +19,361 | +2.07% | 3.2% |
-| Kilinochchi | 92,986 | 110,258 | +17,272 | +1.43% | 4.0% |
-| Ampara | 102,829 | 114,586 | +11,757 | +0.91% | 4.2% |
-| Batticaloa | 338,882 | 374,836 | +35,954 | +0.84% | 13.7% |
-| Trincomalee | 98,442 | 108,050 | +9,608 | +0.78% | 4.0% |
-| Kandy | 133,744 | 144,618 | +10,874 | +0.65% | 5.3% |
-| Kalutara | 39,541 | 42,528 | +2,987 | +0.61% | 1.6% |
-| Matale | 43,432 | 46,181 | +2,749 | +0.51% | 1.7% |
-| Colombo | 186,303 | 197,759 | +11,456 | +0.50% | 7.2% |
-| Badulla | 157,608 | 166,380 | +8,772 | +0.45% | 6.1% |
-| Nuwara Eliya | 363,163 | 377,266 | +14,103 | +0.32% | 13.8% |
-| Kegalle | 54,350 | 56,199 | +1,849 | +0.28% | 2.1% |
-| Ratnapura | 101,962 | 103,883 | +1,921 | +0.16% | 3.8% |
-| Jaffna | 483,255 | 489,521 | +6,266 | +0.11% | 17.9% |
-| Puttalam | 28,811 | 28,832 | +21 | +0.01% | 1.1% |
-| Vavuniya | 119,400 | 114,504 | -4,896 | -0.35% | 4.2% |
-| *Other (<1% or <1,000)* | *94,084* | *101,271* | *+7,187* | *+0.62%* | |
+| Gampaha | 52,973 | 69,429 | +16,456 | +31.1% | 2.5% |
+| Mullaitivu | 69,377 | 88,738 | +19,361 | +27.9% | 3.2% |
+| Monaragala | 11,997 | 14,974 | +2,977 | +24.8% | 0.5% |
+| Kurunegala | 14,716 | 17,487 | +2,771 | +18.8% | 0.6% |
+| Kilinochchi | 92,986 | 110,258 | +17,272 | +18.6% | 4.0% |
+| Anuradhapura | 3,231 | 3,755 | +524 | +16.2% | 0.1% |
+| Hambantota | 1,222 | 1,401 | +179 | +14.6% | 0.1% |
+| Ampara | 102,829 | 114,586 | +11,757 | +11.4% | 4.2% |
+| Batticaloa | 338,882 | 374,836 | +35,954 | +10.6% | 13.7% |
+| Trincomalee | 98,442 | 108,050 | +9,608 | +9.8% | 4.0% |
+| Mannar | 24,027 | 26,214 | +2,187 | +9.1% | 1.0% |
+| Kandy | 133,744 | 144,618 | +10,874 | +8.1% | 5.3% |
+| Kalutara | 39,541 | 42,528 | +2,987 | +7.6% | 1.6% |
+| Matale | 43,432 | 46,181 | +2,749 | +6.3% | 1.7% |
+| Colombo | 186,303 | 197,759 | +11,456 | +6.1% | 7.2% |
+| Badulla | 157,608 | 166,380 | +8,772 | +5.6% | 6.1% |
+| Polonnaruwa | 6,886 | 7,215 | +329 | +4.8% | 0.3% |
+| Nuwara Eliya | 363,163 | 377,266 | +14,103 | +3.9% | 13.8% |
+| Kegalle | 54,350 | 56,199 | +1,849 | +3.4% | 2.1% |
+| Ratnapura | 101,962 | 103,883 | +1,921 | +1.9% | 3.8% |
+| Jaffna | 483,255 | 489,521 | +6,266 | +1.3% | 17.9% |
+| Galle | 15,584 | 15,600 | +16 | +0.1% | 0.6% |
+| Puttalam | 28,811 | 28,832 | +21 | +0.1% | 1.1% |
+| Vavuniya | 119,400 | 114,504 | -4,896 | -4.1% | 4.2% |
+| Matara | 16,421 | 14,625 | -1,796 | -10.9% | 0.5% |
 
-***Gampaha** grew fastest at **+2.28%/yr**. **Vavuniya** saw the steepest decline at **-0.35%/yr**. **Batticaloa** had the largest absolute increase (**+35,954**).*
+***Gampaha** grew fastest at **+31.1%**. **Matara** saw the steepest decline at **-10.9%**. **Batticaloa** had the largest absolute increase (**+35,954**).*
 
 ### Islam
 
-| District | 2012 | 2024 | Change | Annual Growth | % of Natl |
+| District | 2012 | 2024 | Change | % Change | % of Natl |
 |---|---:|---:|---:|---:|---:|
-| Mannar | 16,512 | 33,883 | +17,371 | +6.17% | 1.4% |
-| Trincomalee | 159,418 | 205,664 | +46,246 | +2.15% | 8.8% |
-| Polonnaruwa | 30,465 | 37,097 | +6,632 | +1.65% | 1.6% |
-| Kurunegala | 117,810 | 143,299 | +25,489 | +1.65% | 6.1% |
-| Kalutara | 114,556 | 138,230 | +23,674 | +1.58% | 5.9% |
-| Ampara | 281,987 | 339,896 | +57,909 | +1.57% | 14.5% |
-| Batticaloa | 134,065 | 161,494 | +27,429 | +1.56% | 6.9% |
-| Gampaha | 112,746 | 134,422 | +21,676 | +1.48% | 5.8% |
-| Kegalle | 61,164 | 72,616 | +11,452 | +1.44% | 3.1% |
-| Puttalam | 150,404 | 176,963 | +26,559 | +1.36% | 7.6% |
-| Anuradhapura | 71,493 | 83,979 | +12,486 | +1.35% | 3.6% |
-| Galle | 39,267 | 46,038 | +6,771 | +1.33% | 2.0% |
-| Matara | 25,614 | 29,858 | +4,244 | +1.29% | 1.3% |
-| Matale | 45,682 | 52,224 | +6,542 | +1.12% | 2.2% |
-| Kandy | 197,076 | 223,997 | +26,921 | +1.07% | 9.6% |
-| Badulla | 47,192 | 53,563 | +6,371 | +1.06% | 2.3% |
-| Ratnapura | 24,446 | 26,796 | +2,350 | +0.77% | 1.1% |
-| Colombo | 274,067 | 298,422 | +24,355 | +0.71% | 12.8% |
-| *Other (<1% or <1,000)* | *63,044* | *78,938* | *+15,894* | *+1.89%* | |
+| Mannar | 16,512 | 33,883 | +17,371 | +105.2% | 1.4% |
+| Kilinochchi | 700 | 1,394 | +694 | +99.1% | 0.1% |
+| Jaffna | 2,363 | 4,352 | +1,989 | +84.2% | 0.2% |
+| Mullaitivu | 1,880 | 3,279 | +1,399 | +74.4% | 0.1% |
+| Vavuniya | 11,972 | 17,775 | +5,803 | +48.5% | 0.8% |
+| Trincomalee | 159,418 | 205,664 | +46,246 | +29.0% | 8.8% |
+| Monaragala | 9,809 | 12,262 | +2,453 | +25.0% | 0.5% |
+| Polonnaruwa | 30,465 | 37,097 | +6,632 | +21.8% | 1.6% |
+| Kurunegala | 117,810 | 143,299 | +25,489 | +21.6% | 6.1% |
+| Kalutara | 114,556 | 138,230 | +23,674 | +20.7% | 5.9% |
+| Ampara | 281,987 | 339,896 | +57,909 | +20.5% | 14.5% |
+| Batticaloa | 134,065 | 161,494 | +27,429 | +20.5% | 6.9% |
+| Gampaha | 112,746 | 134,422 | +21,676 | +19.2% | 5.8% |
+| Kegalle | 61,164 | 72,616 | +11,452 | +18.7% | 3.1% |
+| Hambantota | 15,204 | 17,947 | +2,743 | +18.0% | 0.8% |
+| Puttalam | 150,404 | 176,963 | +26,559 | +17.7% | 7.6% |
+| Anuradhapura | 71,493 | 83,979 | +12,486 | +17.5% | 3.6% |
+| Galle | 39,267 | 46,038 | +6,771 | +17.2% | 2.0% |
+| Matara | 25,614 | 29,858 | +4,244 | +16.6% | 1.3% |
+| Matale | 45,682 | 52,224 | +6,542 | +14.3% | 2.2% |
+| Kandy | 197,076 | 223,997 | +26,921 | +13.7% | 9.6% |
+| Badulla | 47,192 | 53,563 | +6,371 | +13.5% | 2.3% |
+| Ratnapura | 24,446 | 26,796 | +2,350 | +9.6% | 1.1% |
+| Colombo | 274,067 | 298,422 | +24,355 | +8.9% | 12.8% |
+| Nuwara Eliya | 21,116 | 21,929 | +813 | +3.9% | 0.9% |
 
-***Mannar** grew fastest at **+6.17%/yr**. **Colombo** had the slowest growth at **+0.71%/yr**. **Ampara** had the largest absolute increase (**+57,909**).*
+***Mannar** grew fastest at **+105.2%**. **Nuwara Eliya** had the slowest growth at **+3.9%**. **Ampara** had the largest absolute increase (**+57,909**).*
 
-### RomanCatholic
+### Roman Catholic
 
-| District | 2012 | 2024 | Change | Annual Growth | % of Natl |
+| District | 2012 | 2024 | Change | % Change | % of Natl |
 |---|---:|---:|---:|---:|---:|
-| Mullaitivu | 9,063 | 13,982 | +4,919 | +3.68% | 1.1% |
-| Kilinochchi | 12,063 | 14,446 | +2,383 | +1.51% | 1.2% |
-| Mannar | 52,415 | 57,713 | +5,298 | +0.81% | 4.7% |
-| Batticaloa | 24,454 | 25,803 | +1,349 | +0.45% | 2.1% |
-| Jaffna | 75,474 | 77,197 | +1,723 | +0.19% | 6.3% |
-| Puttalam | 240,221 | 240,975 | +754 | +0.03% | 19.7% |
-| Trincomalee | 14,493 | 14,353 | -140 | -0.08% | 1.2% |
-| Gampaha | 449,398 | 442,291 | -7,107 | -0.13% | 36.1% |
-| Nuwara Eliya | 33,476 | 31,705 | -1,771 | -0.45% | 2.6% |
-| Kurunegala | 43,707 | 40,273 | -3,434 | -0.68% | 3.3% |
-| Kalutara | 39,774 | 36,510 | -3,264 | -0.71% | 3.0% |
-| Colombo | 162,260 | 139,882 | -22,378 | -1.23% | 11.4% |
-| Vavuniya | 15,305 | 12,785 | -2,520 | -1.49% | 1.0% |
-| Kandy | 22,379 | 18,623 | -3,756 | -1.52% | 1.5% |
-| *Other (<1% or <1,000)* | *66,654* | *57,810* | *-8,844* | *-1.18%* | |
+| Mullaitivu | 9,063 | 13,982 | +4,919 | +54.3% | 1.1% |
+| Kilinochchi | 12,063 | 14,446 | +2,383 | +19.8% | 1.2% |
+| Mannar | 52,415 | 57,713 | +5,298 | +10.1% | 4.7% |
+| Batticaloa | 24,454 | 25,803 | +1,349 | +5.5% | 2.1% |
+| Jaffna | 75,474 | 77,197 | +1,723 | +2.3% | 6.3% |
+| Matara | 2,432 | 2,445 | +13 | +0.5% | 0.2% |
+| Puttalam | 240,221 | 240,975 | +754 | +0.3% | 19.7% |
+| Trincomalee | 14,493 | 14,353 | -140 | -1.0% | 1.2% |
+| Matale | 7,899 | 7,797 | -102 | -1.3% | 0.6% |
+| Gampaha | 449,398 | 442,291 | -7,107 | -1.6% | 36.1% |
+| Ampara | 7,588 | 7,351 | -237 | -3.1% | 0.6% |
+| Galle | 4,415 | 4,207 | -208 | -4.7% | 0.3% |
+| Nuwara Eliya | 33,476 | 31,705 | -1,771 | -5.3% | 2.6% |
+| Kurunegala | 43,707 | 40,273 | -3,434 | -7.9% | 3.3% |
+| Kalutara | 39,774 | 36,510 | -3,264 | -8.2% | 3.0% |
+| Hambantota | 1,139 | 1,017 | -122 | -10.7% | 0.1% |
+| Colombo | 162,260 | 139,882 | -22,378 | -13.8% | 11.4% |
+| Anuradhapura | 6,747 | 5,760 | -987 | -14.6% | 0.5% |
+| Vavuniya | 15,305 | 12,785 | -2,520 | -16.5% | 1.0% |
+| Kandy | 22,379 | 18,623 | -3,756 | -16.8% | 1.5% |
+| Kegalle | 8,777 | 7,292 | -1,485 | -16.9% | 0.6% |
+| Polonnaruwa | 3,192 | 2,560 | -632 | -19.8% | 0.2% |
+| Badulla | 12,020 | 9,593 | -2,427 | -20.2% | 0.8% |
+| Ratnapura | 10,844 | 8,607 | -2,237 | -20.6% | 0.7% |
+| Monaragala | 1,601 | 1,181 | -420 | -26.2% | 0.1% |
 
-***Mullaitivu** grew fastest at **+3.68%/yr**. **Kandy** saw the steepest decline at **-1.52%/yr**. **Mannar** had the largest absolute increase (**+5,298**).*
+***Mullaitivu** grew fastest at **+54.3%**. **Monaragala** saw the steepest decline at **-26.2%**. **Mannar** had the largest absolute increase (**+5,298**).*
 
-### OtherChristian
+### Other Christian
 
-| District | 2012 | 2024 | Change | Annual Growth | % of Natl |
+| District | 2012 | 2024 | Change | % Change | % of Natl |
 |---|---:|---:|---:|---:|---:|
-| Mullaitivu | 3,664 | 6,315 | +2,651 | +4.64% | 2.2% |
-| Kilinochchi | 6,436 | 9,074 | +2,638 | +2.90% | 3.2% |
-| Batticaloa | 22,833 | 27,728 | +4,895 | +1.63% | 9.8% |
-| Ampara | 5,541 | 6,486 | +945 | +1.32% | 2.3% |
-| Mannar | 4,790 | 5,560 | +770 | +1.25% | 2.0% |
-| Matara | 3,208 | 3,619 | +411 | +1.01% | 1.3% |
-| Vavuniya | 8,498 | 8,895 | +397 | +0.38% | 3.2% |
-| Jaffna | 20,511 | 20,857 | +346 | +0.14% | 7.4% |
-| Galle | 5,315 | 5,377 | +62 | +0.10% | 1.9% |
-| Anuradhapura | 3,660 | 3,656 | -4 | -0.01% | 1.3% |
-| Nuwara Eliya | 15,508 | 15,474 | -34 | -0.02% | 5.5% |
-| Trincomalee | 7,774 | 7,714 | -60 | -0.06% | 2.7% |
-| Gampaha | 46,080 | 44,540 | -1,540 | -0.28% | 15.8% |
-| Kurunegala | 9,926 | 9,413 | -513 | -0.44% | 3.3% |
-| Ratnapura | 7,212 | 6,394 | -818 | -1.00% | 2.3% |
-| Puttalam | 12,093 | 10,619 | -1,474 | -1.08% | 3.8% |
-| Badulla | 6,615 | 5,729 | -886 | -1.19% | 2.0% |
-| Kalutara | 8,956 | 7,733 | -1,223 | -1.22% | 2.7% |
-| Kandy | 12,798 | 10,919 | -1,879 | -1.31% | 3.9% |
-| Kegalle | 6,386 | 5,387 | -999 | -1.41% | 1.9% |
-| Colombo | 66,947 | 55,624 | -11,323 | -1.53% | 19.7% |
-| *Other (<1% or <1,000)* | *6,169* | *5,072* | *-1,097* | *-1.62%* | |
+| Mullaitivu | 3,664 | 6,315 | +2,651 | +72.4% | 2.2% |
+| Kilinochchi | 6,436 | 9,074 | +2,638 | +41.0% | 3.2% |
+| Batticaloa | 22,833 | 27,728 | +4,895 | +21.4% | 9.8% |
+| Ampara | 5,541 | 6,486 | +945 | +17.1% | 2.3% |
+| Mannar | 4,790 | 5,560 | +770 | +16.1% | 2.0% |
+| Matara | 3,208 | 3,619 | +411 | +12.8% | 1.3% |
+| Vavuniya | 8,498 | 8,895 | +397 | +4.7% | 3.2% |
+| Jaffna | 20,511 | 20,857 | +346 | +1.7% | 7.4% |
+| Galle | 5,315 | 5,377 | +62 | +1.2% | 1.9% |
+| Anuradhapura | 3,660 | 3,656 | -4 | -0.1% | 1.3% |
+| Nuwara Eliya | 15,508 | 15,474 | -34 | -0.2% | 5.5% |
+| Trincomalee | 7,774 | 7,714 | -60 | -0.8% | 2.7% |
+| Gampaha | 46,080 | 44,540 | -1,540 | -3.3% | 15.8% |
+| Kurunegala | 9,926 | 9,413 | -513 | -5.2% | 3.3% |
+| Ratnapura | 7,212 | 6,394 | -818 | -11.3% | 2.3% |
+| Puttalam | 12,093 | 10,619 | -1,474 | -12.2% | 3.8% |
+| Badulla | 6,615 | 5,729 | -886 | -13.4% | 2.0% |
+| Matale | 2,342 | 2,026 | -316 | -13.5% | 0.7% |
+| Kalutara | 8,956 | 7,733 | -1,223 | -13.7% | 2.7% |
+| Kandy | 12,798 | 10,919 | -1,879 | -14.7% | 3.9% |
+| Polonnaruwa | 1,276 | 1,086 | -190 | -14.9% | 0.4% |
+| Kegalle | 6,386 | 5,387 | -999 | -15.6% | 1.9% |
+| Colombo | 66,947 | 55,624 | -11,323 | -16.9% | 19.7% |
+| Monaragala | 859 | 713 | -146 | -17.0% | 0.3% |
+| Hambantota | 1,692 | 1,247 | -445 | -26.3% | 0.4% |
 
-***Mullaitivu** grew fastest at **+4.64%/yr**. **Colombo** saw the steepest decline at **-1.53%/yr**. **Batticaloa** had the largest absolute increase (**+4,895**).*
+***Mullaitivu** grew fastest at **+72.4%**. **Hambantota** saw the steepest decline at **-26.3%**. **Batticaloa** had the largest absolute increase (**+4,895**).*
 
 ### Other
 
-| District | 2012 | 2024 | Change | Annual Growth | % of Natl |
+| District | 2012 | 2024 | Change | % Change | % of Natl |
 |---|---:|---:|---:|---:|---:|
-| Colombo | 2,262 | 1,204 | -1,058 | -5.12% | 30.4% |
-| Puttalam | 1,162 | 279 | -883 | -11.21% | 7.1% |
-| *Other (<1% or <1,000)* | *2,963* | *2,473* | *-490* | *-1.50%* | |
+| Polonnaruwa | 40 | 84 | +44 | +110.0% | 2.1% |
+| Ampara | 30 | 56 | +26 | +86.7% | 1.4% |
+| Anuradhapura | 78 | 123 | +45 | +57.7% | 3.1% |
+| Kandy | 165 | 227 | +62 | +37.6% | 5.7% |
+| Matale | 25 | 34 | +9 | +36.0% | 0.9% |
+| Gampaha | 869 | 985 | +116 | +13.3% | 24.9% |
+| Galle | 106 | 119 | +13 | +12.3% | 3.0% |
+| Kegalle | 54 | 53 | -1 | -1.9% | 1.3% |
+| Matara | 50 | 39 | -11 | -22.0% | 1.0% |
+| Ratnapura | 79 | 61 | -18 | -22.8% | 1.5% |
+| Kurunegala | 170 | 130 | -40 | -23.5% | 3.3% |
+| Vavuniya | 86 | 61 | -25 | -29.1% | 1.5% |
+| Kalutara | 212 | 145 | -67 | -31.6% | 3.7% |
+| Trincomalee | 70 | 45 | -25 | -35.7% | 1.1% |
+| Batticaloa | 52 | 33 | -19 | -36.5% | 0.8% |
+| Monaragala | 30 | 19 | -11 | -36.7% | 0.5% |
+| Nuwara Eliya | 127 | 78 | -49 | -38.6% | 2.0% |
+| Colombo | 2,262 | 1,204 | -1,058 | -46.8% | 30.4% |
+| Jaffna | 111 | 36 | -75 | -67.6% | 0.9% |
+| Badulla | 171 | 54 | -117 | -68.4% | 1.4% |
+| Puttalam | 1,162 | 279 | -883 | -76.0% | 7.1% |
+| Mannar | 17 | 4 | -13 | -76.5% | 0.1% |
+| Hambantota | 302 | 70 | -232 | -76.8% | 1.8% |
+| Mullaitivu | 69 | 12 | -57 | -82.6% | 0.3% |
+| Kilinochchi | 50 | 5 | -45 | -90.0% | 0.1% |
 
-***Puttalam** saw the steepest decline at **-11.21%/yr**.*
+***Polonnaruwa** grew fastest at **+110.0%**. **Kilinochchi** saw the steepest decline at **-90.0%**. **Gampaha** had the largest absolute increase (**+116**).*
 
 ---
 
 ## A3. Largest Change in Religious Proportion
 
-![A3 representative chart](chart.png)
+![A3 representative chart](analyses/a3_proportion_change/chart.png)
 
 For each district, the religion whose share of the local population changed most between 2012 and 2024.
 
@@ -219,7 +275,7 @@ For each district, the religion whose share of the local population changed most
 
 ## A4. DSD Boundary Changes
 
-![A4 representative chart](chart.png)
+![A4 representative chart](analyses/a4_by_dsd/chart.png)
 
 Districts where the number of DSDs changed between censuses are listed below. Within those districts, DSDs whose population growth deviates from the national rate (+6.99% over 2012–2024) by more than 2× are flagged as **Altered** — their apparent demographic shifts likely reflect re-demarcation rather than genuine change.
 

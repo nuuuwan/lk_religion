@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 README_PATH = ROOT_DIR / 'README.md'
@@ -17,6 +18,15 @@ def _read_child_readme(analysis_dir):
         content = content[:-4].rstrip()
     elif content.endswith('---'):
         content = content[:-3].rstrip()
+    content = re.sub(
+        r'!\[([^\]]*)\]\((?!https?://|/|#)([^)]+)\)',
+        lambda match: (
+            f"![{match.group(1)}]("
+            f"{(analysis_dir.relative_to(ROOT_DIR) / match.group(2)).as_posix()}"
+            f")"
+        ),
+        content,
+    )
     return content
 
 
