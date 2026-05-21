@@ -1,6 +1,6 @@
 ## A5. Largest Change in Religious Proportion by DSD
 
-For each DSD, the religion whose share of the local population changed most between 2012 and 2024.
+For each DSD, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%.
 
 *Altered, new, and removed DSDs excluded. Religions with <1% of national count or <1,000 people in the DSD are excluded.*
 
@@ -49,10 +49,3 @@ For each DSD, the religion whose share of the local population changed most betw
 | Maharagama | Colombo | Buddhist | 92.0% | 93.2% | +1.2% |
 | Sri Jayawardanapura Kotte | Colombo | OtherChristian | 4.7% | 3.5% | -1.2% |
 | Mahara | Gampaha | RomanCatholic | 8.8% | 7.6% | -1.2% |
-| Thenmaradchi (Chavakachcheri) | Jaffna | Hindu | 92.7% | 91.7% | -1.0% |
-| Valikamam South West (Sandilipay) | Jaffna | Hindu | 75.1% | 76.1% | +0.9% |
-| Valikamam North (Thllippalai) | Jaffna | Hindu | 85.8% | 84.9% | -0.9% |
-| Town & Gravets | Trincomalee | Hindu | 49.0% | 48.2% | -0.9% |
-| Wennappuwa | Puttalam | RomanCatholic | 78.4% | 77.6% | -0.8% |
-| Hali-Ela | Badulla | Hindu | 29.0% | 29.7% | +0.8% |
-| Manmunai West | Batticaloa | Hindu | 97.2% | 97.9% | +0.7% |

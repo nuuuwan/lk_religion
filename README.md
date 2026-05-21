@@ -183,7 +183,7 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ![A3 representative chart](analyses/a3_proportion_change/chart.png)
 
-For each district, the religion whose share of the local population changed most between 2012 and 2024.
+For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%.
 
 ### By District
 
@@ -201,19 +201,6 @@ For each district, the religion whose share of the local population changed most
 | Kalutara | Islam | 9.4% | 10.6% | +1.2% |
 | Colombo | RomanCatholic | 7.0% | 5.9% | -1.1% |
 | Kegalle | Islam | 7.3% | 8.3% | +1.1% |
-| Kandy | Islam | 14.3% | 15.3% | +1.0% |
-| Nuwara Eliya | Hindu | 51.0% | 52.0% | +1.0% |
-| Kurunegala | Islam | 7.3% | 8.1% | +0.8% |
-| Polonnaruwa | Islam | 7.5% | 8.3% | +0.8% |
-| Ratnapura | Buddhist | 86.7% | 87.3% | +0.6% |
-| Galle | Islam | 3.7% | 4.2% | +0.5% |
-| Matale | Islam | 9.4% | 9.9% | +0.5% |
-| Jaffna | Hindu | 82.8% | 82.3% | -0.5% |
-| Badulla | Buddhist | 72.6% | 73.0% | +0.4% |
-| Anuradhapura | Islam | 8.3% | 8.7% | +0.4% |
-| Matara | Islam | 3.1% | 3.6% | +0.4% |
-| Monaragala | Hindu | 2.7% | 2.8% | +0.2% |
-| Hambantota | Islam | 2.5% | 2.7% | +0.1% |
 
 ---
 
@@ -270,7 +257,7 @@ Districts where the number of DSDs changed between censuses are listed below. Wi
 
 ## A5. Largest Change in Religious Proportion by DSD
 
-For each DSD, the religion whose share of the local population changed most between 2012 and 2024.
+For each DSD, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%.
 
 *Altered, new, and removed DSDs excluded. Religions with <1% of national count or <1,000 people in the DSD are excluded.*
 
@@ -319,13 +306,6 @@ For each DSD, the religion whose share of the local population changed most betw
 | Maharagama | Colombo | Buddhist | 92.0% | 93.2% | +1.2% |
 | Sri Jayawardanapura Kotte | Colombo | OtherChristian | 4.7% | 3.5% | -1.2% |
 | Mahara | Gampaha | RomanCatholic | 8.8% | 7.6% | -1.2% |
-| Thenmaradchi (Chavakachcheri) | Jaffna | Hindu | 92.7% | 91.7% | -1.0% |
-| Valikamam South West (Sandilipay) | Jaffna | Hindu | 75.1% | 76.1% | +0.9% |
-| Valikamam North (Thllippalai) | Jaffna | Hindu | 85.8% | 84.9% | -0.9% |
-| Town & Gravets | Trincomalee | Hindu | 49.0% | 48.2% | -0.9% |
-| Wennappuwa | Puttalam | RomanCatholic | 78.4% | 77.6% | -0.8% |
-| Hali-Ela | Badulla | Hindu | 29.0% | 29.7% | +0.8% |
-| Manmunai West | Batticaloa | Hindu | 97.2% | 97.9% | +0.7% |
 
 ---
 
