@@ -239,7 +239,7 @@ District-level **% change in population** for each religion between 2012 and 202
 
 ![A3 representative chart](analyses/a3_proportion_change/chart.png)
 
-For each district, the religion whose share of the local population changed most between 2012 and 2024.
+For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%.
 
 ### By District
 
@@ -257,19 +257,6 @@ For each district, the religion whose share of the local population changed most
 | Kalutara | Islam | 9.4% | 10.6% | 🟩 +1.2pp |
 | Colombo | RomanCatholic | 7.0% | 5.9% | 🟥 -1.1pp |
 | Kegalle | Islam | 7.3% | 8.3% | 🟩 +1.1pp |
-| Kandy | Islam | 14.3% | 15.3% | 🟩 +1.0pp |
-| Nuwara Eliya | Hindu | 51.0% | 52.0% | 🟩 +1.0pp |
-| Kurunegala | Islam | 7.3% | 8.1% | 🟩 +0.8pp |
-| Polonnaruwa | Islam | 7.5% | 8.3% | 🟩 +0.8pp |
-| Ratnapura | Buddhist | 86.7% | 87.3% | 🟩 +0.6pp |
-| Galle | Islam | 3.7% | 4.2% | 🟩 +0.5pp |
-| Matale | Islam | 9.4% | 9.9% | 🟩 +0.5pp |
-| Jaffna | Hindu | 82.8% | 82.3% | 🟥 -0.5pp |
-| Badulla | Buddhist | 72.6% | 73.0% | 🟩 +0.4pp |
-| Anuradhapura | Islam | 8.3% | 8.7% | 🟩 +0.4pp |
-| Matara | Islam | 3.1% | 3.6% | 🟩 +0.4pp |
-| Monaragala | Hindu | 2.7% | 2.8% | 🟩 +0.2pp |
-| Hambantota | Islam | 2.5% | 2.7% | 🟩 +0.1pp |
 
 ---
 
@@ -326,7 +313,7 @@ Districts where the number of DSDs changed between censuses are listed below. Wi
 
 ## A5. Largest Change in Religious Proportion by DSD
 
-For each DSD, the religion whose share of the local population changed most between 2012 and 2024.
+For each DSD, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%.
 
 *Altered, new, and removed DSDs excluded. Religions with <1% of national count or <1,000 people in the DSD are excluded.*
 
@@ -351,12 +338,6 @@ For each DSD, the religion whose share of the local population changed most betw
 | Colombo | Colombo | 22.7% | 24.6% | 🟩 +1.9pp |
 | Karachchi | Kilinochchi | 83.1% | 81.4% | 🟥 -1.7pp |
 | Manmunai South & Eruvil Pattu | Batticaloa | 93.9% | 95.4% | 🟩 +1.4pp |
-| Thenmaradchi (Chavakachcheri) | Jaffna | 92.7% | 91.7% | 🟥 -1.0pp |
-| Valikamam South West (Sandilipay) | Jaffna | 75.1% | 76.1% | 🟩 +0.9pp |
-| Valikamam North (Thllippalai) | Jaffna | 85.8% | 84.9% | 🟥 -0.9pp |
-| Town & Gravets | Trincomalee | 49.0% | 48.2% | 🟥 -0.9pp |
-| Hali-Ela | Badulla | 29.0% | 29.7% | 🟩 +0.8pp |
-| Manmunai West | Batticaloa | 97.2% | 97.9% | 🟩 +0.7pp |
 
 ### Islam
 
@@ -396,7 +377,6 @@ For each DSD, the religion whose share of the local population changed most betw
 | Kalpitiya | Puttalam | 32.3% | 33.6% | 🟩 +1.4pp |
 | Chilaw | Puttalam | 45.7% | 44.4% | 🟥 -1.3pp |
 | Mahara | Gampaha | 8.8% | 7.6% | 🟥 -1.2pp |
-| Wennappuwa | Puttalam | 78.4% | 77.6% | 🟥 -0.8pp |
 
 ### OtherChristian
 

@@ -15,6 +15,7 @@ from analyses.proportion_change_common import (
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
 CHART_PATH = ANALYSIS_DIR / 'chart.png'
+MIN_CHANGE_ABS = 0.01
 
 
 def run():
@@ -37,6 +38,8 @@ def run():
             ),
         )
         change = shares_2024[max_religion] - shares_2012[max_religion]
+        if abs(change) <= MIN_CHANGE_ABS:
+            continue
         district_rows.append(
             {
                 'district_code': code,
@@ -78,7 +81,7 @@ def _readme_section(district_rows):
         '',
         '![A3 representative chart](chart.png)',
         '',
-        'For each district, the religion whose share of the local population changed most between 2012 and 2024.',
+        f'For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > {MIN_CHANGE_ABS:.0%}.',
         '',
         '### By District',
         '',

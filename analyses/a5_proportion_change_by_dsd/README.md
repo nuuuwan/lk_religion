@@ -1,6 +1,6 @@
 ## A5. Largest Change in Religious Proportion by DSD
 
-For each DSD, the religion whose share of the local population changed most between 2012 and 2024.
+For each DSD, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%.
 
 *Altered, new, and removed DSDs excluded. Religions with <1% of national count or <1,000 people in the DSD are excluded.*
 
@@ -25,12 +25,6 @@ For each DSD, the religion whose share of the local population changed most betw
 | Colombo | Colombo | 22.7% | 24.6% | 🟩 +1.9pp |
 | Karachchi | Kilinochchi | 83.1% | 81.4% | 🟥 -1.7pp |
 | Manmunai South & Eruvil Pattu | Batticaloa | 93.9% | 95.4% | 🟩 +1.4pp |
-| Thenmaradchi (Chavakachcheri) | Jaffna | 92.7% | 91.7% | 🟥 -1.0pp |
-| Valikamam South West (Sandilipay) | Jaffna | 75.1% | 76.1% | 🟩 +0.9pp |
-| Valikamam North (Thllippalai) | Jaffna | 85.8% | 84.9% | 🟥 -0.9pp |
-| Town & Gravets | Trincomalee | 49.0% | 48.2% | 🟥 -0.9pp |
-| Hali-Ela | Badulla | 29.0% | 29.7% | 🟩 +0.8pp |
-| Manmunai West | Batticaloa | 97.2% | 97.9% | 🟩 +0.7pp |
 
 ### Islam
 
@@ -70,7 +64,6 @@ For each DSD, the religion whose share of the local population changed most betw
 | Kalpitiya | Puttalam | 32.3% | 33.6% | 🟩 +1.4pp |
 | Chilaw | Puttalam | 45.7% | 44.4% | 🟥 -1.3pp |
 | Mahara | Gampaha | 8.8% | 7.6% | 🟥 -1.2pp |
-| Wennappuwa | Puttalam | 78.4% | 77.6% | 🟥 -0.8pp |
 
 ### OtherChristian
 
