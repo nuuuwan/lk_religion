@@ -192,7 +192,12 @@ def _readme_section(
             "|---|---|---|---|---:|---:|---:|",
         ]
         for row in sorted(
-            flagged, key=lambda r: (r["district"], {"Removed": 0, "Altered": 1, "New": 2}.get(r["status"], 3), r["dsd"])
+            flagged,
+            key=lambda r: (
+                r["district"],
+                {"Removed": 0, "Altered": 1, "New": 2}.get(r["status"], 3),
+                r["dsd"],
+            ),
         ):
             pop_2012 = (
                 f"{row['total_2012']:,}"
