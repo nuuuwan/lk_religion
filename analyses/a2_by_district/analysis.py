@@ -154,7 +154,7 @@ def _readme_section(results):
                 else ''
             )
             lines.append(
-                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {triangle(row['change'])}{row['change']:+,} | {triangle(row['pct_change'] or 0)}{pct_change} | {proportion_national} |"
+                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {pct_change}{triangle(row['pct_change'] or 0)} | {proportion_national} |"
             )
 
         highlights = []

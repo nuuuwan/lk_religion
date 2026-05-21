@@ -90,7 +90,7 @@ def _readme_section(district_rows):
     ]
     for row in district_rows:
         lines.append(
-            f"| {row['district']} | {row['religion']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {triangle(row['change'])}{row['change'] * 100:+.1f}pp |"
+            f"| {row['district']} | {row['religion']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['change'] * 100:+.1f}pp{triangle(row['change'])} |"
         )
 
     return '\n'.join(lines)
