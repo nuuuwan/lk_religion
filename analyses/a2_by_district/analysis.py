@@ -76,7 +76,12 @@ def run():
             )
 
         rows.sort(
-            key=lambda row: row['proportion_national'],
+            key=lambda row: (
+                row['annual_growth_rate'] is not None,
+                row['annual_growth_rate']
+                if row['annual_growth_rate'] is not None
+                else float('-inf'),
+            ),
             reverse=True,
         )
 
