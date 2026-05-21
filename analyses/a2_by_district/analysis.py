@@ -181,7 +181,6 @@ def _readme_section(results):
 
     return '\n'.join(lines).rstrip()
 
-
 @lru_cache(maxsize=1)
 def _district_geometries():
     districts = []

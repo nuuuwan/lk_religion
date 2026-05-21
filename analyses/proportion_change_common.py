@@ -7,6 +7,18 @@ RELIGIONS = [
     'Other',
 ]
 
+RELIGION_COLORS = {
+    'Buddhist': 'yellow',
+    'Hindu': 'orange',
+    'Islam': 'teal',
+    'RomanCatholic': 'blue',
+    'OtherChristian': 'purple',
+    'Other': 'grey',
+}
+
+POSITIVE_COLOR = 'green'
+NEGATIVE_COLOR = 'red'
+
 
 def shares(data):
     total = data.get('TotalPopulation') or sum(
@@ -19,7 +31,7 @@ def shares(data):
 
 def triangle(value):
     if value > 0:
-        return '<span style="color:green">▲</span> '
+        return '🟩 '
     if value < 0:
-        return '<span style="color:red">▼</span> '
+        return '🟥 '
     return ''

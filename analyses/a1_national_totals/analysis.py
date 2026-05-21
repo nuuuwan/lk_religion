@@ -4,7 +4,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 from lanka_data import Db
 
-from analyses.proportion_change_common import triangle
+from analyses.proportion_change_common import RELIGION_COLORS, triangle
 
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
@@ -139,7 +139,7 @@ def _readme_section(rows):
 def _write_chart(rows):
     labels = [row['religion'] for row in rows]
     values = [row['change'] for row in rows]
-    colors = ['#4e79a7' if v >= 0 else '#e15759' for v in values]
+    colors = [RELIGION_COLORS.get(label, 'grey') for label in labels]
 
     fig, ax = plt.subplots(figsize=(8, 4.8))
     ax.bar(labels, values, color=colors)
