@@ -69,7 +69,11 @@ def run():
                         if annual_growth is not None
                         else None
                     ),
-                    "proportion_national": round(v2024 / national2024[religion], 6) if national2024[religion] > 0 else 0,
+                    "proportion_national": (
+                        round(v2024 / national2024[religion], 6)
+                        if national2024[religion] > 0
+                        else 0
+                    ),
                 }
             )
 
@@ -102,7 +106,9 @@ def run():
 
         results[religion] = rows
 
-        print(f"\n  {religion} (threshold ≥ {threshold:,.0f} and ≥ {MIN_ABSOLUTE:,})")
+        print(
+            f"\n  {religion} (threshold ≥ {threshold:,.0f} and ≥ {MIN_ABSOLUTE:,})"
+        )
         print(
             f"  {'District':<16} {'2012':>10} {'2024':>10} {'Change':>10} {'Ann. Growth':>12} {'% of Natl':>10}"
         )
@@ -113,7 +119,11 @@ def run():
                 if row["annual_growth_rate"] is not None
                 else "N/A"
             )
-            pn = f"{row['proportion_national']:.1%}" if row.get("proportion_national") is not None else ""
+            pn = (
+                f"{row['proportion_national']:.1%}"
+                if row.get("proportion_national") is not None
+                else ""
+            )
             print(
                 f"  {row['district']:<16} {row['2012']:>10,} {row['2024']:>10,} {row['change']:>+10,} {ag:>12} {pn:>10}"
             )
@@ -155,7 +165,11 @@ def _readme_section(results):
                 if row["annual_growth_rate"] is not None
                 else "N/A"
             )
-            pn = f"{row['proportion_national']:.1%}" if row.get("proportion_national") is not None else ""
+            pn = (
+                f"{row['proportion_national']:.1%}"
+                if row.get("proportion_national") is not None
+                else ""
+            )
             lines.append(
                 f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,} | {ag} | {pn} |"
             )

@@ -70,8 +70,16 @@ def run():
                     "dsd_code": code,
                     "dsd": rn.name_for(code),
                     "district": rn.name_for(district_code),
-                    "total_2012": db2012[code].get("TotalPopulation", 0) if removed_dsd else None,
-                    "total_2024": db2024[code].get("TotalPopulation", 0) if new_dsd else None,
+                    "total_2012": (
+                        db2012[code].get("TotalPopulation", 0)
+                        if removed_dsd
+                        else None
+                    ),
+                    "total_2024": (
+                        db2024[code].get("TotalPopulation", 0)
+                        if new_dsd
+                        else None
+                    ),
                     "pop_change_pct": None,
                 }
             )
