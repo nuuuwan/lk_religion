@@ -96,19 +96,33 @@ def _write_readme(content):
 
 
 def _readme_section(dsd_rows):
+    top_rows = dsd_rows[:TOP_DSD]
     lines = [
         '## A5. Largest Change in Religious Proportion by DSD',
         '',
         'For each DSD, the religion whose share of the local population changed most between 2012 and 2024.',
         '',
         f'*Altered, new, and removed DSDs excluded. Religions with <{MIN_NATIONAL_SHARE:.0%} of national count or <{MIN_ABSOLUTE:,} people in the DSD are excluded.*',
-        '',
-        '| DSD | District | Religion | Share 2012 | Share 2024 | Change |',
-        '|---|---|---|---:|---:|---:|',
     ]
-    for row in dsd_rows[:TOP_DSD]:
-        lines.append(
-            f"| {row['dsd']} | {row['district']} | {row['religion']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {triangle(row['change'])}{row['change']:+.1%} |"
+
+    for religion in RELIGIONS:
+        religion_rows = [
+            row for row in top_rows if row['religion'] == religion
+        ]
+        if not religion_rows:
+            continue
+        lines.extend(
+            [
+                '',
+                f'### {religion}',
+                '',
+                '| DSD | District | Share 2012 | Share 2024 | Change |',
+                '|---|---|---:|---:|---:|',
+            ]
         )
+        for row in religion_rows:
+            lines.append(
+                f"| {row['dsd']} | {row['district']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {triangle(row['change'])}{row['change']:+.1%} |"
+            )
 
     return '\n'.join(lines)
