@@ -12,22 +12,37 @@ ANALYSIS_DIRS = [
 ]
 
 
+IMAGE_PATTERN = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
+
+
+def _rewrite_relative_image_paths(content, analysis_dir):
+    analysis_path = analysis_dir.relative_to(ROOT_DIR).as_posix()
+
+    def repl(match):
+        alt_text, raw_target = match.groups()
+        parts = raw_target.strip().split(maxsplit=1)
+        target = parts[0].strip('<>')
+        suffix = f' {parts[1]}' if len(parts) > 1 else ''
+        if (
+            target.startswith(('http://', 'https://', '/', '#', 'data:'))
+            or '://' in target
+        ):
+            return match.group(0)
+        rewritten_target = f'{analysis_path}/{target}'
+        if raw_target.startswith('<') and raw_target.endswith('>'):
+            rewritten_target = f'<{rewritten_target}>'
+        return f'![{alt_text}]({rewritten_target}{suffix})'
+
+    return IMAGE_PATTERN.sub(repl, content)
+
+
 def _read_child_readme(analysis_dir):
     content = (analysis_dir / 'README.md').read_text().strip()
     if content.endswith('\n---'):
         content = content[:-4].rstrip()
     elif content.endswith('---'):
         content = content[:-3].rstrip()
-    content = re.sub(
-        r'!\[([^\]]*)\]\((?!https?://|/|#)([^)]+)\)',
-        lambda match: (
-            f"![{match.group(1)}]("
-            f"{(analysis_dir.relative_to(ROOT_DIR) / match.group(2)).as_posix()}"
-            f")"
-        ),
-        content,
-    )
-    return content
+    return _rewrite_relative_image_paths(content, analysis_dir)
 
 
 sections = [_read_child_readme(analysis_dir) for analysis_dir in ANALYSIS_DIRS]

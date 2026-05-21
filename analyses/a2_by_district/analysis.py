@@ -10,6 +10,8 @@ from matplotlib.cm import ScalarMappable
 from matplotlib.colors import TwoSlopeNorm
 from matplotlib.ticker import PercentFormatter
 
+from analyses.proportion_change_common import triangle
+
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
 CHART_PATH = ANALYSIS_DIR / 'chart.png'
@@ -151,7 +153,7 @@ def _readme_section(results):
                 else ''
             )
             lines.append(
-                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,} | {pct_change} | {proportion_national} |"
+                f"| {row['district']} | {row['2012']:,} | {row['2024']:,} | {triangle(row['change'])}{row['change']:+,} | {triangle(row['pct_change'] or 0)}{pct_change} | {proportion_national} |"
             )
 
         highlights = []
