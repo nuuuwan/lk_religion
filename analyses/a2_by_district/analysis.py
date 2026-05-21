@@ -38,6 +38,17 @@ RELIGION_LABELS = {
 LOW_POPULATION_THRESHOLD = 1000
 
 
+def _format_share(value):
+    return f'{value:.1%}'
+
+
+def _format_pp(value):
+    rounded = round(value * 100, 1)
+    if rounded == -0.0:
+        rounded = 0.0
+    return f'{rounded:+.1f}'
+
+
 def run():
     print('=== 2) By-district religion change maps ===')
 
@@ -105,7 +116,7 @@ def run():
                 else ''
             )
             print(
-                f"  {row['district']:<16} {proportion_national:>8} {row['2012']:>10,} {row['2024']:>10,} {row['change']:>+10,} {row['proportion_2012']:>8.1%} {row['proportion_2024']:>8.1%} {row['proportion_change'] * 100:>+6.1f}"
+                f"  {row['district']:<16} {proportion_national:>8} {row['2012']:>10,} {row['2024']:>10,} {row['change']:>+10,} {_format_share(row['proportion_2012']):>8} {_format_share(row['proportion_2024']):>8} {_format_pp(row['proportion_change']):>7}"
             )
 
     with open(ANALYSIS_DIR / 'religion_by_district_analysis.json', 'w') as f:
@@ -152,24 +163,24 @@ def _readme_section(results):
                 else ''
             )
             lines.append(
-                f"| {row['district']} | {proportion_national} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['proportion_change'] * 100:+.1f}{triangle(row['proportion_change'])} pp |"
+                f"| {row['district']} | {proportion_national} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {_format_share(row['proportion_2012'])} | {_format_share(row['proportion_2024'])} | {_format_pp(row['proportion_change'])}{triangle(row['proportion_change'])} pp |"
             )
 
         highlights = []
         if fastest_growing['proportion_change'] and fastest_growing['proportion_change'] > 0:
             highlights.append(
-                f"**{fastest_growing['district']}** gained the most share at **{fastest_growing['proportion_change'] * 100:+.1f}pp**."
+                f"**{fastest_growing['district']}** gained the most share at **{_format_pp(fastest_growing['proportion_change'])}pp**."
             )
         if (
             fastest_declining['proportion_change']
             and fastest_declining['proportion_change'] < 0
         ):
             highlights.append(
-                f"**{fastest_declining['district']}** saw the steepest share decline at **{fastest_declining['proportion_change'] * 100:+.1f}pp**."
+                f"**{fastest_declining['district']}** saw the steepest share decline at **{_format_pp(fastest_declining['proportion_change'])}pp**."
             )
         elif fastest_declining != fastest_growing:
             highlights.append(
-                f"**{fastest_declining['district']}** had the smallest share gain at **{fastest_declining['proportion_change'] * 100:+.1f}pp**."
+                f"**{fastest_declining['district']}** had the smallest share gain at **{_format_pp(fastest_declining['proportion_change'])}pp**."
             )
         if largest_absolute != fastest_growing and largest_absolute['change'] > 0:
             highlights.append(
@@ -271,7 +282,7 @@ def _write_chart(results, district_map_gdf):
             proportion_2012 = row['proportion_2012']
             proportion_2024 = row['proportion_2024']
             label = (
-                f'{proportion_2012:.0%}→{proportion_2024:.0%}'
+                f'{_format_share(proportion_2012)}→{_format_share(proportion_2024)}'
                 if pd.notna(proportion_2012) and pd.notna(proportion_2024)
                 else 'N/A'
             )
