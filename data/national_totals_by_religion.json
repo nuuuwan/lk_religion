@@ -1,0 +1,50 @@
+[
+  {
+    "religion": "Buddhist",
+    "2012": 14271183,
+    "2024": 15199093,
+    "change": 927910,
+    "annual_growth_rate": 0.005263,
+    "proportion_2024": 0.697789
+  },
+  {
+    "religion": "Hindu",
+    "2012": 2561142,
+    "2024": 2734839,
+    "change": 173697,
+    "annual_growth_rate": 0.005483,
+    "proportion_2024": 0.125556
+  },
+  {
+    "religion": "Islam",
+    "2012": 1967008,
+    "2024": 2337379,
+    "change": 370371,
+    "annual_growth_rate": 0.01448,
+    "proportion_2024": 0.107309
+  },
+  {
+    "religion": "RomanCatholic",
+    "2012": 1261136,
+    "2024": 1224348,
+    "change": -36788,
+    "annual_growth_rate": -0.002464,
+    "proportion_2024": 0.05621
+  },
+  {
+    "religion": "OtherChristian",
+    "2012": 290920,
+    "2024": 282185,
+    "change": -8735,
+    "annual_growth_rate": -0.002537,
+    "proportion_2024": 0.012955
+  },
+  {
+    "religion": "Other",
+    "2012": 6387,
+    "2024": 3956,
+    "change": -2431,
+    "annual_growth_rate": -0.039133,
+    "proportion_2024": 0.000182
+  }
+]
