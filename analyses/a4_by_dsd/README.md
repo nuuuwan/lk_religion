@@ -1,5 +1,7 @@
 ## A4. DSD Boundary Changes
 
+![A4 representative chart](chart.png)
+
 Districts where the number of DSDs changed between censuses are listed below. Within those districts, DSDs whose population growth deviates from the national rate (+6.99% over 2012–2024) by more than 2× are flagged as **Altered** — their apparent demographic shifts likely reflect re-demarcation rather than genuine change.
 
 **Districts with changed DSD boundaries:**
