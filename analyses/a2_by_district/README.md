@@ -2,7 +2,7 @@
 
 ![A2 district change maps](chart.png)
 
-District-level **% change in population** for each religion between 2012 and 2024. Districts are shaded from **red (decline)** to **green (growth)**.
+District-level **% change in population** for each religion between 2012 and 2024. Districts are shaded from **red (decline)** to **green (growth)**. Districts with religion population **< 1,000 (2024)** are shown in **grey**.
 
 ### Buddhist
 
