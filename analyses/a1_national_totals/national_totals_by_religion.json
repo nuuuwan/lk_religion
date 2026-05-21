@@ -5,7 +5,9 @@
     "2024": 15199093,
     "change": 927910,
     "annual_growth_rate": 0.005263,
-    "proportion_2024": 0.697789
+    "proportion_2012": 0.701019,
+    "proportion_2024": 0.697789,
+    "proportion_change": -0.00323
   },
   {
     "religion": "Hindu",
@@ -13,7 +15,9 @@
     "2024": 2734839,
     "change": 173697,
     "annual_growth_rate": 0.005483,
-    "proportion_2024": 0.125556
+    "proportion_2012": 0.125807,
+    "proportion_2024": 0.125556,
+    "proportion_change": -0.00025
   },
   {
     "religion": "Islam",
@@ -21,7 +25,9 @@
     "2024": 2337379,
     "change": 370371,
     "annual_growth_rate": 0.01448,
-    "proportion_2024": 0.107309
+    "proportion_2012": 0.096622,
+    "proportion_2024": 0.107309,
+    "proportion_change": 0.010687
   },
   {
     "religion": "RomanCatholic",
@@ -29,7 +35,9 @@
     "2024": 1224348,
     "change": -36788,
     "annual_growth_rate": -0.002464,
-    "proportion_2024": 0.05621
+    "proportion_2012": 0.061949,
+    "proportion_2024": 0.05621,
+    "proportion_change": -0.005739
   },
   {
     "religion": "OtherChristian",
@@ -37,7 +45,9 @@
     "2024": 282185,
     "change": -8735,
     "annual_growth_rate": -0.002537,
-    "proportion_2024": 0.012955
+    "proportion_2012": 0.01429,
+    "proportion_2024": 0.012955,
+    "proportion_change": -0.001335
   },
   {
     "religion": "Other",
@@ -45,6 +55,8 @@
     "2024": 3956,
     "change": -2431,
     "annual_growth_rate": -0.039133,
-    "proportion_2024": 0.000182
+    "proportion_2012": 0.000314,
+    "proportion_2024": 0.000182,
+    "proportion_change": -0.000132
   }
 ]
