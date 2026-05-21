@@ -88,7 +88,6 @@ def _readme_section(district_rows):
         '![A3 representative chart](chart.png)',
         '',
         f'For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > {MIN_CHANGE_ABS:.0%}.',
-        '',
     ]
     for religion in RELIGIONS:
         religion_rows = [
