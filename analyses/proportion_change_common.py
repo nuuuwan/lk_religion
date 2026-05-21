@@ -15,3 +15,11 @@ def shares(data):
     if total == 0:
         return {religion: 0.0 for religion in RELIGIONS}
     return {religion: data.get(religion, 0) / total for religion in RELIGIONS}
+
+
+def triangle(value):
+    if value > 0:
+        return '<span style="color:green">▲</span> '
+    if value < 0:
+        return '<span style="color:red">▼</span> '
+    return ''
