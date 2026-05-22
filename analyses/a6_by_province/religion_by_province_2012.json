@@ -1,83 +1,83 @@
 {
   "LK-1": {
+    "TotalPopulation": 5850745,
     "Buddhist": 4293801,
     "Hindu": 278817,
     "Islam": 501369,
     "RomanCatholic": 651432,
     "OtherChristian": 121983,
-    "Other": 3343,
-    "TotalPopulation": 5850745
+    "Other": 3343
   },
   "LK-2": {
+    "TotalPopulation": 2571557,
     "Buddhist": 1672625,
     "Hindu": 540339,
     "Islam": 263874,
     "RomanCatholic": 63754,
     "OtherChristian": 30648,
-    "Other": 317,
-    "TotalPopulation": 2571557
+    "Other": 317
   },
   "LK-3": {
+    "TotalPopulation": 2477285,
     "Buddhist": 2345314,
     "Hindu": 33227,
     "Islam": 80085,
     "RomanCatholic": 7986,
     "OtherChristian": 10215,
-    "Other": 458,
-    "TotalPopulation": 2477285
+    "Other": 458
   },
   "LK-4": {
+    "TotalPopulation": 1061215,
     "Buddhist": 30191,
     "Hindu": 789045,
     "Islam": 33427,
     "RomanCatholic": 164320,
     "OtherChristian": 43899,
-    "Other": 333,
-    "TotalPopulation": 1061215
+    "Other": 333
   },
   "LK-5": {
+    "TotalPopulation": 1555510,
     "Buddhist": 357052,
     "Hindu": 540153,
     "Islam": 575470,
     "RomanCatholic": 46535,
     "OtherChristian": 36148,
-    "Other": 152,
-    "TotalPopulation": 1555510
+    "Other": 152
   },
   "LK-6": {
+    "TotalPopulation": 2379683,
     "Buddhist": 1760663,
     "Hindu": 43527,
     "Islam": 268214,
     "RomanCatholic": 283928,
     "OtherChristian": 22019,
-    "Other": 1332,
-    "TotalPopulation": 2379683
+    "Other": 1332
   },
   "LK-7": {
+    "TotalPopulation": 1266663,
     "Buddhist": 1139595,
     "Hindu": 10117,
     "Islam": 101958,
     "RomanCatholic": 9939,
     "OtherChristian": 4936,
-    "Other": 118,
-    "TotalPopulation": 1266663
+    "Other": 118
   },
   "LK-8": {
+    "TotalPopulation": 1266463,
     "Buddhist": 1018561,
     "Hindu": 169605,
     "Islam": 57001,
     "RomanCatholic": 13621,
     "OtherChristian": 7474,
-    "Other": 201,
-    "TotalPopulation": 1266463
+    "Other": 201
   },
   "LK-9": {
+    "TotalPopulation": 1928655,
     "Buddhist": 1653381,
     "Hindu": 156312,
     "Islam": 85610,
     "RomanCatholic": 19621,
     "OtherChristian": 13598,
-    "Other": 133,
-    "TotalPopulation": 1928655
+    "Other": 133
   }
 }

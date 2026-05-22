@@ -16,7 +16,6 @@ For each DSD, the religion whose share of the local population changed most betw
 
 | DSD | District | Share 2012 | Share 2024 | Change (pp) |
 |---|---|---:|---:|---:|
-| Eravur Pattu `LK-5115` | Batticaloa `LK-51` | 12.4% | 65.8% | +53.4pp 🟩 |
 | Wattala `LK-1218` | Gampaha `LK-12` | 13.0% | 16.9% | +3.9pp 🟩 |
 | Vadamaradchi North (Point Pedro) `LK-4127` | Jaffna `LK-41` | 83.9% | 86.4% | +2.5pp 🟩 |
 | Thimbirigasyaya `LK-1127` | Colombo `LK-11` | 22.5% | 24.4% | +1.9pp 🟩 |
@@ -31,7 +30,6 @@ For each DSD, the religion whose share of the local population changed most betw
 
 | DSD | District | Share 2012 | Share 2024 | Change (pp) |
 |---|---|---:|---:|---:|
-| Kalmunai `LK-5221` | Ampara `LK-52` | 8.0% | 99.7% | +91.7pp 🟩 |
 | Kolonnawa `LK-1106` | Colombo `LK-11` | 23.1% | 31.3% | +8.3pp 🟩 |
 | Dehiwala `LK-1130` | Colombo `LK-11` | 22.6% | 30.4% | +7.8pp 🟩 |
 | Galle 4 Gravets `LK-3139` | Galle `LK-31` | 32.3% | 36.0% | +3.7pp 🟩 |
@@ -42,7 +40,6 @@ For each DSD, the religion whose share of the local population changed most betw
 | Mawanella `LK-9206` | Kegalle `LK-92` | 30.4% | 33.3% | +2.8pp 🟩 |
 | Panadura `LK-1303` | Kalutara `LK-13` | 14.4% | 17.2% | +2.8pp 🟩 |
 | Puttalam `LK-6215` | Puttalam `LK-62` | 64.2% | 66.6% | +2.4pp 🟩 |
-| Pottuvil `LK-5248` | Ampara `LK-52` | 78.2% | 80.3% | +2.2pp 🟩 |
 | Attanagalla `LK-1227` | Gampaha `LK-12` | 12.4% | 14.4% | +1.9pp 🟩 |
 | Udunuwara `LK-2139` | Kandy `LK-21` | 24.5% | 26.4% | +1.9pp 🟩 |
 | Udapalatha `LK-2151` | Kandy `LK-21` | 22.7% | 24.4% | +1.8pp 🟩 |

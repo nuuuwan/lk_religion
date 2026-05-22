@@ -21,7 +21,6 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Rambewa `LK-7118` | Anuradhapura | 0.2% | 84.0% | 86.3% | +2.3pp 🟩 | 30,904 | 34,412 | +3,508 🟩 |
 | Chilaw `LK-6233` | Puttalam | 0.2% | 36.6% | 38.8% | +2.3pp 🟩 | 22,855 | 24,717 | +1,862 🟩 |
 | Dankotuwa `LK-6248` | Puttalam | 0.3% | 66.8% | 69.0% | +2.2pp 🟩 | 41,674 | 43,375 | +1,701 🟩 |
-| Eravur Pattu `LK-5115` | Batticaloa | 0.0% | 0.8% | 2.9% | +2.0pp 🟩 | 200 | 2,690 | +2,490 🟩 |
 | Nallur `LK-4133` | Jaffna | 0.0% | 0.4% | 2.4% | +2.0pp 🟩 | 273 | 1,718 | +1,445 🟩 |
 | Kaduwela `LK-1109` | Colombo | 1.8% | 90.4% | 92.3% | +1.9pp 🟩 | 227,939 | 256,548 | +28,609 🟩 |
 | Mahawewa `LK-6239` | Puttalam | 0.2% | 45.4% | 47.2% | +1.7pp 🟩 | 23,204 | 23,033 | -171 🟥 |
@@ -97,21 +96,20 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | DSD | District | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Koralai Pattu Central `LK-5104` | Batticaloa | 1.0% | 2.3% | 81.3% | +79.0pp 🟩 | 580 | 23,383 | +22,803 🟩 |
-| Eravur Pattu `LK-5115` | Batticaloa | 2.7% | 12.4% | 65.8% | +53.4pp 🟩 | 3,064 | 62,055 | +58,991 🟩 |
-| Wattala `LK-1218` | Gampaha | 1.3% | 13.0% | 16.9% | +3.9pp 🟩 | 22,782 | 30,805 | +8,023 🟩 |
+| Wattala `LK-1218` | Gampaha | 1.4% | 13.0% | 16.9% | +3.9pp 🟩 | 22,782 | 30,805 | +8,023 🟩 |
 | Dehiwala `LK-1130` | Colombo | 0.6% | 12.1% | 15.4% | +3.2pp 🟩 | 10,783 | 14,406 | +3,623 🟩 |
 | Morawewa `LK-5312` | Trincomalee | 0.1% | 10.5% | 13.1% | +2.6pp 🟩 | 833 | 1,200 | +367 🟩 |
-| Vadamaradchi North (Point Pedro) `LK-4127` | Jaffna | 1.6% | 83.9% | 86.4% | +2.5pp 🟩 | 39,886 | 37,472 | -2,414 🟥 |
+| Vadamaradchi North (Point Pedro) `LK-4127` | Jaffna | 1.7% | 83.9% | 86.4% | +2.5pp 🟩 | 39,886 | 37,472 | -2,414 🟥 |
 | Ratmalana `LK-1131` | Colombo | 0.3% | 6.0% | 8.3% | +2.3pp 🟩 | 5,739 | 7,316 | +1,577 🟩 |
 | Pachchilaipalli `LK-4503` | Kilinochchi | 0.5% | 84.1% | 86.4% | +2.3pp 🟩 | 7,176 | 11,271 | +4,095 🟩 |
 | Kelaniya `LK-1236` | Gampaha | 0.4% | 4.7% | 6.6% | +2.0pp 🟩 | 6,415 | 8,886 | +2,471 🟩 |
 | Lunugala `LK-8119` | Badulla | 0.7% | 48.7% | 50.6% | +1.9pp 🟩 | 15,284 | 16,140 | +856 🟩 |
-| Thimbirigasyaya `LK-1127` | Colombo | 2.3% | 22.5% | 24.4% | +1.9pp 🟩 | 53,469 | 52,962 | -507 🟥 |
-| Colombo `LK-1103` | Colombo | 3.1% | 22.7% | 24.6% | +1.9pp 🟩 | 73,374 | 71,811 | -1,563 🟥 |
+| Thimbirigasyaya `LK-1127` | Colombo | 2.4% | 22.5% | 24.4% | +1.9pp 🟩 | 53,469 | 52,962 | -507 🟥 |
+| Colombo `LK-1103` | Colombo | 3.2% | 22.7% | 24.6% | +1.9pp 🟩 | 73,374 | 71,811 | -1,563 🟥 |
 | Haputale `LK-8139` | Badulla | 0.8% | 34.8% | 36.6% | +1.8pp 🟩 | 17,312 | 17,674 | +362 🟩 |
 | Passara `LK-8118` | Badulla | 0.8% | 35.2% | 36.8% | +1.6pp 🟩 | 17,178 | 18,256 | +1,078 🟩 |
 | Kundasale `LK-2127` | Kandy | 0.7% | 9.6% | 11.2% | +1.5pp 🟩 | 12,216 | 16,116 | +3,900 🟩 |
-| Manmunai South & Eruvil Pattu `LK-5136` | Batticaloa | 2.6% | 93.9% | 95.4% | +1.4pp 🟩 | 57,103 | 59,997 | +2,894 🟩 |
+| Manmunai South & Eruvil Pattu `LK-5136` | Batticaloa | 2.7% | 93.9% | 95.4% | +1.4pp 🟩 | 57,103 | 59,997 | +2,894 🟩 |
 | Panvila `LK-2115` | Kandy | 0.6% | 52.2% | 53.6% | +1.4pp 🟩 | 13,720 | 13,754 | +34 🟩 |
 | Monaragala `LK-8215` | Monaragala | 0.3% | 12.0% | 13.4% | +1.4pp 🟩 | 5,927 | 7,625 | +1,698 🟩 |
 | Seethawaka `LK-1115` | Colombo | 0.5% | 8.5% | 9.9% | +1.4pp 🟩 | 9,690 | 12,066 | +2,376 🟩 |
@@ -122,16 +120,16 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Thunukkai `LK-4403` | Mullaitivu | 0.4% | 89.5% | 88.3% | -1.3pp 🟥 | 8,682 | 9,188 | +506 🟩 |
 | Thawalama `LK-3118` | Galle | 0.1% | 5.1% | 3.8% | -1.3pp 🟥 | 1,661 | 1,183 | -478 🟥 |
 | Manthai West `LK-4206` | Mannar | 0.3% | 41.5% | 40.1% | -1.4pp 🟥 | 6,127 | 7,488 | +1,361 🟩 |
-| Maritimepattu `LK-4415` | Mullaitivu | 1.1% | 71.6% | 70.2% | -1.4pp 🟥 | 20,709 | 25,829 | +5,120 🟩 |
+| Maritimepattu `LK-4415` | Mullaitivu | 1.2% | 71.6% | 70.2% | -1.4pp 🟥 | 20,709 | 25,829 | +5,120 🟩 |
 | Laggala `LK-2224` | Matale | 0.0% | 1.7% | 0.2% | -1.5pp 🟥 | 206 | 36 | -170 🟥 |
 | Koralai Pattu North `LK-5103` | Batticaloa | 0.9% | 80.6% | 79.1% | -1.5pp 🟥 | 17,356 | 20,144 | +2,788 🟩 |
 | Navithanveli `LK-5216` | Ampara | 0.5% | 54.8% | 53.2% | -1.6pp 🟥 | 10,271 | 11,635 | +1,364 🟩 |
-| Karachchi `LK-4509` | Kilinochchi | 2.6% | 83.1% | 81.4% | -1.7pp 🟥 | 51,086 | 60,727 | +9,641 🟩 |
+| Karachchi `LK-4509` | Kilinochchi | 2.7% | 83.1% | 81.4% | -1.7pp 🟥 | 51,086 | 60,727 | +9,641 🟩 |
 | Pitabaddara `LK-3203` | Matara | 0.1% | 6.0% | 4.3% | -1.8pp 🟥 | 3,092 | 2,094 | -998 🟥 |
 | Meegahakiula `LK-8109` | Badulla | 0.1% | 9.5% | 7.8% | -1.8pp 🟥 | 1,883 | 1,767 | -116 🟥 |
 | Welikanda `LK-7210` | Polonnaruwa | 0.1% | 10.4% | 8.5% | -1.9pp 🟥 | 3,508 | 3,245 | -263 🟥 |
 | Thambalagamuwa `LK-5318` | Trincomalee | 0.2% | 17.1% | 15.1% | -2.0pp 🟥 | 4,873 | 5,089 | +216 🟩 |
-| Kuchchaweli `LK-5306` | Trincomalee | 0.4% | 27.6% | 25.6% | -2.0pp 🟥 | 9,152 | 10,196 | +1,044 🟩 |
+| Kuchchaweli `LK-5306` | Trincomalee | 0.5% | 27.6% | 25.6% | -2.0pp 🟥 | 9,152 | 10,196 | +1,044 🟩 |
 | Musali `LK-4215` | Mannar | 0.0% | 4.4% | 2.3% | -2.1pp 🟥 | 354 | 419 | +65 🟩 |
 | Karaitivu `LK-5227` | Ampara | 0.5% | 58.1% | 56.0% | -2.1pp 🟥 | 9,788 | 10,919 | +1,131 🟩 |
 | Haldummulla `LK-8142` | Badulla | 0.7% | 43.8% | 41.6% | -2.2pp 🟥 | 16,445 | 16,140 | -305 🟥 |
@@ -139,96 +137,91 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Kalawana `LK-9133` | Ratnapura | 0.2% | 13.2% | 11.0% | -2.2pp 🟥 | 6,789 | 5,584 | -1,205 🟥 |
 | Mundel `LK-6218` | Puttalam | 0.4% | 15.1% | 12.7% | -2.4pp 🟥 | 9,328 | 9,244 | -84 🟥 |
 | Poonakary `LK-4512` | Kilinochchi | 0.7% | 70.0% | 67.6% | -2.5pp 🟥 | 14,220 | 16,294 | +2,074 🟩 |
-| Vavuniya `LK-4309` | Vavuniya | 3.8% | 78.3% | 75.8% | -2.5pp 🟥 | 92,034 | 88,683 | -3,351 🟥 |
+| Vavuniya `LK-4309` | Vavuniya | 4.0% | 78.3% | 75.8% | -2.5pp 🟥 | 92,034 | 88,683 | -3,351 🟥 |
 | Islands North (Kayts) `LK-4103` | Jaffna | 0.2% | 54.7% | 52.1% | -2.6pp 🟥 | 5,401 | 5,170 | -231 🟥 |
 | Koralai Pattu South `LK-5110` | Batticaloa | 1.1% | 92.9% | 90.2% | -2.6pp 🟥 | 24,280 | 25,536 | +1,256 🟩 |
 | Mannar Town `LK-4203` | Mannar | 0.4% | 20.4% | 17.2% | -3.2pp 🟥 | 10,401 | 9,927 | -474 🟥 |
 | Islands South (Velanai) `LK-4139` | Jaffna | 0.5% | 75.2% | 71.4% | -3.8pp 🟥 | 12,584 | 11,846 | -738 🟥 |
-| Vavuniya North `LK-4303` | Vavuniya | 0.5% | 89.9% | 85.8% | -4.2pp 🟥 | 10,363 | 12,616 | +2,253 🟩 |
-| Nallur `LK-4133` | Jaffna | 2.7% | 90.4% | 85.9% | -4.5pp 🟥 | 61,569 | 62,589 | +1,020 🟩 |
+| Vavuniya North `LK-4303` | Vavuniya | 0.6% | 89.9% | 85.8% | -4.2pp 🟥 | 10,363 | 12,616 | +2,253 🟩 |
+| Nallur `LK-4133` | Jaffna | 2.8% | 90.4% | 85.9% | -4.5pp 🟥 | 61,569 | 62,589 | +1,020 🟩 |
 | Delft `LK-4142` | Jaffna | 0.0% | 37.6% | 31.7% | -5.9pp 🟥 | 1,439 | 1,002 | -437 🟥 |
 | Vengalacheddikulam `LK-4312` | Vavuniya | 0.6% | 55.8% | 49.7% | -6.1pp 🟥 | 16,680 | 12,803 | -3,877 🟥 |
 | Manmunai Pattu `LK-5127` | Batticaloa | 1.0% | 69.6% | 63.4% | -6.2pp 🟥 | 21,350 | 23,159 | +1,809 🟩 |
-| Puthukkudiyiruppu `LK-4409` | Mullaitivu | 1.3% | 84.8% | 78.6% | -6.2pp 🟥 | 20,209 | 31,073 | +10,864 🟩 |
-| Kalmunai `LK-5221` | Ampara | 0.0% | 80.7% | 0.1% | -80.6pp 🟥 | 24,054 | 71 | -23,983 🟥 |
+| Puthukkudiyiruppu `LK-4409` | Mullaitivu | 1.4% | 84.8% | 78.6% | -6.2pp 🟥 | 20,209 | 31,073 | +10,864 🟩 |
 
-***Koralai Pattu Central** gained the most share at **+79.0pp**. **Kalmunai** saw the steepest share decline at **-80.6pp**. **Eravur Pattu** had the largest absolute increase (**+58,991**).*
+***Koralai Pattu Central** gained the most share at **+79.0pp**. **Puthukkudiyiruppu** saw the steepest share decline at **-6.2pp**.*
 
 ### Islam
 
 | DSD | District | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Kalmunai `LK-5221` | Ampara | 2.3% | 8.0% | 99.7% | +91.7pp 🟩 | 2,392 | 52,660 | +50,268 🟩 |
-| Musali `LK-4215` | Mannar | 0.6% | 59.7% | 74.9% | +15.1pp 🟩 | 4,848 | 13,581 | +8,733 🟩 |
+| Musali `LK-4215` | Mannar | 0.7% | 59.7% | 74.9% | +15.1pp 🟩 | 4,848 | 13,581 | +8,733 🟩 |
 | Vengalacheddikulam `LK-4312` | Vavuniya | 0.4% | 23.1% | 35.5% | +12.4pp 🟩 | 6,909 | 9,146 | +2,237 🟩 |
 | Mannar Town `LK-4203` | Mannar | 0.7% | 17.8% | 26.6% | +8.8pp 🟩 | 9,098 | 15,373 | +6,275 🟩 |
-| Kolonnawa `LK-1106` | Colombo | 3.0% | 23.1% | 31.3% | +8.3pp 🟩 | 44,189 | 67,100 | +22,911 🟩 |
-| Dehiwala `LK-1130` | Colombo | 1.3% | 22.6% | 30.4% | +7.8pp 🟩 | 20,109 | 28,538 | +8,429 🟩 |
+| Kolonnawa `LK-1106` | Colombo | 3.2% | 23.1% | 31.3% | +8.3pp 🟩 | 44,189 | 67,100 | +22,911 🟩 |
+| Dehiwala `LK-1130` | Colombo | 1.4% | 22.6% | 30.4% | +7.8pp 🟩 | 20,109 | 28,538 | +8,429 🟩 |
 | Manmunai Pattu `LK-5127` | Batticaloa | 0.5% | 24.6% | 30.8% | +6.2pp 🟩 | 7,565 | 11,254 | +3,689 🟩 |
 | Madhu `LK-4209` | Mannar | 0.1% | 7.2% | 12.6% | +5.3pp 🟩 | 559 | 1,196 | +637 🟩 |
-| Ratmalana `LK-1131` | Colombo | 0.6% | 11.3% | 15.7% | +4.4pp 🟩 | 10,837 | 13,852 | +3,015 🟩 |
-| Galle 4 Gravets `LK-3139` | Galle | 1.7% | 32.3% | 36.0% | +3.7pp 🟩 | 32,865 | 39,021 | +6,156 🟩 |
-| Beruwala `LK-1324` | Kalutara | 3.1% | 34.7% | 38.2% | +3.5pp 🟩 | 57,228 | 69,141 | +11,913 🟩 |
+| Ratmalana `LK-1131` | Colombo | 0.7% | 11.3% | 15.7% | +4.4pp 🟩 | 10,837 | 13,852 | +3,015 🟩 |
+| Galle 4 Gravets `LK-3139` | Galle | 1.9% | 32.3% | 36.0% | +3.7pp 🟩 | 32,865 | 39,021 | +6,156 🟩 |
+| Beruwala `LK-1324` | Kalutara | 3.3% | 34.7% | 38.2% | +3.5pp 🟩 | 57,228 | 69,141 | +11,913 🟩 |
 | Nanaddan `LK-4212` | Mannar | 0.1% | 3.7% | 7.1% | +3.4pp 🟩 | 668 | 1,405 | +737 🟩 |
 | Manthai West `LK-4206` | Mannar | 0.1% | 9.1% | 12.5% | +3.4pp 🟩 | 1,339 | 2,328 | +989 🟩 |
-| Thambalagamuwa `LK-5318` | Trincomalee | 0.9% | 57.0% | 60.3% | +3.3pp 🟩 | 16,256 | 20,286 | +4,030 🟩 |
-| Mundel `LK-6218` | Puttalam | 1.4% | 38.6% | 41.9% | +3.3pp 🟩 | 23,770 | 30,384 | +6,614 🟩 |
+| Thambalagamuwa `LK-5318` | Trincomalee | 1.0% | 57.0% | 60.3% | +3.3pp 🟩 | 16,256 | 20,286 | +4,030 🟩 |
+| Mundel `LK-6218` | Puttalam | 1.5% | 38.6% | 41.9% | +3.3pp 🟩 | 23,770 | 30,384 | +6,614 🟩 |
 | Lankapura `LK-7209` | Polonnaruwa | 0.6% | 28.5% | 31.7% | +3.3pp 🟩 | 10,377 | 12,589 | +2,212 🟩 |
 | Vavuniya `LK-4309` | Vavuniya | 0.4% | 4.3% | 7.4% | +3.1pp 🟩 | 5,037 | 8,612 | +3,575 🟩 |
-| Akurana `LK-2109` | Kandy | 2.1% | 64.9% | 67.9% | +3.0pp 🟩 | 41,117 | 48,201 | +7,084 🟩 |
+| Akurana `LK-2109` | Kandy | 2.3% | 64.9% | 67.9% | +3.0pp 🟩 | 41,117 | 48,201 | +7,084 🟩 |
 | Kahatagasdigiliya `LK-7121` | Anuradhapura | 0.5% | 20.3% | 23.3% | +3.0pp 🟩 | 8,198 | 10,466 | +2,268 🟩 |
 | Negombo `LK-1203` | Gampaha | 1.1% | 14.3% | 17.2% | +2.9pp 🟩 | 20,374 | 23,788 | +3,414 🟩 |
 | Welikanda `LK-7210` | Polonnaruwa | 0.3% | 14.6% | 17.4% | +2.8pp 🟩 | 4,929 | 6,663 | +1,734 🟩 |
-| Horowpathana `LK-7124` | Anuradhapura | 0.5% | 26.6% | 29.4% | +2.8pp 🟩 | 9,829 | 12,135 | +2,306 🟩 |
-| Mawanella `LK-9206` | Kegalle | 1.9% | 30.4% | 33.3% | +2.8pp 🟩 | 34,008 | 41,933 | +7,925 🟩 |
-| Kuliyapitiya East `LK-6169` | Kurunegala | 0.9% | 31.6% | 34.4% | +2.8pp 🟩 | 17,087 | 21,068 | +3,981 🟩 |
-| Panadura `LK-1303` | Kalutara | 1.4% | 14.4% | 17.2% | +2.8pp 🟩 | 26,306 | 32,306 | +6,000 🟩 |
+| Horowpathana `LK-7124` | Anuradhapura | 0.6% | 26.6% | 29.4% | +2.8pp 🟩 | 9,829 | 12,135 | +2,306 🟩 |
+| Mawanella `LK-9206` | Kegalle | 2.0% | 30.4% | 33.3% | +2.8pp 🟩 | 34,008 | 41,933 | +7,925 🟩 |
+| Kuliyapitiya East `LK-6169` | Kurunegala | 1.0% | 31.6% | 34.4% | +2.8pp 🟩 | 17,087 | 21,068 | +3,981 🟩 |
+| Panadura `LK-1303` | Kalutara | 1.6% | 14.4% | 17.2% | +2.8pp 🟩 | 26,306 | 32,306 | +6,000 🟩 |
 | Welipitiya `LK-3221` | Matara | 0.4% | 12.2% | 14.7% | +2.5pp 🟩 | 6,339 | 8,220 | +1,881 🟩 |
 | Jaffna `LK-4136` | Jaffna | 0.1% | 3.4% | 5.9% | +2.5pp 🟩 | 1,732 | 2,881 | +1,149 🟩 |
-| Pallama `LK-6227` | Puttalam | 0.2% | 16.3% | 18.7% | +2.5pp 🟩 | 3,977 | 5,235 | +1,258 🟩 |
-| Seruvila `LK-5330` | Trincomalee | 0.1% | 17.8% | 20.2% | +2.4pp 🟩 | 2,430 | 3,234 | +804 🟩 |
-| Puttalam `LK-6215` | Puttalam | 2.8% | 64.2% | 66.6% | +2.4pp 🟩 | 52,934 | 63,101 | +10,167 🟩 |
+| Pallama `LK-6227` | Puttalam | 0.3% | 16.3% | 18.7% | +2.5pp 🟩 | 3,977 | 5,235 | +1,258 🟩 |
+| Seruvila `LK-5330` | Trincomalee | 0.2% | 17.8% | 20.2% | +2.4pp 🟩 | 2,430 | 3,234 | +804 🟩 |
+| Puttalam `LK-6215` | Puttalam | 3.0% | 64.2% | 66.6% | +2.4pp 🟩 | 52,934 | 63,101 | +10,167 🟩 |
 | Karaitivu `LK-5227` | Ampara | 0.4% | 40.1% | 42.5% | +2.4pp 🟩 | 6,760 | 8,285 | +1,525 🟩 |
-| Kobeigane `LK-6139` | Kurunegala | 0.2% | 10.7% | 13.1% | +2.4pp 🟩 | 3,862 | 5,322 | +1,460 🟩 |
+| Kobeigane `LK-6139` | Kurunegala | 0.3% | 10.7% | 13.1% | +2.4pp 🟩 | 3,862 | 5,322 | +1,460 🟩 |
 | Maritimepattu `LK-4415` | Mullaitivu | 0.1% | 6.1% | 8.4% | +2.3pp 🟩 | 1,766 | 3,092 | +1,326 🟩 |
 | Navithanveli `LK-5216` | Ampara | 0.4% | 34.2% | 36.5% | +2.3pp 🟩 | 6,402 | 7,967 | +1,565 🟩 |
-| Pottuvil `LK-5248` | Ampara | 1.5% | 78.2% | 80.3% | +2.2pp 🟩 | 27,213 | 34,471 | +7,258 🟩 |
-| Pathadumbara `LK-2112` | Kandy | 1.0% | 22.8% | 24.9% | +2.1pp 🟩 | 20,239 | 23,313 | +3,074 🟩 |
-| Attanagalla `LK-1227` | Gampaha | 1.3% | 12.4% | 14.4% | +1.9pp 🟩 | 22,303 | 28,406 | +6,103 🟩 |
-| Ukuwela `LK-2233` | Matale | 0.7% | 20.8% | 22.8% | +1.9pp 🟩 | 14,180 | 16,475 | +2,295 🟩 |
+| Pathadumbara `LK-2112` | Kandy | 1.1% | 22.8% | 24.9% | +2.1pp 🟩 | 20,239 | 23,313 | +3,074 🟩 |
+| Attanagalla `LK-1227` | Gampaha | 1.4% | 12.4% | 14.4% | +1.9pp 🟩 | 22,303 | 28,406 | +6,103 🟩 |
+| Ukuwela `LK-2233` | Matale | 0.8% | 20.8% | 22.8% | +1.9pp 🟩 | 14,180 | 16,475 | +2,295 🟩 |
 | Panduwasnuwara West `LK-6145` | Kurunegala | 0.5% | 12.8% | 14.7% | +1.9pp 🟩 | 8,452 | 10,464 | +2,012 🟩 |
-| Welimada `LK-8130` | Badulla | 0.9% | 16.8% | 18.7% | +1.9pp 🟩 | 16,921 | 19,720 | +2,799 🟩 |
-| Udunuwara `LK-2139` | Kandy | 1.4% | 24.5% | 26.4% | +1.9pp 🟩 | 27,186 | 31,951 | +4,765 🟩 |
-| Mallawapitiya `LK-6157` | Kurunegala | 0.4% | 15.1% | 16.8% | +1.8pp 🟩 | 7,924 | 10,018 | +2,094 🟩 |
-| Udapalatha `LK-2151` | Kandy | 1.1% | 22.7% | 24.4% | +1.8pp 🟩 | 20,784 | 25,206 | +4,422 🟩 |
-| Town & Gravets `LK-5315` | Trincomalee | 0.7% | 13.8% | 15.6% | +1.7pp 🟩 | 13,501 | 15,605 | +2,104 🟩 |
-| Kuchchaweli `LK-5306` | Trincomalee | 1.2% | 64.1% | 65.8% | +1.7pp 🟩 | 21,308 | 26,239 | +4,931 🟩 |
-| Kelaniya `LK-1236` | Gampaha | 0.6% | 9.1% | 10.7% | +1.6pp 🟩 | 12,439 | 14,312 | +1,873 🟩 |
+| Welimada `LK-8130` | Badulla | 1.0% | 16.8% | 18.7% | +1.9pp 🟩 | 16,921 | 19,720 | +2,799 🟩 |
+| Udunuwara `LK-2139` | Kandy | 1.5% | 24.5% | 26.4% | +1.9pp 🟩 | 27,186 | 31,951 | +4,765 🟩 |
+| Mallawapitiya `LK-6157` | Kurunegala | 0.5% | 15.1% | 16.8% | +1.8pp 🟩 | 7,924 | 10,018 | +2,094 🟩 |
+| Udapalatha `LK-2151` | Kandy | 1.2% | 22.7% | 24.4% | +1.8pp 🟩 | 20,784 | 25,206 | +4,422 🟩 |
+| Town & Gravets `LK-5315` | Trincomalee | 0.8% | 13.8% | 15.6% | +1.7pp 🟩 | 13,501 | 15,605 | +2,104 🟩 |
+| Kuchchaweli `LK-5306` | Trincomalee | 1.3% | 64.1% | 65.8% | +1.7pp 🟩 | 21,308 | 26,239 | +4,931 🟩 |
+| Kelaniya `LK-1236` | Gampaha | 0.7% | 9.1% | 10.7% | +1.6pp 🟩 | 12,439 | 14,312 | +1,873 🟩 |
 | Rideegama `LK-6163` | Kurunegala | 0.6% | 11.3% | 12.9% | +1.6pp 🟩 | 10,022 | 12,391 | +2,369 🟩 |
-| Muthur `LK-5327` | Trincomalee | 2.0% | 62.0% | 63.5% | +1.5pp 🟩 | 35,088 | 45,658 | +10,570 🟩 |
+| Muthur `LK-5327` | Trincomalee | 2.2% | 62.0% | 63.5% | +1.5pp 🟩 | 35,088 | 45,658 | +10,570 🟩 |
 | Medagama `LK-8209` | Monaragala | 0.3% | 13.8% | 15.3% | +1.5pp 🟩 | 4,939 | 6,827 | +1,888 🟩 |
 | Nattandiya `LK-6242` | Puttalam | 0.4% | 10.6% | 12.1% | +1.5pp 🟩 | 6,609 | 7,939 | +1,330 🟩 |
 | Poonakary `LK-4512` | Kilinochchi | 0.0% | 2.3% | 3.8% | +1.5pp 🟩 | 469 | 909 | +440 🟩 |
 | Manmunai North `LK-5118` | Batticaloa | 0.3% | 5.3% | 6.8% | +1.4pp 🟩 | 4,585 | 6,424 | +1,839 🟩 |
 | Kantale `LK-5321` | Trincomalee | 0.4% | 16.3% | 17.7% | +1.4pp 🟩 | 7,633 | 9,020 | +1,387 🟩 |
-| Kinniya `LK-5324` | Trincomalee | 3.7% | 95.8% | 97.1% | +1.4pp 🟩 | 61,880 | 84,032 | +22,152 🟩 |
-| Colombo `LK-1103` | Colombo | 5.6% | 41.8% | 43.1% | +1.3pp 🟩 | 135,000 | 125,890 | -9,110 🟥 |
+| Kinniya `LK-5324` | Trincomalee | 4.1% | 95.8% | 97.1% | +1.4pp 🟩 | 61,880 | 84,032 | +22,152 🟩 |
+| Colombo `LK-1103` | Colombo | 6.1% | 41.8% | 43.1% | +1.3pp 🟩 | 135,000 | 125,890 | -9,110 🟥 |
 | Ganga Ihala Korale `LK-2154` | Kandy | 0.2% | 6.8% | 8.1% | +1.3pp 🟩 | 3,779 | 4,795 | +1,016 🟩 |
 | Haputale `LK-8139` | Badulla | 0.2% | 7.4% | 8.6% | +1.3pp 🟩 | 3,665 | 4,165 | +500 🟩 |
 | Poojapitiya `LK-2106` | Kandy | 0.5% | 16.5% | 17.8% | +1.2pp 🟩 | 9,571 | 10,718 | +1,147 🟩 |
 | Weligama `LK-3239` | Matara | 0.4% | 10.1% | 11.4% | +1.2pp 🟩 | 7,379 | 8,652 | +1,273 🟩 |
-| Irakkamam `LK-5234` | Ampara | 0.7% | 90.9% | 92.1% | +1.2pp 🟩 | 13,073 | 16,275 | +3,202 🟩 |
 | Mawathagama `LK-6160` | Kurunegala | 0.4% | 11.2% | 12.4% | +1.2pp 🟩 | 7,199 | 8,803 | +1,604 🟩 |
 | Udubaddawa `LK-6175` | Kurunegala | 0.3% | 10.4% | 11.5% | +1.2pp 🟩 | 5,412 | 6,270 | +858 🟩 |
-| Wattala `LK-1218` | Gampaha | 0.6% | 6.5% | 7.6% | +1.1pp 🟩 | 11,407 | 13,918 | +2,511 🟩 |
-| Pannala `LK-6178` | Kurunegala | 0.4% | 5.8% | 6.9% | +1.1pp 🟩 | 7,205 | 9,398 | +2,193 🟩 |
-| Koralai Pattu North `LK-5103` | Batticaloa | 0.0% | 3.2% | 4.3% | +1.1pp 🟩 | 699 | 1,095 | +396 🟩 |
-| Thimbirigasyaya `LK-1127` | Colombo | 1.8% | 17.4% | 18.5% | +1.1pp 🟩 | 41,447 | 40,132 | -1,315 🟥 |
-| Rambewa `LK-7118` | Anuradhapura | 0.2% | 15.5% | 13.2% | -2.3pp 🟥 | 5,683 | 5,242 | -441 🟥 |
-| Eravur Pattu `LK-5115` | Batticaloa | 0.9% | 85.4% | 21.3% | -64.1pp 🟥 | 21,055 | 20,106 | -949 🟥 |
+| Wattala `LK-1218` | Gampaha | 0.7% | 6.5% | 7.6% | +1.1pp 🟩 | 11,407 | 13,918 | +2,511 🟩 |
+| Pannala `LK-6178` | Kurunegala | 0.5% | 5.8% | 6.9% | +1.1pp 🟩 | 7,205 | 9,398 | +2,193 🟩 |
+| Koralai Pattu North `LK-5103` | Batticaloa | 0.1% | 3.2% | 4.3% | +1.1pp 🟩 | 699 | 1,095 | +396 🟩 |
+| Thimbirigasyaya `LK-1127` | Colombo | 1.9% | 17.4% | 18.5% | +1.1pp 🟩 | 41,447 | 40,132 | -1,315 🟥 |
+| Rambewa `LK-7118` | Anuradhapura | 0.3% | 15.5% | 13.2% | -2.3pp 🟥 | 5,683 | 5,242 | -441 🟥 |
 | Koralai Pattu Central `LK-5104` | Batticaloa | 0.0% | 97.2% | 0.3% | -96.9pp 🟥 | 24,965 | 94 | -24,871 🟥 |
 
-***Kalmunai** gained the most share at **+91.7pp**. **Koralai Pattu Central** saw the steepest share decline at **-96.9pp**.*
+***Musali** gained the most share at **+15.1pp**. **Koralai Pattu Central** saw the steepest share decline at **-96.9pp**. **Kolonnawa** had the largest absolute increase (**+22,911**).*
 
 ### Roman Catholic
 
@@ -238,10 +231,9 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Puthukkudiyiruppu `LK-4409` | Mullaitivu | 0.5% | 9.7% | 14.7% | +5.0pp 🟩 | 2,305 | 5,817 | +3,512 🟩 |
 | Koralai Pattu Central `LK-5104` | Batticaloa | 0.1% | 0.2% | 4.4% | +4.1pp 🟩 | 63 | 1,257 | +1,194 🟩 |
 | Islands South (Velanai) `LK-4139` | Jaffna | 0.4% | 21.6% | 25.7% | +4.1pp 🟩 | 3,619 | 4,263 | +644 🟩 |
-| Eravur Pattu `LK-5115` | Batticaloa | 0.3% | 0.7% | 3.7% | +2.9pp 🟩 | 180 | 3,458 | +3,278 🟩 |
 | Nallur `LK-4133` | Jaffna | 0.4% | 5.1% | 7.3% | +2.2pp 🟩 | 3,453 | 5,310 | +1,857 🟩 |
 | Katana `LK-1206` | Gampaha | 6.9% | 32.0% | 34.0% | +1.9pp 🟩 | 75,385 | 81,913 | +6,528 🟩 |
-| Kalpitiya `LK-6203` | Puttalam | 2.7% | 32.3% | 33.6% | +1.4pp 🟩 | 27,880 | 32,625 | +4,745 🟩 |
+| Kalpitiya `LK-6203` | Puttalam | 2.8% | 32.3% | 33.6% | +1.4pp 🟩 | 27,880 | 32,625 | +4,745 🟩 |
 | Poonakary `LK-4512` | Kilinochchi | 0.5% | 22.8% | 23.9% | +1.2pp 🟩 | 4,621 | 5,767 | +1,146 🟩 |
 | Islands North (Kayts) `LK-4103` | Jaffna | 0.4% | 41.1% | 42.3% | +1.1pp 🟩 | 4,062 | 4,196 | +134 🟩 |
 | Valikamam North (Thllippalai) `LK-4112` | Jaffna | 0.4% | 9.7% | 10.8% | +1.1pp 🟩 | 2,866 | 4,843 | +1,977 🟩 |
@@ -277,7 +269,6 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Madhu `LK-4209` | Mannar | 0.3% | 38.9% | 35.0% | -3.9pp 🟥 | 2,997 | 3,319 | +322 🟩 |
 | Mannar Town `LK-4203` | Mannar | 2.5% | 54.8% | 50.6% | -4.1pp 🟥 | 27,970 | 29,246 | +1,276 🟩 |
 | Vengalacheddikulam `LK-4312` | Vavuniya | 0.2% | 15.3% | 10.9% | -4.3pp 🟥 | 4,564 | 2,821 | -1,743 🟥 |
-| Kalmunai `LK-5221` | Ampara | 0.0% | 6.3% | 0.0% | -6.2pp 🟥 | 1,873 | 21 | -1,852 🟥 |
 | Musali `LK-4215` | Mannar | 0.3% | 33.9% | 22.1% | -11.8pp 🟥 | 2,750 | 4,011 | +1,261 🟩 |
 
 ***Delft** gained the most share at **+6.6pp**. **Musali** saw the steepest share decline at **-11.8pp**. **Katana** had the largest absolute increase (**+6,528**).*
@@ -286,8 +277,7 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 | DSD | District | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Koralai Pattu Central `LK-5104` | Batticaloa | 1.3% | 0.0% | 12.0% | +12.0pp 🟩 | 12 | 3,459 | +3,447 🟩 |
-| Eravur Pattu `LK-5115` | Batticaloa | 2.3% | 0.6% | 6.3% | +5.7pp 🟩 | 143 | 5,928 | +5,785 🟩 |
+| Koralai Pattu Central `LK-5104` | Batticaloa | 1.4% | 0.0% | 12.0% | +12.0pp 🟩 | 12 | 3,459 | +3,447 🟩 |
 | Koralai Pattu South `LK-5110` | Batticaloa | 0.9% | 5.6% | 7.9% | +2.3pp 🟩 | 1,471 | 2,244 | +773 🟩 |
 | Thunukkai `LK-4403` | Mullaitivu | 0.2% | 3.9% | 5.6% | +1.7pp 🟩 | 382 | 584 | +202 🟩 |
 | Pachchilaipalli `LK-4503` | Kilinochchi | 0.2% | 1.9% | 3.5% | +1.6pp 🟩 | 162 | 461 | +299 🟩 |
@@ -298,13 +288,12 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Maritimepattu `LK-4415` | Mullaitivu | 0.6% | 2.9% | 4.1% | +1.2pp 🟩 | 838 | 1,510 | +672 🟩 |
 | Puthukkudiyiruppu `LK-4409` | Mullaitivu | 1.0% | 5.2% | 6.4% | +1.2pp 🟩 | 1,239 | 2,530 | +1,291 🟩 |
 | Valikamam North (Thllippalai) `LK-4112` | Jaffna | 0.7% | 2.9% | 4.1% | +1.2pp 🟩 | 869 | 1,857 | +988 🟩 |
-| Thimbirigasyaya `LK-1127` | Colombo | 2.7% | 4.3% | 3.2% | -1.1pp 🟥 | 10,262 | 7,036 | -3,226 🟥 |
+| Thimbirigasyaya `LK-1127` | Colombo | 2.8% | 4.3% | 3.2% | -1.1pp 🟥 | 10,262 | 7,036 | -3,226 🟥 |
 | Manmunai South & Eruvil Pattu `LK-5136` | Batticaloa | 0.5% | 3.0% | 1.9% | -1.1pp 🟥 | 1,836 | 1,216 | -620 🟥 |
 | Sri Jayawardanapura Kotte `LK-1124` | Colombo | 1.3% | 4.7% | 3.5% | -1.2pp 🟥 | 5,055 | 3,379 | -1,676 🟥 |
 | Dehiwala `LK-1130` | Colombo | 1.0% | 4.1% | 2.7% | -1.4pp 🟥 | 3,684 | 2,557 | -1,127 🟥 |
-| Kalmunai `LK-5221` | Ampara | 0.0% | 4.3% | 0.0% | -4.3pp 🟥 | 1,280 | 5 | -1,275 🟥 |
 
-***Koralai Pattu Central** gained the most share at **+12.0pp**. **Kalmunai** saw the steepest share decline at **-4.3pp**. **Eravur Pattu** had the largest absolute increase (**+5,785**).*
+***Koralai Pattu Central** gained the most share at **+12.0pp**. **Dehiwala** saw the steepest share decline at **-1.4pp**.*
 
 ### Other
 
