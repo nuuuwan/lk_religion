@@ -145,24 +145,6 @@
       "pop_change_pct": null
     },
     {
-      "status": "Removed",
-      "dsd_code": "LK-5112",
-      "dsd": "LK-5112",
-      "district": "Batticaloa",
-      "total_2012": 75478,
-      "total_2024": null,
-      "pop_change_pct": null
-    },
-    {
-      "status": "Altered",
-      "dsd_code": "LK-5115",
-      "dsd": "Eravur Pattu",
-      "district": "Batticaloa",
-      "total_2012": 24643,
-      "total_2024": 94237,
-      "pop_change_pct": 282.41
-    },
-    {
       "status": "New",
       "dsd_code": "LK-5139",
       "dsd": "Eravur Town",
@@ -170,51 +152,6 @@
       "total_2012": null,
       "total_2024": 26468,
       "pop_change_pct": null
-    },
-    {
-      "status": "Altered",
-      "dsd_code": "LK-5221",
-      "dsd": "Kalmunai",
-      "district": "Ampara",
-      "total_2012": 29800,
-      "total_2024": 52798,
-      "pop_change_pct": 77.17
-    },
-    {
-      "status": "Removed",
-      "dsd_code": "LK-5224",
-      "dsd": "LK-5224",
-      "district": "Ampara",
-      "total_2012": 44632,
-      "total_2024": null,
-      "pop_change_pct": null
-    },
-    {
-      "status": "Altered",
-      "dsd_code": "LK-5233",
-      "dsd": "Addalaichenai",
-      "district": "Ampara",
-      "total_2012": 41968,
-      "total_2024": 53214,
-      "pop_change_pct": 26.8
-    },
-    {
-      "status": "Altered",
-      "dsd_code": "LK-5234",
-      "dsd": "Irakkamam",
-      "district": "Ampara",
-      "total_2012": 14383,
-      "total_2024": 17671,
-      "pop_change_pct": 22.86
-    },
-    {
-      "status": "Altered",
-      "dsd_code": "LK-5248",
-      "dsd": "Pottuvil",
-      "district": "Ampara",
-      "total_2012": 34809,
-      "total_2024": 42908,
-      "pop_change_pct": 23.27
     },
     {
       "status": "Altered",
@@ -2655,19 +2592,19 @@
       "distributional_change": 0.003177
     },
     {
-      "dsd_code": "LK-3106",
-      "dsd": "Balapitiya",
-      "district": "Galle",
-      "total_2012": 67432,
-      "total_2024": 68150,
-      "distributional_change": 0.003065
-    },
-    {
       "dsd_code": "LK-1318",
       "dsd": "Millaniya",
       "district": "Kalutara",
       "total_2012": 52176,
       "total_2024": 56166,
+      "distributional_change": 0.003065
+    },
+    {
+      "dsd_code": "LK-3106",
+      "dsd": "Balapitiya",
+      "district": "Galle",
+      "total_2012": 67432,
+      "total_2024": 68150,
       "distributional_change": 0.003065
     },
     {

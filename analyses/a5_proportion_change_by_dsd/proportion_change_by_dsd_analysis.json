@@ -1,6 +1,24 @@
 {
   "by_dsd": [
     {
+      "dsd_code": "LK-5221",
+      "dsd": "Kalmunai",
+      "district": "Ampara",
+      "religion": "Islam",
+      "proportion_2012": 0.080268,
+      "proportion_2024": 0.997386,
+      "change": 0.917118
+    },
+    {
+      "dsd_code": "LK-5115",
+      "dsd": "Eravur Pattu",
+      "district": "Batticaloa",
+      "religion": "Hindu",
+      "proportion_2012": 0.124336,
+      "proportion_2024": 0.658499,
+      "change": 0.534164
+    },
+    {
       "dsd_code": "LK-1106",
       "dsd": "Kolonnawa",
       "district": "Colombo",
@@ -107,6 +125,15 @@
       "proportion_2012": 0.642068,
       "proportion_2024": 0.665784,
       "change": 0.023716
+    },
+    {
+      "dsd_code": "LK-5248",
+      "dsd": "Pottuvil",
+      "district": "Ampara",
+      "religion": "Islam",
+      "proportion_2012": 0.781781,
+      "proportion_2024": 0.80337,
+      "change": 0.021589
     },
     {
       "dsd_code": "LK-1227",

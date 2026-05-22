@@ -10,22 +10,13 @@ Districts where the number of DSDs changed between censuses are listed below. Wi
 |---|---:|---:|---:|
 | Nuwara Eliya `LK-23` | 5 | 10 | +5 🟩 |
 | Galle `LK-31` | 19 | 22 | +3 🟩 |
-| Batticaloa `LK-51` | 14 | 13 | -1 🟥 |
-| Ampara `LK-52` | 20 | 19 | -1 🟥 |
 | Ratnapura `LK-91` | 17 | 18 | +1 🟩 |
 
 **New, Altered, and Removed DSDs:**
 
 | Status | DSD | District | Pop 2012 | Pop 2024 | Pop Change |
 |---|---|---|---:|---:|---:|
-| Removed | LK-5224 `LK-5224` | Ampara `LK-52` | 44,632 | — | — |
-| Altered | Addalaichenai `LK-5233` | Ampara `LK-52` | 41,968 | 53,214 | +26.8% 🟩 |
-| Altered | Irakkamam `LK-5234` | Ampara `LK-52` | 14,383 | 17,671 | +22.9% 🟩 |
-| Altered | Kalmunai `LK-5221` | Ampara `LK-52` | 29,800 | 52,798 | +77.2% 🟩 |
-| Altered | Pottuvil `LK-5248` | Ampara `LK-52` | 34,809 | 42,908 | +23.3% 🟩 |
 | Removed | Koralai Pattu `LK-5109` | Batticaloa `LK-51` | 23,376 | — | — |
-| Removed | LK-5112 `LK-5112` | Batticaloa `LK-51` | 75,478 | — | — |
-| Altered | Eravur Pattu `LK-5115` | Batticaloa `LK-51` | 24,643 | 94,237 | +282.4% 🟩 |
 | New | Eravur Town `LK-5139` | Batticaloa `LK-51` | — | 26,468 | — |
 | Altered | Baddegama `LK-3127` | Galle `LK-31` | 75,008 | 50,956 | -32.1% 🟥 |
 | Altered | Hikkaduwa `LK-3136` | Galle `LK-31` | 101,909 | 26,216 | -74.3% 🟥 |

@@ -2,6 +2,8 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
+import geopandas as gpd
+import pandas as pd
 from gig import Ent, EntType
 
 from lk_religion.common.RegionAnalysis import (
@@ -33,6 +35,7 @@ class ByEntityAnalysisSpec:
     excluded_codes: frozenset[str] = frozenset()
     extra_columns: tuple[tuple[str, str], ...] = tuple()
     data_loader: object | None = None
+    geometry_loader: object | None = None
 
 
 def load_country_data(_config):
@@ -48,6 +51,23 @@ def load_country_data(_config):
         data_2024 = json.loads((a1_dir / 'religion_2024.json').read_text())
 
     return {'LK': data_2012}, {'LK': data_2024}
+
+
+def load_country_geometry(config):
+    provinces = Ent.list_from_type(EntType.PROVINCE)
+    gdfs = []
+    for prov in provinces:
+        gdf = prov.geo().copy()
+        gdfs.append(gdf[['geometry']])
+    combined = gpd.GeoDataFrame(
+        pd.concat(gdfs, ignore_index=True),
+        geometry='geometry',
+        crs=gdfs[0].crs,
+    )
+    country_gdf = combined.dissolve().reset_index(drop=True)
+    country_gdf[config.code_key] = 'LK'
+    country_gdf[config.name_key] = 'Sri Lanka'
+    return {'LK': 'Sri Lanka'}, country_gdf[[config.code_key, config.name_key, 'geometry']]
 
 
 def run_by_entity(spec: ByEntityAnalysisSpec):
@@ -78,6 +98,7 @@ def run_by_entity(spec: ByEntityAnalysisSpec):
             excluded_codes=spec.excluded_codes,
             extra_columns=spec.extra_columns,
             data_loader=spec.data_loader,
+            geometry_loader=spec.geometry_loader,
         )
     )
 

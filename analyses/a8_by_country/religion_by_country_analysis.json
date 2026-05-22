@@ -6,9 +6,11 @@
       "2012": 14271183,
       "2024": 15199093,
       "change": 927910,
+      "pct_change": 0.06502,
       "proportion_2012": 0.701019,
       "proportion_2024": 0.697789,
       "proportion_change": -0.00323,
+      "annual_growth_rate": 0.005263,
       "proportion_national": 1.0
     }
   ],
@@ -19,9 +21,11 @@
       "2012": 2561142,
       "2024": 2734839,
       "change": 173697,
+      "pct_change": 0.06782,
       "proportion_2012": 0.125807,
       "proportion_2024": 0.125556,
       "proportion_change": -0.00025,
+      "annual_growth_rate": 0.005483,
       "proportion_national": 1.0
     }
   ],
@@ -32,9 +36,11 @@
       "2012": 1967008,
       "2024": 2337379,
       "change": 370371,
+      "pct_change": 0.188292,
       "proportion_2012": 0.096622,
       "proportion_2024": 0.107309,
       "proportion_change": 0.010687,
+      "annual_growth_rate": 0.01448,
       "proportion_national": 1.0
     }
   ],
@@ -45,9 +51,11 @@
       "2012": 1261136,
       "2024": 1224348,
       "change": -36788,
+      "pct_change": -0.029171,
       "proportion_2012": 0.061949,
       "proportion_2024": 0.05621,
       "proportion_change": -0.005739,
+      "annual_growth_rate": -0.002464,
       "proportion_national": 1.0
     }
   ],
@@ -58,9 +66,11 @@
       "2012": 290920,
       "2024": 282185,
       "change": -8735,
+      "pct_change": -0.030025,
       "proportion_2012": 0.01429,
       "proportion_2024": 0.012955,
       "proportion_change": -0.001335,
+      "annual_growth_rate": -0.002537,
       "proportion_national": 1.0
     }
   ],
@@ -71,9 +81,11 @@
       "2012": 6387,
       "2024": 3956,
       "change": -2431,
+      "pct_change": -0.380617,
       "proportion_2012": 0.000314,
       "proportion_2024": 0.000182,
       "proportion_change": -0.000132,
+      "annual_growth_rate": -0.039133,
       "proportion_national": 1.0
     }
   ]

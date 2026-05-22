@@ -113,6 +113,7 @@ class RegionAnalysisConfig:
     excluded_codes: frozenset[str] = field(default_factory=frozenset)
     extra_columns: tuple[tuple[str, str], ...] = field(default_factory=tuple)
     data_loader: Callable | None = None
+    geometry_loader: Callable | None = None
 
 
 def _label_description(config):
@@ -562,11 +563,14 @@ def _write_chart(config, results, region_map_gdf):
 def run_religion_by_region(config):
     print(f'=== {config.analysis_key}) {config.analysis_heading} ===')
     db2012, db2024 = _load_region_data(config)
-    region_names, region_map_gdf = _region_geometries(
-        config.entity_type,
-        config.code_key,
-        config.name_key,
-    )
+    if config.geometry_loader is not None:
+        region_names, region_map_gdf = config.geometry_loader(config)
+    else:
+        region_names, region_map_gdf = _region_geometries(
+            config.entity_type,
+            config.code_key,
+            config.name_key,
+        )
     results = _build_results(config, db2012, db2024, region_names)
     config.analysis_json_path.write_text(json.dumps(results, indent=2) + '\n')
     _write_chart(config, results, region_map_gdf)
