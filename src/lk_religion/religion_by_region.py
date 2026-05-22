@@ -141,7 +141,9 @@ class RegionAnalysisConfig:
     analysis_json_path: Path
     readme_path: Path
     chart_path: Path
-    low_population_threshold: int = 1000
+    low_population_threshold: int | None = 1000
+    table_min_abs_pp: float | None = None
+    map_white_abs_pp_threshold: float | None = None
     label_top_n: int | None = None
     description_override: str | None = None
     readme_row_limit: int | None = None
@@ -153,6 +155,19 @@ class RegionAnalysisConfig:
 
 
 def _label_description(config):
+    map_special_rules = []
+    if config.low_population_threshold is not None:
+        map_special_rules.append(
+            f'{config.region_plural} with religion population **< {config.low_population_threshold:,} (2024)** '
+            'are shown in **grey**.'
+        )
+    if config.map_white_abs_pp_threshold is not None:
+        map_special_rules.append(
+            f'{config.region_plural} with absolute share change **< {config.map_white_abs_pp_threshold * 100:.1f}pp** '
+            'are shown in **white**.'
+        )
+    map_special_rules_text = f" {' '.join(map_special_rules)}" if map_special_rules else ''
+
     if config.description_override:
         return config.description_override
     if config.label_top_n == 0:
@@ -160,26 +175,21 @@ def _label_description(config):
             f'{config.region_plural} are shaded by **change in share of population (pp)** '
             'from **red (decline)** to **green (growth)**. '
             f'{config.region_singular} labels are omitted due to map density. '
-            f'{config.region_plural} with religion population **< {config.low_population_threshold:,} (2024)** '
-            'are shown in **grey**.'
+            f'{map_special_rules_text}'.strip()
         )
     if config.label_top_n is None:
         return (
             f'{config.region_singular} labels show the **{config.region_singular.lower()} name** '
             'and **change in share of population (pp)**. '
             f'{config.region_plural} are shaded by **change in share of population (pp)** '
-            'from **red (decline)** to **green (growth)**. '
-            f'{config.region_plural} with religion population **< {config.low_population_threshold:,} (2024)** '
-            'are shown in **grey**.'
+            f'from **red (decline)** to **green (growth)**.{map_special_rules_text}'
         )
     return (
         f'The **top {config.label_top_n} {config.region_plural.lower()} by absolute share change** '
         f'are labeled with the **{config.region_singular.lower()} name** and '
         '**change in share of population (pp)**. '
         f'{config.region_plural} are shaded by **change in share of population (pp)** '
-        'from **red (decline)** to **green (growth)**. '
-        f'{config.region_plural} with religion population **< {config.low_population_threshold:,} (2024)** '
-        'are shown in **grey**.'
+        f'from **red (decline)** to **green (growth)**.{map_special_rules_text}'
     )
 
 
@@ -314,6 +324,13 @@ def _write_readme(config, results):
         _label_description(config),
         '',
     ]
+    if config.table_min_abs_pp is not None:
+        lines.extend(
+            [
+                f'Tables list only rows where absolute share change is **> {config.table_min_abs_pp:.1f}pp**.',
+                '',
+            ]
+        )
 
     if config.extra_text:
         lines.extend([config.extra_text, ''])
@@ -322,12 +339,16 @@ def _write_readme(config, results):
         if not rows:
             continue
 
-        fastest_growing = max(rows, key=lambda row: row['proportion_change'])
-        fastest_declining = min(rows, key=lambda row: row['proportion_change'])
-        largest_absolute = max(rows, key=lambda row: row['change'])
-        display_rows = rows
+        filtered_rows = rows
+        if config.table_min_abs_pp is not None:
+            filtered_rows = [
+                row
+                for row in rows
+                if abs(_rounded_pp(row['proportion_change'])) > config.table_min_abs_pp
+            ]
+        display_rows = filtered_rows
         if config.readme_row_limit is not None:
-            display_rows = rows[: config.readme_row_limit]
+            display_rows = filtered_rows[: config.readme_row_limit]
 
         headers = [config.region_singular]
         headers.extend(header for _, header in config.extra_columns)
@@ -352,6 +373,10 @@ def _write_readme(config, results):
             )
             + '|',
         ]
+        if not display_rows:
+            lines.extend(['', '*No regions exceed the table share-change threshold.*', ''])
+            continue
+
         for row in display_rows:
             proportion_national = (
                 f"{row['proportion_national']:.1%}"
@@ -377,6 +402,12 @@ def _write_readme(config, results):
             lines.append('| ' + ' | '.join(row_cells) + ' |')
 
         highlights = []
+        fastest_growing = max(filtered_rows, key=lambda row: row['proportion_change'])
+        fastest_declining = min(
+            filtered_rows,
+            key=lambda row: row['proportion_change'],
+        )
+        largest_absolute = max(filtered_rows, key=lambda row: row['change'])
         if fastest_growing['proportion_change'] and fastest_growing['proportion_change'] > 0:
             highlights.append(
                 f"**{fastest_growing[config.name_key]}** gained the most share at "
@@ -400,7 +431,7 @@ def _write_readme(config, results):
                 f"**{largest_absolute[config.name_key]}** had the largest absolute increase "
                 f"(**{largest_absolute['change']:+,}**)."
             )
-        if config.readme_row_limit is not None and len(rows) > len(display_rows):
+        if config.readme_row_limit is not None and len(filtered_rows) > len(display_rows):
             lines.extend(
                 [
                     '',
@@ -440,13 +471,24 @@ def _write_chart(config, results, region_map_gdf):
             ]
         ]
         plot_gdf = region_map_gdf.merge(map_data, on=config.code_key, how='left')
-        plot_gdf['is_low_population'] = (
-            plot_gdf['2024'].fillna(0) < config.low_population_threshold
-        )
+        if config.low_population_threshold is None:
+            plot_gdf['is_low_population'] = False
+        else:
+            plot_gdf['is_low_population'] = (
+                plot_gdf['2024'].fillna(0) < config.low_population_threshold
+            )
         plot_gdf['plot_proportion_change'] = plot_gdf['proportion_change'].where(
             ~plot_gdf['is_low_population'],
             other=pd.NA,
         )
+        if config.map_white_abs_pp_threshold is not None:
+            plot_gdf['plot_proportion_change'] = plot_gdf[
+                'plot_proportion_change'
+            ].where(
+                plot_gdf['plot_proportion_change'].abs()
+                >= config.map_white_abs_pp_threshold,
+                other=pd.NA,
+            )
         plot_gdf.plot(
             column='plot_proportion_change',
             cmap=cmap,
@@ -454,9 +496,13 @@ def _write_chart(config, results, region_map_gdf):
             linewidth=0.4,
             edgecolor='white',
             ax=ax,
-            missing_kwds={'color': '#f0f0f0'},
+            missing_kwds={'color': '#ffffff'},
         )
-        low_population_gdf = plot_gdf[plot_gdf['is_low_population']]
+        low_population_gdf = (
+            plot_gdf[plot_gdf['is_low_population']]
+            if config.low_population_threshold is not None
+            else pd.DataFrame()
+        )
         if not low_population_gdf.empty:
             low_population_gdf.plot(
                 color='#bdbdbd',
@@ -520,15 +566,25 @@ def _write_chart(config, results, region_map_gdf):
     )
     colorbar.ax.yaxis.set_major_formatter(PercentFormatter(1.0))
     colorbar.set_label('Change in % of population (pp, 2012→2024)')
-    fig.text(
-        0.5,
-        0.02,
-        f'Grey {config.region_plural.lower()}: religion population < {config.low_population_threshold:,} in 2024',
-        ha='center',
-        va='center',
-        fontsize=10,
-        color='#444444',
-    )
+    notes = []
+    if config.low_population_threshold is not None:
+        notes.append(
+            f'Grey {config.region_plural.lower()}: religion population < {config.low_population_threshold:,} in 2024'
+        )
+    if config.map_white_abs_pp_threshold is not None:
+        notes.append(
+            f'White {config.region_plural.lower()}: absolute share change < {config.map_white_abs_pp_threshold * 100:.1f}pp'
+        )
+    if notes:
+        fig.text(
+            0.5,
+            0.02,
+            ' | '.join(notes),
+            ha='center',
+            va='center',
+            fontsize=10,
+            color='#444444',
+        )
     fig.suptitle(
         f'Sri Lanka {config.region_level_label} religion share change, 2012→2024',
         fontsize=16,
