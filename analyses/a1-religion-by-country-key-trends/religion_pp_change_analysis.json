@@ -1,0 +1,62 @@
+[
+  {
+    "religion": "Buddhist",
+    "label": "Buddhist",
+    "share_2012": 0.7010187655075879,
+    "share_2024": 0.6977886584212508,
+    "pp_change": -0.003230107086337086,
+    "population_2012": 14271183,
+    "population_2024": 15199093,
+    "annual_growth_rate": 0.0052632546631778965
+  },
+  {
+    "religion": "Hindu",
+    "label": "Hindu",
+    "share_2012": 0.12580657140544232,
+    "share_2024": 0.12555615238410048,
+    "pp_change": -0.0002504190213418467,
+    "population_2012": 2561142,
+    "population_2024": 2734839,
+    "annual_growth_rate": 0.005483254547331562
+  },
+  {
+    "religion": "Islam",
+    "label": "Islam",
+    "share_2012": 0.0966219492738303,
+    "share_2024": 0.10730880827112543,
+    "pp_change": 0.010686858997295129,
+    "population_2012": 1967008,
+    "population_2024": 2337379,
+    "annual_growth_rate": 0.01448022135068161
+  },
+  {
+    "religion": "RomanCatholic",
+    "label": "Roman Catholic",
+    "share_2012": 0.0619486136403112,
+    "share_2024": 0.056209679640801036,
+    "pp_change": -0.005738933999510164,
+    "population_2012": 1261136,
+    "population_2024": 1224348,
+    "annual_growth_rate": -0.002463996421143033
+  },
+  {
+    "religion": "OtherChristian",
+    "label": "Other Christian",
+    "share_2012": 0.014290362562197364,
+    "share_2024": 0.012955081765510655,
+    "pp_change": -0.0013352807966867091,
+    "population_2012": 290920,
+    "population_2024": 282185,
+    "annual_growth_rate": -0.0025372283705549226
+  },
+  {
+    "religion": "Other",
+    "label": "Other",
+    "share_2012": 0.00031373761063094514,
+    "share_2024": 0.00018161951721161704,
+    "pp_change": -0.0001321180934193281,
+    "population_2012": 6387,
+    "population_2024": 3956,
+    "annual_growth_rate": -0.039132994852300595
+  }
+]

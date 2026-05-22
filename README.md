@@ -25,38 +25,16 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ---
 
-## A1. Religion by Country: Key Trends
+## A1. National Religion Share Change (pp)
 
-![A1 Country change maps](analyses/a1-religion-by-country-key-trends/chart.png)
+![A1 pp changes by religion](analyses/a1-religion-by-country-key-trends/chart.png)
 
-Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**.
+### Commentary
 
-### Buddhist
-
-
-***Sri Lanka** had the highest pp change at **-0.3pp**.*
-
-### Hindu
-
-*No countries exceed the **0.1pp** share-change threshold.*
-
-### Islam
-
-
-***Sri Lanka** had the highest pp change at **+1.1pp**.*
-
-### Roman Catholic
-
-
-***Sri Lanka** had the highest pp change at **-0.6pp**.*
-
-### Other Christian
-
-*No countries exceed the **0.1pp** share-change threshold.*
-
-### Other
-
-*No countries exceed the **0.1pp** share-change threshold.*
+- Sri Lanka's total population grew from **20,357,776** (2012) to **21,781,800** (2024), an increase of **+1,424,024** at an annual rate of **+0.57%**.
+- **Islam** recorded the largest increase in national share at **+1.1pp**, reaching **10.7%** in 2024.
+- **Roman Catholic** recorded the largest decline in national share at **-0.6pp**, with a 2024 share of **5.6%**.
+- Religions with near-stable national shares (change within ±0.1pp): **Hindu**, **Other**.
 
 ---
 
