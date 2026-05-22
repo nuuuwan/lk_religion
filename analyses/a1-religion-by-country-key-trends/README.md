@@ -2,7 +2,7 @@
 
 ![A1 Country change maps](chart.png)
 
-Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. Countries with absolute share change **< 1.0pp** are shown in **white**.
+Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 

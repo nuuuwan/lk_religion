@@ -2,7 +2,7 @@
 
 ![A3 District change maps](chart.png)
 
-District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. Districts with absolute share change **< 1.0pp** are shown in **white**.
+District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 

@@ -2,7 +2,7 @@
 
 ![A2 Province change maps](chart.png)
 
-Province labels show the **province name** and **change in share of population (pp)**. Provinces are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. Provinces with absolute share change **< 1.0pp** are shown in **white**.
+Province labels show the **province name** and **change in share of population (pp)**. Provinces are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 

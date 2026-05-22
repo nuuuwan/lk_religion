@@ -39,7 +39,7 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ![A1 Country change maps](analyses/a1-religion-by-country-key-trends/chart.png)
 
-Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. Countries with absolute share change **< 1.0pp** are shown in **white**.
+Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 
@@ -92,7 +92,7 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 ![A2 Province change maps](analyses/a2-religion-by-province-key-trends/chart.png)
 
-Province labels show the **province name** and **change in share of population (pp)**. Provinces are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. Provinces with absolute share change **< 1.0pp** are shown in **white**.
+Province labels show the **province name** and **change in share of population (pp)**. Provinces are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 
@@ -151,7 +151,7 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 ![A3 District change maps](analyses/a3-religion-by-district-key-trends/chart.png)
 
-District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. Districts with absolute share change **< 1.0pp** are shown in **white**.
+District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 
@@ -227,7 +227,7 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 ![A4 DSD change maps](analyses/a4-religion-by-dsd-key-trends/chart.png)
 
-DSDs are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. DSD labels are omitted due to map density.  DSDs with absolute share change **< 1.0pp** are shown in **white**.
+DSDs are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. DSD labels are omitted due to map density.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 

@@ -2,7 +2,7 @@
 
 ![A4 DSD change maps](chart.png)
 
-DSDs are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. DSD labels are omitted due to map density.  DSDs with absolute share change **< 1.0pp** are shown in **white**.
+DSDs are shaded by **change in share of population (pp)** from **blue (decline)** to **red (growth)**. DSD labels are omitted due to map density.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 
