@@ -9,6 +9,8 @@ ANALYSIS_DIRS = [
     ROOT_DIR / 'analyses' / 'a3_proportion_change',
     ROOT_DIR / 'analyses' / 'a4_by_dsd',
     ROOT_DIR / 'analyses' / 'a5_proportion_change_by_dsd',
+    ROOT_DIR / 'analyses' / 'a6_by_province',
+    ROOT_DIR / 'analyses' / 'a7_by_dsd',
 ]
 
 
@@ -56,7 +58,9 @@ readme_content = (
     '- [`analyses/a2_by_district/`](analyses/a2_by_district/)\n'
     '- [`analyses/a3_proportion_change/`](analyses/a3_proportion_change/)\n'
     '- [`analyses/a4_by_dsd/`](analyses/a4_by_dsd/)\n'
-    '- [`analyses/a5_proportion_change_by_dsd/`](analyses/a5_proportion_change_by_dsd/)\n\n'
+    '- [`analyses/a5_proportion_change_by_dsd/`](analyses/a5_proportion_change_by_dsd/)\n'
+    '- [`analyses/a6_by_province/`](analyses/a6_by_province/)\n'
+    '- [`analyses/a7_by_dsd/`](analyses/a7_by_dsd/)\n\n'
     '---\n\n'
     + '\n\n---\n\n'.join(sections)
     + '\n\n---\n\n'
