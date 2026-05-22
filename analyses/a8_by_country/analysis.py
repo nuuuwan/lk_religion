@@ -1,16 +1,32 @@
 import json
+import sys
 from pathlib import Path
 
+import geopandas as gpd
 import matplotlib.pyplot as plt
+import pandas as pd
+from matplotlib.cm import ScalarMappable
+from matplotlib.colors import TwoSlopeNorm
+from matplotlib.ticker import PercentFormatter
 
-from analyses.proportion_change_common import RELIGION_COLORS, shares, triangle
+ANALYSIS_DIR = Path(__file__).resolve().parent
+SRC_DIR = ANALYSIS_DIR.parents[1] / 'src'
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
+
+from analyses.proportion_change_common import shares, triangle
+
+try:
+    from gig import EntType, Ent
+except ImportError:
+    EntType = None
+    Ent = None
 
 try:
     from lanka_data import Db
 except ImportError:
     Db = None
 
-ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
 CHART_PATH = ANALYSIS_DIR / 'chart.png'
 DATA_2012_PATH = ANALYSIS_DIR / 'religion_by_country_2012.json'
@@ -101,19 +117,100 @@ def _format_pp(value):
     return f'{rounded:+.1f}'
 
 
-def _write_chart(results):
-    labels = [RELIGION_LABELS[religion] for religion in RELIGIONS]
-    values = [results[religion][0]['proportion_change'] * 100 for religion in RELIGIONS]
-    colors = [RELIGION_COLORS.get(religion, 'grey') for religion in RELIGIONS]
+def _get_country_geometry():
+    if Ent is None or EntType is None:
+        return None
+    provinces = Ent.list_from_type(EntType.PROVINCE)
+    gdfs = []
+    for prov in provinces:
+        gdf = prov.geo().copy()
+        gdfs.append(gdf[['geometry']])
+    combined = gpd.GeoDataFrame(
+        pd.concat(gdfs, ignore_index=True),
+        geometry='geometry',
+        crs=gdfs[0].crs,
+    )
+    country_gdf = combined.dissolve().reset_index(drop=True)
+    country_gdf[COUNTRY_CODE] = COUNTRY_CODE
+    return country_gdf
 
-    fig, ax = plt.subplots(figsize=(10, 4.8))
-    ax.bar(labels, values, color=colors)
-    ax.axhline(0, color='black', linewidth=0.8)
-    ax.set_title('Sri Lanka religion share change (2012→2024)')
-    ax.set_ylabel('Change in % of population (pp)')
-    ax.tick_params(axis='x', rotation=30)
-    fig.tight_layout()
-    fig.savefig(CHART_PATH, dpi=150)
+
+def _write_chart(results):
+    country_gdf = _get_country_geometry()
+
+    max_abs_change = max(
+        abs(row['proportion_change'])
+        for rows in results.values()
+        for row in rows
+        if row['proportion_change'] is not None
+    )
+    if max_abs_change == 0:
+        max_abs_change = 0.01
+    norm = TwoSlopeNorm(vmin=-max_abs_change, vcenter=0, vmax=max_abs_change)
+    cmap = plt.get_cmap('RdYlGn')
+
+    fig, axes = plt.subplots(2, 3, figsize=(14, 16), constrained_layout=True)
+
+    for ax, religion in zip(axes.flat, RELIGIONS):
+        proportion_change = results[religion][0]['proportion_change']
+
+        if country_gdf is not None:
+            plot_gdf = country_gdf.copy()
+            plot_gdf['proportion_change'] = proportion_change
+            plot_gdf.plot(
+                column='proportion_change',
+                cmap=cmap,
+                norm=norm,
+                linewidth=0.4,
+                edgecolor='white',
+                ax=ax,
+            )
+            plot_gdf.boundary.plot(ax=ax, color='#666666', linewidth=0.25)
+            centroid = plot_gdf.geometry.to_crs(epsg=3857).centroid.to_crs(plot_gdf.crs).iloc[0]
+            ax.text(
+                centroid.x,
+                centroid.y,
+                f'{COUNTRY_NAME}\n{_format_pp(proportion_change)} pp',
+                ha='center',
+                va='center',
+                fontsize=8,
+                color='#1a1a1a',
+                linespacing=1.2,
+                bbox={
+                    'boxstyle': 'round,pad=0.3',
+                    'facecolor': 'white',
+                    'edgecolor': 'none',
+                    'alpha': 1.0,
+                },
+            )
+        else:
+            ax.text(
+                0.5,
+                0.5,
+                f'{COUNTRY_NAME}\n{_format_pp(proportion_change)} pp',
+                ha='center',
+                va='center',
+                fontsize=12,
+                transform=ax.transAxes,
+            )
+
+        ax.set_title(RELIGION_LABELS[religion], fontsize=13, pad=10)
+        ax.set_axis_off()
+
+    colorbar = fig.colorbar(
+        ScalarMappable(norm=norm, cmap=cmap),
+        ax=axes,
+        fraction=0.03,
+        pad=0.02,
+    )
+    colorbar.ax.yaxis.set_major_formatter(PercentFormatter(1.0))
+    colorbar.set_label('Change in % of population (pp, 2012→2024)')
+    fig.suptitle(
+        'Sri Lanka country-level religion share change, 2012→2024',
+        fontsize=16,
+        y=1.02,
+    )
+    fig.savefig(CHART_PATH, dpi=300, bbox_inches='tight')
     plt.close(fig)
 
 
@@ -121,9 +218,10 @@ def _write_readme(results):
     lines = [
         '## A8. Religion by Country: Key Trends',
         '',
-        '![A8 country share change](chart.png)',
+        '![A8 country change maps](chart.png)',
         '',
-        'This mirrors A2 at country scope, treating **Sri Lanka** as a single region.',
+        'Sri Lanka is shaded by **change in share of population (pp)** '
+        'from **red (decline)** to **green (growth)**.',
         '',
         f'Tables list only rows where absolute share change is **> {TABLE_MIN_ABS_PP:.1f}pp**.',
         '',
