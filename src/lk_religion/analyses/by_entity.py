@@ -33,6 +33,8 @@ class ByEntityAnalysisSpec:
     extra_text: str | None = None
     extra_row_data: object | None = None
     excluded_codes: frozenset[str] = frozenset()
+    map_grey_codes: frozenset[str] = frozenset()
+    map_grey_label: str | None = None
     extra_columns: tuple[tuple[str, str], ...] = tuple()
     data_loader: object | None = None
     geometry_loader: object | None = None
@@ -136,6 +138,8 @@ def run_by_entity(spec: ByEntityAnalysisSpec):
             extra_text=spec.extra_text,
             extra_row_data=spec.extra_row_data,
             excluded_codes=spec.excluded_codes,
+            map_grey_codes=spec.map_grey_codes,
+            map_grey_label=spec.map_grey_label,
             extra_columns=spec.extra_columns,
             data_loader=spec.data_loader,
             geometry_loader=spec.geometry_loader,
