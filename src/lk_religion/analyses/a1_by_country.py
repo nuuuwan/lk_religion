@@ -17,7 +17,6 @@ def run():
             'data_loader': load_country_data,
             'geometry_loader': load_country_geometry,
             'low_population_threshold': None,
-            'map_white_abs_pp_threshold': 0.01,
             'extra_row_data': lambda _code: {'country': 'Sri Lanka'},
         }
     )
