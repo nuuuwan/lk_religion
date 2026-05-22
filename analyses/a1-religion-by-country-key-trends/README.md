@@ -6,25 +6,27 @@ Country labels show the **country name** and **change in share of population (pp
 
 ### Buddhist
 
-*No countries exceed the **1.0pp** share-change threshold.*
+
+***Sri Lanka** had the highest pp change at **-0.3pp**.*
 
 ### Hindu
 
-*No countries exceed the **1.0pp** share-change threshold.*
+*No countries exceed the **0.1pp** share-change threshold.*
 
 ### Islam
 
 
-***Sri Lanka** gained the most share at **+1.1pp**.*
+***Sri Lanka** had the highest pp change at **+1.1pp**.*
 
 ### Roman Catholic
 
-*No countries exceed the **1.0pp** share-change threshold.*
+
+***Sri Lanka** had the highest pp change at **-0.6pp**.*
 
 ### Other Christian
 
-*No countries exceed the **1.0pp** share-change threshold.*
+*No countries exceed the **0.1pp** share-change threshold.*
 
 ### Other
 
-*No countries exceed the **1.0pp** share-change threshold.*
+*No countries exceed the **0.1pp** share-change threshold.*

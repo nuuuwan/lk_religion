@@ -332,34 +332,16 @@ def _write_readme(config, results):
             continue
 
         highlights = []
-        fastest_growing = max(filtered_rows, key=lambda row: row['proportion_change'])
-        fastest_declining = min(
-            filtered_rows,
-            key=lambda row: row['proportion_change'],
+        highest_pp = max(filtered_rows, key=lambda row: row['proportion_change'])
+        lowest_pp = min(filtered_rows, key=lambda row: row['proportion_change'])
+        highlights.append(
+            f"**{highest_pp[config.name_key]}** had the highest pp change at "
+            f"**{format_pp(highest_pp['proportion_change'])}pp**."
         )
-        largest_absolute = max(filtered_rows, key=lambda row: row['change'])
-        if fastest_growing['proportion_change'] and fastest_growing['proportion_change'] > 0:
+        if lowest_pp != highest_pp:
             highlights.append(
-                f"**{fastest_growing[config.name_key]}** gained the most share at "
-                f"**{format_pp(fastest_growing['proportion_change'])}pp**."
-            )
-        if (
-            fastest_declining['proportion_change']
-            and fastest_declining['proportion_change'] < 0
-        ):
-            highlights.append(
-                f"**{fastest_declining[config.name_key]}** saw the steepest share decline at "
-                f"**{format_pp(fastest_declining['proportion_change'])}pp**."
-            )
-        elif fastest_declining != fastest_growing:
-            highlights.append(
-                f"**{fastest_declining[config.name_key]}** had the smallest share gain at "
-                f"**{format_pp(fastest_declining['proportion_change'])}pp**."
-            )
-        if largest_absolute != fastest_growing and largest_absolute['change'] > 0:
-            highlights.append(
-                f"**{largest_absolute[config.name_key]}** had the largest absolute increase "
-                f"(**{largest_absolute['change']:+,}**)."
+                f"**{lowest_pp[config.name_key]}** had the lowest pp change at "
+                f"**{format_pp(lowest_pp['proportion_change'])}pp**."
             )
         if config.readme_row_limit is not None and len(filtered_rows) > len(display_rows):
             lines.extend(

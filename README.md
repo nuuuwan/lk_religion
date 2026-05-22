@@ -33,28 +33,30 @@ Country labels show the **country name** and **change in share of population (pp
 
 ### Buddhist
 
-*No countries exceed the **1.0pp** share-change threshold.*
+
+***Sri Lanka** had the highest pp change at **-0.3pp**.*
 
 ### Hindu
 
-*No countries exceed the **1.0pp** share-change threshold.*
+*No countries exceed the **0.1pp** share-change threshold.*
 
 ### Islam
 
 
-***Sri Lanka** gained the most share at **+1.1pp**.*
+***Sri Lanka** had the highest pp change at **+1.1pp**.*
 
 ### Roman Catholic
 
-*No countries exceed the **1.0pp** share-change threshold.*
+
+***Sri Lanka** had the highest pp change at **-0.6pp**.*
 
 ### Other Christian
 
-*No countries exceed the **1.0pp** share-change threshold.*
+*No countries exceed the **0.1pp** share-change threshold.*
 
 ### Other
 
-*No countries exceed the **1.0pp** share-change threshold.*
+*No countries exceed the **0.1pp** share-change threshold.*
 
 ---
 
@@ -67,30 +69,31 @@ Province labels show the **province name** and **change in share of population (
 ### Buddhist
 
 
-***Eastern** saw the steepest share decline at **-1.1pp**.*
+***Uva** had the highest pp change at **+0.7pp**. **Eastern** had the lowest pp change at **-1.1pp**.*
 
 ### Hindu
 
 
-***Northern** saw the steepest share decline at **-2.3pp**.*
+***Western** had the highest pp change at **+0.3pp**. **Northern** had the lowest pp change at **-2.3pp**.*
 
 ### Islam
 
 
-***Eastern** gained the most share at **+2.7pp**. **North Western** had the smallest share gain at **+1.1pp**.*
+***Eastern** had the highest pp change at **+2.7pp**. **Uva** had the lowest pp change at **+0.2pp**.*
 
 ### Roman Catholic
 
 
-***North Western** saw the steepest share decline at **-1.1pp**.*
+***Northern** had the highest pp change at **-0.2pp**. **North Western** had the lowest pp change at **-1.1pp**.*
 
 ### Other Christian
 
-*No provinces exceed the **1.0pp** share-change threshold.*
+
+***Northern** had the highest pp change at **+0.3pp**. **Western** had the lowest pp change at **-0.3pp**.*
 
 ### Other
 
-*No provinces exceed the **1.0pp** share-change threshold.*
+*No provinces exceed the **0.1pp** share-change threshold.*
 
 ---
 
@@ -103,31 +106,31 @@ District labels show the **district name** and **change in share of population (
 ### Buddhist
 
 
-***Trincomalee** saw the steepest share decline at **-2.0pp**. **Ampara** had the largest absolute increase (**+24,749**).*
+***Puttalam** had the highest pp change at **+0.9pp**. **Trincomalee** had the lowest pp change at **-2.0pp**.*
 
 ### Hindu
 
 
-***Mannar** saw the steepest share decline at **-2.9pp**. **Batticaloa** had the largest absolute increase (**+35,954**).*
+***Nuwara Eliya** had the highest pp change at **+1.0pp**. **Mannar** had the lowest pp change at **-2.9pp**.*
 
 ### Islam
 
 
-***Mannar** gained the most share at **+10.8pp**. **Kegalle** had the smallest share gain at **+1.1pp**. **Ampara** had the largest absolute increase (**+57,909**).*
+***Mannar** had the highest pp change at **+10.8pp**. **Jaffna** had the lowest pp change at **+0.3pp**.*
 
 ### Roman Catholic
 
 
-***Mullaitivu** gained the most share at **+1.6pp**. **Mannar** saw the steepest share decline at **-6.0pp**. **Mannar** had the largest absolute increase (**+5,298**).*
+***Mullaitivu** had the highest pp change at **+1.6pp**. **Mannar** had the lowest pp change at **-6.0pp**.*
 
 ### Other Christian
 
 
-***Mullaitivu** gained the most share at **+1.2pp**.*
+***Mullaitivu** had the highest pp change at **+1.2pp**. **Colombo** had the lowest pp change at **-0.5pp**.*
 
 ### Other
 
-*No districts exceed the **1.0pp** share-change threshold.*
+*No districts exceed the **0.1pp** share-change threshold.*
 
 ---
 
@@ -142,32 +145,32 @@ DSDs are shaded by **change in share of population (pp)** from **blue (decline)*
 ### Buddhist
 
 
-***Vavuniya North** gained the most share at **+3.4pp**. **Dehiwala** saw the steepest share decline at **-7.9pp**. **Kaduwela** had the largest absolute increase (**+28,609**).*
+***Vavuniya North** had the highest pp change at **+3.4pp**. **Dehiwala** had the lowest pp change at **-7.9pp**.*
 
 ### Hindu
 
 
-***Wattala** gained the most share at **+3.9pp**. **Puthukkudiyiruppu** saw the steepest share decline at **-6.2pp**. **Puthukkudiyiruppu** had the largest absolute increase (**+10,864**).*
+***Wattala** had the highest pp change at **+3.9pp**. **Puthukkudiyiruppu** had the lowest pp change at **-6.2pp**.*
 
 ### Islam
 
 
-***Musali** gained the most share at **+15.1pp**. **Rambewa** saw the steepest share decline at **-2.3pp**. **Kolonnawa** had the largest absolute increase (**+22,911**).*
+***Musali** had the highest pp change at **+15.1pp**. **Rambewa** had the lowest pp change at **-2.3pp**.*
 
 ### Roman Catholic
 
 
-***Delft** gained the most share at **+6.6pp**. **Musali** saw the steepest share decline at **-11.8pp**. **Katana** had the largest absolute increase (**+6,528**).*
+***Delft** had the highest pp change at **+6.6pp**. **Musali** had the lowest pp change at **-11.8pp**.*
 
 ### Other Christian
 
 
-***Koralai Pattu South** gained the most share at **+2.3pp**. **Dehiwala** saw the steepest share decline at **-1.4pp**. **Puthukkudiyiruppu** had the largest absolute increase (**+1,291**).*
+***Koralai Pattu South** had the highest pp change at **+2.3pp**. **Dehiwala** had the lowest pp change at **-1.4pp**.*
 
 ### Other
 
 
-***Kalpitiya** saw the steepest share decline at **-1.2pp**.*
+***Palugaswewa** had the highest pp change at **+0.2pp**. **Kalpitiya** had the lowest pp change at **-1.2pp**.*
 
 ---
 

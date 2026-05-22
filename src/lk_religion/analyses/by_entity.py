@@ -26,7 +26,7 @@ class ByEntityAnalysisSpec:
     name_key: str
     data_prefix: str
     low_population_threshold: int | None = None
-    table_min_abs_pp: float | None = 1.0
+    table_min_abs_pp: float | None = 0.1
     map_white_abs_pp_threshold: float | None = None
     label_top_n: int | None = None
     print_row_limit: int | None = None

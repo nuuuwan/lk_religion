@@ -9,29 +9,29 @@ DSDs are shaded by **change in share of population (pp)** from **blue (decline)*
 ### Buddhist
 
 
-***Vavuniya North** gained the most share at **+3.4pp**. **Dehiwala** saw the steepest share decline at **-7.9pp**. **Kaduwela** had the largest absolute increase (**+28,609**).*
+***Vavuniya North** had the highest pp change at **+3.4pp**. **Dehiwala** had the lowest pp change at **-7.9pp**.*
 
 ### Hindu
 
 
-***Wattala** gained the most share at **+3.9pp**. **Puthukkudiyiruppu** saw the steepest share decline at **-6.2pp**. **Puthukkudiyiruppu** had the largest absolute increase (**+10,864**).*
+***Wattala** had the highest pp change at **+3.9pp**. **Puthukkudiyiruppu** had the lowest pp change at **-6.2pp**.*
 
 ### Islam
 
 
-***Musali** gained the most share at **+15.1pp**. **Rambewa** saw the steepest share decline at **-2.3pp**. **Kolonnawa** had the largest absolute increase (**+22,911**).*
+***Musali** had the highest pp change at **+15.1pp**. **Rambewa** had the lowest pp change at **-2.3pp**.*
 
 ### Roman Catholic
 
 
-***Delft** gained the most share at **+6.6pp**. **Musali** saw the steepest share decline at **-11.8pp**. **Katana** had the largest absolute increase (**+6,528**).*
+***Delft** had the highest pp change at **+6.6pp**. **Musali** had the lowest pp change at **-11.8pp**.*
 
 ### Other Christian
 
 
-***Koralai Pattu South** gained the most share at **+2.3pp**. **Dehiwala** saw the steepest share decline at **-1.4pp**. **Puthukkudiyiruppu** had the largest absolute increase (**+1,291**).*
+***Koralai Pattu South** had the highest pp change at **+2.3pp**. **Dehiwala** had the lowest pp change at **-1.4pp**.*
 
 ### Other
 
 
-***Kalpitiya** saw the steepest share decline at **-1.2pp**.*
+***Palugaswewa** had the highest pp change at **+0.2pp**. **Kalpitiya** had the lowest pp change at **-1.2pp**.*
