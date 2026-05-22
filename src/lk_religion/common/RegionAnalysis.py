@@ -111,6 +111,8 @@ class RegionAnalysisConfig:
     extra_text: str | None = None
     extra_row_data: object | None = None
     excluded_codes: frozenset[str] = field(default_factory=frozenset)
+    map_grey_codes: frozenset[str] = field(default_factory=frozenset)
+    map_grey_label: str | None = None
     extra_columns: tuple[tuple[str, str], ...] = field(default_factory=tuple)
     data_loader: Callable | None = None
     geometry_loader: Callable | None = None
@@ -387,8 +389,11 @@ def _write_chart(config, results, region_map_gdf):
             plot_gdf['is_low_population'] = (
                 plot_gdf['2024'].fillna(0) < config.low_population_threshold
             )
+        plot_gdf['is_forced_grey'] = plot_gdf[config.code_key].isin(
+            config.map_grey_codes
+        )
         plot_gdf['plot_proportion_change'] = plot_gdf['proportion_change'].where(
-            ~plot_gdf['is_low_population'],
+            ~(plot_gdf['is_low_population'] | plot_gdf['is_forced_grey']),
             other=pd.NA,
         )
         if config.map_white_abs_pp_threshold is not None:
@@ -408,13 +413,11 @@ def _write_chart(config, results, region_map_gdf):
             ax=ax,
             missing_kwds={'color': '#ffffff'},
         )
-        low_population_gdf = (
-            plot_gdf[plot_gdf['is_low_population']]
-            if config.low_population_threshold is not None
-            else pd.DataFrame()
-        )
-        if not low_population_gdf.empty:
-            low_population_gdf.plot(
+        grey_gdf = plot_gdf[
+            plot_gdf['is_low_population'] | plot_gdf['is_forced_grey']
+        ]
+        if not grey_gdf.empty:
+            grey_gdf.plot(
                 color='#bdbdbd',
                 linewidth=0.4,
                 edgecolor='white',
@@ -482,6 +485,10 @@ def _write_chart(config, results, region_map_gdf):
     if config.low_population_threshold is not None:
         notes.append(
             f'Grey {config.region_plural.lower()}: religion population < {config.low_population_threshold:,} in 2024'
+        )
+    if config.map_grey_label:
+        notes.append(
+            f'Grey {config.region_plural.lower()}: {config.map_grey_label}'
         )
     if config.map_white_abs_pp_threshold is not None:
         notes.append(
