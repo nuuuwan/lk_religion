@@ -354,7 +354,6 @@ def _write_readme(config, results):
         headers.extend(header for _, header in config.extra_columns)
         headers.extend(
             [
-                '% Nationally',
                 '% of Population (2012)',
                 '% of Population (2024)',
                 'Change in % of Population (pp)',
@@ -369,7 +368,7 @@ def _write_readme(config, results):
             '| ' + ' | '.join(headers) + ' |',
             '|'
             + '|'.join(
-                ['---'] + ['---'] * len(config.extra_columns) + ['---:'] * 7
+                ['---'] + ['---'] * len(config.extra_columns) + ['---:'] * 6
             )
             + '|',
         ]
@@ -378,16 +377,10 @@ def _write_readme(config, results):
             continue
 
         for row in display_rows:
-            proportion_national = (
-                f"{row['proportion_national']:.1%}"
-                if row.get('proportion_national') is not None
-                else ''
-            )
             row_cells = [f"{row[config.name_key]} `{row[config.code_key]}`"]
             row_cells.extend(str(row[field]) for field, _ in config.extra_columns)
             row_cells.extend(
                 [
-                    proportion_national,
                     _format_share(row['proportion_2012']),
                     _format_share(row['proportion_2024']),
                     (
