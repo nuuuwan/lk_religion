@@ -1,8 +1,8 @@
 ## A8. Religion by Country: Key Trends
 
-![A8 country share change](chart.png)
+![A8 country change maps](chart.png)
 
-This mirrors A2 at country scope, treating **Sri Lanka** as a single region.
+Sri Lanka is shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 
