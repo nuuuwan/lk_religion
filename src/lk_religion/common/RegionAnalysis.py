@@ -104,6 +104,7 @@ class RegionAnalysisConfig:
     low_population_threshold: int | None = 1000
     table_min_abs_pp: float | None = None
     map_white_abs_pp_threshold: float | None = None
+    map_scale_reference_analysis_json_path: Path | None = None
     label_top_n: int | None = None
     description_override: str | None = None
     readme_row_limit: int | None = None
@@ -361,12 +362,40 @@ def _write_readme(config, results):
 
 
 def _write_chart(config, results, region_map_gdf):
-    max_abs_change = max(
-        abs(row['proportion_change'])
-        for rows in results.values()
-        for row in rows
-        if row['proportion_change'] is not None
-    )
+    def _max_abs_change_from_analysis(analysis_data):
+        if not isinstance(analysis_data, dict):
+            return None
+        max_abs_change = None
+        for rows in analysis_data.values():
+            if not isinstance(rows, list):
+                continue
+            for row in rows:
+                if not isinstance(row, dict):
+                    continue
+                proportion_change = row.get('proportion_change')
+                if proportion_change is None:
+                    continue
+                abs_change = abs(proportion_change)
+                if max_abs_change is None or abs_change > max_abs_change:
+                    max_abs_change = abs_change
+        return max_abs_change
+
+    max_abs_change = _max_abs_change_from_analysis(results)
+    if max_abs_change is None:
+        max_abs_change = 0
+    if config.map_scale_reference_analysis_json_path is not None:
+        try:
+            source_data = json.loads(
+                config.map_scale_reference_analysis_json_path.read_text()
+            )
+            source_max_abs_change = _max_abs_change_from_analysis(source_data)
+            if source_max_abs_change is not None:
+                max_abs_change = source_max_abs_change
+        except Exception:
+            pass
+    if max_abs_change <= 0:
+        max_abs_change = 1e-6
+
     norm = TwoSlopeNorm(vmin=-max_abs_change, vcenter=0, vmax=max_abs_change)
     cmap = plt.get_cmap('jet')
     fig, axes = plt.subplots(2, 3, figsize=(14, 16), constrained_layout=True)
