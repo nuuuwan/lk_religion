@@ -38,40 +38,44 @@ class ByEntityAnalysisSpec:
     geometry_loader: object | None = None
 
 
-DEFAULT_ENTITY_META = {
-    EntType.COUNTRY: {
-        'slug': 'country',
-        'region_singular': 'Country',
-        'region_plural': 'Countries',
-        'region_level_label': 'country-level',
-        'code_key': 'country_code',
-        'name_key': 'country',
-    },
-    EntType.PROVINCE: {
-        'slug': 'province',
-        'region_singular': 'Province',
-        'region_plural': 'Provinces',
-        'region_level_label': 'province-level',
-        'code_key': 'province_code',
-        'name_key': 'province',
-    },
-    EntType.DISTRICT: {
-        'slug': 'district',
-        'region_singular': 'District',
-        'region_plural': 'Districts',
-        'region_level_label': 'district-level',
-        'code_key': 'district_code',
-        'name_key': 'district',
-    },
-    EntType.DSD: {
-        'slug': 'dsd',
-        'region_singular': 'DSD',
-        'region_plural': 'DSDs',
-        'region_level_label': 'DSD-level',
-        'code_key': 'dsd_code',
-        'name_key': 'dsd',
-    },
-}
+def get_default_entity_meta(entity_type):
+    if entity_type == EntType.COUNTRY:
+        return {
+            'slug': 'country',
+            'region_singular': 'Country',
+            'region_plural': 'Countries',
+            'region_level_label': 'country-level',
+            'code_key': 'country_code',
+            'name_key': 'country',
+        }
+    if entity_type == EntType.PROVINCE:
+        return {
+            'slug': 'province',
+            'region_singular': 'Province',
+            'region_plural': 'Provinces',
+            'region_level_label': 'province-level',
+            'code_key': 'province_code',
+            'name_key': 'province',
+        }
+    if entity_type == EntType.DISTRICT:
+        return {
+            'slug': 'district',
+            'region_singular': 'District',
+            'region_plural': 'Districts',
+            'region_level_label': 'district-level',
+            'code_key': 'district_code',
+            'name_key': 'district',
+        }
+    if entity_type == EntType.DSD:
+        return {
+            'slug': 'dsd',
+            'region_singular': 'DSD',
+            'region_plural': 'DSDs',
+            'region_level_label': 'DSD-level',
+            'code_key': 'dsd_code',
+            'name_key': 'dsd',
+        }
+    raise ValueError(f'Unsupported entity type: {entity_type}')
 
 
 def load_country_data(_config):
@@ -140,10 +144,7 @@ def run_by_entity(spec: ByEntityAnalysisSpec):
 
 
 def default_spec(analysis_number: int, entity_type):
-    entity_meta = DEFAULT_ENTITY_META.get(entity_type)
-    if entity_meta is None:
-        raise ValueError(f'Unsupported entity type: {entity_type}')
-
+    entity_meta = get_default_entity_meta(entity_type)
     analysis_key = f'A{analysis_number}'
     analysis_slug = f'a{analysis_number}-religion-by-{entity_meta["slug"]}-key-trends'
     root_dir = Path(__file__).resolve().parents[3]
