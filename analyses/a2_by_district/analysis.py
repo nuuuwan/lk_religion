@@ -32,5 +32,8 @@ def run():
             analysis_json_path=ANALYSIS_DIR / 'religion_by_district_analysis.json',
             readme_path=ANALYSIS_DIR / 'README.md',
             chart_path=ANALYSIS_DIR / 'chart.png',
+            low_population_threshold=None,
+            table_min_abs_pp=1.0,
+            map_white_abs_pp_threshold=0.01,
         )
     )
