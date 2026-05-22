@@ -105,8 +105,9 @@ def _readme_section(district_rows):
             ]
         )
         for row in religion_rows:
+            district_label = f"{row['district']} `{row['district_code']}`"
             lines.append(
-                f"| {row['district']} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['change'] * 100:+.1f}pp{triangle(row['change'])} |"
+                f"| {district_label} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {row['change'] * 100:+.1f}pp{triangle(row['change'])} |"
             )
 
     return '\n'.join(lines)
