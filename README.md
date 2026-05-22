@@ -37,7 +37,7 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ## A1. Religion by Country: Key Trends
 
-![A1 country change maps](analyses/a1-religion-by-country-key-trends/chart.png)
+![A1 Country change maps](analyses/a1-religion-by-country-key-trends/chart.png)
 
 Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Countries with absolute share change **< 1.0pp** are shown in **white**.
 
@@ -90,7 +90,7 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 ## A2. Religion by Province: Key Trends
 
-![A2 province change maps](analyses/a2-religion-by-province-key-trends/chart.png)
+![A2 Province change maps](analyses/a2-religion-by-province-key-trends/chart.png)
 
 Province labels show the **province name** and **change in share of population (pp)**. Provinces are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Provinces with absolute share change **< 1.0pp** are shown in **white**.
 
@@ -149,7 +149,7 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 ## A3. Religion by District: Key Trends
 
-![A3 district change maps](analyses/a3-religion-by-district-key-trends/chart.png)
+![A3 District change maps](analyses/a3-religion-by-district-key-trends/chart.png)
 
 District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Districts with absolute share change **< 1.0pp** are shown in **white**.
 
@@ -249,7 +249,6 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Nallur `LK-4133` | Jaffna | 0.0% | 0.4% | 2.4% | +2.0pp 🟩 | 273 | 1,718 | +1,445 🟩 |
 | Kaduwela `LK-1109` | Colombo | 1.8% | 90.4% | 92.3% | +1.9pp 🟩 | 227,939 | 256,548 | +28,609 🟩 |
 | Mahawewa `LK-6239` | Puttalam | 0.2% | 45.4% | 47.2% | +1.7pp 🟩 | 23,204 | 23,033 | -171 🟥 |
-| Koralai Pattu Central `LK-5104` | Batticaloa | 0.0% | 0.3% | 2.0% | +1.7pp 🟩 | 67 | 569 | +502 🟩 |
 | Kuchchaweli `LK-5306` | Trincomalee | 0.0% | 2.4% | 3.8% | +1.5pp 🟩 | 783 | 1,534 | +751 🟩 |
 | Laggala `LK-2224` | Matale | 0.1% | 98.2% | 99.7% | +1.5pp 🟩 | 11,897 | 16,253 | +4,356 🟩 |
 | Gangawata Korale `LK-2130` | Kandy | 0.8% | 70.9% | 72.4% | +1.4pp 🟩 | 112,495 | 110,984 | -1,511 🟥 |
@@ -320,9 +319,8 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 | DSD | District | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Koralai Pattu Central `LK-5104` | Batticaloa | 1.0% | 2.3% | 81.3% | +79.0pp 🟩 | 580 | 23,383 | +22,803 🟩 |
 | Wattala `LK-1218` | Gampaha | 1.4% | 13.0% | 16.9% | +3.9pp 🟩 | 22,782 | 30,805 | +8,023 🟩 |
-| Dehiwala `LK-1130` | Colombo | 0.6% | 12.1% | 15.4% | +3.2pp 🟩 | 10,783 | 14,406 | +3,623 🟩 |
+| Dehiwala `LK-1130` | Colombo | 0.7% | 12.1% | 15.4% | +3.2pp 🟩 | 10,783 | 14,406 | +3,623 🟩 |
 | Morawewa `LK-5312` | Trincomalee | 0.1% | 10.5% | 13.1% | +2.6pp 🟩 | 833 | 1,200 | +367 🟩 |
 | Vadamaradchi North (Point Pedro) `LK-4127` | Jaffna | 1.7% | 83.9% | 86.4% | +2.5pp 🟩 | 39,886 | 37,472 | -2,414 🟥 |
 | Ratmalana `LK-1131` | Colombo | 0.3% | 6.0% | 8.3% | +2.3pp 🟩 | 5,739 | 7,316 | +1,577 🟩 |
@@ -359,12 +357,12 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Karaitivu `LK-5227` | Ampara | 0.5% | 58.1% | 56.0% | -2.1pp 🟥 | 9,788 | 10,919 | +1,131 🟩 |
 | Haldummulla `LK-8142` | Badulla | 0.7% | 43.8% | 41.6% | -2.2pp 🟥 | 16,445 | 16,140 | -305 🟥 |
 | Kotapola `LK-3206` | Matara | 0.3% | 14.9% | 12.7% | -2.2pp 🟥 | 9,430 | 7,749 | -1,681 🟥 |
-| Kalawana `LK-9133` | Ratnapura | 0.2% | 13.2% | 11.0% | -2.2pp 🟥 | 6,789 | 5,584 | -1,205 🟥 |
+| Kalawana `LK-9133` | Ratnapura | 0.3% | 13.2% | 11.0% | -2.2pp 🟥 | 6,789 | 5,584 | -1,205 🟥 |
 | Mundel `LK-6218` | Puttalam | 0.4% | 15.1% | 12.7% | -2.4pp 🟥 | 9,328 | 9,244 | -84 🟥 |
 | Poonakary `LK-4512` | Kilinochchi | 0.7% | 70.0% | 67.6% | -2.5pp 🟥 | 14,220 | 16,294 | +2,074 🟩 |
 | Vavuniya `LK-4309` | Vavuniya | 4.0% | 78.3% | 75.8% | -2.5pp 🟥 | 92,034 | 88,683 | -3,351 🟥 |
 | Islands North (Kayts) `LK-4103` | Jaffna | 0.2% | 54.7% | 52.1% | -2.6pp 🟥 | 5,401 | 5,170 | -231 🟥 |
-| Koralai Pattu South `LK-5110` | Batticaloa | 1.1% | 92.9% | 90.2% | -2.6pp 🟥 | 24,280 | 25,536 | +1,256 🟩 |
+| Koralai Pattu South `LK-5110` | Batticaloa | 1.2% | 92.9% | 90.2% | -2.6pp 🟥 | 24,280 | 25,536 | +1,256 🟩 |
 | Mannar Town `LK-4203` | Mannar | 0.4% | 20.4% | 17.2% | -3.2pp 🟥 | 10,401 | 9,927 | -474 🟥 |
 | Islands South (Velanai) `LK-4139` | Jaffna | 0.5% | 75.2% | 71.4% | -3.8pp 🟥 | 12,584 | 11,846 | -738 🟥 |
 | Vavuniya North `LK-4303` | Vavuniya | 0.6% | 89.9% | 85.8% | -4.2pp 🟥 | 10,363 | 12,616 | +2,253 🟩 |
@@ -374,13 +372,13 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Manmunai Pattu `LK-5127` | Batticaloa | 1.0% | 69.6% | 63.4% | -6.2pp 🟥 | 21,350 | 23,159 | +1,809 🟩 |
 | Puthukkudiyiruppu `LK-4409` | Mullaitivu | 1.4% | 84.8% | 78.6% | -6.2pp 🟥 | 20,209 | 31,073 | +10,864 🟩 |
 
-***Koralai Pattu Central** gained the most share at **+79.0pp**. **Puthukkudiyiruppu** saw the steepest share decline at **-6.2pp**.*
+***Wattala** gained the most share at **+3.9pp**. **Puthukkudiyiruppu** saw the steepest share decline at **-6.2pp**. **Puthukkudiyiruppu** had the largest absolute increase (**+10,864**).*
 
 ### Islam
 
 | DSD | District | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Musali `LK-4215` | Mannar | 0.7% | 59.7% | 74.9% | +15.1pp 🟩 | 4,848 | 13,581 | +8,733 🟩 |
+| Musali `LK-4215` | Mannar | 0.6% | 59.7% | 74.9% | +15.1pp 🟩 | 4,848 | 13,581 | +8,733 🟩 |
 | Vengalacheddikulam `LK-4312` | Vavuniya | 0.4% | 23.1% | 35.5% | +12.4pp 🟩 | 6,909 | 9,146 | +2,237 🟩 |
 | Mannar Town `LK-4203` | Mannar | 0.7% | 17.8% | 26.6% | +8.8pp 🟩 | 9,098 | 15,373 | +6,275 🟩 |
 | Kolonnawa `LK-1106` | Colombo | 3.2% | 23.1% | 31.3% | +8.3pp 🟩 | 44,189 | 67,100 | +22,911 🟩 |
@@ -393,7 +391,7 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Nanaddan `LK-4212` | Mannar | 0.1% | 3.7% | 7.1% | +3.4pp 🟩 | 668 | 1,405 | +737 🟩 |
 | Manthai West `LK-4206` | Mannar | 0.1% | 9.1% | 12.5% | +3.4pp 🟩 | 1,339 | 2,328 | +989 🟩 |
 | Thambalagamuwa `LK-5318` | Trincomalee | 1.0% | 57.0% | 60.3% | +3.3pp 🟩 | 16,256 | 20,286 | +4,030 🟩 |
-| Mundel `LK-6218` | Puttalam | 1.5% | 38.6% | 41.9% | +3.3pp 🟩 | 23,770 | 30,384 | +6,614 🟩 |
+| Mundel `LK-6218` | Puttalam | 1.4% | 38.6% | 41.9% | +3.3pp 🟩 | 23,770 | 30,384 | +6,614 🟩 |
 | Lankapura `LK-7209` | Polonnaruwa | 0.6% | 28.5% | 31.7% | +3.3pp 🟩 | 10,377 | 12,589 | +2,212 🟩 |
 | Vavuniya `LK-4309` | Vavuniya | 0.4% | 4.3% | 7.4% | +3.1pp 🟩 | 5,037 | 8,612 | +3,575 🟩 |
 | Akurana `LK-2109` | Kandy | 2.3% | 64.9% | 67.9% | +3.0pp 🟩 | 41,117 | 48,201 | +7,084 🟩 |
@@ -403,10 +401,10 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Horowpathana `LK-7124` | Anuradhapura | 0.6% | 26.6% | 29.4% | +2.8pp 🟩 | 9,829 | 12,135 | +2,306 🟩 |
 | Mawanella `LK-9206` | Kegalle | 2.0% | 30.4% | 33.3% | +2.8pp 🟩 | 34,008 | 41,933 | +7,925 🟩 |
 | Kuliyapitiya East `LK-6169` | Kurunegala | 1.0% | 31.6% | 34.4% | +2.8pp 🟩 | 17,087 | 21,068 | +3,981 🟩 |
-| Panadura `LK-1303` | Kalutara | 1.6% | 14.4% | 17.2% | +2.8pp 🟩 | 26,306 | 32,306 | +6,000 🟩 |
+| Panadura `LK-1303` | Kalutara | 1.5% | 14.4% | 17.2% | +2.8pp 🟩 | 26,306 | 32,306 | +6,000 🟩 |
 | Welipitiya `LK-3221` | Matara | 0.4% | 12.2% | 14.7% | +2.5pp 🟩 | 6,339 | 8,220 | +1,881 🟩 |
 | Jaffna `LK-4136` | Jaffna | 0.1% | 3.4% | 5.9% | +2.5pp 🟩 | 1,732 | 2,881 | +1,149 🟩 |
-| Pallama `LK-6227` | Puttalam | 0.3% | 16.3% | 18.7% | +2.5pp 🟩 | 3,977 | 5,235 | +1,258 🟩 |
+| Pallama `LK-6227` | Puttalam | 0.2% | 16.3% | 18.7% | +2.5pp 🟩 | 3,977 | 5,235 | +1,258 🟩 |
 | Seruvila `LK-5330` | Trincomalee | 0.2% | 17.8% | 20.2% | +2.4pp 🟩 | 2,430 | 3,234 | +804 🟩 |
 | Puttalam `LK-6215` | Puttalam | 3.0% | 64.2% | 66.6% | +2.4pp 🟩 | 52,934 | 63,101 | +10,167 🟩 |
 | Karaitivu `LK-5227` | Ampara | 0.4% | 40.1% | 42.5% | +2.4pp 🟩 | 6,760 | 8,285 | +1,525 🟩 |
@@ -417,12 +415,12 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Attanagalla `LK-1227` | Gampaha | 1.4% | 12.4% | 14.4% | +1.9pp 🟩 | 22,303 | 28,406 | +6,103 🟩 |
 | Ukuwela `LK-2233` | Matale | 0.8% | 20.8% | 22.8% | +1.9pp 🟩 | 14,180 | 16,475 | +2,295 🟩 |
 | Panduwasnuwara West `LK-6145` | Kurunegala | 0.5% | 12.8% | 14.7% | +1.9pp 🟩 | 8,452 | 10,464 | +2,012 🟩 |
-| Welimada `LK-8130` | Badulla | 1.0% | 16.8% | 18.7% | +1.9pp 🟩 | 16,921 | 19,720 | +2,799 🟩 |
+| Welimada `LK-8130` | Badulla | 0.9% | 16.8% | 18.7% | +1.9pp 🟩 | 16,921 | 19,720 | +2,799 🟩 |
 | Udunuwara `LK-2139` | Kandy | 1.5% | 24.5% | 26.4% | +1.9pp 🟩 | 27,186 | 31,951 | +4,765 🟩 |
 | Mallawapitiya `LK-6157` | Kurunegala | 0.5% | 15.1% | 16.8% | +1.8pp 🟩 | 7,924 | 10,018 | +2,094 🟩 |
 | Udapalatha `LK-2151` | Kandy | 1.2% | 22.7% | 24.4% | +1.8pp 🟩 | 20,784 | 25,206 | +4,422 🟩 |
-| Town & Gravets `LK-5315` | Trincomalee | 0.8% | 13.8% | 15.6% | +1.7pp 🟩 | 13,501 | 15,605 | +2,104 🟩 |
-| Kuchchaweli `LK-5306` | Trincomalee | 1.3% | 64.1% | 65.8% | +1.7pp 🟩 | 21,308 | 26,239 | +4,931 🟩 |
+| Town & Gravets `LK-5315` | Trincomalee | 0.7% | 13.8% | 15.6% | +1.7pp 🟩 | 13,501 | 15,605 | +2,104 🟩 |
+| Kuchchaweli `LK-5306` | Trincomalee | 1.2% | 64.1% | 65.8% | +1.7pp 🟩 | 21,308 | 26,239 | +4,931 🟩 |
 | Kelaniya `LK-1236` | Gampaha | 0.7% | 9.1% | 10.7% | +1.6pp 🟩 | 12,439 | 14,312 | +1,873 🟩 |
 | Rideegama `LK-6163` | Kurunegala | 0.6% | 11.3% | 12.9% | +1.6pp 🟩 | 10,022 | 12,391 | +2,369 🟩 |
 | Muthur `LK-5327` | Trincomalee | 2.2% | 62.0% | 63.5% | +1.5pp 🟩 | 35,088 | 45,658 | +10,570 🟩 |
@@ -431,8 +429,8 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Poonakary `LK-4512` | Kilinochchi | 0.0% | 2.3% | 3.8% | +1.5pp 🟩 | 469 | 909 | +440 🟩 |
 | Manmunai North `LK-5118` | Batticaloa | 0.3% | 5.3% | 6.8% | +1.4pp 🟩 | 4,585 | 6,424 | +1,839 🟩 |
 | Kantale `LK-5321` | Trincomalee | 0.4% | 16.3% | 17.7% | +1.4pp 🟩 | 7,633 | 9,020 | +1,387 🟩 |
-| Kinniya `LK-5324` | Trincomalee | 4.1% | 95.8% | 97.1% | +1.4pp 🟩 | 61,880 | 84,032 | +22,152 🟩 |
-| Colombo `LK-1103` | Colombo | 6.1% | 41.8% | 43.1% | +1.3pp 🟩 | 135,000 | 125,890 | -9,110 🟥 |
+| Kinniya `LK-5324` | Trincomalee | 4.0% | 95.8% | 97.1% | +1.4pp 🟩 | 61,880 | 84,032 | +22,152 🟩 |
+| Colombo `LK-1103` | Colombo | 6.0% | 41.8% | 43.1% | +1.3pp 🟩 | 135,000 | 125,890 | -9,110 🟥 |
 | Ganga Ihala Korale `LK-2154` | Kandy | 0.2% | 6.8% | 8.1% | +1.3pp 🟩 | 3,779 | 4,795 | +1,016 🟩 |
 | Haputale `LK-8139` | Badulla | 0.2% | 7.4% | 8.6% | +1.3pp 🟩 | 3,665 | 4,165 | +500 🟩 |
 | Poojapitiya `LK-2106` | Kandy | 0.5% | 16.5% | 17.8% | +1.2pp 🟩 | 9,571 | 10,718 | +1,147 🟩 |
@@ -440,13 +438,12 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Mawathagama `LK-6160` | Kurunegala | 0.4% | 11.2% | 12.4% | +1.2pp 🟩 | 7,199 | 8,803 | +1,604 🟩 |
 | Udubaddawa `LK-6175` | Kurunegala | 0.3% | 10.4% | 11.5% | +1.2pp 🟩 | 5,412 | 6,270 | +858 🟩 |
 | Wattala `LK-1218` | Gampaha | 0.7% | 6.5% | 7.6% | +1.1pp 🟩 | 11,407 | 13,918 | +2,511 🟩 |
-| Pannala `LK-6178` | Kurunegala | 0.5% | 5.8% | 6.9% | +1.1pp 🟩 | 7,205 | 9,398 | +2,193 🟩 |
+| Pannala `LK-6178` | Kurunegala | 0.4% | 5.8% | 6.9% | +1.1pp 🟩 | 7,205 | 9,398 | +2,193 🟩 |
 | Koralai Pattu North `LK-5103` | Batticaloa | 0.1% | 3.2% | 4.3% | +1.1pp 🟩 | 699 | 1,095 | +396 🟩 |
 | Thimbirigasyaya `LK-1127` | Colombo | 1.9% | 17.4% | 18.5% | +1.1pp 🟩 | 41,447 | 40,132 | -1,315 🟥 |
-| Rambewa `LK-7118` | Anuradhapura | 0.3% | 15.5% | 13.2% | -2.3pp 🟥 | 5,683 | 5,242 | -441 🟥 |
-| Koralai Pattu Central `LK-5104` | Batticaloa | 0.0% | 97.2% | 0.3% | -96.9pp 🟥 | 24,965 | 94 | -24,871 🟥 |
+| Rambewa `LK-7118` | Anuradhapura | 0.2% | 15.5% | 13.2% | -2.3pp 🟥 | 5,683 | 5,242 | -441 🟥 |
 
-***Musali** gained the most share at **+15.1pp**. **Koralai Pattu Central** saw the steepest share decline at **-96.9pp**. **Kolonnawa** had the largest absolute increase (**+22,911**).*
+***Musali** gained the most share at **+15.1pp**. **Rambewa** saw the steepest share decline at **-2.3pp**. **Kolonnawa** had the largest absolute increase (**+22,911**).*
 
 ### Roman Catholic
 
@@ -454,7 +451,6 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | Delft `LK-4142` | Jaffna | 0.2% | 54.3% | 60.9% | +6.6pp 🟩 | 2,077 | 1,924 | -153 🟥 |
 | Puthukkudiyiruppu `LK-4409` | Mullaitivu | 0.5% | 9.7% | 14.7% | +5.0pp 🟩 | 2,305 | 5,817 | +3,512 🟩 |
-| Koralai Pattu Central `LK-5104` | Batticaloa | 0.1% | 0.2% | 4.4% | +4.1pp 🟩 | 63 | 1,257 | +1,194 🟩 |
 | Islands South (Velanai) `LK-4139` | Jaffna | 0.4% | 21.6% | 25.7% | +4.1pp 🟩 | 3,619 | 4,263 | +644 🟩 |
 | Nallur `LK-4133` | Jaffna | 0.4% | 5.1% | 7.3% | +2.2pp 🟩 | 3,453 | 5,310 | +1,857 🟩 |
 | Katana `LK-1206` | Gampaha | 6.9% | 32.0% | 34.0% | +1.9pp 🟩 | 75,385 | 81,913 | +6,528 🟩 |
@@ -502,13 +498,12 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 | DSD | District | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| Koralai Pattu Central `LK-5104` | Batticaloa | 1.4% | 0.0% | 12.0% | +12.0pp 🟩 | 12 | 3,459 | +3,447 🟩 |
 | Koralai Pattu South `LK-5110` | Batticaloa | 0.9% | 5.6% | 7.9% | +2.3pp 🟩 | 1,471 | 2,244 | +773 🟩 |
 | Thunukkai `LK-4403` | Mullaitivu | 0.2% | 3.9% | 5.6% | +1.7pp 🟩 | 382 | 584 | +202 🟩 |
 | Pachchilaipalli `LK-4503` | Kilinochchi | 0.2% | 1.9% | 3.5% | +1.6pp 🟩 | 162 | 461 | +299 🟩 |
 | Islands North (Kayts) `LK-4103` | Jaffna | 0.2% | 3.9% | 5.5% | +1.5pp 🟩 | 387 | 543 | +156 🟩 |
 | Vavuniya South `LK-4306` | Vavuniya | 0.1% | 0.3% | 1.8% | +1.4pp 🟩 | 45 | 265 | +220 🟩 |
-| Koralai Pattu North `LK-5103` | Batticaloa | 1.3% | 12.1% | 13.5% | +1.4pp 🟩 | 2,597 | 3,432 | +835 🟩 |
+| Koralai Pattu North `LK-5103` | Batticaloa | 1.4% | 12.1% | 13.5% | +1.4pp 🟩 | 2,597 | 3,432 | +835 🟩 |
 | Oddusuddan `LK-4412` | Mullaitivu | 0.5% | 5.6% | 7.0% | +1.4pp 🟩 | 877 | 1,267 | +390 🟩 |
 | Maritimepattu `LK-4415` | Mullaitivu | 0.6% | 2.9% | 4.1% | +1.2pp 🟩 | 838 | 1,510 | +672 🟩 |
 | Puthukkudiyiruppu `LK-4409` | Mullaitivu | 1.0% | 5.2% | 6.4% | +1.2pp 🟩 | 1,239 | 2,530 | +1,291 🟩 |
@@ -518,7 +513,7 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Sri Jayawardanapura Kotte `LK-1124` | Colombo | 1.3% | 4.7% | 3.5% | -1.2pp 🟥 | 5,055 | 3,379 | -1,676 🟥 |
 | Dehiwala `LK-1130` | Colombo | 1.0% | 4.1% | 2.7% | -1.4pp 🟥 | 3,684 | 2,557 | -1,127 🟥 |
 
-***Koralai Pattu Central** gained the most share at **+12.0pp**. **Dehiwala** saw the steepest share decline at **-1.4pp**.*
+***Koralai Pattu South** gained the most share at **+2.3pp**. **Dehiwala** saw the steepest share decline at **-1.4pp**. **Puthukkudiyiruppu** had the largest absolute increase (**+1,291**).*
 
 ### Other
 

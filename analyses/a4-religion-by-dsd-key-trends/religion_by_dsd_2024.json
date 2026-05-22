@@ -1494,12 +1494,12 @@
     "Other": 0
   },
   "LK-5104": {
-    "TotalPopulation": 28762,
-    "Buddhist": 569,
-    "Hindu": 23383,
-    "Islam": 94,
-    "RomanCatholic": 1257,
-    "OtherChristian": 3459,
+    "TotalPopulation": 30603,
+    "Buddhist": 57,
+    "Hindu": 599,
+    "Islam": 29870,
+    "RomanCatholic": 26,
+    "OtherChristian": 51,
     "Other": 0
   },
   "LK-5106": {
@@ -1509,6 +1509,15 @@
     "Islam": 24550,
     "RomanCatholic": 1,
     "OtherChristian": 0,
+    "Other": 0
+  },
+  "LK-5109": {
+    "TotalPopulation": 28762,
+    "Buddhist": 569,
+    "Hindu": 23383,
+    "Islam": 94,
+    "RomanCatholic": 1257,
+    "OtherChristian": 3459,
     "Other": 0
   },
   "LK-5110": {

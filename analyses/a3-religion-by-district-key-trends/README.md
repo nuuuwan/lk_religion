@@ -1,6 +1,6 @@
 ## A3. Religion by District: Key Trends
 
-![A3 district change maps](chart.png)
+![A3 District change maps](chart.png)
 
 District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Districts with absolute share change **< 1.0pp** are shown in **white**.
 
