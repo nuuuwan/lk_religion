@@ -1,0 +1,3044 @@
+{
+  "LK-1103": {
+    "Buddhist": 47726,
+    "Hindu": 71811,
+    "Islam": 125890,
+    "RomanCatholic": 36117,
+    "OtherChristian": 10381,
+    "Other": 164,
+    "TotalPopulation": 292089
+  },
+  "LK-1106": {
+    "Buddhist": 122559,
+    "Hindu": 14647,
+    "Islam": 67100,
+    "RomanCatholic": 6895,
+    "OtherChristian": 2809,
+    "Other": 60,
+    "TotalPopulation": 214070
+  },
+  "LK-1109": {
+    "Buddhist": 256548,
+    "Hindu": 4210,
+    "Islam": 3898,
+    "RomanCatholic": 10576,
+    "OtherChristian": 2595,
+    "Other": 91,
+    "TotalPopulation": 277918
+  },
+  "LK-1112": {
+    "Buddhist": 270923,
+    "Hindu": 2854,
+    "Islam": 1740,
+    "RomanCatholic": 3553,
+    "OtherChristian": 1665,
+    "Other": 36,
+    "TotalPopulation": 280771
+  },
+  "LK-1115": {
+    "Buddhist": 99364,
+    "Hindu": 12066,
+    "Islam": 888,
+    "RomanCatholic": 7214,
+    "OtherChristian": 2592,
+    "Other": 4,
+    "TotalPopulation": 122128
+  },
+  "LK-1118": {
+    "Buddhist": 69188,
+    "Hindu": 1444,
+    "Islam": 1242,
+    "RomanCatholic": 516,
+    "OtherChristian": 618,
+    "Other": 6,
+    "TotalPopulation": 73014
+  },
+  "LK-1121": {
+    "Buddhist": 183093,
+    "Hindu": 3381,
+    "Islam": 2458,
+    "RomanCatholic": 5252,
+    "OtherChristian": 2227,
+    "Other": 89,
+    "TotalPopulation": 196500
+  },
+  "LK-1124": {
+    "Buddhist": 74848,
+    "Hindu": 4957,
+    "Islam": 6535,
+    "RomanCatholic": 6340,
+    "OtherChristian": 3379,
+    "Other": 130,
+    "TotalPopulation": 96189
+  },
+  "LK-1127": {
+    "Buddhist": 101553,
+    "Hindu": 52962,
+    "Islam": 40132,
+    "RomanCatholic": 15209,
+    "OtherChristian": 7036,
+    "Other": 226,
+    "TotalPopulation": 217118
+  },
+  "LK-1130": {
+    "Buddhist": 43573,
+    "Hindu": 14406,
+    "Islam": 28538,
+    "RomanCatholic": 4627,
+    "OtherChristian": 2557,
+    "Other": 114,
+    "TotalPopulation": 93815
+  },
+  "LK-1131": {
+    "Buddhist": 57385,
+    "Hindu": 7316,
+    "Islam": 13852,
+    "RomanCatholic": 5455,
+    "OtherChristian": 4012,
+    "Other": 43,
+    "TotalPopulation": 88063
+  },
+  "LK-1133": {
+    "Buddhist": 109743,
+    "Hindu": 4317,
+    "Islam": 3549,
+    "RomanCatholic": 30669,
+    "OtherChristian": 11763,
+    "Other": 158,
+    "TotalPopulation": 160199
+  },
+  "LK-1136": {
+    "Buddhist": 246021,
+    "Hindu": 3388,
+    "Islam": 2600,
+    "RomanCatholic": 7459,
+    "OtherChristian": 3990,
+    "Other": 83,
+    "TotalPopulation": 263541
+  },
+  "LK-1203": {
+    "Buddhist": 13506,
+    "Hindu": 8471,
+    "Islam": 23788,
+    "RomanCatholic": 87605,
+    "OtherChristian": 4455,
+    "Other": 127,
+    "TotalPopulation": 137952
+  },
+  "LK-1206": {
+    "Buddhist": 137806,
+    "Hindu": 5728,
+    "Islam": 6242,
+    "RomanCatholic": 81913,
+    "OtherChristian": 9268,
+    "Other": 262,
+    "TotalPopulation": 241219
+  },
+  "LK-1209": {
+    "Buddhist": 133909,
+    "Hindu": 985,
+    "Islam": 162,
+    "RomanCatholic": 20361,
+    "OtherChristian": 1508,
+    "Other": 32,
+    "TotalPopulation": 156957
+  },
+  "LK-1212": {
+    "Buddhist": 164914,
+    "Hindu": 973,
+    "Islam": 8768,
+    "RomanCatholic": 1496,
+    "OtherChristian": 505,
+    "Other": 91,
+    "TotalPopulation": 176747
+  },
+  "LK-1215": {
+    "Buddhist": 176692,
+    "Hindu": 884,
+    "Islam": 7022,
+    "RomanCatholic": 11896,
+    "OtherChristian": 2126,
+    "Other": 154,
+    "TotalPopulation": 198774
+  },
+  "LK-1218": {
+    "Buddhist": 51544,
+    "Hindu": 30805,
+    "Islam": 13918,
+    "RomanCatholic": 77121,
+    "OtherChristian": 9078,
+    "Other": 39,
+    "TotalPopulation": 182505
+  },
+  "LK-1221": {
+    "Buddhist": 90297,
+    "Hindu": 4533,
+    "Islam": 1960,
+    "RomanCatholic": 100285,
+    "OtherChristian": 7671,
+    "Other": 60,
+    "TotalPopulation": 204806
+  },
+  "LK-1224": {
+    "Buddhist": 182606,
+    "Hindu": 883,
+    "Islam": 365,
+    "RomanCatholic": 19706,
+    "OtherChristian": 2028,
+    "Other": 22,
+    "TotalPopulation": 205610
+  },
+  "LK-1227": {
+    "Buddhist": 164206,
+    "Hindu": 1491,
+    "Islam": 28406,
+    "RomanCatholic": 3036,
+    "OtherChristian": 561,
+    "Other": 25,
+    "TotalPopulation": 197725
+  },
+  "LK-1230": {
+    "Buddhist": 161461,
+    "Hindu": 754,
+    "Islam": 2574,
+    "RomanCatholic": 4393,
+    "OtherChristian": 682,
+    "Other": 13,
+    "TotalPopulation": 169877
+  },
+  "LK-1233": {
+    "Buddhist": 191215,
+    "Hindu": 1911,
+    "Islam": 10437,
+    "RomanCatholic": 16909,
+    "OtherChristian": 2538,
+    "Other": 50,
+    "TotalPopulation": 223060
+  },
+  "LK-1236": {
+    "Buddhist": 97990,
+    "Hindu": 8886,
+    "Islam": 14312,
+    "RomanCatholic": 10341,
+    "OtherChristian": 2155,
+    "Other": 71,
+    "TotalPopulation": 133755
+  },
+  "LK-1239": {
+    "Buddhist": 178329,
+    "Hindu": 3125,
+    "Islam": 16468,
+    "RomanCatholic": 7229,
+    "OtherChristian": 1965,
+    "Other": 39,
+    "TotalPopulation": 207155
+  },
+  "LK-1303": {
+    "Buddhist": 144521,
+    "Hindu": 1069,
+    "Islam": 32306,
+    "RomanCatholic": 7982,
+    "OtherChristian": 1567,
+    "Other": 30,
+    "TotalPopulation": 187475
+  },
+  "LK-1306": {
+    "Buddhist": 105601,
+    "Hindu": 422,
+    "Islam": 15120,
+    "RomanCatholic": 2070,
+    "OtherChristian": 913,
+    "Other": 7,
+    "TotalPopulation": 124133
+  },
+  "LK-1309": {
+    "Buddhist": 129510,
+    "Hindu": 1935,
+    "Islam": 188,
+    "RomanCatholic": 1019,
+    "OtherChristian": 1007,
+    "Other": 26,
+    "TotalPopulation": 133685
+  },
+  "LK-1310": {
+    "Buddhist": 51949,
+    "Hindu": 5540,
+    "Islam": 83,
+    "RomanCatholic": 239,
+    "OtherChristian": 544,
+    "Other": 6,
+    "TotalPopulation": 58361
+  },
+  "LK-1312": {
+    "Buddhist": 55217,
+    "Hindu": 7218,
+    "Islam": 2450,
+    "RomanCatholic": 294,
+    "OtherChristian": 371,
+    "Other": 0,
+    "TotalPopulation": 65550
+  },
+  "LK-1315": {
+    "Buddhist": 33551,
+    "Hindu": 2848,
+    "Islam": 29,
+    "RomanCatholic": 120,
+    "OtherChristian": 175,
+    "Other": 0,
+    "TotalPopulation": 36723
+  },
+  "LK-1318": {
+    "Buddhist": 54041,
+    "Hindu": 1340,
+    "Islam": 56,
+    "RomanCatholic": 448,
+    "OtherChristian": 280,
+    "Other": 1,
+    "TotalPopulation": 56166
+  },
+  "LK-1321": {
+    "Buddhist": 140789,
+    "Hindu": 1741,
+    "Islam": 14397,
+    "RomanCatholic": 8815,
+    "OtherChristian": 841,
+    "Other": 41,
+    "TotalPopulation": 166624
+  },
+  "LK-1324": {
+    "Buddhist": 96273,
+    "Hindu": 1509,
+    "Islam": 69141,
+    "RomanCatholic": 13379,
+    "OtherChristian": 486,
+    "Other": 32,
+    "TotalPopulation": 180820
+  },
+  "LK-1327": {
+    "Buddhist": 58894,
+    "Hindu": 6248,
+    "Islam": 59,
+    "RomanCatholic": 1268,
+    "OtherChristian": 620,
+    "Other": 0,
+    "TotalPopulation": 67089
+  },
+  "LK-1330": {
+    "Buddhist": 74770,
+    "Hindu": 6725,
+    "Islam": 3632,
+    "RomanCatholic": 476,
+    "OtherChristian": 462,
+    "Other": 0,
+    "TotalPopulation": 86065
+  },
+  "LK-1333": {
+    "Buddhist": 35487,
+    "Hindu": 755,
+    "Islam": 91,
+    "RomanCatholic": 138,
+    "OtherChristian": 118,
+    "Other": 0,
+    "TotalPopulation": 36589
+  },
+  "LK-1336": {
+    "Buddhist": 46610,
+    "Hindu": 3492,
+    "Islam": 639,
+    "RomanCatholic": 144,
+    "OtherChristian": 286,
+    "Other": 0,
+    "TotalPopulation": 51171
+  },
+  "LK-1339": {
+    "Buddhist": 53425,
+    "Hindu": 1686,
+    "Islam": 39,
+    "RomanCatholic": 118,
+    "OtherChristian": 63,
+    "Other": 2,
+    "TotalPopulation": 55333
+  },
+  "LK-2103": {
+    "Buddhist": 35275,
+    "Hindu": 298,
+    "Islam": 2989,
+    "RomanCatholic": 108,
+    "OtherChristian": 104,
+    "Other": 2,
+    "TotalPopulation": 38776
+  },
+  "LK-2106": {
+    "Buddhist": 47728,
+    "Hindu": 1521,
+    "Islam": 10718,
+    "RomanCatholic": 165,
+    "OtherChristian": 183,
+    "Other": 1,
+    "TotalPopulation": 60316
+  },
+  "LK-2109": {
+    "Buddhist": 19167,
+    "Hindu": 3430,
+    "Islam": 48201,
+    "RomanCatholic": 164,
+    "OtherChristian": 48,
+    "Other": 0,
+    "TotalPopulation": 71010
+  },
+  "LK-2112": {
+    "Buddhist": 66522,
+    "Hindu": 2377,
+    "Islam": 23313,
+    "RomanCatholic": 841,
+    "OtherChristian": 419,
+    "Other": 4,
+    "TotalPopulation": 93476
+  },
+  "LK-2115": {
+    "Buddhist": 9699,
+    "Hindu": 13754,
+    "Islam": 991,
+    "RomanCatholic": 723,
+    "OtherChristian": 482,
+    "Other": 1,
+    "TotalPopulation": 25650
+  },
+  "LK-2118": {
+    "Buddhist": 21119,
+    "Hindu": 1694,
+    "Islam": 134,
+    "RomanCatholic": 62,
+    "OtherChristian": 37,
+    "Other": 0,
+    "TotalPopulation": 23046
+  },
+  "LK-2121": {
+    "Buddhist": 54927,
+    "Hindu": 38,
+    "Islam": 252,
+    "RomanCatholic": 39,
+    "OtherChristian": 86,
+    "Other": 0,
+    "TotalPopulation": 55342
+  },
+  "LK-2124": {
+    "Buddhist": 47828,
+    "Hindu": 10271,
+    "Islam": 4863,
+    "RomanCatholic": 1076,
+    "OtherChristian": 492,
+    "Other": 9,
+    "TotalPopulation": 64539
+  },
+  "LK-2127": {
+    "Buddhist": 115594,
+    "Hindu": 16116,
+    "Islam": 8808,
+    "RomanCatholic": 2210,
+    "OtherChristian": 1645,
+    "Other": 10,
+    "TotalPopulation": 144383
+  },
+  "LK-2130": {
+    "Buddhist": 110984,
+    "Hindu": 15674,
+    "Islam": 18558,
+    "RomanCatholic": 5616,
+    "OtherChristian": 2454,
+    "Other": 43,
+    "TotalPopulation": 153329
+  },
+  "LK-2133": {
+    "Buddhist": 80125,
+    "Hindu": 1739,
+    "Islam": 10694,
+    "RomanCatholic": 1115,
+    "OtherChristian": 339,
+    "Other": 9,
+    "TotalPopulation": 94021
+  },
+  "LK-2134": {
+    "Buddhist": 29096,
+    "Hindu": 469,
+    "Islam": 1504,
+    "RomanCatholic": 58,
+    "OtherChristian": 14,
+    "Other": 0,
+    "TotalPopulation": 31141
+  },
+  "LK-2136": {
+    "Buddhist": 100496,
+    "Hindu": 2227,
+    "Islam": 8550,
+    "RomanCatholic": 801,
+    "OtherChristian": 557,
+    "Other": 11,
+    "TotalPopulation": 112642
+  },
+  "LK-2139": {
+    "Buddhist": 85290,
+    "Hindu": 2695,
+    "Islam": 31951,
+    "RomanCatholic": 683,
+    "OtherChristian": 396,
+    "Other": 3,
+    "TotalPopulation": 121018
+  },
+  "LK-2142": {
+    "Buddhist": 39190,
+    "Hindu": 9879,
+    "Islam": 2787,
+    "RomanCatholic": 445,
+    "OtherChristian": 482,
+    "Other": 1,
+    "TotalPopulation": 52784
+  },
+  "LK-2145": {
+    "Buddhist": 54367,
+    "Hindu": 3829,
+    "Islam": 1372,
+    "RomanCatholic": 525,
+    "OtherChristian": 543,
+    "Other": 3,
+    "TotalPopulation": 60639
+  },
+  "LK-2148": {
+    "Buddhist": 12602,
+    "Hindu": 10738,
+    "Islam": 7983,
+    "RomanCatholic": 193,
+    "OtherChristian": 383,
+    "Other": 5,
+    "TotalPopulation": 31904
+  },
+  "LK-2151": {
+    "Buddhist": 54676,
+    "Hindu": 20988,
+    "Islam": 25206,
+    "RomanCatholic": 1249,
+    "OtherChristian": 975,
+    "Other": 87,
+    "TotalPopulation": 103181
+  },
+  "LK-2154": {
+    "Buddhist": 47735,
+    "Hindu": 6018,
+    "Islam": 4795,
+    "RomanCatholic": 282,
+    "OtherChristian": 315,
+    "Other": 0,
+    "TotalPopulation": 59145
+  },
+  "LK-2157": {
+    "Buddhist": 31091,
+    "Hindu": 20863,
+    "Islam": 10328,
+    "RomanCatholic": 2268,
+    "OtherChristian": 965,
+    "Other": 38,
+    "TotalPopulation": 65553
+  },
+  "LK-2203": {
+    "Buddhist": 62683,
+    "Hindu": 1024,
+    "Islam": 11221,
+    "RomanCatholic": 3438,
+    "OtherChristian": 259,
+    "Other": 14,
+    "TotalPopulation": 78639
+  },
+  "LK-2206": {
+    "Buddhist": 77050,
+    "Hindu": 659,
+    "Islam": 2509,
+    "RomanCatholic": 851,
+    "OtherChristian": 167,
+    "Other": 3,
+    "TotalPopulation": 81239
+  },
+  "LK-2209": {
+    "Buddhist": 28407,
+    "Hindu": 1625,
+    "Islam": 443,
+    "RomanCatholic": 163,
+    "OtherChristian": 77,
+    "Other": 3,
+    "TotalPopulation": 30718
+  },
+  "LK-2212": {
+    "Buddhist": 29369,
+    "Hindu": 996,
+    "Islam": 1152,
+    "RomanCatholic": 85,
+    "OtherChristian": 27,
+    "Other": 0,
+    "TotalPopulation": 31629
+  },
+  "LK-2215": {
+    "Buddhist": 26782,
+    "Hindu": 3055,
+    "Islam": 2145,
+    "RomanCatholic": 364,
+    "OtherChristian": 69,
+    "Other": 0,
+    "TotalPopulation": 32415
+  },
+  "LK-2218": {
+    "Buddhist": 49101,
+    "Hindu": 13559,
+    "Islam": 15853,
+    "RomanCatholic": 1185,
+    "OtherChristian": 671,
+    "Other": 7,
+    "TotalPopulation": 80376
+  },
+  "LK-2221": {
+    "Buddhist": 11887,
+    "Hindu": 3726,
+    "Islam": 72,
+    "RomanCatholic": 119,
+    "OtherChristian": 72,
+    "Other": 0,
+    "TotalPopulation": 15876
+  },
+  "LK-2224": {
+    "Buddhist": 16253,
+    "Hindu": 36,
+    "Islam": 5,
+    "RomanCatholic": 6,
+    "OtherChristian": 0,
+    "Other": 0,
+    "TotalPopulation": 16300
+  },
+  "LK-2227": {
+    "Buddhist": 33653,
+    "Hindu": 41,
+    "Islam": 5,
+    "RomanCatholic": 6,
+    "OtherChristian": 10,
+    "Other": 0,
+    "TotalPopulation": 33715
+  },
+  "LK-2230": {
+    "Buddhist": 38198,
+    "Hindu": 12036,
+    "Islam": 2344,
+    "RomanCatholic": 730,
+    "OtherChristian": 338,
+    "Other": 4,
+    "TotalPopulation": 53650
+  },
+  "LK-2233": {
+    "Buddhist": 45225,
+    "Hindu": 9424,
+    "Islam": 16475,
+    "RomanCatholic": 850,
+    "OtherChristian": 336,
+    "Other": 3,
+    "TotalPopulation": 72313
+  },
+  "LK-2303": {
+    "Buddhist": 27575,
+    "Hindu": 30707,
+    "Islam": 820,
+    "RomanCatholic": 1291,
+    "OtherChristian": 1345,
+    "Other": 4,
+    "TotalPopulation": 61742
+  },
+  "LK-2304": {
+    "Buddhist": 26599,
+    "Hindu": 7433,
+    "Islam": 7135,
+    "RomanCatholic": 554,
+    "OtherChristian": 232,
+    "Other": 2,
+    "TotalPopulation": 41955
+  },
+  "LK-2306": {
+    "Buddhist": 51429,
+    "Hindu": 6859,
+    "Islam": 35,
+    "RomanCatholic": 374,
+    "OtherChristian": 232,
+    "Other": 2,
+    "TotalPopulation": 58931
+  },
+  "LK-2307": {
+    "Buddhist": 28524,
+    "Hindu": 4466,
+    "Islam": 50,
+    "RomanCatholic": 53,
+    "OtherChristian": 82,
+    "Other": 0,
+    "TotalPopulation": 33175
+  },
+  "LK-2309": {
+    "Buddhist": 34123,
+    "Hindu": 27635,
+    "Islam": 611,
+    "RomanCatholic": 1693,
+    "OtherChristian": 1223,
+    "Other": 2,
+    "TotalPopulation": 65287
+  },
+  "LK-2310": {
+    "Buddhist": 32330,
+    "Hindu": 9350,
+    "Islam": 392,
+    "RomanCatholic": 146,
+    "OtherChristian": 202,
+    "Other": 2,
+    "TotalPopulation": 42422
+  },
+  "LK-2312": {
+    "Buddhist": 27807,
+    "Hindu": 47875,
+    "Islam": 4887,
+    "RomanCatholic": 5182,
+    "OtherChristian": 2559,
+    "Other": 22,
+    "TotalPopulation": 88332
+  },
+  "LK-2313": {
+    "Buddhist": 8613,
+    "Hindu": 106064,
+    "Islam": 1953,
+    "RomanCatholic": 9607,
+    "OtherChristian": 3282,
+    "Other": 12,
+    "TotalPopulation": 129531
+  },
+  "LK-2315": {
+    "Buddhist": 32712,
+    "Hindu": 8616,
+    "Islam": 140,
+    "RomanCatholic": 499,
+    "OtherChristian": 567,
+    "Other": 4,
+    "TotalPopulation": 42538
+  },
+  "LK-2316": {
+    "Buddhist": 9116,
+    "Hindu": 128261,
+    "Islam": 5906,
+    "RomanCatholic": 12306,
+    "OtherChristian": 5750,
+    "Other": 28,
+    "TotalPopulation": 161367
+  },
+  "LK-3103": {
+    "Buddhist": 48312,
+    "Hindu": 105,
+    "Islam": 1057,
+    "RomanCatholic": 104,
+    "OtherChristian": 69,
+    "Other": 3,
+    "TotalPopulation": 49650
+  },
+  "LK-3106": {
+    "Buddhist": 66727,
+    "Hindu": 149,
+    "Islam": 1109,
+    "RomanCatholic": 101,
+    "OtherChristian": 56,
+    "Other": 8,
+    "TotalPopulation": 68150
+  },
+  "LK-3109": {
+    "Buddhist": 62611,
+    "Hindu": 172,
+    "Islam": 606,
+    "RomanCatholic": 173,
+    "OtherChristian": 300,
+    "Other": 0,
+    "TotalPopulation": 63862
+  },
+  "LK-3112": {
+    "Buddhist": 64758,
+    "Hindu": 1434,
+    "Islam": 19,
+    "RomanCatholic": 215,
+    "OtherChristian": 240,
+    "Other": 5,
+    "TotalPopulation": 66671
+  },
+  "LK-3115": {
+    "Buddhist": 35315,
+    "Hindu": 341,
+    "Islam": 4,
+    "RomanCatholic": 36,
+    "OtherChristian": 55,
+    "Other": 0,
+    "TotalPopulation": 35751
+  },
+  "LK-3118": {
+    "Buddhist": 29207,
+    "Hindu": 1183,
+    "Islam": 20,
+    "RomanCatholic": 368,
+    "OtherChristian": 211,
+    "Other": 0,
+    "TotalPopulation": 30989
+  },
+  "LK-3121": {
+    "Buddhist": 26202,
+    "Hindu": 1139,
+    "Islam": 5,
+    "RomanCatholic": 62,
+    "OtherChristian": 338,
+    "Other": 0,
+    "TotalPopulation": 27746
+  },
+  "LK-3124": {
+    "Buddhist": 47836,
+    "Hindu": 3185,
+    "Islam": 13,
+    "RomanCatholic": 201,
+    "OtherChristian": 796,
+    "Other": 0,
+    "TotalPopulation": 52031
+  },
+  "LK-3127": {
+    "Buddhist": 49399,
+    "Hindu": 787,
+    "Islam": 6,
+    "RomanCatholic": 312,
+    "OtherChristian": 434,
+    "Other": 18,
+    "TotalPopulation": 50956
+  },
+  "LK-3128": {
+    "Buddhist": 26230,
+    "Hindu": 1119,
+    "Islam": 8,
+    "RomanCatholic": 113,
+    "OtherChristian": 228,
+    "Other": 4,
+    "TotalPopulation": 27702
+  },
+  "LK-3130": {
+    "Buddhist": 27996,
+    "Hindu": 923,
+    "Islam": 13,
+    "RomanCatholic": 210,
+    "OtherChristian": 213,
+    "Other": 1,
+    "TotalPopulation": 29356
+  },
+  "LK-3133": {
+    "Buddhist": 59209,
+    "Hindu": 131,
+    "Islam": 18,
+    "RomanCatholic": 66,
+    "OtherChristian": 190,
+    "Other": 3,
+    "TotalPopulation": 59617
+  },
+  "LK-3134": {
+    "Buddhist": 22922,
+    "Hindu": 41,
+    "Islam": 10,
+    "RomanCatholic": 161,
+    "OtherChristian": 132,
+    "Other": 5,
+    "TotalPopulation": 23271
+  },
+  "LK-3136": {
+    "Buddhist": 25734,
+    "Hindu": 70,
+    "Islam": 21,
+    "RomanCatholic": 148,
+    "OtherChristian": 236,
+    "Other": 7,
+    "TotalPopulation": 26216
+  },
+  "LK-3137": {
+    "Buddhist": 41166,
+    "Hindu": 77,
+    "Islam": 34,
+    "RomanCatholic": 51,
+    "OtherChristian": 125,
+    "Other": 3,
+    "TotalPopulation": 41456
+  },
+  "LK-3138": {
+    "Buddhist": 33239,
+    "Hindu": 44,
+    "Islam": 25,
+    "RomanCatholic": 32,
+    "OtherChristian": 68,
+    "Other": 0,
+    "TotalPopulation": 33408
+  },
+  "LK-3139": {
+    "Buddhist": 67502,
+    "Hindu": 661,
+    "Islam": 39021,
+    "RomanCatholic": 774,
+    "OtherChristian": 355,
+    "Other": 8,
+    "TotalPopulation": 108321
+  },
+  "LK-3142": {
+    "Buddhist": 55087,
+    "Hindu": 503,
+    "Islam": 1650,
+    "RomanCatholic": 301,
+    "OtherChristian": 344,
+    "Other": 5,
+    "TotalPopulation": 57890
+  },
+  "LK-3145": {
+    "Buddhist": 82001,
+    "Hindu": 896,
+    "Islam": 2341,
+    "RomanCatholic": 407,
+    "OtherChristian": 449,
+    "Other": 42,
+    "TotalPopulation": 86136
+  },
+  "LK-3148": {
+    "Buddhist": 43954,
+    "Hindu": 2366,
+    "Islam": 8,
+    "RomanCatholic": 126,
+    "OtherChristian": 233,
+    "Other": 0,
+    "TotalPopulation": 46687
+  },
+  "LK-3151": {
+    "Buddhist": 47909,
+    "Hindu": 156,
+    "Islam": 8,
+    "RomanCatholic": 56,
+    "OtherChristian": 74,
+    "Other": 1,
+    "TotalPopulation": 48204
+  },
+  "LK-3154": {
+    "Buddhist": 62715,
+    "Hindu": 118,
+    "Islam": 42,
+    "RomanCatholic": 190,
+    "OtherChristian": 231,
+    "Other": 6,
+    "TotalPopulation": 63302
+  },
+  "LK-3203": {
+    "Buddhist": 45984,
+    "Hindu": 2094,
+    "Islam": 7,
+    "RomanCatholic": 177,
+    "OtherChristian": 604,
+    "Other": 1,
+    "TotalPopulation": 48867
+  },
+  "LK-3206": {
+    "Buddhist": 50977,
+    "Hindu": 7749,
+    "Islam": 90,
+    "RomanCatholic": 1010,
+    "OtherChristian": 1176,
+    "Other": 0,
+    "TotalPopulation": 61002
+  },
+  "LK-3209": {
+    "Buddhist": 58982,
+    "Hindu": 1629,
+    "Islam": 15,
+    "RomanCatholic": 67,
+    "OtherChristian": 478,
+    "Other": 0,
+    "TotalPopulation": 61171
+  },
+  "LK-3212": {
+    "Buddhist": 51488,
+    "Hindu": 304,
+    "Islam": 9,
+    "RomanCatholic": 9,
+    "OtherChristian": 22,
+    "Other": 0,
+    "TotalPopulation": 51832
+  },
+  "LK-3215": {
+    "Buddhist": 30049,
+    "Hindu": 552,
+    "Islam": 1952,
+    "RomanCatholic": 89,
+    "OtherChristian": 165,
+    "Other": 4,
+    "TotalPopulation": 32811
+  },
+  "LK-3218": {
+    "Buddhist": 51918,
+    "Hindu": 1269,
+    "Islam": 15,
+    "RomanCatholic": 177,
+    "OtherChristian": 259,
+    "Other": 0,
+    "TotalPopulation": 53638
+  },
+  "LK-3221": {
+    "Buddhist": 47466,
+    "Hindu": 84,
+    "Islam": 8220,
+    "RomanCatholic": 72,
+    "OtherChristian": 115,
+    "Other": 3,
+    "TotalPopulation": 55960
+  },
+  "LK-3224": {
+    "Buddhist": 35392,
+    "Hindu": 31,
+    "Islam": 570,
+    "RomanCatholic": 68,
+    "OtherChristian": 66,
+    "Other": 1,
+    "TotalPopulation": 36128
+  },
+  "LK-3227": {
+    "Buddhist": 42577,
+    "Hindu": 104,
+    "Islam": 45,
+    "RomanCatholic": 35,
+    "OtherChristian": 53,
+    "Other": 2,
+    "TotalPopulation": 42816
+  },
+  "LK-3230": {
+    "Buddhist": 31894,
+    "Hindu": 24,
+    "Islam": 1022,
+    "RomanCatholic": 27,
+    "OtherChristian": 18,
+    "Other": 0,
+    "TotalPopulation": 32985
+  },
+  "LK-3233": {
+    "Buddhist": 19936,
+    "Hindu": 17,
+    "Islam": 655,
+    "RomanCatholic": 12,
+    "OtherChristian": 7,
+    "Other": 0,
+    "TotalPopulation": 20627
+  },
+  "LK-3236": {
+    "Buddhist": 34176,
+    "Hindu": 35,
+    "Islam": 10,
+    "RomanCatholic": 50,
+    "OtherChristian": 33,
+    "Other": 2,
+    "TotalPopulation": 34306
+  },
+  "LK-3239": {
+    "Buddhist": 66983,
+    "Hindu": 206,
+    "Islam": 8652,
+    "RomanCatholic": 122,
+    "OtherChristian": 165,
+    "Other": 8,
+    "TotalPopulation": 76136
+  },
+  "LK-3242": {
+    "Buddhist": 118046,
+    "Hindu": 354,
+    "Islam": 4724,
+    "RomanCatholic": 425,
+    "OtherChristian": 307,
+    "Other": 12,
+    "TotalPopulation": 123868
+  },
+  "LK-3245": {
+    "Buddhist": 48267,
+    "Hindu": 101,
+    "Islam": 753,
+    "RomanCatholic": 71,
+    "OtherChristian": 80,
+    "Other": 2,
+    "TotalPopulation": 49274
+  },
+  "LK-3248": {
+    "Buddhist": 53168,
+    "Hindu": 72,
+    "Islam": 3119,
+    "RomanCatholic": 34,
+    "OtherChristian": 71,
+    "Other": 4,
+    "TotalPopulation": 56468
+  },
+  "LK-3303": {
+    "Buddhist": 52554,
+    "Hindu": 59,
+    "Islam": 14,
+    "RomanCatholic": 16,
+    "OtherChristian": 61,
+    "Other": 5,
+    "TotalPopulation": 52709
+  },
+  "LK-3306": {
+    "Buddhist": 36059,
+    "Hindu": 45,
+    "Islam": 652,
+    "RomanCatholic": 83,
+    "OtherChristian": 84,
+    "Other": 0,
+    "TotalPopulation": 36923
+  },
+  "LK-3309": {
+    "Buddhist": 71643,
+    "Hindu": 252,
+    "Islam": 1955,
+    "RomanCatholic": 152,
+    "OtherChristian": 167,
+    "Other": 6,
+    "TotalPopulation": 74175
+  },
+  "LK-3312": {
+    "Buddhist": 54707,
+    "Hindu": 446,
+    "Islam": 11352,
+    "RomanCatholic": 263,
+    "OtherChristian": 396,
+    "Other": 43,
+    "TotalPopulation": 67207
+  },
+  "LK-3315": {
+    "Buddhist": 78046,
+    "Hindu": 231,
+    "Islam": 1887,
+    "RomanCatholic": 158,
+    "OtherChristian": 183,
+    "Other": 1,
+    "TotalPopulation": 80506
+  },
+  "LK-3318": {
+    "Buddhist": 53299,
+    "Hindu": 54,
+    "Islam": 10,
+    "RomanCatholic": 21,
+    "OtherChristian": 25,
+    "Other": 0,
+    "TotalPopulation": 53409
+  },
+  "LK-3321": {
+    "Buddhist": 47170,
+    "Hindu": 73,
+    "Islam": 968,
+    "RomanCatholic": 19,
+    "OtherChristian": 11,
+    "Other": 0,
+    "TotalPopulation": 48241
+  },
+  "LK-3324": {
+    "Buddhist": 52070,
+    "Hindu": 57,
+    "Islam": 17,
+    "RomanCatholic": 17,
+    "OtherChristian": 6,
+    "Other": 2,
+    "TotalPopulation": 52169
+  },
+  "LK-3325": {
+    "Buddhist": 47778,
+    "Hindu": 36,
+    "Islam": 29,
+    "RomanCatholic": 15,
+    "OtherChristian": 11,
+    "Other": 0,
+    "TotalPopulation": 47869
+  },
+  "LK-3327": {
+    "Buddhist": 19956,
+    "Hindu": 6,
+    "Islam": 24,
+    "RomanCatholic": 6,
+    "OtherChristian": 0,
+    "Other": 0,
+    "TotalPopulation": 19992
+  },
+  "LK-3330": {
+    "Buddhist": 58480,
+    "Hindu": 48,
+    "Islam": 6,
+    "RomanCatholic": 78,
+    "OtherChristian": 60,
+    "Other": 3,
+    "TotalPopulation": 58675
+  },
+  "LK-3333": {
+    "Buddhist": 77974,
+    "Hindu": 94,
+    "Islam": 1033,
+    "RomanCatholic": 189,
+    "OtherChristian": 243,
+    "Other": 10,
+    "TotalPopulation": 79543
+  },
+  "LK-4103": {
+    "Buddhist": 17,
+    "Hindu": 5170,
+    "Islam": 1,
+    "RomanCatholic": 4196,
+    "OtherChristian": 543,
+    "Other": 4,
+    "TotalPopulation": 9931
+  },
+  "LK-4104": {
+    "Buddhist": 5,
+    "Hindu": 8786,
+    "Islam": 1,
+    "RomanCatholic": 36,
+    "OtherChristian": 303,
+    "Other": 0,
+    "TotalPopulation": 9131
+  },
+  "LK-4106": {
+    "Buddhist": 32,
+    "Hindu": 42348,
+    "Islam": 26,
+    "RomanCatholic": 687,
+    "OtherChristian": 2066,
+    "Other": 1,
+    "TotalPopulation": 45160
+  },
+  "LK-4109": {
+    "Buddhist": 16,
+    "Hindu": 39652,
+    "Islam": 54,
+    "RomanCatholic": 10258,
+    "OtherChristian": 2139,
+    "Other": 2,
+    "TotalPopulation": 52121
+  },
+  "LK-4112": {
+    "Buddhist": 64,
+    "Hindu": 38119,
+    "Islam": 24,
+    "RomanCatholic": 4843,
+    "OtherChristian": 1857,
+    "Other": 7,
+    "TotalPopulation": 44914
+  },
+  "LK-4115": {
+    "Buddhist": 61,
+    "Hindu": 44954,
+    "Islam": 152,
+    "RomanCatholic": 3395,
+    "OtherChristian": 1978,
+    "Other": 0,
+    "TotalPopulation": 50540
+  },
+  "LK-4118": {
+    "Buddhist": 90,
+    "Hindu": 68751,
+    "Islam": 193,
+    "RomanCatholic": 4684,
+    "OtherChristian": 2257,
+    "Other": 4,
+    "TotalPopulation": 75979
+  },
+  "LK-4121": {
+    "Buddhist": 23,
+    "Hindu": 39599,
+    "Islam": 26,
+    "RomanCatholic": 1009,
+    "OtherChristian": 444,
+    "Other": 1,
+    "TotalPopulation": 41102
+  },
+  "LK-4124": {
+    "Buddhist": 2,
+    "Hindu": 9276,
+    "Islam": 3,
+    "RomanCatholic": 4018,
+    "OtherChristian": 238,
+    "Other": 0,
+    "TotalPopulation": 13537
+  },
+  "LK-4127": {
+    "Buddhist": 68,
+    "Hindu": 37472,
+    "Islam": 33,
+    "RomanCatholic": 4781,
+    "OtherChristian": 1013,
+    "Other": 2,
+    "TotalPopulation": 43369
+  },
+  "LK-4130": {
+    "Buddhist": 145,
+    "Hindu": 62137,
+    "Islam": 132,
+    "RomanCatholic": 3247,
+    "OtherChristian": 2119,
+    "Other": 2,
+    "TotalPopulation": 67782
+  },
+  "LK-4133": {
+    "Buddhist": 1718,
+    "Hindu": 62589,
+    "Islam": 579,
+    "RomanCatholic": 5310,
+    "OtherChristian": 2682,
+    "Other": 6,
+    "TotalPopulation": 72884
+  },
+  "LK-4136": {
+    "Buddhist": 529,
+    "Hindu": 17820,
+    "Islam": 2881,
+    "RomanCatholic": 24546,
+    "OtherChristian": 2766,
+    "Other": 1,
+    "TotalPopulation": 48543
+  },
+  "LK-4139": {
+    "Buddhist": 14,
+    "Hindu": 11846,
+    "Islam": 246,
+    "RomanCatholic": 4263,
+    "OtherChristian": 230,
+    "Other": 1,
+    "TotalPopulation": 16600
+  },
+  "LK-4142": {
+    "Buddhist": 4,
+    "Hindu": 1002,
+    "Islam": 1,
+    "RomanCatholic": 1924,
+    "OtherChristian": 222,
+    "Other": 5,
+    "TotalPopulation": 3158
+  },
+  "LK-4203": {
+    "Buddhist": 96,
+    "Hindu": 9927,
+    "Islam": 15373,
+    "RomanCatholic": 29246,
+    "OtherChristian": 3129,
+    "Other": 1,
+    "TotalPopulation": 57772
+  },
+  "LK-4206": {
+    "Buddhist": 19,
+    "Hindu": 7488,
+    "Islam": 2328,
+    "RomanCatholic": 8081,
+    "OtherChristian": 756,
+    "Other": 2,
+    "TotalPopulation": 18674
+  },
+  "LK-4209": {
+    "Buddhist": 101,
+    "Hindu": 4637,
+    "Islam": 1196,
+    "RomanCatholic": 3319,
+    "OtherChristian": 239,
+    "Other": 1,
+    "TotalPopulation": 9493
+  },
+  "LK-4212": {
+    "Buddhist": 83,
+    "Hindu": 3743,
+    "Islam": 1405,
+    "RomanCatholic": 13056,
+    "OtherChristian": 1387,
+    "Other": 0,
+    "TotalPopulation": 19674
+  },
+  "LK-4215": {
+    "Buddhist": 83,
+    "Hindu": 419,
+    "Islam": 13581,
+    "RomanCatholic": 4011,
+    "OtherChristian": 49,
+    "Other": 0,
+    "TotalPopulation": 18143
+  },
+  "LK-4303": {
+    "Buddhist": 1149,
+    "Hindu": 12616,
+    "Islam": 14,
+    "RomanCatholic": 555,
+    "OtherChristian": 374,
+    "Other": 1,
+    "TotalPopulation": 14709
+  },
+  "LK-4306": {
+    "Buddhist": 13946,
+    "Hindu": 402,
+    "Islam": 3,
+    "RomanCatholic": 225,
+    "OtherChristian": 265,
+    "Other": 1,
+    "TotalPopulation": 14842
+  },
+  "LK-4309": {
+    "Buddhist": 3151,
+    "Hindu": 88683,
+    "Islam": 8612,
+    "RomanCatholic": 9184,
+    "OtherChristian": 7307,
+    "Other": 54,
+    "TotalPopulation": 116991
+  },
+  "LK-4312": {
+    "Buddhist": 46,
+    "Hindu": 12803,
+    "Islam": 9146,
+    "RomanCatholic": 2821,
+    "OtherChristian": 949,
+    "Other": 5,
+    "TotalPopulation": 25770
+  },
+  "LK-4403": {
+    "Buddhist": 31,
+    "Hindu": 9188,
+    "Islam": 30,
+    "RomanCatholic": 576,
+    "OtherChristian": 584,
+    "Other": 1,
+    "TotalPopulation": 10410
+  },
+  "LK-4406": {
+    "Buddhist": 34,
+    "Hindu": 6898,
+    "Islam": 13,
+    "RomanCatholic": 307,
+    "OtherChristian": 397,
+    "Other": 1,
+    "TotalPopulation": 7650
+  },
+  "LK-4409": {
+    "Buddhist": 41,
+    "Hindu": 31073,
+    "Islam": 71,
+    "RomanCatholic": 5817,
+    "OtherChristian": 2530,
+    "Other": 0,
+    "TotalPopulation": 39532
+  },
+  "LK-4412": {
+    "Buddhist": 245,
+    "Hindu": 15685,
+    "Islam": 63,
+    "RomanCatholic": 886,
+    "OtherChristian": 1267,
+    "Other": 3,
+    "TotalPopulation": 18149
+  },
+  "LK-4415": {
+    "Buddhist": 48,
+    "Hindu": 25829,
+    "Islam": 3092,
+    "RomanCatholic": 6329,
+    "OtherChristian": 1510,
+    "Other": 5,
+    "TotalPopulation": 36813
+  },
+  "LK-4418": {
+    "Buddhist": 9894,
+    "Hindu": 65,
+    "Islam": 10,
+    "RomanCatholic": 67,
+    "OtherChristian": 27,
+    "Other": 2,
+    "TotalPopulation": 10065
+  },
+  "LK-4503": {
+    "Buddhist": 13,
+    "Hindu": 11271,
+    "Islam": 20,
+    "RomanCatholic": 1280,
+    "OtherChristian": 461,
+    "Other": 0,
+    "TotalPopulation": 13045
+  },
+  "LK-4506": {
+    "Buddhist": 7,
+    "Hindu": 21966,
+    "Islam": 25,
+    "RomanCatholic": 1560,
+    "OtherChristian": 1362,
+    "Other": 1,
+    "TotalPopulation": 24921
+  },
+  "LK-4509": {
+    "Buddhist": 1482,
+    "Hindu": 60727,
+    "Islam": 440,
+    "RomanCatholic": 5839,
+    "OtherChristian": 6139,
+    "Other": 4,
+    "TotalPopulation": 74631
+  },
+  "LK-4512": {
+    "Buddhist": 31,
+    "Hindu": 16294,
+    "Islam": 909,
+    "RomanCatholic": 5767,
+    "OtherChristian": 1112,
+    "Other": 0,
+    "TotalPopulation": 24113
+  },
+  "LK-5103": {
+    "Buddhist": 166,
+    "Hindu": 20144,
+    "Islam": 1095,
+    "RomanCatholic": 638,
+    "OtherChristian": 3432,
+    "Other": 0,
+    "TotalPopulation": 25475
+  },
+  "LK-5104": {
+    "Buddhist": 569,
+    "Hindu": 23383,
+    "Islam": 94,
+    "RomanCatholic": 1257,
+    "OtherChristian": 3459,
+    "Other": 0,
+    "TotalPopulation": 28762
+  },
+  "LK-5106": {
+    "Buddhist": 6,
+    "Hindu": 26,
+    "Islam": 24550,
+    "RomanCatholic": 1,
+    "OtherChristian": 0,
+    "Other": 0,
+    "TotalPopulation": 24583
+  },
+  "LK-5110": {
+    "Buddhist": 54,
+    "Hindu": 25536,
+    "Islam": 189,
+    "RomanCatholic": 279,
+    "OtherChristian": 2244,
+    "Other": 0,
+    "TotalPopulation": 28302
+  },
+  "LK-5115": {
+    "Buddhist": 2690,
+    "Hindu": 62055,
+    "Islam": 20106,
+    "RomanCatholic": 3458,
+    "OtherChristian": 5928,
+    "Other": 0,
+    "TotalPopulation": 94237
+  },
+  "LK-5118": {
+    "Buddhist": 625,
+    "Hindu": 62008,
+    "Islam": 6424,
+    "RomanCatholic": 16570,
+    "OtherChristian": 9459,
+    "Other": 21,
+    "TotalPopulation": 95107
+  },
+  "LK-5121": {
+    "Buddhist": 26,
+    "Hindu": 32137,
+    "Islam": 25,
+    "RomanCatholic": 293,
+    "OtherChristian": 349,
+    "Other": 1,
+    "TotalPopulation": 32831
+  },
+  "LK-5124": {
+    "Buddhist": 31,
+    "Hindu": 23,
+    "Islam": 44725,
+    "RomanCatholic": 9,
+    "OtherChristian": 6,
+    "Other": 0,
+    "TotalPopulation": 44794
+  },
+  "LK-5127": {
+    "Buddhist": 101,
+    "Hindu": 23159,
+    "Islam": 11254,
+    "RomanCatholic": 1251,
+    "OtherChristian": 767,
+    "Other": 1,
+    "TotalPopulation": 36533
+  },
+  "LK-5130": {
+    "Buddhist": 1349,
+    "Hindu": 25073,
+    "Islam": 1,
+    "RomanCatholic": 87,
+    "OtherChristian": 166,
+    "Other": 0,
+    "TotalPopulation": 26676
+  },
+  "LK-5133": {
+    "Buddhist": 226,
+    "Hindu": 37730,
+    "Islam": 6,
+    "RomanCatholic": 139,
+    "OtherChristian": 526,
+    "Other": 0,
+    "TotalPopulation": 38627
+  },
+  "LK-5136": {
+    "Buddhist": 103,
+    "Hindu": 59997,
+    "Islam": 29,
+    "RomanCatholic": 1565,
+    "OtherChristian": 1216,
+    "Other": 10,
+    "TotalPopulation": 62920
+  },
+  "LK-5139": {
+    "Buddhist": 21,
+    "Hindu": 2966,
+    "Islam": 23126,
+    "RomanCatholic": 230,
+    "OtherChristian": 125,
+    "Other": 0,
+    "TotalPopulation": 26468
+  },
+  "LK-5203": {
+    "Buddhist": 66971,
+    "Hindu": 59,
+    "Islam": 90,
+    "RomanCatholic": 52,
+    "OtherChristian": 99,
+    "Other": 3,
+    "TotalPopulation": 67274
+  },
+  "LK-5206": {
+    "Buddhist": 20711,
+    "Hindu": 38,
+    "Islam": 56,
+    "RomanCatholic": 16,
+    "OtherChristian": 12,
+    "Other": 1,
+    "TotalPopulation": 20834
+  },
+  "LK-5209": {
+    "Buddhist": 23625,
+    "Hindu": 35,
+    "Islam": 16,
+    "RomanCatholic": 17,
+    "OtherChristian": 22,
+    "Other": 0,
+    "TotalPopulation": 23715
+  },
+  "LK-5212": {
+    "Buddhist": 61966,
+    "Hindu": 47,
+    "Islam": 20,
+    "RomanCatholic": 84,
+    "OtherChristian": 98,
+    "Other": 1,
+    "TotalPopulation": 62216
+  },
+  "LK-5215": {
+    "Buddhist": 46871,
+    "Hindu": 207,
+    "Islam": 275,
+    "RomanCatholic": 335,
+    "OtherChristian": 170,
+    "Other": 10,
+    "TotalPopulation": 47868
+  },
+  "LK-5216": {
+    "Buddhist": 83,
+    "Hindu": 11635,
+    "Islam": 7967,
+    "RomanCatholic": 1955,
+    "OtherChristian": 216,
+    "Other": 0,
+    "TotalPopulation": 21856
+  },
+  "LK-5218": {
+    "Buddhist": 539,
+    "Hindu": 8342,
+    "Islam": 63096,
+    "RomanCatholic": 118,
+    "OtherChristian": 689,
+    "Other": 10,
+    "TotalPopulation": 72794
+  },
+  "LK-5221": {
+    "Buddhist": 39,
+    "Hindu": 71,
+    "Islam": 52660,
+    "RomanCatholic": 21,
+    "OtherChristian": 5,
+    "Other": 2,
+    "TotalPopulation": 52798
+  },
+  "LK-5225": {
+    "Buddhist": 19,
+    "Hindu": 20,
+    "Islam": 29828,
+    "RomanCatholic": 6,
+    "OtherChristian": 0,
+    "Other": 0,
+    "TotalPopulation": 29873
+  },
+  "LK-5227": {
+    "Buddhist": 22,
+    "Hindu": 10919,
+    "Islam": 8285,
+    "RomanCatholic": 110,
+    "OtherChristian": 156,
+    "Other": 1,
+    "TotalPopulation": 19493
+  },
+  "LK-5230": {
+    "Buddhist": 16,
+    "Hindu": 1002,
+    "Islam": 29614,
+    "RomanCatholic": 24,
+    "OtherChristian": 15,
+    "Other": 0,
+    "TotalPopulation": 30671
+  },
+  "LK-5233": {
+    "Buddhist": 3439,
+    "Hindu": 760,
+    "Islam": 48938,
+    "RomanCatholic": 60,
+    "OtherChristian": 17,
+    "Other": 0,
+    "TotalPopulation": 53214
+  },
+  "LK-5234": {
+    "Buddhist": 985,
+    "Hindu": 399,
+    "Islam": 16275,
+    "RomanCatholic": 8,
+    "OtherChristian": 4,
+    "Other": 0,
+    "TotalPopulation": 17671
+  },
+  "LK-5236": {
+    "Buddhist": 76,
+    "Hindu": 150,
+    "Islam": 44739,
+    "RomanCatholic": 10,
+    "OtherChristian": 4,
+    "Other": 0,
+    "TotalPopulation": 44979
+  },
+  "LK-5239": {
+    "Buddhist": 192,
+    "Hindu": 21312,
+    "Islam": 55,
+    "RomanCatholic": 1989,
+    "OtherChristian": 1289,
+    "Other": 1,
+    "TotalPopulation": 24838
+  },
+  "LK-5242": {
+    "Buddhist": 39977,
+    "Hindu": 44,
+    "Islam": 174,
+    "RomanCatholic": 47,
+    "OtherChristian": 83,
+    "Other": 0,
+    "TotalPopulation": 40325
+  },
+  "LK-5245": {
+    "Buddhist": 47,
+    "Hindu": 27725,
+    "Islam": 9,
+    "RomanCatholic": 492,
+    "OtherChristian": 973,
+    "Other": 6,
+    "TotalPopulation": 29252
+  },
+  "LK-5248": {
+    "Buddhist": 761,
+    "Hindu": 6325,
+    "Islam": 34471,
+    "RomanCatholic": 191,
+    "OtherChristian": 1159,
+    "Other": 1,
+    "TotalPopulation": 42908
+  },
+  "LK-5251": {
+    "Buddhist": 9711,
+    "Hindu": 638,
+    "Islam": 0,
+    "RomanCatholic": 53,
+    "OtherChristian": 14,
+    "Other": 0,
+    "TotalPopulation": 10416
+  },
+  "LK-5303": {
+    "Buddhist": 11918,
+    "Hindu": 14,
+    "Islam": 4,
+    "RomanCatholic": 40,
+    "OtherChristian": 105,
+    "Other": 0,
+    "TotalPopulation": 12081
+  },
+  "LK-5306": {
+    "Buddhist": 1534,
+    "Hindu": 10196,
+    "Islam": 26239,
+    "RomanCatholic": 1363,
+    "OtherChristian": 530,
+    "Other": 11,
+    "TotalPopulation": 39873
+  },
+  "LK-5309": {
+    "Buddhist": 8338,
+    "Hindu": 45,
+    "Islam": 1,
+    "RomanCatholic": 10,
+    "OtherChristian": 4,
+    "Other": 0,
+    "TotalPopulation": 8398
+  },
+  "LK-5312": {
+    "Buddhist": 6393,
+    "Hindu": 1200,
+    "Islam": 1561,
+    "RomanCatholic": 22,
+    "OtherChristian": 17,
+    "Other": 0,
+    "TotalPopulation": 9193
+  },
+  "LK-5315": {
+    "Buddhist": 21115,
+    "Hindu": 48282,
+    "Islam": 15605,
+    "RomanCatholic": 11065,
+    "OtherChristian": 4173,
+    "Other": 30,
+    "TotalPopulation": 100270
+  },
+  "LK-5318": {
+    "Buddhist": 7440,
+    "Hindu": 5089,
+    "Islam": 20286,
+    "RomanCatholic": 87,
+    "OtherChristian": 734,
+    "Other": 0,
+    "TotalPopulation": 33636
+  },
+  "LK-5321": {
+    "Buddhist": 39988,
+    "Hindu": 1525,
+    "Islam": 9020,
+    "RomanCatholic": 169,
+    "OtherChristian": 135,
+    "Other": 3,
+    "TotalPopulation": 50840
+  },
+  "LK-5324": {
+    "Buddhist": 61,
+    "Hindu": 2378,
+    "Islam": 84032,
+    "RomanCatholic": 25,
+    "OtherChristian": 7,
+    "Other": 1,
+    "TotalPopulation": 86504
+  },
+  "LK-5327": {
+    "Buddhist": 315,
+    "Hindu": 23131,
+    "Islam": 45658,
+    "RomanCatholic": 1494,
+    "OtherChristian": 1283,
+    "Other": 0,
+    "TotalPopulation": 71881
+  },
+  "LK-5330": {
+    "Buddhist": 9787,
+    "Hindu": 2731,
+    "Islam": 3234,
+    "RomanCatholic": 34,
+    "OtherChristian": 221,
+    "Other": 0,
+    "TotalPopulation": 16007
+  },
+  "LK-5333": {
+    "Buddhist": 30,
+    "Hindu": 13459,
+    "Islam": 24,
+    "RomanCatholic": 44,
+    "OtherChristian": 505,
+    "Other": 0,
+    "TotalPopulation": 14062
+  },
+  "LK-6103": {
+    "Buddhist": 31704,
+    "Hindu": 40,
+    "Islam": 3027,
+    "RomanCatholic": 71,
+    "OtherChristian": 87,
+    "Other": 0,
+    "TotalPopulation": 34929
+  },
+  "LK-6106": {
+    "Buddhist": 56429,
+    "Hindu": 159,
+    "Islam": 4202,
+    "RomanCatholic": 555,
+    "OtherChristian": 410,
+    "Other": 4,
+    "TotalPopulation": 61759
+  },
+  "LK-6109": {
+    "Buddhist": 27418,
+    "Hindu": 26,
+    "Islam": 815,
+    "RomanCatholic": 40,
+    "OtherChristian": 18,
+    "Other": 0,
+    "TotalPopulation": 28317
+  },
+  "LK-6112": {
+    "Buddhist": 24990,
+    "Hindu": 33,
+    "Islam": 391,
+    "RomanCatholic": 69,
+    "OtherChristian": 32,
+    "Other": 0,
+    "TotalPopulation": 25515
+  },
+  "LK-6115": {
+    "Buddhist": 23830,
+    "Hindu": 28,
+    "Islam": 103,
+    "RomanCatholic": 56,
+    "OtherChristian": 14,
+    "Other": 0,
+    "TotalPopulation": 24031
+  },
+  "LK-6118": {
+    "Buddhist": 19566,
+    "Hindu": 41,
+    "Islam": 4898,
+    "RomanCatholic": 316,
+    "OtherChristian": 91,
+    "Other": 0,
+    "TotalPopulation": 24912
+  },
+  "LK-6121": {
+    "Buddhist": 40838,
+    "Hindu": 298,
+    "Islam": 1543,
+    "RomanCatholic": 585,
+    "OtherChristian": 138,
+    "Other": 0,
+    "TotalPopulation": 43402
+  },
+  "LK-6124": {
+    "Buddhist": 59715,
+    "Hindu": 279,
+    "Islam": 3731,
+    "RomanCatholic": 309,
+    "OtherChristian": 86,
+    "Other": 2,
+    "TotalPopulation": 64122
+  },
+  "LK-6127": {
+    "Buddhist": 85752,
+    "Hindu": 203,
+    "Islam": 36,
+    "RomanCatholic": 234,
+    "OtherChristian": 183,
+    "Other": 3,
+    "TotalPopulation": 86411
+  },
+  "LK-6130": {
+    "Buddhist": 84174,
+    "Hindu": 818,
+    "Islam": 8137,
+    "RomanCatholic": 762,
+    "OtherChristian": 273,
+    "Other": 3,
+    "TotalPopulation": 94167
+  },
+  "LK-6133": {
+    "Buddhist": 40474,
+    "Hindu": 109,
+    "Islam": 2441,
+    "RomanCatholic": 289,
+    "OtherChristian": 118,
+    "Other": 0,
+    "TotalPopulation": 43431
+  },
+  "LK-6136": {
+    "Buddhist": 64464,
+    "Hindu": 225,
+    "Islam": 1027,
+    "RomanCatholic": 597,
+    "OtherChristian": 172,
+    "Other": 3,
+    "TotalPopulation": 66488
+  },
+  "LK-6139": {
+    "Buddhist": 34325,
+    "Hindu": 99,
+    "Islam": 5322,
+    "RomanCatholic": 809,
+    "OtherChristian": 114,
+    "Other": 0,
+    "TotalPopulation": 40669
+  },
+  "LK-6142": {
+    "Buddhist": 57503,
+    "Hindu": 410,
+    "Islam": 2295,
+    "RomanCatholic": 6072,
+    "OtherChristian": 436,
+    "Other": 8,
+    "TotalPopulation": 66724
+  },
+  "LK-6145": {
+    "Buddhist": 58481,
+    "Hindu": 346,
+    "Islam": 10464,
+    "RomanCatholic": 1719,
+    "OtherChristian": 173,
+    "Other": 3,
+    "TotalPopulation": 71186
+  },
+  "LK-6148": {
+    "Buddhist": 30369,
+    "Hindu": 62,
+    "Islam": 839,
+    "RomanCatholic": 479,
+    "OtherChristian": 41,
+    "Other": 0,
+    "TotalPopulation": 31790
+  },
+  "LK-6149": {
+    "Buddhist": 37709,
+    "Hindu": 154,
+    "Islam": 929,
+    "RomanCatholic": 577,
+    "OtherChristian": 68,
+    "Other": 5,
+    "TotalPopulation": 39442
+  },
+  "LK-6151": {
+    "Buddhist": 38268,
+    "Hindu": 521,
+    "Islam": 1388,
+    "RomanCatholic": 1286,
+    "OtherChristian": 401,
+    "Other": 9,
+    "TotalPopulation": 41873
+  },
+  "LK-6154": {
+    "Buddhist": 71927,
+    "Hindu": 2568,
+    "Islam": 10581,
+    "RomanCatholic": 2568,
+    "OtherChristian": 1346,
+    "Other": 9,
+    "TotalPopulation": 88999
+  },
+  "LK-6157": {
+    "Buddhist": 46464,
+    "Hindu": 1035,
+    "Islam": 10018,
+    "RomanCatholic": 1042,
+    "OtherChristian": 922,
+    "Other": 10,
+    "TotalPopulation": 59491
+  },
+  "LK-6160": {
+    "Buddhist": 57291,
+    "Hindu": 3024,
+    "Islam": 8803,
+    "RomanCatholic": 865,
+    "OtherChristian": 882,
+    "Other": 2,
+    "TotalPopulation": 70867
+  },
+  "LK-6163": {
+    "Buddhist": 80308,
+    "Hindu": 2685,
+    "Islam": 12391,
+    "RomanCatholic": 454,
+    "OtherChristian": 122,
+    "Other": 0,
+    "TotalPopulation": 95960
+  },
+  "LK-6166": {
+    "Buddhist": 35523,
+    "Hindu": 110,
+    "Islam": 61,
+    "RomanCatholic": 717,
+    "OtherChristian": 175,
+    "Other": 4,
+    "TotalPopulation": 36590
+  },
+  "LK-6169": {
+    "Buddhist": 39425,
+    "Hindu": 234,
+    "Islam": 21068,
+    "RomanCatholic": 425,
+    "OtherChristian": 68,
+    "Other": 3,
+    "TotalPopulation": 61223
+  },
+  "LK-6172": {
+    "Buddhist": 74412,
+    "Hindu": 681,
+    "Islam": 2484,
+    "RomanCatholic": 4114,
+    "OtherChristian": 891,
+    "Other": 5,
+    "TotalPopulation": 82587
+  },
+  "LK-6175": {
+    "Buddhist": 40616,
+    "Hindu": 402,
+    "Islam": 6270,
+    "RomanCatholic": 6724,
+    "OtherChristian": 445,
+    "Other": 9,
+    "TotalPopulation": 54466
+  },
+  "LK-6178": {
+    "Buddhist": 117261,
+    "Hindu": 1202,
+    "Islam": 9398,
+    "RomanCatholic": 7048,
+    "OtherChristian": 899,
+    "Other": 37,
+    "TotalPopulation": 135845
+  },
+  "LK-6181": {
+    "Buddhist": 55045,
+    "Hindu": 289,
+    "Islam": 3838,
+    "RomanCatholic": 502,
+    "OtherChristian": 131,
+    "Other": 1,
+    "TotalPopulation": 59806
+  },
+  "LK-6184": {
+    "Buddhist": 65134,
+    "Hindu": 101,
+    "Islam": 19,
+    "RomanCatholic": 263,
+    "OtherChristian": 168,
+    "Other": 4,
+    "TotalPopulation": 65689
+  },
+  "LK-6187": {
+    "Buddhist": 58139,
+    "Hindu": 1305,
+    "Islam": 6780,
+    "RomanCatholic": 726,
+    "OtherChristian": 509,
+    "Other": 6,
+    "TotalPopulation": 67465
+  },
+  "LK-6203": {
+    "Buddhist": 6329,
+    "Hindu": 4107,
+    "Islam": 52977,
+    "RomanCatholic": 32625,
+    "OtherChristian": 948,
+    "Other": 9,
+    "TotalPopulation": 96995
+  },
+  "LK-6206": {
+    "Buddhist": 7828,
+    "Hindu": 835,
+    "Islam": 7341,
+    "RomanCatholic": 3532,
+    "OtherChristian": 454,
+    "Other": 1,
+    "TotalPopulation": 19991
+  },
+  "LK-6209": {
+    "Buddhist": 24542,
+    "Hindu": 57,
+    "Islam": 7,
+    "RomanCatholic": 1447,
+    "OtherChristian": 171,
+    "Other": 1,
+    "TotalPopulation": 26225
+  },
+  "LK-6212": {
+    "Buddhist": 17390,
+    "Hindu": 25,
+    "Islam": 6,
+    "RomanCatholic": 116,
+    "OtherChristian": 34,
+    "Other": 0,
+    "TotalPopulation": 17571
+  },
+  "LK-6215": {
+    "Buddhist": 17652,
+    "Hindu": 4446,
+    "Islam": 63101,
+    "RomanCatholic": 8222,
+    "OtherChristian": 1139,
+    "Other": 217,
+    "TotalPopulation": 94777
+  },
+  "LK-6218": {
+    "Buddhist": 12452,
+    "Hindu": 9244,
+    "Islam": 30384,
+    "RomanCatholic": 20129,
+    "OtherChristian": 360,
+    "Other": 1,
+    "TotalPopulation": 72570
+  },
+  "LK-6221": {
+    "Buddhist": 18690,
+    "Hindu": 540,
+    "Islam": 21,
+    "RomanCatholic": 2452,
+    "OtherChristian": 161,
+    "Other": 3,
+    "TotalPopulation": 21867
+  },
+  "LK-6224": {
+    "Buddhist": 41078,
+    "Hindu": 194,
+    "Islam": 835,
+    "RomanCatholic": 1230,
+    "OtherChristian": 189,
+    "Other": 0,
+    "TotalPopulation": 43526
+  },
+  "LK-6227": {
+    "Buddhist": 18924,
+    "Hindu": 264,
+    "Islam": 5235,
+    "RomanCatholic": 3267,
+    "OtherChristian": 247,
+    "Other": 1,
+    "TotalPopulation": 27938
+  },
+  "LK-6230": {
+    "Buddhist": 26320,
+    "Hindu": 1278,
+    "Islam": 148,
+    "RomanCatholic": 14443,
+    "OtherChristian": 558,
+    "Other": 2,
+    "TotalPopulation": 42749
+  },
+  "LK-6233": {
+    "Buddhist": 24717,
+    "Hindu": 3981,
+    "Islam": 5519,
+    "RomanCatholic": 28248,
+    "OtherChristian": 1164,
+    "Other": 10,
+    "TotalPopulation": 63639
+  },
+  "LK-6236": {
+    "Buddhist": 36282,
+    "Hindu": 726,
+    "Islam": 2885,
+    "RomanCatholic": 7860,
+    "OtherChristian": 1232,
+    "Other": 9,
+    "TotalPopulation": 48994
+  },
+  "LK-6239": {
+    "Buddhist": 23033,
+    "Hindu": 456,
+    "Islam": 45,
+    "RomanCatholic": 24602,
+    "OtherChristian": 697,
+    "Other": 0,
+    "TotalPopulation": 48833
+  },
+  "LK-6242": {
+    "Buddhist": 30286,
+    "Hindu": 1262,
+    "Islam": 7939,
+    "RomanCatholic": 25002,
+    "OtherChristian": 1003,
+    "Other": 8,
+    "TotalPopulation": 65500
+  },
+  "LK-6245": {
+    "Buddhist": 12250,
+    "Hindu": 698,
+    "Islam": 87,
+    "RomanCatholic": 50261,
+    "OtherChristian": 1465,
+    "Other": 7,
+    "TotalPopulation": 64768
+  },
+  "LK-6248": {
+    "Buddhist": 43375,
+    "Hindu": 719,
+    "Islam": 433,
+    "RomanCatholic": 17539,
+    "OtherChristian": 797,
+    "Other": 10,
+    "TotalPopulation": 62873
+  },
+  "LK-7103": {
+    "Buddhist": 24293,
+    "Hindu": 9,
+    "Islam": 6,
+    "RomanCatholic": 149,
+    "OtherChristian": 36,
+    "Other": 0,
+    "TotalPopulation": 24493
+  },
+  "LK-7106": {
+    "Buddhist": 23731,
+    "Hindu": 29,
+    "Islam": 2631,
+    "RomanCatholic": 12,
+    "OtherChristian": 29,
+    "Other": 0,
+    "TotalPopulation": 26432
+  },
+  "LK-7109": {
+    "Buddhist": 48517,
+    "Hindu": 137,
+    "Islam": 3526,
+    "RomanCatholic": 249,
+    "OtherChristian": 67,
+    "Other": 0,
+    "TotalPopulation": 52496
+  },
+  "LK-7112": {
+    "Buddhist": 23947,
+    "Hindu": 27,
+    "Islam": 19,
+    "RomanCatholic": 113,
+    "OtherChristian": 84,
+    "Other": 4,
+    "TotalPopulation": 24194
+  },
+  "LK-7115": {
+    "Buddhist": 63651,
+    "Hindu": 546,
+    "Islam": 6452,
+    "RomanCatholic": 383,
+    "OtherChristian": 461,
+    "Other": 36,
+    "TotalPopulation": 71529
+  },
+  "LK-7118": {
+    "Buddhist": 34412,
+    "Hindu": 63,
+    "Islam": 5242,
+    "RomanCatholic": 130,
+    "OtherChristian": 14,
+    "Other": 0,
+    "TotalPopulation": 39861
+  },
+  "LK-7121": {
+    "Buddhist": 34073,
+    "Hindu": 145,
+    "Islam": 10466,
+    "RomanCatholic": 121,
+    "OtherChristian": 96,
+    "Other": 2,
+    "TotalPopulation": 44903
+  },
+  "LK-7124": {
+    "Buddhist": 28932,
+    "Hindu": 56,
+    "Islam": 12135,
+    "RomanCatholic": 88,
+    "OtherChristian": 49,
+    "Other": 1,
+    "TotalPopulation": 41261
+  },
+  "LK-7127": {
+    "Buddhist": 50009,
+    "Hindu": 74,
+    "Islam": 1794,
+    "RomanCatholic": 44,
+    "OtherChristian": 31,
+    "Other": 0,
+    "TotalPopulation": 51952
+  },
+  "LK-7130": {
+    "Buddhist": 40807,
+    "Hindu": 266,
+    "Islam": 2332,
+    "RomanCatholic": 360,
+    "OtherChristian": 341,
+    "Other": 1,
+    "TotalPopulation": 44107
+  },
+  "LK-7133": {
+    "Buddhist": 71538,
+    "Hindu": 238,
+    "Islam": 3135,
+    "RomanCatholic": 908,
+    "OtherChristian": 313,
+    "Other": 6,
+    "TotalPopulation": 76138
+  },
+  "LK-7136": {
+    "Buddhist": 24506,
+    "Hindu": 17,
+    "Islam": 3599,
+    "RomanCatholic": 89,
+    "OtherChristian": 55,
+    "Other": 0,
+    "TotalPopulation": 28266
+  },
+  "LK-7139": {
+    "Buddhist": 52281,
+    "Hindu": 244,
+    "Islam": 2416,
+    "RomanCatholic": 460,
+    "OtherChristian": 68,
+    "Other": 2,
+    "TotalPopulation": 55471
+  },
+  "LK-7142": {
+    "Buddhist": 35641,
+    "Hindu": 30,
+    "Islam": 12,
+    "RomanCatholic": 411,
+    "OtherChristian": 137,
+    "Other": 5,
+    "TotalPopulation": 36236
+  },
+  "LK-7145": {
+    "Buddhist": 45654,
+    "Hindu": 46,
+    "Islam": 10,
+    "RomanCatholic": 251,
+    "OtherChristian": 1100,
+    "Other": 0,
+    "TotalPopulation": 47061
+  },
+  "LK-7148": {
+    "Buddhist": 60125,
+    "Hindu": 114,
+    "Islam": 606,
+    "RomanCatholic": 239,
+    "OtherChristian": 127,
+    "Other": 5,
+    "TotalPopulation": 61216
+  },
+  "LK-7151": {
+    "Buddhist": 28176,
+    "Hindu": 65,
+    "Islam": 2077,
+    "RomanCatholic": 751,
+    "OtherChristian": 52,
+    "Other": 0,
+    "TotalPopulation": 31121
+  },
+  "LK-7154": {
+    "Buddhist": 50581,
+    "Hindu": 1276,
+    "Islam": 12767,
+    "RomanCatholic": 415,
+    "OtherChristian": 270,
+    "Other": 8,
+    "TotalPopulation": 65317
+  },
+  "LK-7157": {
+    "Buddhist": 17713,
+    "Hindu": 80,
+    "Islam": 20,
+    "RomanCatholic": 229,
+    "OtherChristian": 53,
+    "Other": 43,
+    "TotalPopulation": 18138
+  },
+  "LK-7160": {
+    "Buddhist": 35204,
+    "Hindu": 82,
+    "Islam": 6222,
+    "RomanCatholic": 217,
+    "OtherChristian": 235,
+    "Other": 1,
+    "TotalPopulation": 41961
+  },
+  "LK-7163": {
+    "Buddhist": 36572,
+    "Hindu": 99,
+    "Islam": 2708,
+    "RomanCatholic": 51,
+    "OtherChristian": 27,
+    "Other": 1,
+    "TotalPopulation": 39458
+  },
+  "LK-7166": {
+    "Buddhist": 32444,
+    "Hindu": 112,
+    "Islam": 5804,
+    "RomanCatholic": 90,
+    "OtherChristian": 11,
+    "Other": 8,
+    "TotalPopulation": 38469
+  },
+  "LK-7203": {
+    "Buddhist": 68762,
+    "Hindu": 174,
+    "Islam": 595,
+    "RomanCatholic": 837,
+    "OtherChristian": 277,
+    "Other": 6,
+    "TotalPopulation": 70651
+  },
+  "LK-7206": {
+    "Buddhist": 70700,
+    "Hindu": 67,
+    "Islam": 1504,
+    "RomanCatholic": 136,
+    "OtherChristian": 75,
+    "Other": 0,
+    "TotalPopulation": 72482
+  },
+  "LK-7209": {
+    "Buddhist": 26904,
+    "Hindu": 28,
+    "Islam": 12589,
+    "RomanCatholic": 143,
+    "OtherChristian": 9,
+    "Other": 0,
+    "TotalPopulation": 39673
+  },
+  "LK-7210": {
+    "Buddhist": 27995,
+    "Hindu": 3245,
+    "Islam": 6663,
+    "RomanCatholic": 181,
+    "OtherChristian": 112,
+    "Other": 0,
+    "TotalPopulation": 38196
+  },
+  "LK-7212": {
+    "Buddhist": 82634,
+    "Hindu": 2618,
+    "Islam": 54,
+    "RomanCatholic": 385,
+    "OtherChristian": 216,
+    "Other": 0,
+    "TotalPopulation": 85907
+  },
+  "LK-7215": {
+    "Buddhist": 74194,
+    "Hindu": 981,
+    "Islam": 15680,
+    "RomanCatholic": 804,
+    "OtherChristian": 381,
+    "Other": 16,
+    "TotalPopulation": 92056
+  },
+  "LK-7218": {
+    "Buddhist": 48299,
+    "Hindu": 102,
+    "Islam": 12,
+    "RomanCatholic": 74,
+    "OtherChristian": 16,
+    "Other": 62,
+    "TotalPopulation": 48565
+  },
+  "LK-8103": {
+    "Buddhist": 86376,
+    "Hindu": 97,
+    "Islam": 2373,
+    "RomanCatholic": 102,
+    "OtherChristian": 133,
+    "Other": 1,
+    "TotalPopulation": 89082
+  },
+  "LK-8106": {
+    "Buddhist": 60652,
+    "Hindu": 114,
+    "Islam": 21,
+    "RomanCatholic": 61,
+    "OtherChristian": 34,
+    "Other": 0,
+    "TotalPopulation": 60882
+  },
+  "LK-8109": {
+    "Buddhist": 20824,
+    "Hindu": 1767,
+    "Islam": 13,
+    "RomanCatholic": 52,
+    "OtherChristian": 27,
+    "Other": 0,
+    "TotalPopulation": 22683
+  },
+  "LK-8112": {
+    "Buddhist": 25458,
+    "Hindu": 780,
+    "Islam": 611,
+    "RomanCatholic": 12,
+    "OtherChristian": 52,
+    "Other": 0,
+    "TotalPopulation": 26913
+  },
+  "LK-8115": {
+    "Buddhist": 19709,
+    "Hindu": 4256,
+    "Islam": 260,
+    "RomanCatholic": 87,
+    "OtherChristian": 95,
+    "Other": 0,
+    "TotalPopulation": 24407
+  },
+  "LK-8118": {
+    "Buddhist": 27171,
+    "Hindu": 18256,
+    "Islam": 2625,
+    "RomanCatholic": 960,
+    "OtherChristian": 624,
+    "Other": 0,
+    "TotalPopulation": 49636
+  },
+  "LK-8119": {
+    "Buddhist": 12807,
+    "Hindu": 16140,
+    "Islam": 1208,
+    "RomanCatholic": 1265,
+    "OtherChristian": 459,
+    "Other": 2,
+    "TotalPopulation": 31881
+  },
+  "LK-8121": {
+    "Buddhist": 56647,
+    "Hindu": 15442,
+    "Islam": 8868,
+    "RomanCatholic": 1170,
+    "OtherChristian": 892,
+    "Other": 14,
+    "TotalPopulation": 83033
+  },
+  "LK-8124": {
+    "Buddhist": 59899,
+    "Hindu": 28031,
+    "Islam": 4661,
+    "RomanCatholic": 974,
+    "OtherChristian": 652,
+    "Other": 9,
+    "TotalPopulation": 94226
+  },
+  "LK-8127": {
+    "Buddhist": 69390,
+    "Hindu": 9612,
+    "Islam": 2516,
+    "RomanCatholic": 371,
+    "OtherChristian": 180,
+    "Other": 0,
+    "TotalPopulation": 82069
+  },
+  "LK-8130": {
+    "Buddhist": 72755,
+    "Hindu": 11919,
+    "Islam": 19720,
+    "RomanCatholic": 626,
+    "OtherChristian": 489,
+    "Other": 1,
+    "TotalPopulation": 105510
+  },
+  "LK-8133": {
+    "Buddhist": 47050,
+    "Hindu": 12044,
+    "Islam": 3761,
+    "RomanCatholic": 1739,
+    "OtherChristian": 874,
+    "Other": 20,
+    "TotalPopulation": 65488
+  },
+  "LK-8136": {
+    "Buddhist": 32363,
+    "Hindu": 14108,
+    "Islam": 2300,
+    "RomanCatholic": 365,
+    "OtherChristian": 299,
+    "Other": 4,
+    "TotalPopulation": 49439
+  },
+  "LK-8139": {
+    "Buddhist": 24432,
+    "Hindu": 17674,
+    "Islam": 4165,
+    "RomanCatholic": 1571,
+    "OtherChristian": 437,
+    "Other": 1,
+    "TotalPopulation": 48280
+  },
+  "LK-8142": {
+    "Buddhist": 21455,
+    "Hindu": 16140,
+    "Islam": 461,
+    "RomanCatholic": 238,
+    "OtherChristian": 482,
+    "Other": 2,
+    "TotalPopulation": 38778
+  },
+  "LK-8203": {
+    "Buddhist": 44824,
+    "Hindu": 1045,
+    "Islam": 1217,
+    "RomanCatholic": 129,
+    "OtherChristian": 51,
+    "Other": 0,
+    "TotalPopulation": 47266
+  },
+  "LK-8206": {
+    "Buddhist": 36280,
+    "Hindu": 47,
+    "Islam": 9,
+    "RomanCatholic": 74,
+    "OtherChristian": 36,
+    "Other": 0,
+    "TotalPopulation": 36446
+  },
+  "LK-8209": {
+    "Buddhist": 37662,
+    "Hindu": 80,
+    "Islam": 6827,
+    "RomanCatholic": 33,
+    "OtherChristian": 11,
+    "Other": 1,
+    "TotalPopulation": 44614
+  },
+  "LK-8212": {
+    "Buddhist": 62813,
+    "Hindu": 90,
+    "Islam": 40,
+    "RomanCatholic": 56,
+    "OtherChristian": 56,
+    "Other": 0,
+    "TotalPopulation": 63055
+  },
+  "LK-8215": {
+    "Buddhist": 48622,
+    "Hindu": 7625,
+    "Islam": 283,
+    "RomanCatholic": 257,
+    "OtherChristian": 161,
+    "Other": 3,
+    "TotalPopulation": 56951
+  },
+  "LK-8218": {
+    "Buddhist": 39597,
+    "Hindu": 4483,
+    "Islam": 2243,
+    "RomanCatholic": 251,
+    "OtherChristian": 21,
+    "Other": 0,
+    "TotalPopulation": 46595
+  },
+  "LK-8221": {
+    "Buddhist": 71292,
+    "Hindu": 505,
+    "Islam": 1147,
+    "RomanCatholic": 129,
+    "OtherChristian": 195,
+    "Other": 12,
+    "TotalPopulation": 73280
+  },
+  "LK-8224": {
+    "Buddhist": 59547,
+    "Hindu": 461,
+    "Islam": 425,
+    "RomanCatholic": 121,
+    "OtherChristian": 51,
+    "Other": 1,
+    "TotalPopulation": 60606
+  },
+  "LK-8227": {
+    "Buddhist": 17477,
+    "Hindu": 554,
+    "Islam": 47,
+    "RomanCatholic": 32,
+    "OtherChristian": 48,
+    "Other": 0,
+    "TotalPopulation": 18158
+  },
+  "LK-8230": {
+    "Buddhist": 31070,
+    "Hindu": 38,
+    "Islam": 9,
+    "RomanCatholic": 63,
+    "OtherChristian": 57,
+    "Other": 1,
+    "TotalPopulation": 31238
+  },
+  "LK-8233": {
+    "Buddhist": 49252,
+    "Hindu": 46,
+    "Islam": 15,
+    "RomanCatholic": 36,
+    "OtherChristian": 26,
+    "Other": 1,
+    "TotalPopulation": 49376
+  },
+  "LK-9103": {
+    "Buddhist": 66173,
+    "Hindu": 3231,
+    "Islam": 3961,
+    "RomanCatholic": 353,
+    "OtherChristian": 349,
+    "Other": 4,
+    "TotalPopulation": 74071
+  },
+  "LK-9106": {
+    "Buddhist": 89318,
+    "Hindu": 5256,
+    "Islam": 2122,
+    "RomanCatholic": 664,
+    "OtherChristian": 604,
+    "Other": 2,
+    "TotalPopulation": 97966
+  },
+  "LK-9109": {
+    "Buddhist": 32480,
+    "Hindu": 907,
+    "Islam": 15,
+    "RomanCatholic": 160,
+    "OtherChristian": 68,
+    "Other": 1,
+    "TotalPopulation": 33631
+  },
+  "LK-9112": {
+    "Buddhist": 94405,
+    "Hindu": 17447,
+    "Islam": 7169,
+    "RomanCatholic": 1139,
+    "OtherChristian": 998,
+    "Other": 8,
+    "TotalPopulation": 121166
+  },
+  "LK-9115": {
+    "Buddhist": 55075,
+    "Hindu": 8019,
+    "Islam": 108,
+    "RomanCatholic": 894,
+    "OtherChristian": 453,
+    "Other": 6,
+    "TotalPopulation": 64555
+  },
+  "LK-9118": {
+    "Buddhist": 54995,
+    "Hindu": 10952,
+    "Islam": 6768,
+    "RomanCatholic": 1431,
+    "OtherChristian": 724,
+    "Other": 23,
+    "TotalPopulation": 74893
+  },
+  "LK-9119": {
+    "Buddhist": 12648,
+    "Hindu": 13,
+    "Islam": 312,
+    "RomanCatholic": 42,
+    "OtherChristian": 3,
+    "Other": 0,
+    "TotalPopulation": 13018
+  },
+  "LK-9121": {
+    "Buddhist": 25134,
+    "Hindu": 1717,
+    "Islam": 238,
+    "RomanCatholic": 107,
+    "OtherChristian": 46,
+    "Other": 2,
+    "TotalPopulation": 27244
+  },
+  "LK-9124": {
+    "Buddhist": 80404,
+    "Hindu": 11641,
+    "Islam": 663,
+    "RomanCatholic": 639,
+    "OtherChristian": 469,
+    "Other": 2,
+    "TotalPopulation": 93818
+  },
+  "LK-9127": {
+    "Buddhist": 36520,
+    "Hindu": 1594,
+    "Islam": 53,
+    "RomanCatholic": 202,
+    "OtherChristian": 60,
+    "Other": 0,
+    "TotalPopulation": 38429
+  },
+  "LK-9130": {
+    "Buddhist": 26217,
+    "Hindu": 3483,
+    "Islam": 15,
+    "RomanCatholic": 151,
+    "OtherChristian": 78,
+    "Other": 0,
+    "TotalPopulation": 29944
+  },
+  "LK-9133": {
+    "Buddhist": 44599,
+    "Hindu": 5584,
+    "Islam": 23,
+    "RomanCatholic": 143,
+    "OtherChristian": 402,
+    "Other": 2,
+    "TotalPopulation": 50753
+  },
+  "LK-9136": {
+    "Buddhist": 49271,
+    "Hindu": 8934,
+    "Islam": 539,
+    "RomanCatholic": 469,
+    "OtherChristian": 226,
+    "Other": 3,
+    "TotalPopulation": 59442
+  },
+  "LK-9139": {
+    "Buddhist": 33355,
+    "Hindu": 7906,
+    "Islam": 1558,
+    "RomanCatholic": 640,
+    "OtherChristian": 247,
+    "Other": 2,
+    "TotalPopulation": 43708
+  },
+  "LK-9142": {
+    "Buddhist": 60584,
+    "Hindu": 12597,
+    "Islam": 3138,
+    "RomanCatholic": 1132,
+    "OtherChristian": 1085,
+    "Other": 5,
+    "TotalPopulation": 78541
+  },
+  "LK-9145": {
+    "Buddhist": 33774,
+    "Hindu": 339,
+    "Islam": 27,
+    "RomanCatholic": 20,
+    "OtherChristian": 7,
+    "Other": 1,
+    "TotalPopulation": 34168
+  },
+  "LK-9148": {
+    "Buddhist": 159374,
+    "Hindu": 158,
+    "Islam": 54,
+    "RomanCatholic": 226,
+    "OtherChristian": 196,
+    "Other": 0,
+    "TotalPopulation": 160008
+  },
+  "LK-9151": {
+    "Buddhist": 45356,
+    "Hindu": 4105,
+    "Islam": 33,
+    "RomanCatholic": 195,
+    "OtherChristian": 379,
+    "Other": 0,
+    "TotalPopulation": 50068
+  },
+  "LK-9203": {
+    "Buddhist": 79429,
+    "Hindu": 838,
+    "Islam": 3470,
+    "RomanCatholic": 1351,
+    "OtherChristian": 1960,
+    "Other": 7,
+    "TotalPopulation": 87055
+  },
+  "LK-9206": {
+    "Buddhist": 82393,
+    "Hindu": 1164,
+    "Islam": 41933,
+    "RomanCatholic": 406,
+    "OtherChristian": 125,
+    "Other": 5,
+    "TotalPopulation": 126026
+  },
+  "LK-9209": {
+    "Buddhist": 61972,
+    "Hindu": 1180,
+    "Islam": 5525,
+    "RomanCatholic": 222,
+    "OtherChristian": 176,
+    "Other": 0,
+    "TotalPopulation": 69075
+  },
+  "LK-9212": {
+    "Buddhist": 89192,
+    "Hindu": 2027,
+    "Islam": 1285,
+    "RomanCatholic": 1254,
+    "OtherChristian": 543,
+    "Other": 13,
+    "TotalPopulation": 94314
+  },
+  "LK-9215": {
+    "Buddhist": 69494,
+    "Hindu": 2524,
+    "Islam": 1164,
+    "RomanCatholic": 394,
+    "OtherChristian": 201,
+    "Other": 1,
+    "TotalPopulation": 73778
+  },
+  "LK-9218": {
+    "Buddhist": 105968,
+    "Hindu": 3471,
+    "Islam": 7750,
+    "RomanCatholic": 456,
+    "OtherChristian": 309,
+    "Other": 13,
+    "TotalPopulation": 117967
+  },
+  "LK-9221": {
+    "Buddhist": 56321,
+    "Hindu": 4327,
+    "Islam": 4325,
+    "RomanCatholic": 467,
+    "OtherChristian": 356,
+    "Other": 1,
+    "TotalPopulation": 65797
+  },
+  "LK-9224": {
+    "Buddhist": 37337,
+    "Hindu": 7247,
+    "Islam": 83,
+    "RomanCatholic": 304,
+    "OtherChristian": 260,
+    "Other": 6,
+    "TotalPopulation": 45237
+  },
+  "LK-9227": {
+    "Buddhist": 45325,
+    "Hindu": 12613,
+    "Islam": 3110,
+    "RomanCatholic": 663,
+    "OtherChristian": 541,
+    "Other": 3,
+    "TotalPopulation": 62255
+  },
+  "LK-9230": {
+    "Buddhist": 66913,
+    "Hindu": 12066,
+    "Islam": 3916,
+    "RomanCatholic": 1436,
+    "OtherChristian": 636,
+    "Other": 0,
+    "TotalPopulation": 84967
+  },
+  "LK-9233": {
+    "Buddhist": 34585,
+    "Hindu": 8742,
+    "Islam": 55,
+    "RomanCatholic": 339,
+    "OtherChristian": 280,
+    "Other": 4,
+    "TotalPopulation": 44005
+  }
+}
