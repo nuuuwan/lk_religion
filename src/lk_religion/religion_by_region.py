@@ -354,12 +354,12 @@ def _write_readme(config, results):
         headers.extend(header for _, header in config.extra_columns)
         headers.extend(
             [
-                '2012',
-                '2024',
-                'Change',
                 '% of Population (2012)',
                 '% of Population (2024)',
                 'Change in % of Population (pp)',
+                '2012',
+                '2024',
+                'Change',
             ]
         )
         lines += [
@@ -381,15 +381,15 @@ def _write_readme(config, results):
             row_cells.extend(str(row[field]) for field, _ in config.extra_columns)
             row_cells.extend(
                 [
-                    f"{row['2012']:,}",
-                    f"{row['2024']:,}",
-                    f"{row['change']:+,}{triangle(row['change'])}",
                     _format_share(row['proportion_2012']),
                     _format_share(row['proportion_2024']),
                     (
                         f"{_format_pp(row['proportion_change'])}pp"
                         f"{triangle(_rounded_pp(row['proportion_change']))}"
                     ),
+                    f"{row['2012']:,}",
+                    f"{row['2024']:,}",
+                    f"{row['change']:+,}{triangle(row['change'])}",
                 ]
             )
             lines.append('| ' + ' | '.join(row_cells) + ' |')
