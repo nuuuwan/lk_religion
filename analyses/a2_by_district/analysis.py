@@ -170,7 +170,7 @@ def _readme_section(results):
                 else ''
             )
             lines.append(
-                f"| {row['district']} | {proportion_national} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {_format_share(row['proportion_2012'])} | {_format_share(row['proportion_2024'])} | {_format_pp(row['proportion_change'])}{triangle(_rounded_pp(row['proportion_change']))} pp |"
+                f"| {row['district']} | {proportion_national} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {_format_share(row['proportion_2012'])} | {_format_share(row['proportion_2024'])} | {_format_pp(row['proportion_change'])}pp{triangle(_rounded_pp(row['proportion_change']))} |"
             )
 
         highlights = []
