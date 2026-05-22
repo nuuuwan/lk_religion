@@ -14,19 +14,7 @@ BOUNDARY_ANALYSIS_PATH = (
 
 def run():
     boundary_analysis = json.loads(BOUNDARY_ANALYSIS_PATH.read_text())
-    spec = default_spec(
-        'a4-religion-by-dsd-key-trends',
-        'A4',
-        'Religion by DSD: Key Trends',
-        'A4 DSD change maps',
-        'DSD',
-        'DSDs',
-        'DSD-level',
-        EntType.DSD,
-        'dsd_code',
-        'dsd',
-        'religion_by_dsd',
-    )
+    spec = default_spec(4, EntType.DSD)
     spec = spec.__class__(
         **{
             **spec.__dict__,
