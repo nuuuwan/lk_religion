@@ -355,12 +355,12 @@ def _write_readme(config, results):
         headers.extend(
             [
                 '% Nationally',
-                '2012',
-                '2024',
-                'Change',
                 '% of Population (2012)',
                 '% of Population (2024)',
                 'Change in % of Population (pp)',
+                '2012',
+                '2024',
+                'Change',
             ]
         )
         lines += [
@@ -388,15 +388,15 @@ def _write_readme(config, results):
             row_cells.extend(
                 [
                     proportion_national,
-                    f"{row['2012']:,}",
-                    f"{row['2024']:,}",
-                    f"{row['change']:+,}{triangle(row['change'])}",
                     _format_share(row['proportion_2012']),
                     _format_share(row['proportion_2024']),
                     (
                         f"{_format_pp(row['proportion_change'])}pp"
                         f"{triangle(_rounded_pp(row['proportion_change']))}"
                     ),
+                    f"{row['2012']:,}",
+                    f"{row['2024']:,}",
+                    f"{row['change']:+,}{triangle(row['change'])}",
                 ]
             )
             lines.append('| ' + ' | '.join(row_cells) + ' |')
