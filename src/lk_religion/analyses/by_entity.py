@@ -28,6 +28,7 @@ class ByEntityAnalysisSpec:
     low_population_threshold: int | None = None
     table_min_abs_pp: float | None = 0.1
     map_white_abs_pp_threshold: float | None = None
+    map_scale_reference_analysis_json_path: Path | None = None
     label_top_n: int | None = None
     print_row_limit: int | None = None
     extra_text: str | None = None
@@ -133,6 +134,7 @@ def run_by_entity(spec: ByEntityAnalysisSpec):
             low_population_threshold=spec.low_population_threshold,
             table_min_abs_pp=spec.table_min_abs_pp,
             map_white_abs_pp_threshold=spec.map_white_abs_pp_threshold,
+            map_scale_reference_analysis_json_path=spec.map_scale_reference_analysis_json_path,
             label_top_n=spec.label_top_n,
             print_row_limit=spec.print_row_limit,
             extra_text=spec.extra_text,
@@ -153,6 +155,12 @@ def default_spec(analysis_number: int, entity_type):
     analysis_slug = f'a{analysis_number}-religion-by-{entity_meta["slug"]}-key-trends'
     root_dir = Path(__file__).resolve().parents[3]
     analysis_dir = root_dir / 'analyses' / analysis_slug
+    province_analysis_json_path = (
+        root_dir
+        / 'analyses'
+        / 'a2-religion-by-province-key-trends'
+        / 'religion_by_province_analysis.json'
+    )
     return ByEntityAnalysisSpec(
         analysis_dir=analysis_dir,
         analysis_key=analysis_key,
@@ -165,4 +173,5 @@ def default_spec(analysis_number: int, entity_type):
         code_key=entity_meta['code_key'],
         name_key=entity_meta['name_key'],
         data_prefix=f'religion_by_{entity_meta["slug"]}',
+        map_scale_reference_analysis_json_path=province_analysis_json_path,
     )
