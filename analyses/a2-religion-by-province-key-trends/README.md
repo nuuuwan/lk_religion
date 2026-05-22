@@ -1,6 +1,6 @@
-## A6. Religion by Province: Key Trends
+## A2. Religion by Province: Key Trends
 
-![A6 province change maps](chart.png)
+![A2 province change maps](chart.png)
 
 Province labels show the **province name** and **change in share of population (pp)**. Provinces are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Provinces with absolute share change **< 1.0pp** are shown in **white**.
 

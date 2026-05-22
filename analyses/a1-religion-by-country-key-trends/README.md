@@ -1,6 +1,6 @@
-## A8. Religion by Country: Key Trends
+## A1. Religion by Country: Key Trends
 
-![A8 country change maps](chart.png)
+![A1 country change maps](chart.png)
 
 Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Countries with absolute share change **< 1.0pp** are shown in **white**.
 

@@ -6,7 +6,7 @@ SRC_DIR = ANALYSIS_DIR.parents[1] / 'src'
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from lk_religion.analyses.a6_by_province import run  # noqa: E402,F401
+from lk_religion.analyses.a3_by_district import run  # noqa: E402,F401
 
 
 if __name__ == '__main__':

@@ -1,12 +1,12 @@
-## A7. Religion by DSD: Key Trends
+## A4. Religion by DSD: Key Trends
 
-![A7 DSD change maps](chart.png)
+![A4 DSD change maps](chart.png)
 
 DSDs are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. DSD labels are omitted due to map density.  DSDs with absolute share change **< 1.0pp** are shown in **white**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 
-*New, removed, and altered DSDs from A4 are excluded to avoid boundary-change artifacts.*
+*New, removed, and altered DSDs are excluded to avoid boundary-change artifacts.*
 
 ### Buddhist
 

@@ -4,18 +4,17 @@ Analyses of Sri Lanka's religious demographics, comparing the **2012 Census** an
 
 Each analysis now lives in its own folder under [`analyses/`](analyses/), together with its own README, workflow script, and related data files. The sections below are copied from those child READMEs.
 
-- [`analyses/a1_national_totals/`](analyses/a1_national_totals/)
-- [`analyses/a2_by_district/`](analyses/a2_by_district/)
-- [`analyses/a4_by_dsd/`](analyses/a4_by_dsd/)
-- [`analyses/a6_by_province/`](analyses/a6_by_province/)
-- [`analyses/a7_by_dsd/`](analyses/a7_by_dsd/)
-- [`analyses/a8_by_country/`](analyses/a8_by_country/)
+- [`analyses/a0-national-population-by-religion/`](analyses/a0-national-population-by-religion/)
+- [`analyses/a1-religion-by-country-key-trends/`](analyses/a1-religion-by-country-key-trends/)
+- [`analyses/a2-religion-by-province-key-trends/`](analyses/a2-religion-by-province-key-trends/)
+- [`analyses/a3-religion-by-district-key-trends/`](analyses/a3-religion-by-district-key-trends/)
+- [`analyses/a4-religion-by-dsd-key-trends/`](analyses/a4-religion-by-dsd-key-trends/)
 
 ---
 
-## A1. National Population by Religion
+## A0. National Population by Religion
 
-![A1 representative chart](analyses/a1_national_totals/chart.png)
+![A0 representative chart](analyses/a0-national-population-by-religion/chart.png)
 
 | Religion | 2012 | 2024 | Change | Annual Growth | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -36,9 +35,121 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ---
 
-## A2. Religion by District: Key Trends
+## A1. Religion by Country: Key Trends
 
-![A2 district change maps](analyses/a2_by_district/chart.png)
+![A1 country change maps](analyses/a1-religion-by-country-key-trends/chart.png)
+
+Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Countries with absolute share change **< 1.0pp** are shown in **white**.
+
+Tables list only rows where absolute share change is **> 1.0pp**.
+
+### Buddhist
+
+| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+
+*No regions exceed the table share-change threshold.*
+
+### Hindu
+
+| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+
+*No regions exceed the table share-change threshold.*
+
+### Islam
+
+| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Sri Lanka `LK` | 100.0% | 9.7% | 10.7% | +1.1pp 🟩 | 1,967,008 | 2,337,379 | +370,371 🟩 |
+
+***Sri Lanka** gained the most share at **+1.1pp**.*
+
+### Roman Catholic
+
+| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+
+*No regions exceed the table share-change threshold.*
+
+### Other Christian
+
+| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+
+*No regions exceed the table share-change threshold.*
+
+### Other
+
+| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+
+*No regions exceed the table share-change threshold.*
+
+---
+
+## A2. Religion by Province: Key Trends
+
+![A2 province change maps](analyses/a2-religion-by-province-key-trends/chart.png)
+
+Province labels show the **province name** and **change in share of population (pp)**. Provinces are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Provinces with absolute share change **< 1.0pp** are shown in **white**.
+
+Tables list only rows where absolute share change is **> 1.0pp**.
+
+### Buddhist
+
+| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Eastern `LK-5` | 2.6% | 23.0% | 21.8% | -1.1pp 🟥 | 357,052 | 389,119 | +32,067 🟩 |
+
+***Eastern** saw the steepest share decline at **-1.1pp**.*
+
+### Hindu
+
+| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Eastern `LK-5` | 21.8% | 34.7% | 33.5% | -1.2pp 🟥 | 540,153 | 597,472 | +57,319 🟩 |
+| Northern `LK-4` | 30.3% | 74.4% | 72.1% | -2.3pp 🟥 | 789,045 | 829,235 | +40,190 🟩 |
+
+***Northern** saw the steepest share decline at **-2.3pp**.*
+
+### Islam
+
+| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Eastern `LK-5` | 30.2% | 37.0% | 39.7% | +2.7pp 🟩 | 575,470 | 707,054 | +131,584 🟩 |
+| Northern `LK-4` | 2.6% | 3.1% | 5.3% | +2.1pp 🟩 | 33,427 | 60,683 | +27,256 🟩 |
+| North Western `LK-6` | 13.7% | 11.3% | 12.4% | +1.1pp 🟩 | 268,214 | 320,262 | +52,048 🟩 |
+
+***Eastern** gained the most share at **+2.7pp**. **North Western** had the smallest share gain at **+1.1pp**.*
+
+### Roman Catholic
+
+| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| North Western `LK-6` | 23.0% | 11.9% | 10.9% | -1.1pp 🟥 | 283,928 | 281,248 | -2,680 🟥 |
+
+***North Western** saw the steepest share decline at **-1.1pp**.*
+
+### Other Christian
+
+| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+
+*No regions exceed the table share-change threshold.*
+
+### Other
+
+| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+
+*No regions exceed the table share-change threshold.*
+
+---
+
+## A3. Religion by District: Key Trends
+
+![A3 district change maps](analyses/a3-religion-by-district-key-trends/chart.png)
 
 District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Districts with absolute share change **< 1.0pp** are shown in **white**.
 
@@ -112,125 +223,15 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 
 ---
 
-## A4. DSD Boundary Changes
+## A4. Religion by DSD: Key Trends
 
-![A4 representative chart](analyses/a4_by_dsd/chart.png)
-
-Districts where the number of DSDs changed between censuses are listed below. Within those districts, DSDs whose population growth deviates from the national rate (+6.99% over 2012–2024) by more than 2× are flagged as **Altered** — their apparent demographic shifts likely reflect re-demarcation rather than genuine change.
-
-**Districts with changed DSD boundaries:**
-
-| District | DSDs 2012 | DSDs 2024 | Δ |
-|---|---:|---:|---:|
-| Nuwara Eliya `LK-23` | 5 | 10 | +5 🟩 |
-| Galle `LK-31` | 19 | 22 | +3 🟩 |
-| Batticaloa `LK-51` | 14 | 13 | -1 🟥 |
-| Ampara `LK-52` | 20 | 19 | -1 🟥 |
-| Ratnapura `LK-91` | 17 | 18 | +1 🟩 |
-
-**New, Altered, and Removed DSDs:**
-
-| Status | DSD | District | Pop 2012 | Pop 2024 | Pop Change |
-|---|---|---|---:|---:|---:|
-| Removed | LK-5224 `LK-5224` | Ampara `LK-52` | 44,632 | — | — |
-| Altered | Addalaichenai `LK-5233` | Ampara `LK-52` | 41,968 | 53,214 | +26.8% 🟩 |
-| Altered | Irakkamam `LK-5234` | Ampara `LK-52` | 14,383 | 17,671 | +22.9% 🟩 |
-| Altered | Kalmunai `LK-5221` | Ampara `LK-52` | 29,800 | 52,798 | +77.2% 🟩 |
-| Altered | Pottuvil `LK-5248` | Ampara `LK-52` | 34,809 | 42,908 | +23.3% 🟩 |
-| Removed | Koralai Pattu `LK-5109` | Batticaloa `LK-51` | 23,376 | — | — |
-| Removed | LK-5112 `LK-5112` | Batticaloa `LK-51` | 75,478 | — | — |
-| Altered | Eravur Pattu `LK-5115` | Batticaloa `LK-51` | 24,643 | 94,237 | +282.4% 🟩 |
-| New | Eravur Town `LK-5139` | Batticaloa `LK-51` | — | 26,468 | — |
-| Altered | Baddegama `LK-3127` | Galle `LK-31` | 75,008 | 50,956 | -32.1% 🟥 |
-| Altered | Hikkaduwa `LK-3136` | Galle `LK-31` | 101,909 | 26,216 | -74.3% 🟥 |
-| New | Madampagama `LK-3138` | Galle `LK-31` | — | 33,408 | — |
-| New | Rathgama `LK-3137` | Galle `LK-31` | — | 41,456 | — |
-| New | Wanduramba `LK-3128` | Galle `LK-31` | — | 27,702 | — |
-| Altered | Ambagamuwa Korale `LK-2315` | Nuwara Eliya `LK-23` | 205,723 | 42,538 | -79.3% 🟥 |
-| Altered | Hanguranketa `LK-2306` | Nuwara Eliya `LK-23` | 88,528 | 58,931 | -33.4% 🟥 |
-| Altered | Kothmale East `LK-2303` | Nuwara Eliya `LK-23` | 101,180 | 61,742 | -39.0% 🟥 |
-| Altered | Nuwara Eliya `LK-2312` | Nuwara Eliya `LK-23` | 212,094 | 88,332 | -58.4% 🟥 |
-| Altered | Walapane `LK-2309` | Nuwara Eliya `LK-23` | 104,119 | 65,287 | -37.3% 🟥 |
-| New | Kothmale West `LK-2304` | Nuwara Eliya `LK-23` | — | 41,955 | — |
-| New | Mathurata `LK-2307` | Nuwara Eliya `LK-23` | — | 33,175 | — |
-| New | Nildandahinna `LK-2310` | Nuwara Eliya `LK-23` | — | 42,422 | — |
-| New | Norwood `LK-2316` | Nuwara Eliya `LK-23` | — | 161,367 | — |
-| New | Thalawakele `LK-2313` | Nuwara Eliya `LK-23` | — | 129,531 | — |
-| Altered | Balangoda `LK-9118` | Ratnapura `LK-91` | 81,563 | 74,893 | -8.2% 🟥 |
-| Altered | Eheliyagoda `LK-9103` | Ratnapura `LK-91` | 88,022 | 74,071 | -15.8% 🟥 |
-| Altered | Kuruvita `LK-9106` | Ratnapura `LK-91` | 75,104 | 97,966 | +30.4% 🟩 |
-| New | Kalthota `LK-9119` | Ratnapura `LK-91` | — | 13,018 | — |
-
----
-
-## A6. Religion by Province: Key Trends
-
-![A6 province change maps](analyses/a6_by_province/chart.png)
-
-Province labels show the **province name** and **change in share of population (pp)**. Provinces are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Provinces with absolute share change **< 1.0pp** are shown in **white**.
-
-Tables list only rows where absolute share change is **> 1.0pp**.
-
-### Buddhist
-
-| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Eastern `LK-5` | 2.6% | 23.0% | 21.8% | -1.1pp 🟥 | 357,052 | 389,119 | +32,067 🟩 |
-
-***Eastern** saw the steepest share decline at **-1.1pp**.*
-
-### Hindu
-
-| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Eastern `LK-5` | 21.8% | 34.7% | 33.5% | -1.2pp 🟥 | 540,153 | 597,472 | +57,319 🟩 |
-| Northern `LK-4` | 30.3% | 74.4% | 72.1% | -2.3pp 🟥 | 789,045 | 829,235 | +40,190 🟩 |
-
-***Northern** saw the steepest share decline at **-2.3pp**.*
-
-### Islam
-
-| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Eastern `LK-5` | 30.2% | 37.0% | 39.7% | +2.7pp 🟩 | 575,470 | 707,054 | +131,584 🟩 |
-| Northern `LK-4` | 2.6% | 3.1% | 5.3% | +2.1pp 🟩 | 33,427 | 60,683 | +27,256 🟩 |
-| North Western `LK-6` | 13.7% | 11.3% | 12.4% | +1.1pp 🟩 | 268,214 | 320,262 | +52,048 🟩 |
-
-***Eastern** gained the most share at **+2.7pp**. **North Western** had the smallest share gain at **+1.1pp**.*
-
-### Roman Catholic
-
-| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| North Western `LK-6` | 23.0% | 11.9% | 10.9% | -1.1pp 🟥 | 283,928 | 281,248 | -2,680 🟥 |
-
-***North Western** saw the steepest share decline at **-1.1pp**.*
-
-### Other Christian
-
-| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-
-*No regions exceed the table share-change threshold.*
-
-### Other
-
-| Province | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-
-*No regions exceed the table share-change threshold.*
-
----
-
-## A7. Religion by DSD: Key Trends
-
-![A7 DSD change maps](analyses/a7_by_dsd/chart.png)
+![A4 DSD change maps](analyses/a4-religion-by-dsd-key-trends/chart.png)
 
 DSDs are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. DSD labels are omitted due to map density.  DSDs with absolute share change **< 1.0pp** are shown in **white**.
 
 Tables list only rows where absolute share change is **> 1.0pp**.
 
-*New, removed, and altered DSDs from A4 are excluded to avoid boundary-change artifacts.*
+*New, removed, and altered DSDs are excluded to avoid boundary-change artifacts.*
 
 ### Buddhist
 
@@ -526,59 +527,6 @@ Tables list only rows where absolute share change is **> 1.0pp**.
 | Kalpitiya `LK-6203` | Puttalam | 0.2% | 1.2% | 0.0% | -1.2pp 🟥 | 1,045 | 9 | -1,036 🟥 |
 
 ***Kalpitiya** saw the steepest share decline at **-1.2pp**.*
-
----
-
-## A8. Religion by Country: Key Trends
-
-![A8 country change maps](analyses/a8_by_country/chart.png)
-
-Country labels show the **country name** and **change in share of population (pp)**. Countries are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Countries with absolute share change **< 1.0pp** are shown in **white**.
-
-Tables list only rows where absolute share change is **> 1.0pp**.
-
-### Buddhist
-
-| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-
-*No regions exceed the table share-change threshold.*
-
-### Hindu
-
-| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-
-*No regions exceed the table share-change threshold.*
-
-### Islam
-
-| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Sri Lanka `LK` | 100.0% | 9.7% | 10.7% | +1.1pp 🟩 | 1,967,008 | 2,337,379 | +370,371 🟩 |
-
-***Sri Lanka** gained the most share at **+1.1pp**.*
-
-### Roman Catholic
-
-| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-
-*No regions exceed the table share-change threshold.*
-
-### Other Christian
-
-| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-
-*No regions exceed the table share-change threshold.*
-
-### Other
-
-| Country | % Nationally | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) | 2012 | 2024 | Change |
-|---|---:|---:|---:|---:|---:|---:|---:|
-
-*No regions exceed the table share-change threshold.*
 
 ---
 

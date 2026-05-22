@@ -11,10 +11,10 @@ from lk_religion.analyses.by_entity import (
 
 def run():
     spec = default_spec(
-        'a8_by_country',
-        'A8',
+        'a1-religion-by-country-key-trends',
+        'A1',
         'Religion by Country: Key Trends',
-        'A8 country change maps',
+        'A1 country change maps',
         'Country',
         'Countries',
         'country-level',

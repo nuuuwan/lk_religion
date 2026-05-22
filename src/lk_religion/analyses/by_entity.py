@@ -46,7 +46,7 @@ def load_country_data(_config):
         data_2024 = Db('/LK/Religion/2024')
     except Exception:
         root_dir = Path(__file__).resolve().parents[3]
-        a1_dir = root_dir / 'analyses' / 'a1_national_totals'
+        a1_dir = root_dir / 'analyses' / 'a0-national-population-by-religion'
         data_2012 = json.loads((a1_dir / 'religion_2012.json').read_text())
         data_2024 = json.loads((a1_dir / 'religion_2024.json').read_text())
 
