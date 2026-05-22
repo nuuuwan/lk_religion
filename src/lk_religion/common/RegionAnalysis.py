@@ -11,7 +11,7 @@ import pandas as pd
 from gig import Ent
 from matplotlib.cm import ScalarMappable
 from matplotlib.colors import TwoSlopeNorm
-from matplotlib.ticker import PercentFormatter
+from matplotlib.ticker import FuncFormatter
 
 from lk_religion.common.MarkdownUtils import write_markdown
 from lk_religion.common.ReligionUtils import (
@@ -292,14 +292,6 @@ def _write_readme(config, results):
         _label_description(config),
         '',
     ]
-    if config.table_min_abs_pp is not None:
-        lines.extend(
-            [
-                f'Tables list only rows where absolute share change is **> {config.table_min_abs_pp:.1f}pp**.',
-                '',
-            ]
-        )
-
     if config.extra_text:
         lines.extend([config.extra_text, ''])
 
@@ -318,49 +310,26 @@ def _write_readme(config, results):
         if config.readme_row_limit is not None:
             display_rows = filtered_rows[: config.readme_row_limit]
 
-        headers = [config.region_singular]
-        headers.extend(header for _, header in config.extra_columns)
-        headers.extend(
-            [
-                '% of Population (2012)',
-                '% of Population (2024)',
-                'Change in % of Population (pp)',
-                '2012',
-                '2024',
-                'Change',
-            ]
-        )
         lines += [
             f"### {RELIGION_LABELS[religion]}",
             '',
-            '| ' + ' | '.join(headers) + ' |',
-            '|'
-            + '|'.join(
-                ['---'] + ['---'] * len(config.extra_columns) + ['---:'] * 6
-            )
-            + '|',
         ]
         if not display_rows:
-            lines.extend(['', '*No regions exceed the table share-change threshold.*', ''])
+            if config.table_min_abs_pp is not None:
+                lines.extend(
+                    [
+                        f'*No {config.region_plural.lower()} exceed the **{config.table_min_abs_pp:.1f}pp** share-change threshold.*',
+                        '',
+                    ]
+                )
+            else:
+                lines.extend(
+                    [
+                        f'*No notable {config.region_plural.lower()} are highlighted.*',
+                        '',
+                    ]
+                )
             continue
-
-        for row in display_rows:
-            row_cells = [f"{row[config.name_key]} `{row[config.code_key]}`"]
-            row_cells.extend(str(row[field]) for field, _ in config.extra_columns)
-            row_cells.extend(
-                [
-                    format_share(row['proportion_2012']),
-                    format_share(row['proportion_2024']),
-                    (
-                        f"{format_pp(row['proportion_change'])}pp"
-                        f"{triangle(rounded_pp(row['proportion_change']))}"
-                    ),
-                    f"{row['2012']:,}",
-                    f"{row['2024']:,}",
-                    f"{row['change']:+,}{triangle(row['change'])}",
-                ]
-            )
-            lines.append('| ' + ' | '.join(row_cells) + ' |')
 
         highlights = []
         fastest_growing = max(filtered_rows, key=lambda row: row['proportion_change'])
@@ -523,7 +492,9 @@ def _write_chart(config, results, region_map_gdf):
         fraction=0.03,
         pad=0.02,
     )
-    colorbar.ax.yaxis.set_major_formatter(PercentFormatter(1.0))
+    colorbar.ax.yaxis.set_major_formatter(
+        FuncFormatter(lambda value, _pos: f'{rounded_pp(value)}pp')
+    )
     colorbar.set_label('Change in % of population (pp, 2012→2024)')
     notes = []
     if config.low_population_threshold is not None:
