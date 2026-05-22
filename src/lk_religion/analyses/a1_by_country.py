@@ -10,19 +10,7 @@ from lk_religion.analyses.by_entity import (
 
 
 def run():
-    spec = default_spec(
-        'a1-religion-by-country-key-trends',
-        'A1',
-        'Religion by Country: Key Trends',
-        'A1 country change maps',
-        'Country',
-        'Countries',
-        'country-level',
-        EntType.COUNTRY,
-        'country_code',
-        'country',
-        'religion_by_country',
-    )
+    spec = default_spec(1, EntType.COUNTRY)
     spec = ByEntityAnalysisSpec(
         **{
             **spec.__dict__,

@@ -38,6 +38,42 @@ class ByEntityAnalysisSpec:
     geometry_loader: object | None = None
 
 
+DEFAULT_ENTITY_META = {
+    EntType.COUNTRY: {
+        'slug': 'country',
+        'region_singular': 'Country',
+        'region_plural': 'Countries',
+        'region_level_label': 'country-level',
+        'code_key': 'country_code',
+        'name_key': 'country',
+    },
+    EntType.PROVINCE: {
+        'slug': 'province',
+        'region_singular': 'Province',
+        'region_plural': 'Provinces',
+        'region_level_label': 'province-level',
+        'code_key': 'province_code',
+        'name_key': 'province',
+    },
+    EntType.DISTRICT: {
+        'slug': 'district',
+        'region_singular': 'District',
+        'region_plural': 'Districts',
+        'region_level_label': 'district-level',
+        'code_key': 'district_code',
+        'name_key': 'district',
+    },
+    EntType.DSD: {
+        'slug': 'dsd',
+        'region_singular': 'DSD',
+        'region_plural': 'DSDs',
+        'region_level_label': 'DSD-level',
+        'code_key': 'dsd_code',
+        'name_key': 'dsd',
+    },
+}
+
+
 def load_country_data(_config):
     try:
         from lanka_data import Db
@@ -103,19 +139,25 @@ def run_by_entity(spec: ByEntityAnalysisSpec):
     )
 
 
-def default_spec(analysis_slug, analysis_key, analysis_heading, image_alt, region_singular, region_plural, region_level_label, entity_type, code_key, name_key, data_prefix):
+def default_spec(analysis_number: int, entity_type):
+    entity_meta = DEFAULT_ENTITY_META.get(entity_type)
+    if entity_meta is None:
+        raise ValueError(f'Unsupported entity type: {entity_type}')
+
+    analysis_key = f'A{analysis_number}'
+    analysis_slug = f'a{analysis_number}-religion-by-{entity_meta["slug"]}-key-trends'
     root_dir = Path(__file__).resolve().parents[3]
     analysis_dir = root_dir / 'analyses' / analysis_slug
     return ByEntityAnalysisSpec(
         analysis_dir=analysis_dir,
         analysis_key=analysis_key,
-        analysis_heading=analysis_heading,
-        image_alt=image_alt,
-        region_singular=region_singular,
-        region_plural=region_plural,
-        region_level_label=region_level_label,
+        analysis_heading=f'Religion by {entity_meta["region_singular"]}: Key Trends',
+        image_alt=f'{analysis_key} {entity_meta["region_singular"]} change maps',
+        region_singular=entity_meta['region_singular'],
+        region_plural=entity_meta['region_plural'],
+        region_level_label=entity_meta['region_level_label'],
         entity_type=entity_type,
-        code_key=code_key,
-        name_key=name_key,
-        data_prefix=data_prefix,
+        code_key=entity_meta['code_key'],
+        name_key=entity_meta['name_key'],
+        data_prefix=f'religion_by_{entity_meta["slug"]}',
     )
