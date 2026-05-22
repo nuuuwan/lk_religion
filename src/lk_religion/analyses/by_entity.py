@@ -155,12 +155,6 @@ def default_spec(analysis_number: int, entity_type):
     analysis_slug = f'a{analysis_number}-religion-by-{entity_meta["slug"]}-key-trends'
     root_dir = Path(__file__).resolve().parents[3]
     analysis_dir = root_dir / 'analyses' / analysis_slug
-    province_analysis_json_path = (
-        root_dir
-        / 'analyses'
-        / 'a2-religion-by-province-key-trends'
-        / 'religion_by_province_analysis.json'
-    )
     return ByEntityAnalysisSpec(
         analysis_dir=analysis_dir,
         analysis_key=analysis_key,
@@ -173,5 +167,4 @@ def default_spec(analysis_number: int, entity_type):
         code_key=entity_meta['code_key'],
         name_key=entity_meta['name_key'],
         data_prefix=f'religion_by_{entity_meta["slug"]}',
-        map_scale_reference_analysis_json_path=province_analysis_json_path,
     )
