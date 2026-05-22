@@ -119,7 +119,7 @@ def _normalized_percentage_point_change(value):
 
 def _format_percentage_point_change(value):
     normalized_value = _normalized_percentage_point_change(value)
-    return f'{normalized_value * 100:+.1f} pp' if normalized_value else '0.0 pp'
+    return f'{normalized_value * 100:+.1f}pp' if normalized_value else '0.0pp'
 
 
 def _readme_section(rows):
@@ -154,7 +154,7 @@ def _readme_section(rows):
             f"| {row['religion']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {annual_growth}{triangle(row['annual_growth_rate'] or 0)} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {_format_percentage_point_change(row['proportion_change'])}{triangle(proportion_change)} |"
         )
     lines.append(
-        f"| **Total** | **{total_2012:,}** | **{total_2024:,}** | **{total_change:+,}{triangle(total_change)}** | **{total_growth:+.2%}{triangle(total_growth)}** | **100.0%** | **100.0%** | **0.0 pp** |"
+        f"| **Total** | **{total_2012:,}** | **{total_2024:,}** | **{total_change:+,}{triangle(total_change)}** | **{total_growth:+.2%}{triangle(total_growth)}** | **100.0%** | **100.0%** | **0.0pp** |"
     )
     lines += [
         '',
