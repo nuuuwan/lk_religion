@@ -25,8 +25,8 @@ RELIGION_COLORS = {
     'Other': 'grey',
 }
 
-POSITIVE_COLOR = 'green'
-NEGATIVE_COLOR = 'red'
+POSITIVE_COLOR = 'red'
+NEGATIVE_COLOR = 'blue'
 
 
 def shares(data):
@@ -39,10 +39,6 @@ def shares(data):
 
 
 def triangle(value):
-    if value > 0:
-        return ' 🟩'
-    if value < 0:
-        return ' 🟥'
     return ''
 
 

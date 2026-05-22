@@ -135,7 +135,7 @@ def _label_description(config):
     if config.label_top_n == 0:
         return (
             f'{config.region_plural} are shaded by **change in share of population (pp)** '
-            'from **red (decline)** to **green (growth)**. '
+            'from **blue (decline)** to **red (growth)**. '
             f'{config.region_singular} labels are omitted due to map density. '
             f'{map_special_rules_text}'.strip()
         )
@@ -144,14 +144,14 @@ def _label_description(config):
             f'{config.region_singular} labels show the **{config.region_singular.lower()} name** '
             'and **change in share of population (pp)**. '
             f'{config.region_plural} are shaded by **change in share of population (pp)** '
-            f'from **red (decline)** to **green (growth)**.{map_special_rules_text}'
+            f'from **blue (decline)** to **red (growth)**.{map_special_rules_text}'
         )
     return (
         f'The **top {config.label_top_n} {config.region_plural.lower()} by absolute share change** '
         f'are labeled with the **{config.region_singular.lower()} name** and '
         '**change in share of population (pp)**. '
         f'{config.region_plural} are shaded by **change in share of population (pp)** '
-        f'from **red (decline)** to **green (growth)**.{map_special_rules_text}'
+        f'from **blue (decline)** to **red (growth)**.{map_special_rules_text}'
     )
 
 
@@ -415,7 +415,7 @@ def _write_chart(config, results, region_map_gdf):
         if row['proportion_change'] is not None
     )
     norm = TwoSlopeNorm(vmin=-max_abs_change, vcenter=0, vmax=max_abs_change)
-    cmap = plt.get_cmap('RdYlGn')
+    cmap = plt.get_cmap('RdBu_r')
     fig, axes = plt.subplots(2, 3, figsize=(14, 16), constrained_layout=True)
 
     for ax, religion in zip(axes.flat, RELIGIONS):
