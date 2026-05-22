@@ -39,7 +39,7 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 ![A2 district change maps](analyses/a2_by_district/chart.png)
 
-District labels show the religion share of each district population in **2012 → 2024**. Districts are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Districts with religion population **< 1,000 (2024)** are shown in **grey**.
+District labels show the **district name** and **change in share of population (pp)**. Districts are shaded by **change in share of population (pp)** from **red (decline)** to **green (growth)**. Districts with religion population **< 1,000 (2024)** are shown in **grey**.
 
 ### Buddhist
 
