@@ -8,7 +8,10 @@ SRC_DIR = ANALYSIS_DIR.parents[1] / 'src'
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from lk_religion.religion_by_region import RegionAnalysisConfig, run_religion_by_region
+from lk_religion.religion_by_region import (
+    RegionAnalysisConfig,
+    run_religion_by_region,
+)
 
 
 def run():

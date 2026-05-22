@@ -6,7 +6,6 @@ Each analysis now lives in its own folder under [`analyses/`](analyses/), togeth
 
 - [`analyses/a1_national_totals/`](analyses/a1_national_totals/)
 - [`analyses/a2_by_district/`](analyses/a2_by_district/)
-- [`analyses/a3_proportion_change/`](analyses/a3_proportion_change/)
 - [`analyses/a4_by_dsd/`](analyses/a4_by_dsd/)
 - [`analyses/a5_proportion_change_by_dsd/`](analyses/a5_proportion_change_by_dsd/)
 - [`analyses/a6_by_province/`](analyses/a6_by_province/)
@@ -234,41 +233,6 @@ District labels show the **district name** and **change in share of population (
 | Puttalam `LK-62` | 7.1% | 1,162 | 279 | -883 🟥 | 0.2% | 0.0% | -0.1 🟥 pp |
 
 ***Polonnaruwa** gained the most share at **0.0pp**. **Puttalam** saw the steepest share decline at **-0.1pp**. **Gampaha** had the largest absolute increase (**+116**).*
-
----
-
-## A3. Largest Change in Religious Proportion
-
-![A3 increase/decrease maps](analyses/a3_proportion_change/chart.png)
-
-For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%. Largest increases and largest decreases are shown on separate maps.
-
-### Hindu
-
-| District | Share 2012 | Share 2024 | Change (pp) |
-|---|---:|---:|---:|
-| Kilinochchi `LK-45` | 81.9% | 80.7% | -1.3pp 🟥 |
-| Mullaitivu `LK-44` | 75.3% | 72.4% | -2.9pp 🟥 |
-
-### Islam
-
-| District | Share 2012 | Share 2024 | Change (pp) |
-|---|---:|---:|---:|
-| Mannar `LK-42` | 16.6% | 27.4% | +10.8pp 🟩 |
-| Trincomalee `LK-53` | 42.0% | 46.5% | +4.4pp 🟩 |
-| Vavuniya `LK-43` | 7.0% | 10.3% | +3.4pp 🟩 |
-| Ampara `LK-52` | 43.4% | 45.7% | +2.2pp 🟩 |
-| Batticaloa `LK-51` | 25.5% | 27.1% | +1.6pp 🟩 |
-| Kalutara `LK-13` | 9.4% | 10.6% | +1.2pp 🟩 |
-| Kegalle `LK-92` | 7.3% | 8.3% | +1.1pp 🟩 |
-
-### RomanCatholic
-
-| District | Share 2012 | Share 2024 | Change (pp) |
-|---|---:|---:|---:|
-| Colombo `LK-11` | 7.0% | 5.9% | -1.1pp 🟥 |
-| Gampaha `LK-12` | 19.5% | 18.2% | -1.3pp 🟥 |
-| Puttalam `LK-62` | 31.5% | 29.4% | -2.1pp 🟥 |
 
 ---
 

@@ -369,8 +369,8 @@ def _write_readme(config, results):
                     _format_share(row['proportion_2012']),
                     _format_share(row['proportion_2024']),
                     (
-                        f"{_format_pp(row['proportion_change'])}"
-                        f"{triangle(_rounded_pp(row['proportion_change']))} pp"
+                        f"{_format_pp(row['proportion_change'])}pp"
+                        f"{triangle(_rounded_pp(row['proportion_change']))}"
                     ),
                 ]
             )
