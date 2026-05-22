@@ -1,8 +1,8 @@
 ## A3. Largest Change in Religious Proportion
 
-![A3 representative chart](chart.png)
+![A3 increase/decrease maps](chart.png)
 
-For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%.
+For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > 1%. Largest increases and largest decreases are shown on separate maps.
 
 ### Hindu
 

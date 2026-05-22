@@ -1,12 +1,13 @@
 import json
+from functools import lru_cache
 from pathlib import Path
 
+import geopandas as gpd
 import matplotlib.pyplot as plt
-from lanka_data import Db, RegionNames
+import pandas as pd
+from gig import Ent, EntType
 
 from analyses.proportion_change_common import (
-    NEGATIVE_COLOR,
-    POSITIVE_COLOR,
     RELIGIONS,
     shares,
     triangle,
@@ -15,15 +16,25 @@ from analyses.proportion_change_common import (
 ANALYSIS_DIR = Path(__file__).resolve().parent
 README_PATH = ANALYSIS_DIR / 'README.md'
 CHART_PATH = ANALYSIS_DIR / 'chart.png'
+A2_ANALYSIS_DIR = Path(__file__).resolve().parents[1] / 'a2_by_district'
+A2_DATA_2012_PATH = A2_ANALYSIS_DIR / 'religion_by_district_2012.json'
+A2_DATA_2024_PATH = A2_ANALYSIS_DIR / 'religion_by_district_2024.json'
 MIN_CHANGE_ABS = 0.01
+RELIGION_LABELS = {
+    'Buddhist': 'Buddhist',
+    'Hindu': 'Hindu',
+    'Islam': 'Islam',
+    'RomanCatholic': 'Roman Catholic',
+    'OtherChristian': 'Other Christian',
+    'Other': 'Other',
+}
 
 
 def run():
     print('=== 3) Largest change in religious proportion ===')
 
-    db_dist_2012 = Db('/LK:Districts/Religion/2012')
-    db_dist_2024 = Db('/LK:Districts/Religion/2024')
-    region_names = RegionNames()
+    db_dist_2012, db_dist_2024 = _load_district_data()
+    district_names, district_map_gdf = _district_geometries()
 
     district_rows = []
     for code in db_dist_2012:
@@ -43,7 +54,7 @@ def run():
         district_rows.append(
             {
                 'district_code': code,
-                'district': region_names.name_for(code),
+                'district': district_names.get(code, code),
                 'religion': max_religion,
                 'proportion_2012': round(shares_2012[max_religion], 6),
                 'proportion_2024': round(shares_2024[max_religion], 6),
@@ -55,7 +66,7 @@ def run():
     with open(ANALYSIS_DIR / 'proportion_change_analysis.json', 'w') as f:
         json.dump({'by_district': district_rows}, f, indent=2)
 
-    _write_chart(district_rows)
+    _write_chart(district_rows, district_map_gdf)
 
     for religion in RELIGIONS:
         religion_rows = [
@@ -85,9 +96,9 @@ def _readme_section(district_rows):
     lines = [
         '## A3. Largest Change in Religious Proportion',
         '',
-        '![A3 representative chart](chart.png)',
+        '![A3 increase/decrease maps](chart.png)',
         '',
-        f'For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > {MIN_CHANGE_ABS:.0%}.',
+        f'For each district, the religion whose share of the local population changed most between 2012 and 2024, showing only rows with absolute change > {MIN_CHANGE_ABS:.0%}. Largest increases and largest decreases are shown on separate maps.',
     ]
     for religion in RELIGIONS:
         religion_rows = [
@@ -113,21 +124,87 @@ def _readme_section(district_rows):
     return '\n'.join(lines)
 
 
-def _write_chart(district_rows):
-    top_rows = district_rows[:15]
-    labels = [row['district'] for row in top_rows]
-    values = [row['change'] * 100 for row in top_rows]
-    colors = [NEGATIVE_COLOR if value < 0 else POSITIVE_COLOR for value in values]
+@lru_cache(maxsize=1)
+def _district_geometries():
+    districts = []
+    district_names = {}
+    for ent in sorted(Ent.list_from_type(EntType.DISTRICT), key=lambda ent: ent.id):
+        district_names[ent.id] = ent.name
+        district_gdf = ent.geo().copy()
+        district_gdf['district_code'] = ent.id
+        district_gdf['district'] = ent.name
+        districts.append(district_gdf[['district_code', 'district', 'geometry']])
 
-    fig, ax = plt.subplots(figsize=(8, 5.6))
-    if labels:
-        ax.barh(labels, values, color=colors)
-        ax.set_title('Largest district-level religion share changes (pp)')
-        ax.set_xlabel('Change in percentage points')
-        ax.invert_yaxis()
-    else:
-        ax.text(0.5, 0.5, 'No chartable data', ha='center', va='center')
+    geometry = gpd.GeoDataFrame(
+        pd.concat(districts, ignore_index=True),
+        geometry='geometry',
+        crs=districts[0].crs if districts else None,
+    )
+    return district_names, geometry
+
+
+def _load_district_data():
+    try:
+        from lanka_data import Db
+
+        return Db('/LK:Districts/Religion/2012'), Db('/LK:Districts/Religion/2024')
+    except Exception:
+        return (
+            json.loads(A2_DATA_2012_PATH.read_text()),
+            json.loads(A2_DATA_2024_PATH.read_text()),
+        )
+
+
+def _write_chart(district_rows, district_map_gdf):
+    plot_df = pd.DataFrame(district_rows)
+    plot_gdf = district_map_gdf.merge(plot_df, on='district_code', how='left')
+    fig, axes = plt.subplots(1, 2, figsize=(13, 7), constrained_layout=True)
+
+    map_specs = [
+        ('Largest increases', plot_gdf['change'] > 0, 'Greens'),
+        ('Largest decreases', plot_gdf['change'] < 0, 'Reds'),
+    ]
+    for ax, (title, mask, cmap) in zip(axes, map_specs):
+        district_map_gdf.plot(
+            ax=ax,
+            color='#f2f2f2',
+            edgecolor='white',
+            linewidth=0.6,
+        )
+        subset = plot_gdf[mask].copy()
+        if not subset.empty:
+            subset['change_pp_abs'] = subset['change'].abs() * 100
+            subset.plot(
+                ax=ax,
+                column='change_pp_abs',
+                cmap=cmap,
+                edgecolor='white',
+                linewidth=0.6,
+            )
+            label_points = subset.representative_point()
+            for _, row in subset.iterrows():
+                point = label_points.loc[row.name]
+                ax.text(
+                    point.x,
+                    point.y,
+                    f"{RELIGION_LABELS[row['religion']]}\n{row['change'] * 100:+.1f}pp",
+                    ha='center',
+                    va='center',
+                    fontsize=6.5,
+                    color='#1a1a1a',
+                    bbox={
+                        'boxstyle': 'round,pad=0.2',
+                        'facecolor': 'white',
+                        'alpha': 0.75,
+                        'edgecolor': 'none',
+                    },
+                )
+        else:
+            ax.text(0.5, 0.5, 'No districts to show', ha='center', va='center')
+        district_map_gdf.boundary.plot(ax=ax, color='#666666', linewidth=0.35)
+        ax.set_title(title)
         ax.set_axis_off()
-    fig.tight_layout()
-    fig.savefig(CHART_PATH, dpi=150)
+
+    fig.suptitle('Largest district-level religion share changes, 2012→2024', fontsize=15)
+    fig.savefig(CHART_PATH, dpi=150, bbox_inches='tight')
     plt.close(fig)
