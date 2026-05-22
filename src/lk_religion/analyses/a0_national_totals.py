@@ -12,7 +12,7 @@ from lk_religion.common.ReligionUtils import (
 )
 
 ROOT_DIR = Path(__file__).resolve().parents[3]
-ANALYSIS_DIR = ROOT_DIR / 'analyses' / 'a1_national_totals'
+ANALYSIS_DIR = ROOT_DIR / 'analyses' / 'a0-national-population-by-religion'
 README_PATH = ANALYSIS_DIR / 'README.md'
 CHART_PATH = ANALYSIS_DIR / 'chart.png'
 YEARS = 2024 - 2012
@@ -119,9 +119,9 @@ def _readme_section(rows):
     islam_share_2024 = islam['2024'] / total_2024
 
     lines = [
-        '## A1. National Population by Religion',
+        '## A0. National Population by Religion',
         '',
-        '![A1 representative chart](chart.png)',
+        '![A0 representative chart](chart.png)',
         '',
         '| Religion | 2012 | 2024 | Change | Annual Growth | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) |',
         '|---|---:|---:|---:|---:|---:|---:|---:|',

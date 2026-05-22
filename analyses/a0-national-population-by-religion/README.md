@@ -1,6 +1,6 @@
-## A1. National Population by Religion
+## A0. National Population by Religion
 
-![A1 representative chart](chart.png)
+![A0 representative chart](chart.png)
 
 | Religion | 2012 | 2024 | Change | Annual Growth | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) |
 |---|---:|---:|---:|---:|---:|---:|---:|

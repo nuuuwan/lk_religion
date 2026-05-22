@@ -6,10 +6,10 @@ from lk_religion.analyses.by_entity import default_spec, run_by_entity
 def run():
     return run_by_entity(
         default_spec(
-            'a2_by_district',
-            'A2',
+            'a3-religion-by-district-key-trends',
+            'A3',
             'Religion by District: Key Trends',
-            'A2 district change maps',
+            'A3 district change maps',
             'District',
             'Districts',
             'district-level',
