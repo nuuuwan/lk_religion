@@ -162,6 +162,7 @@ def _write_chart(rows):
             va=va,
             fontsize=9,
         )
+    ax.margins(y=0.15)
     fig.tight_layout()
     fig.savefig(CHART_PATH, dpi=150)
     plt.close(fig)
