@@ -123,24 +123,6 @@ def _readme_section(rows):
         '',
         '![A0 representative chart](chart.png)',
         '',
-        '| Religion | 2012 | 2024 | Change | Annual Growth | % of Population (2012) | % of Population (2024) | Change in % of Population (pp) |',
-        '|---|---:|---:|---:|---:|---:|---:|---:|',
-    ]
-    for row in rows:
-        annual_growth = (
-            f"{row['annual_growth_rate']:+.2%}"
-            if row['annual_growth_rate'] is not None
-            else 'N/A'
-        )
-        proportion_change = _normalized_percentage_point_change(row['proportion_change'])
-        lines.append(
-            f"| {row['religion']} | {row['2012']:,} | {row['2024']:,} | {row['change']:+,}{triangle(row['change'])} | {annual_growth}{triangle(row['annual_growth_rate'] or 0)} | {row['proportion_2012']:.1%} | {row['proportion_2024']:.1%} | {_format_percentage_point_change(row['proportion_change'])}{triangle(proportion_change)} |"
-        )
-    lines.append(
-        f"| **Total** | **{total_2012:,}** | **{total_2024:,}** | **{total_change:+,}{triangle(total_change)}** | **{total_growth:+.2%}{triangle(total_growth)}** | **100.0%** | **100.0%** | **0.0pp** |"
-    )
-    lines += [
-        '',
         '### Commentary',
         '',
         f"- Sri Lanka's total population grew from **{total_2012:,}** (2012) to **{total_2024:,}** (2024), an increase of **{total_change:+,}** at an annual rate of **{total_growth:+.2%}**.",
@@ -157,11 +139,30 @@ def _write_chart(rows):
     colors = [RELIGION_COLORS.get(label, 'grey') for label in labels]
 
     fig, ax = plt.subplots(figsize=(8, 4.8))
-    ax.bar(labels, values, color=colors)
+    bars = ax.bar(labels, values, color=colors)
     ax.set_title('Population change by religion (2012–2024)')
     ax.set_ylabel('Population change')
     ax.axhline(0, color='black', linewidth=0.8)
     ax.tick_params(axis='x', rotation=30)
+    max_abs_value = max(abs(value) for value in values) if values else 0
+    label_offset = max(max_abs_value * 0.02, 20000)
+    for bar, value in zip(bars, values):
+        x = bar.get_x() + bar.get_width() / 2
+        if value >= 0:
+            y = value + label_offset
+            va = 'bottom'
+        else:
+            y = value - label_offset
+            va = 'top'
+        ax.text(
+            x,
+            y,
+            f'{value:+,}',
+            ha='center',
+            va=va,
+            fontsize=9,
+        )
+    ax.margins(y=0.15)
     fig.tight_layout()
     fig.savefig(CHART_PATH, dpi=150)
     plt.close(fig)
