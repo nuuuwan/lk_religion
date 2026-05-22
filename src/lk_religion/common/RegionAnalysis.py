@@ -366,7 +366,7 @@ def _write_chart(config, results, region_map_gdf):
         if row['proportion_change'] is not None
     )
     norm = TwoSlopeNorm(vmin=-max_abs_change, vcenter=0, vmax=max_abs_change)
-    cmap = plt.get_cmap('RdBu_r')
+    cmap = plt.get_cmap('jet')
     fig, axes = plt.subplots(2, 3, figsize=(14, 16), constrained_layout=True)
 
     for ax, religion in zip(axes.flat, RELIGIONS):
